@@ -7,7 +7,6 @@ import "react-image-lightbox/style.css";
 import "react-tabs/style/react-tabs.css";
 import "../public/css/style.css";
 import "../public/css/responsive.css";
-// import "../public/css/custompages.css";
 
 import Head from "next/head";
 import Script from "next/script";
