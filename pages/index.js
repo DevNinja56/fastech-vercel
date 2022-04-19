@@ -1,44 +1,36 @@
-import React from 'react';
-import Navbar from '../components/_App/Navbar';
-import MainBanner from '../components/HomeDemoOne/MainBanner';
-import CarouselOne from '../components/Carousel/CarouselOne';
-import FeaturesCard from '../components/HomeDemoOne/FeaturesCard';
-import AboutUsContent from '../components/HomeDemoOne/AboutUsContent';
-import Services from '../components/HomeDemoOne/Services';
-import TechSupport from '../components/Common/TechSupport';
-import RecentCaseStudy from '../components/CaseStudy/RecentCaseStudy';
-import OurRespectiveClients from '../components/Common/OurRespectiveClients';
-import PricePlansOne from '../components/PricePlans/PricePlansOne';
-import PopularBlogPost from '../components/Common/PopularBlogPost';
-import CTA from '../components/Common/CTA';
-import ContactForm from '../components/Contact/ContactForm'
-import Footer from '../components/_App/Footer';
-import TopHeaderTwo from '../components/_App/TopHeaderTwo';
+import React from "react";
+import MainBanner from "../components/HomeDemoOne/MainBanner";
+import CarouselOne from "../components/Carousel/CarouselOne";
+import AboutUsContent from "../components/HomeDemoOne/AboutUsContent";
+import Services from "../components/HomeDemoOne/Services";
+import TechSupport from "../components/Common/TechSupport";
+import RecentCaseStudy from "../components/CaseStudy/RecentCaseStudy";
+import PopularBlogPost from "../components/Common/PopularBlogPost";
+import CTA from "../components/Common/CTA";
+import ContactForm from "../components/Contact/ContactForm";
 
 const IndexPage = () => {
-    return (
-        <>
+  return (
+    <>
+      <MainBanner />
 
-            <MainBanner />
+      <CarouselOne />
 
-            <CarouselOne />
+      <Services />
 
-            <Services />
+      <AboutUsContent />
 
-            <AboutUsContent />
+      <TechSupport />
 
-            <TechSupport />
+      <RecentCaseStudy />
 
-            <RecentCaseStudy />
+      <PopularBlogPost />
 
-            <PopularBlogPost />
+      <CTA />
 
-            <CTA />
-
-            <ContactForm />
-
-        </>
-    )
-}
+      <ContactForm />
+    </>
+  );
+};
 
 export default IndexPage;

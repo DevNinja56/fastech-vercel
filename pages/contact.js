@@ -1,36 +1,30 @@
-import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
-import PageBanner from '../components/Common/PageBanner';
-import ContactForm from '../components/Contact/ContactForm';
-import ContactInfo from '../components/Contact/ContactInfo';
-import Footer from '../components/_App/Footer';
-import FunFacts from '../components/Common/FunFacts';
-import OurRespectiveClients from '../components/Common/OurRespectiveClients';
-
+import React from "react";
+import PageBanner from "../components/Common/PageBanner";
+import ContactForm from "../components/Contact/ContactForm";
+import FunFacts from "../components/Common/FunFacts";
+import OurRespectiveClients from "../components/Common/OurRespectiveClients";
 
 const ContactPage = () => {
-    return (
-        <>
+  return (
+    <>
+      <PageBanner
+        pageTitle="Contact Us"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="Contact"
+      />
 
+      <ContactForm />
 
-            <PageBanner
-                pageTitle="Contact Us"
-                homePageUrl="/"
-                homePageText="Home"
-                activePageText="Contact"
-            />
+      <OurRespectiveClients />
 
-            <ContactForm />
+      <FunFacts />
 
-            <OurRespectiveClients />
+      {/* <ContactInfo /> */}
 
-            <FunFacts />
-
-            {/* <ContactInfo /> */}
-
-            {/* <Footer /> */}
-        </>
-    )
-}
+      {/* <Footer /> */}
+    </>
+  );
+};
 
 export default ContactPage;

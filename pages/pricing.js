@@ -1,36 +1,28 @@
-import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
-import PageBanner from '../components/Common/PageBanner';
-import Link from 'next/link';
-import Footer from '../components/_App/Footer';
-import PricePlansOne from '../components/PricePlans/PricePlansOne';
-import CTA from '../components/Common/CTA';
-import WorkProcess from '../components/Common/WorkProcess';
-import OurRespectiveClients from '../components/Common/OurRespectiveClients';
-
+import React from "react";
+import PageBanner from "../components/Common/PageBanner";
+import PricePlansOne from "../components/PricePlans/PricePlansOne";
+import CTA from "../components/Common/CTA";
+import OurRespectiveClients from "../components/Common/OurRespectiveClients";
 
 const Pricing = () => {
-    return (
-        <>
-            {/* <NavbarFour /> */}
+  return (
+    <>
+      {/* <NavbarFour /> */}
 
-            <PageBanner
-                pageTitle="Pricing Plans"
-                homePageUrl="/"
-                homePageText="Home"
-                activePageText="Pricing"
-            />
+      <PageBanner
+        pageTitle="Pricing Plans"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="Pricing"
+      />
 
-            <PricePlansOne />
+      <PricePlansOne />
 
-            <OurRespectiveClients />
+      <OurRespectiveClients />
 
-           
-
-            <CTA />
-
-        </>
-    )
-}
+      <CTA />
+    </>
+  );
+};
 
 export default Pricing;
