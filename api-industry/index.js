@@ -15,14 +15,14 @@ export const IndustryApi = [
         paragraph:
           "With experience in custom eCommerce website development, our web developers build engaging eCommerce platforms that drive online sales. We focus on designing and developing eCommerce web solutions tailored to your needs.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "Ecommerce Website Solutions",
         paragraph:
           "If you need a custom eCommerce website and are worried about steep ecommerce website development prices, hiring InvoZone eCommerce developers is your best bet. With top eCommerce web development services, we develop an inspiring eCommerce web solution.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -30,7 +30,7 @@ export const IndustryApi = [
         paragraph:
           "Creating a brand association makes consumers aware of brand quality and custom designs are a great way of reflecting your business values and brand. We create irresistible custom eCommerce web designs to level up your branding.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -38,7 +38,7 @@ export const IndustryApi = [
         paragraph:
           "We are well aware of the power of WooCommerce development platforms and provide dedicated teams. So you can hire Woocommerce developers to boost online sales.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -46,7 +46,7 @@ export const IndustryApi = [
         paragraph:
           "Shopify is suitable for entry-level B2C (Business to Customers) Ecommerce web development. InvoZone offers Shopify development solutions focusing on ease of use to minimize development time and cost.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -54,7 +54,7 @@ export const IndustryApi = [
         paragraph:
           "Our Valuable developers know very well how to combine technology and creativity to the process of building b2b and b2c Magento eCommerce solutions that grow your business and reduce costs.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -112,7 +112,7 @@ export const IndustryApi = [
         paragraph:
           "If you’re looking for an offshore development team, this remote model perfectly matches your requirements. Hire our valuable and dedicated remote team that help you to get 100% control over your resources.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -120,7 +120,7 @@ export const IndustryApi = [
         paragraph:
           "If you need a custom eCommerce website and are worried about steep ecommerce website development prices, hiring InvoZone eCommerce developers is your best bet. With top eCommerce web development services, we develop eCommerce web solution.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -266,14 +266,14 @@ export const IndustryApi = [
         paragraph:
           "Expand your grocery business with Fastech’s Grocery app development services. Grocery app development solutions automate order management, delivery dispatch, real-time delivery tracking, and many such features. Scale your grocery business online today.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "Food Delivery App Development",
         paragraph:
           "Seamlessly connect foodies with restaurants nearby with custom food delivery apps. Fastech provides user-friendly food delivery app development solutions having advanced features for startups and businesses alike.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -281,7 +281,7 @@ export const IndustryApi = [
         paragraph:
           "Grab on the exponential growth opportunity in the billion-dollar online food ordering industry with Fastech’s food ordering app development services. Get restaurant-consumer delivery, platform-consumer delivery, and many more apps and grow your business.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -289,7 +289,7 @@ export const IndustryApi = [
         paragraph:
           "Sell more products and easily scale your business with an online restaurant delivery app solution. Fastech’s develop restaurant delivery apps with all advanced features to make your restaurant delivery business thrive online.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -297,7 +297,7 @@ export const IndustryApi = [
         paragraph:
           "Manage your sales and invoice your inventory with highly customize grocery store management and sales solutions. Fastech offers grocery store software and app development services for automating your daily operations.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -305,7 +305,7 @@ export const IndustryApi = [
         paragraph:
           "Seamlessly manage your restaurants and food chains with a restaurant management solution. Automate the workflow and get important reports & invoices in just a few clicks. We help you enhance ROI with restaurant management software development services.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -357,7 +357,7 @@ export const IndustryApi = [
         paragraph:
           "The future of the Fast-Moving Consumer Goods (FMCG) retail business is online. This is a fact backed by numbers. Let’s have a look at them – According to Statista, the online food and grocery business revenue will reach about 150k million dollars by 2023! Research confirms an increasing demand for food and grocery app development every year.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -365,7 +365,7 @@ export const IndustryApi = [
         paragraph:
           "Do you know that food & grocery app development outsourcing services can significantly reduce your time and costs as compared to in-house development? Moreover, if you outsource app development to experts, they ensure high-quality and secure app development ensuring high revenue for your business. Let’s explore the whys and hows of software development outsourcing for food and grocery apps in detail.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -449,14 +449,14 @@ export const IndustryApi = [
   //         paragraph:
   //           "With experience in custom eCommerce website development, our web developers build engaging eCommerce platforms that drive online sales. We focus on designing and developing eCommerce web solutions tailored to your needs.",
   //         iconPath: "fal fa-pencil-paintbrush",
-  //         colorClass: "icon bg-1F69F6",
+  //         colorClases: "icon bg-1F69F6",
   //       },
   //       {
   //         heading: "Ecommerce Website Solutions",
   //         paragraph:
   //           "If you need a custom eCommerce website and are worried about steep ecommerce website development prices, hiring InvoZone eCommerce developers is your best bet. With top eCommerce web development services, we develop an inspiring eCommerce web solution.",
   //         iconPath: "fal fa-code",
-  //         colorClass: "icon bg-36CC72",
+  //         colorClases: "icon bg-36CC72",
   //       },
 
   //       {
@@ -464,7 +464,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "Creating a brand association makes consumers aware of brand quality and custom designs are a great way of reflecting your business values and brand. We create irresistible custom eCommerce web designs to level up your branding.",
   //         iconPath: "fal fa-laptop-code",
-  //         colorClass: "icon bg-FF414B",
+  //         colorClases: "icon bg-FF414B",
   //       },
 
   //       {
@@ -472,7 +472,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "We are well aware of the power of WooCommerce development platforms and provide dedicated teams. So you can hire Woocommerce developers to boost online sales.",
   //         iconPath: "fal fa-laptop-code",
-  //         colorClass: "icon bg-8932F8",
+  //         colorClases: "icon bg-8932F8",
   //       },
 
   //       {
@@ -480,7 +480,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "Shopify is suitable for entry-level B2C (Business to Customers) Ecommerce web development. InvoZone offers Shopify development solutions focusing on ease of use to minimize development time and cost.",
   //         iconPath: "fal fa-link",
-  //         colorClass: "icon bg-FFCA40",
+  //         colorClases: "icon bg-FFCA40",
   //       },
 
   //       {
@@ -488,7 +488,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "Our Valuable developers know very well how to combine technology and creativity to the process of building b2b and b2c Magento eCommerce solutions that grow your business and reduce costs.",
   //         iconPath: "fal fa-chart-line",
-  //         colorClass: "icon bg-FF6D3D",
+  //         colorClases: "icon bg-FF6D3D",
   //       },
   //     ],
 
@@ -546,7 +546,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "If you’re looking for an offshore development team, this remote model perfectly matches your requirements. Hire our valuable and dedicated remote team that help you to get 100% control over your resources.",
   //         iconPath: "fal fa-pencil-paintbrush",
-  //         colorClass: "icon bg-1F69F6",
+  //         colorClases: "icon bg-1F69F6",
   //       },
 
   //       {
@@ -554,7 +554,7 @@ export const IndustryApi = [
   //         paragraph:
   //           "If you need a custom eCommerce website and are worried about steep ecommerce website development prices, hiring InvoZone eCommerce developers is your best bet. With top eCommerce web development services, we develop eCommerce web solution.",
   //         iconPath: "fal fa-code",
-  //         colorClass: "icon bg-36CC72",
+  //         colorClases: "icon bg-36CC72",
   //       },
   //     ],
 
@@ -701,14 +701,14 @@ export const IndustryApi = [
         paragraph:
           "Launch your fully customized on demand app to disrupt the multi million mobile app industry. Boost your business by outsourcing on demand services application development to Fastech.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "On Demand Payment Solutions",
         paragraph:
           "Stay competitive in today’s gig economy by integrating on demand payment solutions. Hire experienced on demand app developers to create UI/UX optimized on demand apps and captivate a large customer base.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -716,7 +716,7 @@ export const IndustryApi = [
         paragraph:
           "Get your own Uber Eats like delivery app packed with all on demand services features. Enable seamless access to your customers by hiring dedicated development teams from a trusted on demand app development company.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -724,7 +724,7 @@ export const IndustryApi = [
         paragraph:
           "Provide frictionless services to your patients by allowing appointment scheduling through on demand appointment apps. Hire remote developers to build on demand services app for your clinics and hospitals in reasonable time and price.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -732,7 +732,7 @@ export const IndustryApi = [
         paragraph:
           "Get ahead of the competition by launching an on demand services web application along with the mobile version. Fastech offers experienced on demand web application development services to innovative businesses.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -740,7 +740,7 @@ export const IndustryApi = [
         paragraph:
           "Enter the on demand services market to build a successful business. We offer all types of custom on demand app development services including B2C, B2B, and C2C. Get your on demand services app idea into reality today.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -796,7 +796,7 @@ export const IndustryApi = [
         paragraph:
           "The idea is to cater to the fundamental need of the on-demand market and that is instant gratification. Both new and established businesses are honing in on the long-term benefits of on-demand app development and rightly so. The industry is growing, the demand is increasing, and with over 3 Billion",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -804,7 +804,7 @@ export const IndustryApi = [
         paragraph:
           "On-demand app development costs take into account your budget, choice of app development platforms (Native, Hybrid, or Cross-platform), the type (iOS or Android), and the complexity involved. There’s no fixed value as far as app development cost is concerned. This research by Goodfirms Austria",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -855,14 +855,14 @@ export const IndustryApi = [
         paragraph:
           "Telehealthcare software development covers a broad range of healthcare software services including, remote patient monitoring, mobile health solutions, real-time healthcare, mHealth apps, and telemedicine software.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "Patient Engagement Solution",
         paragraph:
           "Patient engagement solution development to enable healthcare professionals engage with patients online. A complete patient engagement software allows patients to book appointments, pay bills online, and access medical records.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -870,7 +870,7 @@ export const IndustryApi = [
         paragraph:
           "EMR/EHR software development to help hospitals and individual healthcare service providers in maximizing clinical productivity by interacting with patients via patient portals and facilitating patients to access electronic medical records.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -878,7 +878,7 @@ export const IndustryApi = [
         paragraph:
           "Health insurance software development to provide health insurance companies the flexibility to cover claims processing, benefits administration, and other mission-critical insurance processes.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -886,7 +886,7 @@ export const IndustryApi = [
         paragraph:
           "Custom medical software development services to assist healthcare providers in tracking equipment, healthcare supply chain management, asset management, and medical billing.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -894,7 +894,7 @@ export const IndustryApi = [
         paragraph:
           "Health Tracking Applications development to let your patients keep track of their health including heart rate and blood pressure measurement, access their medication information, adjust nutrition, and more.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -950,7 +950,7 @@ export const IndustryApi = [
         paragraph:
           "The healthcare industry is a rapidly growing area in today’s technology driven markets.  The involvement of technology and innovation is driving the modern day healthcare IT landscape. As evident from the growing demand for custom healthcare software development services seen in this report.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -958,7 +958,7 @@ export const IndustryApi = [
         paragraph:
           "There are numerous benefits when it comes to outsourcing healthcare IT solutions. But most often, healthcare institutions lack the right strategy to put their vision into practice. In order to obtain these benefits, the right approach needs to be followed. Let’s have a read on how this can be done.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -1026,14 +1026,14 @@ export const IndustryApi = [
         paragraph:
           "Hire fintech software developers with expertise in developing custom fintech software solutions for both web and mobile platforms to enhance user experience and stay ahead of the curve.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "Digital Payment Solutions",
         paragraph:
           "Create digital payment solutions that bring you financial services into the digital world. From payment gateway development to digital mobile wallet apps and online banking applications, we provide expert software developers with expertise in multiple technologies.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -1041,7 +1041,7 @@ export const IndustryApi = [
         paragraph:
           "We understand the potential of AI and Big Data in fintech app development. Our AI and Big Data engineers can help you in smart decision making to improve customer engagement. Hire fintech software development experts.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -1049,7 +1049,7 @@ export const IndustryApi = [
         paragraph:
           "Developing financial software that complies with regulations has become a necessity. Fastech helps you build automated Regtech solutions, ranging from fraud detection and prevention to online identity management, regulatory reporting, and risk management.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -1057,7 +1057,7 @@ export const IndustryApi = [
         paragraph:
           "Hire fintech software developers with expertise in developing cloud-based CRM solutions integrated with the latest technologies, including microservices and artificial intelligence for better financial management.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -1065,7 +1065,7 @@ export const IndustryApi = [
         paragraph:
           "Integrate AIS software with ERP and smart business intelligence applications. Our team has in-depth knowledge of Accounting software including, Quick books, SAGE, and SAP. Hire a dedicated team for building fintech app solutions.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -1122,7 +1122,7 @@ export const IndustryApi = [
         paragraph:
           "the number of Fintech app solutions is also increasing. Companies and Startups focus on time to market and turn to Fintech software development outsourcing to focus on their business strategy and marketing. But often, this outsourcing ends up in chaos and delayed product deployment. Why? Because companies don’t focus on choosing the right software outsourcing partner for Fintech solution development.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -1130,7 +1130,7 @@ export const IndustryApi = [
         paragraph:
           "Fintech development outsourcing company. We’ll cover the steps you should know before outsourcing Fintech app development, the true cost of developing Fintech solutions, and the skills that a Fintech outsourcing partner should possess for developing an MVP product.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -1241,14 +1241,14 @@ export const IndustryApi = [
         paragraph:
           "Leverage on-demand travel apps development services to build custom and advanced travel apps that are robust and scalable. We have expertise in building ride-sharing, taxi booking apps, travel information exchange systems, rental booking, and virtual touring apps.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "E-booking and Ticketing Systems",
         paragraph:
           "Provide interactive booking and ticketing experience for your customers by building apps with the latest technologies i.e. AI and cloud computing. Fastech can help you build all types of e-booking and ticketing systems.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -1256,7 +1256,7 @@ export const IndustryApi = [
         paragraph:
           "Assist users in defining their travel destinations by unlocking the power of augmented and virtual reality-based apps. Build AR/VR apps like AR based travel planning and guide apps, Travel management solutions, virtual tours apps, and AR-based GPS apps.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -1264,7 +1264,7 @@ export const IndustryApi = [
         paragraph:
           "Build next-generation tourism and hospitality apps especially for hotels and restaurants. Our developers are experts in building tourism apps including Customer service kiosks, payment gateways, seat booking, and food ordering apps.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -1272,7 +1272,7 @@ export const IndustryApi = [
         paragraph:
           "Manage and integrate transport workflow with custom-built ERP solutions that initiate better fleet management, budgeting, invoicing, and much more. Hand over your travel and tourism app development needs to Fastech and scale your business.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -1280,7 +1280,7 @@ export const IndustryApi = [
         paragraph:
           "Empower users with real-time transportation information apps. We help you develop cross-platform mobile software with user-friendly interfaces and custom-built features.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -1337,7 +1337,7 @@ export const IndustryApi = [
         paragraph:
           "Like other industries, technology has also revolutionized the travel & tourism industry. Be it large-scale companies or SMEs, travel application development has become an industry staple now.Reports suggest that over 148 million online bookings are made annually and this trend raked in $755 billion in 2019. This amount was estimated to climb a staggering $800 billion the following year but the negative impact of COVID-19 on the economy brought its growth to a halt.",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -1345,7 +1345,7 @@ export const IndustryApi = [
         paragraph:
           "Innovations in custom travel and tourism app development have made it easier for travelers to access all relevant information, anywhere and anytime. (Image source: Simform) According to statistics, users spend over 19 minutes weekly on travel apps. Players in the sector are honing in on this opportunity and investing heavily in outsourcing software development companies to catapult business growth. Let’s take a look at how technology is impacting this industry.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -1398,14 +1398,14 @@ export const IndustryApi = [
         paragraph:
           "Seamlessly integrate educational and training modules with custom and custom LMS app development. Fastech’s educational software development services help you build feature-rich and interactive custom learning management systems (LMS).",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
       {
         heading: "eLearning Application Development",
         paragraph:
           "We help you build scalable eLearning web and mobile platforms to customize the learning experience for students and employees. From Mobile eLearning app development to custom educational applications we help your company in eLearning web and app development.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
 
       {
@@ -1413,7 +1413,7 @@ export const IndustryApi = [
         paragraph:
           "Ease the administrative burden by digitalizing the admission process, enrollment and registration process, attendance, and other manual tasks. Fastech helps develop custom school management software solutions for your educational institute’s unique needs",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-FF414B",
+        colorClases: "icon bg-FF414B",
       },
 
       {
@@ -1421,7 +1421,7 @@ export const IndustryApi = [
         paragraph:
           "Become a trusted provider of up to date knowledge and new skills by empowering your business with educational platform & online courses like Coursera and Udemy. Hire expert software developers to build interactive educational platform.",
         iconPath: "fal fa-laptop-code",
-        colorClass: "icon bg-8932F8",
+        colorClases: "icon bg-8932F8",
       },
 
       {
@@ -1429,7 +1429,7 @@ export const IndustryApi = [
         paragraph:
           "Enhance employee productivity through custom employee training software applications. We provide you with a skilled , dedicated development team for building online training and skill enhancement educational software.",
         iconPath: "fal fa-link",
-        colorClass: "icon bg-FFCA40",
+        colorClases: "icon bg-FFCA40",
       },
 
       {
@@ -1437,7 +1437,7 @@ export const IndustryApi = [
         paragraph:
           "Provide interactive learning experience to the students with playful virtual reality solutions. Fastech’s expert software developers help your organization to develop customized eLearning app solution.",
         iconPath: "fal fa-chart-line",
-        colorClass: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF6D3D",
       },
     ],
 
@@ -1493,7 +1493,7 @@ export const IndustryApi = [
         paragraph:
           "Education software started gaining popularity back in the mid ’90s. Today, almost every other educational institution is making use of its benefits to enhance every stage of the teaching and learning process. According to stats, global eLearning is expected to reach $325 Billion By 2025. The education industry has been rapidly adjusting itself to modern technologies and trends. Let’s face it, the traditional teaching methods",
         iconPath: "fal fa-pencil-paintbrush",
-        colorClass: "icon bg-1F69F6",
+        colorClases: "icon bg-1F69F6",
       },
 
       {
@@ -1501,7 +1501,7 @@ export const IndustryApi = [
         paragraph:
           "Educational technology companies all over the world choose to outsource their educational software development needs to make the most out of the opportunity. But why exactly do companies choose to hire lms developers when they can simply build the software themselves? Also, how do you know if the company you are going to outsource software development from is reliable or not? Well, that’s exactly what we are going to talking about.",
         iconPath: "fal fa-code",
-        colorClass: "icon bg-36CC72",
+        colorClases: "icon bg-36CC72",
       },
     ],
 

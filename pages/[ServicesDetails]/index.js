@@ -781,7 +781,7 @@ const DetailServices = ({ servicesData, dataId }) => {
               .filter((item) => item.slug === dataId)[0]
               .mobileAppServices?.map((data) => (
                 <>
-                  <div className="col-lg-4 col-md-6">
+                  <div className="col-lg-4 col-md-6" key={item.slug}>
                     <div className="single-services">
                       <div className={data.colorClases}>
                         <i className={data.iconPath}></i>

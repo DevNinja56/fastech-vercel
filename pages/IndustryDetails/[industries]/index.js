@@ -771,7 +771,7 @@ const IndustryDetail = ({ industryData, dataId }) => {
                 <>
                   <div className="col-lg-4 col-md-6">
                     <div className="single-services">
-                      <div className={data.colorClass}>
+                      <div className={data.colorClases}>
                         <i className={data.iconPath}></i>
                       </div>
                       <h3>
@@ -1461,7 +1461,7 @@ const IndustryDetail = ({ industryData, dataId }) => {
                 <>
                   <div className="col-lg-6 col-md-12">
                     <div className="single-services">
-                      <div className={data.colorClass}>
+                      <div className={data.colorClases}>
                         <i className={data.iconPath}></i>
                       </div>
                       <h3>
