@@ -16,29 +16,32 @@
 // import ScrollAnimation from 'react-animate-on-scroll';
 // import { useEffect } from 'react';
 
+import React from "react";
 
+const PreviousIndustryDetail = () => {
+  return <div>PreviousIndustryDetail</div>;
+};
+
+export default PreviousIndustryDetail;
 
 // const IndustryDetail = () => {
 //     return (
 //         <>
 
-           
 //             <div className="main-banner-area">
 //                 <div className="container">
 //                     <div className="row">
 //                         <div className="col-lg-5 col-md-12">
 //                             <div className="main-banner-content">
 //                                 <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
-                                   
+
 //                                 </ScrollAnimation>
 
 //                                 <ScrollAnimation animateIn="fadeInLeft" delay={100} animateOnce={true}>
 
-
 //                                     <h1 className='main_heading_step_animation'>Ecommerce Development Services
 
 //                                     </h1>
-
 
 //                                 </ScrollAnimation>
 
@@ -163,7 +166,7 @@
 //                 margin: 0.4em 0;
 //                 font-size: 3.5em;
 //             }
-                
+
 //                 .main-banner-area {
 //                     padding-top: 175px;
 //                     padding-bottom: 140px;
@@ -198,7 +201,7 @@
 //                 }
 //                 .main-banner-content .banner-btn {
 //                     margin-top: 30px;
-                    
+
 //                 }
 
 //                 // Main banner animation image
@@ -279,7 +282,7 @@
 //                 .main-banner-animation-image div:last-child {
 //                     display: none;
 //                 }
-                
+
 //                 // shape
 //                 .main-banner-shape-1 {
 //                     position: absolute;
@@ -287,7 +290,7 @@
 //                     left: 35%;
 //                     -webkit-transform: translateY(-10%) translateX(-35%);
 //                             transform: translateY(-10%) translateX(-35%);
-                     
+
 //                 }
 //                 .main-banner-shape-2 {
 //                     position: absolute;
@@ -295,7 +298,7 @@
 //                     left: 35%;
 //                     -webkit-transform: translateY(-20%) translateX(-35%);
 //                             transform: translateY(-20%) translateX(-35%);
-                    
+
 //                 }
 //                 .main-banner-shape-3 {
 //                     position: absolute;
@@ -339,7 +342,7 @@
 //                     -webkit-transform: translateY(-20%) translateX(-38%);
 //                             transform: translateY(-20%) translateX(-38%);
 //                 }
- 
+
 //                 // Responsive Style
 //                 @media only screen and (max-width: 767px) {
 //                     .main-banner-area {
@@ -927,7 +930,7 @@
 //                         color: var(--main-color);
 //                         letter-spacing: 1px;
 //                     }
-                    
+
 //                     // shape
 //                     .services-shape-1 {
 //                         position: absolute;
@@ -969,7 +972,7 @@
 //                                 transform: translateY(-10%) translateX(-35%);
 //                         z-index: 1;
 //                     }
-        
+
 //                     // Responsive Style
 //                     @media only screen and (max-width: 767px) {
 //                         .single-services {
@@ -1061,11 +1064,9 @@
 //                 `}</style>
 //             </div>
 
-
 //             <div className='tech_dev pb-5'>
 //                 <TechDevelop />
 //             </div>
-
 
 //             <div className="about_section">
 //                 <div className="experiences-area">
@@ -1287,7 +1288,7 @@
 //                             transform: translateY(-2%) translateX(-48%);
 //                     z-index: 1;
 //                 }
-	
+
 //                 // Responsive Style
 //                 @media only screen and (max-width: 767px) {
 //                     .experiences-area {
@@ -1451,7 +1452,7 @@
 //                         </div>
 //                     </div>
 //                     <style jsx>{`
-                
+
 //                     .services-area {
 //                         position: relative;
 //                         z-index: 1;
@@ -1565,7 +1566,7 @@
 //                         color: var(--main-color);
 //                         letter-spacing: 1px;
 //                     }
-                    
+
 //                     // shape
 //                     .services-shape-1 {
 //                         position: absolute;
@@ -1607,7 +1608,7 @@
 //                                 transform: translateY(-10%) translateX(-35%);
 //                         z-index: 1;
 //                     }
-        
+
 //                     // Responsive Style
 //                     @media only screen and (max-width: 767px) {
 //                         .single-services {
@@ -1824,7 +1825,6 @@
 //                                     <li>Maintenance</li>
 //                                     <li>Vendor fee: Outsourced, freelance, or in-house</li>
 
-
 //                                 </ul>
 //                                 <p>Investing in eCommerce infrastructure is extremely important to beat your competition. Below are some ways InvoZone can develop your next eCommerce project for you:</p>
 //                                 <ul>
@@ -1853,7 +1853,7 @@
 //                             background-color: #F4F8FC;
 //                             margin-top: 20px;
 //                          }
-                           
+
 //                         `}</style>
 //                     </div>
 //                 </div>
