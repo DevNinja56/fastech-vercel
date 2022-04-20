@@ -3,6 +3,7 @@ import Team from "../components/Common/Team";
 import OurRespectiveClients from "../components/Common/OurRespectiveClients";
 import FunFacts from "../components/Common/FunFacts";
 import PageBanner from "../components/Common/PageBanner";
+import CTA from "../components/Common/CTA";
 
 const AboutUs = () => {
   return (
