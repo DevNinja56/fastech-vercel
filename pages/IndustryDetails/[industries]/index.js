@@ -50,38 +50,38 @@ const IndustryDetail = ({ industryData, dataId }) => {
                           animateOnce={true}
                         ></ScrollAnimation>
 
-                        <ScrollAnimation
+                        {/* <ScrollAnimation
                           animateIn="fadeInLeft"
                           delay={100}
                           animateOnce={true}
-                        >
-                          <h1 className="main_heading_step_animation">
-                            {obj.heading}
-                          </h1>
-                        </ScrollAnimation>
+                        > */}
+                        <h1 className="main_heading_step_animation">
+                          {obj.heading}
+                        </h1>
+                        {/* </ScrollAnimation> */}
 
-                        <ScrollAnimation
+                        {/* <ScrollAnimation
                           animateIn="fadeInLeft"
                           delay={150}
                           animateOnce={true}
-                        >
-                          <p>{obj.paragraph}</p>
-                        </ScrollAnimation>
+                        > */}
+                        <p>{obj.paragraph}</p>
+                        {/* </ScrollAnimation> */}
 
                         <div className="banner-btn">
-                          <ScrollAnimation
+                          {/* <ScrollAnimation
                             animateIn="fadeInRight"
                             delay={200}
                             animateOnce={true}
-                          >
-                            <Link href="/about-us">
-                              <a className="default-btn">
-                                Schedule a Call{" "}
-                                <i className="ri-arrow-right-line"></i>
-                                <span></span>
-                              </a>
-                            </Link>
-                          </ScrollAnimation>
+                          > */}
+                          <Link href="/about-us">
+                            <a className="default-btn">
+                              Schedule a Call{" "}
+                              <i className="ri-arrow-right-line"></i>
+                              <span></span>
+                            </a>
+                          </Link>
+                          {/* </ScrollAnimation> */}
                         </div>
                       </div>
                     </div>
@@ -178,13 +178,13 @@ const IndustryDetail = ({ industryData, dataId }) => {
                         </div>
 
                         <div>
-                          <ScrollAnimation
+                          {/* <ScrollAnimation
                             animateIn="fadeInLeft"
                             delay={100}
                             animateOnce={true}
-                          >
-                            <img src={obj.banner_img} alt="image" />
-                          </ScrollAnimation>
+                          > */}
+                          <img src={obj.banner_img} alt="image" />
+                          {/* </ScrollAnimation> */}
                         </div>
 
                         <div>

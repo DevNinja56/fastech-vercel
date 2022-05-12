@@ -85,8 +85,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/web-design-development");
                           }}
                           className="nav-link"
@@ -103,8 +103,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/mobile-app-development");
                           }}
                           className="nav-link"
@@ -121,8 +121,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/Software-Project-Management");
                           }}
                           className="nav-link"
@@ -139,8 +139,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/Dev-Ops");
                           }}
                           className="nav-link"
@@ -157,8 +157,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/ui-ux-design");
                           }}
                           className="nav-link"
@@ -174,8 +174,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/software-quality-assurance");
                           }}
                           className="nav-link"
@@ -202,8 +202,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/e-commerce");
                           }}
                           className="nav-link"
@@ -220,8 +220,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/food-and-grocery");
                           }}
                           className="nav-link"
@@ -248,8 +248,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/on-demand-services");
                           }}
                           className="nav-link"
@@ -266,8 +266,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/health-care");
                           }}
                           className="nav-link"
@@ -283,8 +283,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/fintech");
                           }}
                           className="nav-link"
@@ -300,8 +300,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/travel-and-tourism");
                           }}
                           className="nav-link"
@@ -317,8 +317,8 @@ const Navbar = () => {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          onClick={(e) => {
-                            e.preventDefault();
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/IndustryDetails/education");
                           }}
                           className="nav-link"
@@ -2534,9 +2534,9 @@ const Navbar = () => {
           }
           .main-navbar .navbar .others-options .option-item .default-btn {
             padding: 5px 8px;
-            font-size: 10px;
+            font-size: 14px;
             position: relative;
-            top: -3px;
+            top: -5.5px;
           }
           .main-navbar .navbar .others-options .option-item .default-btn i {
             display: none;

@@ -56,38 +56,38 @@ const DetailServices = ({ servicesData, dataId }) => {
                           animateOnce={true}
                         ></ScrollAnimation>
 
-                        <ScrollAnimation
+                        {/* <ScrollAnimation
                           animateIn="fadeInLeft"
                           delay={100}
-                          animateOnce={true}
-                        >
-                          <h1 className="main_heading_step_animation">
-                            {obj.heading}
-                          </h1>
-                        </ScrollAnimation>
+                          animateOnce={false}
+                        > */}
+                        <h1 className="main_heading_step_animation">
+                          {obj.heading}
+                        </h1>
+                        {/* </ScrollAnimation> */}
 
-                        <ScrollAnimation
+                        {/* <ScrollAnimation
                           animateIn="fadeInLeft"
                           delay={150}
                           animateOnce={true}
-                        >
-                          <p>{obj.paragraph}</p>
-                        </ScrollAnimation>
+                        > */}
+                        <p>{obj.paragraph}</p>
+                        {/* </ScrollAnimation> */}
 
                         <div className="banner-btn">
-                          <ScrollAnimation
+                          {/* <ScrollAnimation
                             animateIn="fadeInRight"
                             delay={200}
-                            animateOnce={true}
-                          >
-                            <Link href="/about-us">
-                              <a className="default-btn">
-                                Discuss Your Project{" "}
-                                <i className="ri-arrow-right-line"></i>
-                                <span></span>
-                              </a>
-                            </Link>
-                          </ScrollAnimation>
+                            animateOnce={false}
+                          > */}
+                          <Link href="/about-us">
+                            <a className="default-btn">
+                              Discuss Your Project{" "}
+                              <i className="ri-arrow-right-line"></i>
+                              <span></span>
+                            </a>
+                          </Link>
+                          {/* </ScrollAnimation> */}
                         </div>
                       </div>
                     </div>
@@ -184,17 +184,11 @@ const DetailServices = ({ servicesData, dataId }) => {
                         </div>
 
                         <div>
-                          <ScrollAnimation
-                            animateIn="fadeInLeft"
-                            delay={100}
-                            animateOnce={true}
-                          >
-                            <img
-                              className="main_img_all"
-                              src={obj.banner_img}
-                              alt="image"
-                            />
-                          </ScrollAnimation>
+                          <img
+                            className="main_img_all"
+                            src={obj.banner_img}
+                            alt="image"
+                          />
                         </div>
 
                         <div>
