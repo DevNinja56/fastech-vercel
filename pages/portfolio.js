@@ -21,300 +21,565 @@ const Portfolio = () => {
             </h1>
           </div>
 
-          <div className="blog-area">
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-4 col-md-6">
-                  <div className="single-blog">
-                    <div className="blog-image blog_first">
-                      <Link href="#">
-                        <a>
-                          <img
-                            src="/images/blog/ecommercewebsitetrend (1).jpg"
-                            alt="image"
-                          />
-                        </a>
-                      </Link>
-                    </div>
-
-                    <div className="blog-content">
-                      <ul className="entry-meta">
-                        <li>
-                          <Link href="#">
-                            <a className="tag">Ecommerce</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="#">
+          {/* portfolio  */}
+          <div className="portfolio">
+            <div className="projects-area pt-100">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
                           <a>
-                            Top 9 eCommerce Website Trends to Follow in 2022
+                            <img
+                              src="/images/projects/portfolio1.jpg"
+                              alt="image"
+                            />
                           </a>
                         </Link>
-                      </h3>
+                      </div>
 
-                      <Link href="#">
-                        <a className="blog-btn">
-                          Read More <i className="ri-arrow-right-line"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                  <div className="single-blog">
-                    <div className="blog-image">
-                      <Link href="#">
-                        <a>
-                          <img
-                            src="/images/blog/Metaverse (1).jpg"
-                            alt="image"
-                          />
-                        </a>
-                      </Link>
-                    </div>
-
-                    <div className="blog-content">
-                      <ul className="entry-meta">
-                        <li>
-                          <Link href="#">
-                            <a className="tag">Metaverse</a>
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Online Education Portal</a>
                           </Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="#">
-                          <a>What is Metaverse and how does it work? </a>
-                        </Link>
-                      </h3>
+                        </h3>
+                        <p>
+                          An online education portal with study material,
+                          quizzes, and mock exams for students preparing for CFA
+                          and FRM examinations.
+                        </p>
 
-                      <Link href="#">
-                        <a className="blog-btn">
-                          Read More <i className="ri-arrow-right-line"></i>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-6">
-                  <div className="single-blog">
-                    <div className="blog-image">
-                      <Link href="#">
-                        <a>
-                          <img src="/images/blog/blog-3.jpg" alt="image" />
-                        </a>
-                      </Link>
-                    </div>
-
-                    <div className="blog-content">
-                      <ul className="entry-meta">
-                        <li>
-                          <Link href="#">
-                            <a className="tag">Marketing</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="#">
-                          <a>
-                            Branding Involves Developing the Strategy to Create
-                            a Point.
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
-                      </h3>
+                      </div>
+                    </div>
+                  </div>
 
-                      <Link href="#">
-                        <a className="blog-btn">
-                          Read More <i className="ri-arrow-right-line"></i>
-                        </a>
-                      </Link>
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img
+                              src="/images/projects/portfolio2.jpg"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Shopperhits</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It is an eCommerce store where people can buy products
+                          on best-bargained prices.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img
+                              src="/images/projects/portfolio3.jpg"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Sky Store</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It is an easy way to buy or rent the biggest
+                          blockbusters or all-time classic movies whenever you
+                          want, any time, anywhere.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img
+                              src="/images/projects/portfolio4.jpg"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Upkeepr</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It is a consumer-friendly, easy-to-use app to keep
+                          track of everything you need to do to keep your stuff
+                          well-maintained with quick access to all your online
+                          records
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img
+                              src="/images/projects/portfolio5.jpg"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Go Snabby</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It simplifies special event food sales. Manage food
+                          transactions for concession stands, cafeterias, and
+                          special events in one place.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img
+                              src="/images/projects/portfolio6 (2).jpg"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Beautflo</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          An makeup Ecommerce website that is an ultimate beauty
+                          destination including the 600+ premium skincare,
+                          haircare & makeup brands.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m1.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Fivesec Health</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          An fitness app which make it easy to stay healthy with
+                          delicious and nourishing plant-based recipes in your
+                          pocket. Simple to use with guided meal plans and new
+                          recipes every week.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m2.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Potswork - Request Services</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It is an eCommerce store where people can buy products
+                          on best-bargained prices.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m3.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Rentberry Apartment Rentals</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It facilitates and speeds up the whole range of house
+                          hunting procedures. Search among thousands of
+                          apartment listings.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m4.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Camlist - Just Pets</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It gives you an easy access to search thousands of
+                          dogs, puppies, cats, kittens, rabbits, horses and
+                          other pets for sale and adoption.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m5.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>retailo</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          It is a stock ordering wholesale app for retailers,
+                          where they can choose inventory from a variety of 400+
+                          brands.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="/case-study-details">
+                          <a>
+                            <img src="/images/projects/m6.jpg" alt="image" />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="/case-study-details">
+                            <a>Oh Polly - Clothing & Fashion</a>
+                          </Link>
+                        </h3>
+                        <p>
+                          An ecommerce app with focus on female wears where you
+                          can shop full selection of swimwear, loungewear and
+                          partywear all here in one place.
+                        </p>
+
+                        <Link href="/case-study-details">
+                          <a className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* Shape Images */}
+              <div className="projects-shape-1">
+                <img src="/images/projects/shape-1.png" alt="image" />
+              </div>
+              <div className="projects-shape-2">
+                <img src="/images/projects/shape-2.png" alt="image" />
+              </div>
+              <div className="projects-shape-3">
+                <img src="/images/projects/shape-3.png" alt="image" />
+              </div>
+              <div className="projects-shape-4">
+                <img src="/images/projects/shape-4.png" alt="image" />
+              </div>
+              <div className="projects-shape-5">
+                <img src="/images/projects/shape-5.png" alt="image" />
+              </div>
             </div>
 
-            {/* Shape Images */}
-            <div className="blog-shape-1">
-              <img src="/images/blog/shape-1.png" alt="image" />
-            </div>
-            <div className="blog-shape-2">
-              <img src="/images/blog/shape-2.png" alt="image" />
-            </div>
-          </div>
-
-          {/* Blog Card Style */}
-          <style jsx>{`
-            .blog_first {
-              border: 1px solid #ecf1f9;
-            }
-            .blog-area {
-              position: relative;
-              z-index: 1;
-              overflow: hidden;
-              margin-top: 80px;
-            }
-            .single-blog {
-              -webkit-transition: var(--transition);
-              transition: var(--transition);
-              margin-bottom: 30px;
-            }
-            .single-blog .blog-content {
-              margin-top: 30px;
-            }
-            .single-blog .blog-content .entry-meta {
-              padding-left: 0;
-              margin-bottom: 0;
-            }
-            .single-blog .blog-content .entry-meta .tag {
-              display: inline-block;
-              background-color: #eaf0ff;
-              color: var(--main-color);
-              font-size: 14px;
-              font-weight: 500;
-              padding: 5px 15px;
-              border-radius: 5px;
-              -webkit-transition: var(--transition);
-              transition: var(--transition);
-            }
-            .single-blog .blog-content .entry-meta .tag:hover,
-            .single-blog .blog-content .entry-meta .tag a:hover {
-              background-color: var(--main-color);
-              color: var(--white-color);
-            }
-            .single-blog .blog-content .entry-meta li {
-              list-style-type: none;
-              display: inline-block;
-              color: #79798d;
-              font-size: 14px;
-              font-weight: 400;
-              margin-right: 15px;
-              position: relative;
-              padding-left: 18px;
-            }
-            .single-blog .blog-content .entry-meta li:last-child {
-              margin-right: 0;
-            }
-            .single-blog .blog-content .entry-meta li:first-child {
-              padding-left: 0;
-            }
-            .single-blog .blog-content .entry-meta li i {
-              position: absolute;
-              left: 0;
-              top: 50%;
-              -webkit-transform: translateY(-50%);
-              transform: translateY(-50%);
-              color: #36cc72;
-              font-size: 14px;
-            }
-            .single-blog .blog-content h3 {
-              font-size: 22px;
-              margin-top: 20px;
-              margin-bottom: 15px;
-              line-height: 1.5;
-            }
-            .single-blog .blog-content h3 a {
-              color: var(--black-color);
-            }
-            .single-blog .blog-content .blog-btn {
-              font-size: var(--font-size);
-              font-weight: 500;
-              position: relative;
-              -webkit-transition: var(--transition);
-              transition: var(--transition);
-            }
-            .single-blog .blog-content .blog-btn i {
-              position: absolute;
-              right: -20px;
-              top: 50%;
-              -webkit-transform: translateY(-50%);
-              transform: translateY(-50%);
-              font-size: 15px;
-            }
-            .single-blog:hover .blog-content h3 a {
-              color: var(--main-color);
-            }
-
-            .single-blog:hover .blog-content .blog-btn {
-              letter-spacing: 1px;
-            }
-            .blog-shape-1 {
-              position: absolute;
-              top: 10%;
-              right: 2%;
-              -webkit-transform: translateY(-10%) translateX(-2%);
-              transform: translateY(-10%) translateX(-2%);
-            }
-            .blog-shape-2 {
-              position: absolute;
-              top: 10%;
-              left: 2%;
-              -webkit-transform: translateY(-10%) translateX(-2%);
-              transform: translateY(-10%) translateX(-2%);
-            }
-
-            // Responsive Style
-            @media only screen and (max-width: 767px) {
-              .single-blog .blog-content {
-                margin-top: 20px;
+            <style jsx>{`
+              .projects-area {
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
               }
-              .single-blog .blog-content h3 {
-                font-size: 20px;
-                margin-top: 15px;
-                margin-bottom: 10px;
+              .single-projects-box {
+                margin-bottom: 30px;
+                -webkit-transition: var(--transition);
+                transition: var(--transition);
               }
-              .single-blog .blog-content .blog-btn {
+              .single-projects-box .projects-image {
+                overflow: hidden;
+                border: 1px solid #ecf1f9;
+              }
+              .single-projects-box .projects-image img {
+                -webkit-transition: var(--transition);
+                transition: var(--transition);
+                display: inline-block;
+              }
+              .single-projects-box .projects-content {
+                margin-top: 25px;
+              }
+              .single-projects-box .projects-content h3 {
+                font-size: 25px;
+                margin-bottom: 15px;
+              }
+              .single-projects-box .projects-content h3 a {
+                color: var(--black-color);
+              }
+              .single-projects-box .projects-content p {
+                margin-bottom: 15px;
+              }
+              .single-projects-box .projects-content .projects-btn {
+                color: var(--paragraph-color);
+                position: relative;
+                -webkit-transition: var(--transition);
+                transition: var(--transition);
+                font-weight: 500;
+              }
+              .single-projects-box .projects-content .projects-btn i {
+                position: absolute;
+                right: -20px;
+                top: 58%;
+                -webkit-transform: translateY(-58%);
+                transform: translateY(-58%);
                 font-size: 14px;
               }
-              .single-blog .blog-content .entry-meta .tag {
-                font-size: 12px;
-                padding: 5px 8px;
+              .single-projects-box:hover {
+                -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
               }
-              .single-blog .blog-content .entry-meta li {
-                font-size: 12px;
-                margin-right: 5px;
-                padding-left: 20px;
+              .single-projects-box:hover .projects-image img {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
               }
-              .blog-shape-1 {
-                display: none;
+              .single-projects-box:hover .projects-content h3 a {
+                color: var(--main-color);
               }
-              .blog-shape-2 {
-                display: none;
+              .single-projects-box:hover .projects-content .projects-btn {
+                letter-spacing: 1px;
+                color: var(--main-color);
               }
-            }
 
-            @media only screen and (min-width: 768px) and (max-width: 991px) {
-              .single-blog .blog-content .entry-meta .tag {
-                font-size: 12px;
-                padding: 5px 8px;
+              .projects-shape-1 {
+                position: absolute;
+                top: 25%;
+                left: 0;
+                -webkit-transform: translateY(-25%);
+                transform: translateY(-25%);
               }
-              .single-blog .blog-content .entry-meta li {
-                font-size: 12px;
-                margin-right: 5px;
-                padding-left: 20px;
+              .projects-shape-2 {
+                position: absolute;
+                top: 20%;
+                left: 30%;
+                -webkit-transform: translateY(-20%) translateX(-30%);
+                transform: translateY(-20%) translateX(-30%);
+                z-index: -1;
               }
-              .blog-shape-1 {
-                display: none;
+              .projects-shape-3 {
+                position: absolute;
+                top: 10%;
+                right: 15%;
+                -webkit-transform: translateY(-10%) translateX(-15%);
+                transform: translateY(-10%) translateX(-15%);
               }
-              .blog-shape-2 {
-                display: none;
+              .projects-shape-4 {
+                position: absolute;
+                bottom: 15%;
+                right: 15%;
+                -webkit-transform: translateY(-15%) translateX(-15%);
+                transform: translateY(-15%) translateX(-15%);
               }
-            }
+              .projects-shape-5 {
+                position: absolute;
+                bottom: 10%;
+                right: 12%;
+                -webkit-transform: translateY(-10%) translateX(-12%);
+                transform: translateY(-10%) translateX(-12%);
+              }
 
-            @media only screen and (min-width: 992px) and (max-width: 1199px) {
-              .single-blog .blog-content .entry-meta .tag {
-                font-size: 12px;
-                padding: 5px 8px;
+              @media only screen and (max-width: 767px) {
+                .projects-shape-1,
+                .projects-shape-2,
+                .projects-shape-3,
+                .projects-shape-4,
+                .projects-shape-5 {
+                  display: none;
+                }
+                .single-projects-box .projects-content h3 {
+                  font-size: 21px;
+                  margin-bottom: 15px;
+                }
               }
-              .single-blog .blog-content .entry-meta li {
-                font-size: 12px;
-                margin-right: 5px;
-                padding-left: 20px;
+
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                .projects-shape-1,
+                .projects-shape-2,
+                .projects-shape-3,
+                .projects-shape-4,
+                .projects-shape-5 {
+                  display: none;
+                }
+                .single-projects-box .projects-content h3 {
+                  font-size: 22px;
+                  margin-bottom: 15px;
+                }
               }
-            }
-          `}</style>
+
+              @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                .projects-shape-1,
+                .projects-shape-2,
+                .projects-shape-3,
+                .projects-shape-4,
+                .projects-shape-5 {
+                  display: none;
+                }
+                .single-projects-box .projects-content h3 {
+                  font-size: 20px;
+                  margin-bottom: 15px;
+                }
+              }
+            `}</style>
+          </div>
         </div>
       </div>
 

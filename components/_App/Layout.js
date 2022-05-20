@@ -1,34 +1,37 @@
-import React from 'react'
-import Head from "next/head"
-import GoTop from './GoTop'
+import React from "react";
+import Head from "next/head";
+import GoTop from "./GoTop";
+import Socialicons from "./Socialicons";
+import Skype from "./Skype";
 // import Preloader from './Preloader'
 
 const Layout = ({ children }) => {
+  // Preloader
+  // const [loader, setLoader] = React.useState(true);
 
-    // Preloader
-    // const [loader, setLoader] = React.useState(true);
+  // React.useEffect(() => {
+  //     setTimeout(() => setLoader(false), 1500);
+  // }, [])
 
-    // React.useEffect(() => {
-    //     setTimeout(() => setLoader(false), 1500);
-    // }, [])
+  return (
+    <>
+      <Head>
+        {/* Required meta tags */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    return (
-        <>
-            <Head>
-                {/* Required meta tags */}
-                <meta charSet="utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>The Fastech</title>
+      </Head>
 
-                <title>The Fastech</title>
-            </Head>
+      {children}
 
-            {children}
+      {/* {loader ? <Preloader /> : null} */}
 
-            {/* {loader ? <Preloader /> : null} */}
-
-            <GoTop scrollStepInPx="100" delayInMs="10.50" />
-        </>
-    );
-}
+      <GoTop scrollStepInPx="100" delayInMs="10.50" />
+      <Socialicons />
+      <Skype />
+    </>
+  );
+};
 
 export default Layout;

@@ -781,11 +781,11 @@ const IndustryDetail = ({ industryData, dataId }) => {
                       </h3>
                       <p>{data.paragraph}</p>
 
-                      <Link href="/services-details">
+                      {/* <Link href="/services-details">
                         <a className="services-btn">
                           Read More <i className="ri-arrow-right-line"></i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </>

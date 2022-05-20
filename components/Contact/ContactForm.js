@@ -95,29 +95,30 @@ const ContactForm = () => {
           <div className="contact-form">
             <div className="row left_profile_wrapper">
               <h2 className="contact_heading">
-                Get in touch today to discuss about your project, <br />
-                <span className="contact_sub_heading">
-                  We’ll Build it for You
-                </span>
+                <span className="contact_sub_heading">Talk to our</span>
+                <span className="Blue_tag"> Sales Team</span>
               </h2>
 
               <div className="col-12 col-lg-8">
                 <div className="col-12 text-start profile_sub_heading">
-                  <h4>Talk to our Sales Team</h4>
+                  <h2>
+                    Get in touch today to discuss
+                    <br /> about your project
+                  </h2>
                 </div>
                 <div className="col-12 col-lg-6">
                   <div className="sales_profile">
-                    <div className="image_wrapper">
+                    {/* <div className="image_wrapper">
                       <img
                         src="/images/asfand_yarr-c004d3ceb87c3388672b9b74fe7d002f.png"
                         alt=""
                       />
-                    </div>
+                    </div> */}
                     <div className="profile_data text-start">
-                      <p>
+                      {/* <p>
                         <h5>Atif Hameed</h5>
                       </p>
-                      <p className="sale_profile_status">Head of Sales </p>
+                      <p className="sale_profile_status">Head of Sales </p> */}
                       <p className="Sale_profile_icons">
                         <span>
                           <img
@@ -296,16 +297,17 @@ const ContactForm = () => {
           padding-bottom: 100px;
         }
         .profile_icons_images {
-          width: 25px;
+          width: 36px !important;
         }
         .profile_img_left {
           margin-left: 20px !important;
+          width: 36px !important;
         }
         .Sale_profile_icons {
           margin-top: -10px !important;
         }
         .profile_data {
-          margin-left: 20px;
+          margin-left: 0px;
           margin-top: 20px;
         }
         .sale_profile_status {
@@ -316,7 +318,7 @@ const ContactForm = () => {
           margin-top: -10px !important;
         }
         .profile_sub_heading {
-          margin-bottom: 30px;
+          margin-bottom: 15px;
         }
         .sales_profile {
           display: flex;

@@ -252,9 +252,9 @@ const PricePlansOne = () => {
                             aria-label="Default select example"
                           >
                             <option selected>Select...</option>
-                            <option value="1">2-6 Months</option>
-                            <option value="2">6-10 Months</option>
-                            <option value="3">10+ Moonths</option>
+                            <option value="1">2-6</option>
+                            <option value="2">6-10</option>
+                            <option value="3">10+</option>
                           </select>
                         </div>
 

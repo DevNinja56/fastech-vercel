@@ -59,27 +59,27 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/mobile-app-development">
                       <a>Mobile App Development</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/Software-Project-Management">
                       <a>Software Project Management</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/software-quality-assurance">
                       <a>Softeare Quality Assurance</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/ui-ux-design">
                       <a>UI/UX Design</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/Dev-Ops">
                       <a>Dev Ops</a>
                     </Link>
                   </li>
