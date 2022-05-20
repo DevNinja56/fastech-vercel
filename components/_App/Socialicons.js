@@ -32,7 +32,7 @@ const Socialicons = ({ scrollStep, delayIntime }) => {
         className={`whatsap_icon ${thePosition ? "active" : ""}`}
         // onClick={scrollToTop}
       >
-        <a href="https://wa.me/923334397893" className="links">
+        <a href="https://wa.me/923334397893" className="links" target="_blank">
           <i class="fab fa-whatsapp whtsapp_logo"></i>
         </a>
       </div>
