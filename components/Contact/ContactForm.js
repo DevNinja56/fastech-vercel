@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import axios from "axios";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-const MySwal = withReactContent(Swal);
+// const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 import PartnerStyleTwo from "../Common/PartnerStyleTwo";
 import CarouselOne from "../../components/Carousel/CarouselOne";
+import Swal from "sweetalert2";
+// import {  } from "react/cjs/react.production.min";
 
 // const alertContent = () => {
 //   MySwal.fire({
@@ -34,6 +36,8 @@ const ContactForm = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  const myRef = useRef(null);
   //   const [contact, setContact] = useState(INITIAL_STATE);
 
   //   const handleChange = (e) => {
@@ -58,6 +62,7 @@ const ContactForm = () => {
   //   };
 
   const handleSubmit = (e) => {
+    Swal.fire("Congrats!", "You responce submitted successfuly!", "success");
     e.preventDefault();
     console.log("Sending");
     let data = {
@@ -79,6 +84,7 @@ const ContactForm = () => {
       if (res.status === 200) {
         console.log("Response succeeded!");
         setSubmitted(true);
+        myRef.current.reset();
         setName("");
         setEmail("");
         setNumber("");
@@ -179,7 +185,7 @@ const ContactForm = () => {
                 </div>
               </div>
               <div className="col-12 col-lg-4 p-0">
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} ref={myRef}>
                   <div className="row form_wrapper">
                     <div className="col-lg-6 col-md-6">
                       <div className="form-group">
@@ -188,7 +194,7 @@ const ContactForm = () => {
                           name="name"
                           placeholder="Name"
                           className="form-control"
-                          // value={contact.name}
+                          value={name}
                           onChange={(e) => {
                             setName(e.target.value);
                           }}
@@ -200,11 +206,11 @@ const ContactForm = () => {
                     <div className="col-lg-6 col-md-6">
                       <div className="form-group">
                         <input
-                          type="text"
+                          type="email"
                           name="email"
                           placeholder="Email"
                           className="form-control"
-                          // value={contact.email}
+                          value={email}
                           onChange={(e) => {
                             setEmail(e.target.value);
                           }}
@@ -216,11 +222,11 @@ const ContactForm = () => {
                     <div className="col-lg-6 col-md-6">
                       <div className="form-group">
                         <input
-                          type="text"
+                          type="number"
                           name="number"
                           placeholder="Phone number"
                           className="form-control"
-                          // value={contact.number}
+                          value={number}
                           onChange={(e) => {
                             setNumber(e.target.value);
                           }}
@@ -236,7 +242,7 @@ const ContactForm = () => {
                           name="subject"
                           placeholder="Subject"
                           className="form-control"
-                          // value={contact.subject}
+                          value={subject}
                           onChange={(e) => {
                             setSubject(e.target.value);
                           }}
@@ -253,7 +259,7 @@ const ContactForm = () => {
                           name="message"
                           placeholder="Write your message..."
                           className="form-control"
-                          // value={contact.message}
+                          value={message}
                           onChange={(e) => {
                             setMessage(e.target.value);
                           }}
