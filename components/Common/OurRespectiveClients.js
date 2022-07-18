@@ -36,7 +36,7 @@ const OurRespectiveClients = () => {
 
   return (
     <>
-      <div className="clients-area ptb-50">
+      <div className="clients-area ptb-100 ">
         <div className="container">
           <div className="section-title">
             <h2>Our Respected Clients</h2>

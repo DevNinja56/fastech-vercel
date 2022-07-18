@@ -1,10 +1,56 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from "react-tabs";
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
+import Swal from "sweetalert2";
 
 resetIdCounter();
 
 const PricePlansOne = () => {
+  const [select1, setSelect1] = useState("");
+  const [select2, setSelect2] = useState("");
+  // const [select3, setSelect3] = useState("");
+  // const [select4, setSelect4] = useState("");
+  // const [select5, setSelect5] = useState("");
+  // const [select6, setSelect6] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const myRef = useRef(null);
+
+  const handleSubmit = (e) => {
+    Swal.fire("Congrats!", "You responce submitted successfuly!", "success");
+    e.preventDefault();
+    console.log("Sending");
+    let data = {
+      select1,
+      select2,
+      // select3,
+      // select4,
+      // select5,
+      // select6,
+    };
+    fetch("/api/pricings", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then((res) => {
+      console.log("selected responce");
+      if (res.status === 200) {
+        console.log("selected send");
+        setSubmitted(true);
+        myRef.current.reset();
+        setSelect1("");
+        setSelect2("");
+        // setSelect3("");
+        // setSelect4("");
+        // setSelect5("");
+        // setSelect6("");
+      }
+    });
+  };
+
   useEffect(() => {
     <style jsx>{``}</style>;
   });
@@ -58,48 +104,76 @@ const PricePlansOne = () => {
                       </ul>
 
                       <div className="pricing_dropdown_wrapper">
-                        <div className="form-group">
-                          <label for="pricing_label text-dark">
-                            How early you need developer?
-                          </label>
+                        <form onSubmit={handleSubmit} ref={myRef}>
+                          <div className="form-group">
+                            <label for="pricing_label text-dark">
+                              How early you need developer?
+                            </label>
 
-                          <select
-                            className="form-select mt-2"
-                            aria-label="Default select example"
-                          >
-                            <option selected>Select...</option>
-                            <option value="1">Within a week</option>
-                            <option value="2">1 Week Plus</option>
-                            <option value="3">As soon as possible</option>
-                          </select>
-                        </div>
+                            <select
+                              className="form-select mt-2"
+                              aria-label="Default select example"
+                              onSelect={(e) => {
+                                setSelect1(e.target.value);
+                              }}
+                            >
+                              <option selected>Select...</option>
+                              <option value="1">Within a week</option>
+                              <option value="2">1 Week Plus</option>
+                              <option value="3">As soon as possible</option>
+                            </select>
+                          </div>
 
-                        <div className="form-group mt-3">
-                          <label for="pricing_label text-dark">
-                            For how long?
-                          </label>
-                          <select
-                            className="form-select mt-2"
-                            aria-label="Default select example"
-                          >
-                            <option selected>Select...</option>
-                            <option value="1">1-3 Months</option>
-                            <option value="2">3-6 Months</option>
-                            <option value="3">6-10 Months</option>
-                            <option value="4">10+ Months</option>
-                          </select>
-                        </div>
+                          <div className="form-group mt-3">
+                            <label for="pricing_label text-dark">
+                              For how long?
+                            </label>
+                            <select
+                              className="form-select mt-2"
+                              aria-label="Default select example"
+                              onSelect={(e) => {
+                                setSelect2(e.target.value);
+                              }}
+                            >
+                              <option selected>Select...</option>
+                              <option value="1">1-3 Months</option>
+                              <option value="2">3-6 Months</option>
+                              <option value="3">6-10 Months</option>
+                              <option value="4">10+ Months</option>
+                            </select>
+                          </div>
 
-                        <div className="plans-btn">
-                          <a
-                            href="/profile-authenticatio"
-                            className="default-btn"
-                          >
-                            Get A Free Qoute
-                            <i className="ri-arrow-right-line"></i>
-                            <span></span>
-                          </a>
-                        </div>
+                          {/* <div className="form-group mt-3">
+                            <label for="pricing_label text-dark">
+                              For how long?
+                            </label>
+                            <select
+                              className="form-select mt-2"
+                              aria-label="Default select example"
+                            >
+                              <option
+                                selected
+                                onSelect={(e) => {
+                                  setSelect2(e.target.value);
+                                }}
+                              >
+                                Select...
+                              </option>
+                              <option value="1">1-3 Months</option>
+                              <option value="2">3-6 Months</option>
+                              <option value="3">6-10 Months</option>
+                              <option value="4">10+ Months</option>
+                            </select>
+                          </div> */}
+
+                          <div className="plans-btn">
+                            <button className="default-btn">
+                              Get A Free Qoute
+                              <i className="ri-arrow-right-line"></i>
+                              <span></span>
+                            </button>
+                          </div>
+                        </form>
                       </div>
                     </div>
                   </div>
