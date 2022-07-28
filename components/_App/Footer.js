@@ -161,7 +161,7 @@ const Footer = () => {
                       href="https://www.facebook.com/theafastech"
                       target="_blank"
                     >
-                      <i className="ri-facebook-line"></i>
+                      <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>

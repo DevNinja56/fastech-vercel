@@ -32,7 +32,7 @@ const Skype = ({ scrollStep, delayIntime }) => {
         className={`skype_icon ${thePosition ? "active" : ""}`}
         // onClick={scrollToTop}
       >
-        <i class="fab fa-skype"></i>
+        <i className="fab fa-skype"></i>
       </div>
 
       <style jsx>{`

@@ -1,6 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
-// import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 // const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
@@ -36,8 +35,8 @@ const ContactForm = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
-
   const myRef = useRef(null);
+
   //   const [contact, setContact] = useState(INITIAL_STATE);
 
   //   const handleChange = (e) => {
@@ -62,7 +61,7 @@ const ContactForm = () => {
   //   };
 
   const handleSubmit = (e) => {
-    Swal.fire("Congrats!", "You responce submitted successfuly!", "success");
+    Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
     e.preventDefault();
     console.log("Sending");
     let data = {
@@ -114,50 +113,50 @@ const ContactForm = () => {
                 </div>
                 <div className="col-12 col-lg-6">
                   <div className="sales_profile">
-                    {/* <div className="image_wrapper">
-                      <img
-                        src="/images/asfand_yarr-c004d3ceb87c3388672b9b74fe7d002f.png"
-                        alt=""
-                      />
-                    </div> */}
+                    <div className="image_wrapper">
+                      <img src="/images/daniyalpic1.png" alt="" />
+                    </div>
                     <div className="profile_data text-start">
-                      {/* <p>
-                        <h5>Atif Hameed</h5>
+                      <p>
+                        <h5 className="ceo_profile_name">Daniyal Samim</h5>
                       </p>
-                      <p className="sale_profile_status">Head of Sales </p> */}
-                      <p className="Sale_profile_icons">
-                        <span>
-                          <img
-                            src="/images/Icon material-email.svg"
-                            className="profile_icons_images"
-                            alt=""
-                          />
-                        </span>
-                        <span>
-                          {" "}
-                          <img
-                            src="/images/icons8-linkedin.svg"
-                            className="profile_icons_images profile_img_left"
-                            alt=""
-                          />
-                        </span>
-                        <span>
-                          {" "}
-                          <img
-                            src="/images/icons8-whatsapp.svg"
-                            className="profile_img_left"
-                            alt=""
-                          />
-                        </span>
-                        <span>
-                          {" "}
-                          <img
-                            src="/images/icons8-skype.svg"
-                            className="profile_icons_images profile_img_left"
-                            alt=""
-                          />
-                        </span>
-                      </p>
+                      <p className="sale_profile_status">example@gmail.com</p>
+                      <p className="sale_profile_number">+92000000000</p>
+                    </div>
+                  </div>
+                  <div className="social_icons">
+                    <div className="Sale_profile_icons text-start">
+                      <span>
+                        <img
+                          src="/images/Icon material-email.svg"
+                          className="profile_icons_images"
+                          alt=""
+                        />
+                      </span>
+                      <span>
+                        {" "}
+                        <img
+                          src="/images/icons8-linkedin.svg"
+                          className="profile_icons_images profile_img_left"
+                          alt=""
+                        />
+                      </span>
+                      <span>
+                        {" "}
+                        <img
+                          src="/images/icons8-whatsapp.svg"
+                          className="profile_img_left"
+                          alt=""
+                        />
+                      </span>
+                      <span>
+                        {" "}
+                        <img
+                          src="/images/icons8-skype.svg"
+                          className="profile_icons_images profile_img_left"
+                          alt=""
+                        />
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -251,6 +250,42 @@ const ContactForm = () => {
                       </div>
                     </div>
 
+                    <div className="col-lg-6 col-md-6">
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          name="Organization"
+                          placeholder="Organization"
+                          className="form-control"
+                          value={subject}
+                          onChange={(e) => {
+                            setSubject(e.target.value);
+                          }}
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6">
+                      <div className="form-group">
+                        <select
+                          placeholder="Subject"
+                          className="form-select mt-2 select_field"
+                          aria-label="Default select example"
+                          onSelect={(e) => {
+                            setSelect1(e.target.value);
+                          }}
+                        >
+                          <option selected>Purpose</option>
+                          <option value="1">Web Development</option>
+                          <option value="2">UI/UX Design</option>
+                          <option value="3">Product Development</option>
+                          <option value="4">Dedicated Resource</option>
+                          <option value="5">Team Augmentation</option>
+                        </select>
+                      </div>
+                    </div>
+
                     <div className="col-lg-12 col-md-12">
                       <div className="form-group">
                         <textarea
@@ -284,6 +319,28 @@ const ContactForm = () => {
       </div>
 
       <style jsx>{`
+        .select_field {
+          border: none;
+          background-color: #f8f8f8;
+          margin-top: 0px !important;
+        }
+        .select_field:focus {
+          outline: none !important;
+        }
+        .ceo_profile_name {
+          font-weight: 700 !important;
+        }
+        .sale_profile_status {
+          font-size: 14px !important;
+          color: #1f69f6 !important;
+          font-weight: 500 !important;
+        }
+        .sale_profile_number {
+          font-weight: 500 !important;
+          font-size: 14px !important;
+          margin-top: -17px !important;
+          color: #1f69f6 !important;
+        }
         .form_wrapper {
           background-color: white;
           padding-top: 30px;
@@ -304,16 +361,17 @@ const ContactForm = () => {
         }
         .profile_icons_images {
           width: 36px !important;
+          cursor: pointer;
         }
         .profile_img_left {
           margin-left: 20px !important;
           width: 36px !important;
         }
         .Sale_profile_icons {
-          margin-top: -10px !important;
+          margin-top: 20px !important;
         }
         .profile_data {
-          margin-left: 0px;
+          margin-left: 20px;
           margin-top: 20px;
         }
         .sale_profile_status {

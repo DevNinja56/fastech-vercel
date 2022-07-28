@@ -33,7 +33,7 @@ const Socialicons = ({ scrollStep, delayIntime }) => {
         // onClick={scrollToTop}
       >
         <a href="https://wa.me/923334397893" className="links" target="_blank">
-          <i class="fab fa-whatsapp whtsapp_logo"></i>
+          <i className="fab fa-whatsapp whtsapp_logo"></i>
         </a>
       </div>
 

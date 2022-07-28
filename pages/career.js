@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import BenifitTech from "../components/BenifitComponent/benifit";
@@ -20,117 +20,111 @@ const Career = () => {
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon">
-                  <i className="ri-quill-pen-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon">
+                    <i className="ri-quill-pen-line"></i>
+                  </div>
+                  <h3>
                     <a>Digital Marketing</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
-                <div className="career_card_line"></div>
-                <p className="mt-2">Marketing</p>
-                <h6>Fastech Office</h6>
-
-                {/* <Link href="/services-details">
-                                    <a className="services-btn">
-                                        Read More <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                </Link> */}
-              </div>
+                  </h3>
+                  <p>1 Position (s)</p>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">Marketing</p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon bg-36CC72">
-                  <i className="ri-pie-chart-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon bg-36CC72">
+                    <i className="ri-pie-chart-line"></i>
+                  </div>
+                  <h3>
                     <a>Project Manager</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
+                  </h3>
+                  <p>1 Position (s)</p>
 
-                <div className="career_card_line"></div>
-                <p className="mt-2">IT</p>
-                <h6>Fastech Office</h6>
-              </div>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">IT</p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon bg-FF414B">
-                  <i className="ri-lightbulb-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon bg-FF414B">
+                    <i className="ri-lightbulb-line"></i>
+                  </div>
+                  <h3>
                     <a>Data Entry</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
+                  </h3>
+                  <p>1 Position (s)</p>
 
-                <div className="career_card_line"></div>
-                <p className="mt-2">Software Quality Assurance</p>
-                <h6>Fastech Office</h6>
-              </div>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">Software Quality Assurance</p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon bg-FF6D3D">
-                  <i className="ri-customer-service-2-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon bg-FF6D3D">
+                    <i className="ri-customer-service-2-line"></i>
+                  </div>
+                  <h3>
                     <a>Automation Engineer</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
+                  </h3>
+                  <p>1 Position (s)</p>
 
-                <div className="career_card_line"></div>
-                <p className="mt-2">Software Engineering </p>
-                <h6>Fastech Office</h6>
-              </div>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">Software Engineering </p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon bg-8932F8">
-                  <i className="ri-cloud-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon bg-8932F8">
+                    <i className="ri-cloud-line"></i>
+                  </div>
+                  <h3>
                     <a>Talent Management</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
+                  </h3>
+                  <p>1 Position (s)</p>
 
-                <div className="career_card_line"></div>
-                <p className="mt-2">People Operations & Development</p>
-                <h6>Fastech Office</h6>
-              </div>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">People Operations & Development</p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-item">
-                <div className="icon bg-FFCA40">
-                  <i className="ri-layout-row-line"></i>
-                </div>
-                <h3>
-                  <Link href="/career-detail-page">
+            <div className="col-lg-4 col-md-6 cards_area">
+              <Link href="/career-detail-page">
+                <div className="single-services-item">
+                  <div className="icon bg-FFCA40">
+                    <i className="ri-layout-row-line"></i>
+                  </div>
+                  <h3>
                     <a>NodeJS Engineer</a>
-                  </Link>
-                </h3>
-                <p>1 Position (s)</p>
+                  </h3>
+                  <p>1 Position (s)</p>
 
-                <div className="career_card_line"></div>
-                <p className="mt-2">Software Engineering</p>
-                <h6>Fastech Office</h6>
-              </div>
+                  <div className="career_card_line"></div>
+                  <p className="mt-2">Software Engineering</p>
+                  <h6>Fastech Office</h6>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -151,6 +145,9 @@ const Career = () => {
 
         {/* Services Card Style */}
         <style jsx>{`
+          .cards_area {
+            cursor: pointer;
+          }
           .career_card_line::after {
             content: "----------------";
           }

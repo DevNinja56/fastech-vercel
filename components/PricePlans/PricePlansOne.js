@@ -2,6 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from "react-tabs";
 import { useEffect, useState, useRef } from "react";
 import Swal from "sweetalert2";
+import Link from "next/link";
 
 resetIdCounter();
 
@@ -103,7 +104,7 @@ const PricePlansOne = () => {
                         </li>
                       </ul>
 
-                      <div className="pricing_dropdown_wrapper">
+                      {/* <div className="pricing_dropdown_wrapper">
                         <form onSubmit={handleSubmit} ref={myRef}>
                           <div className="form-group">
                             <label for="pricing_label text-dark">
@@ -143,7 +144,7 @@ const PricePlansOne = () => {
                             </select>
                           </div>
 
-                          {/* <div className="form-group mt-3">
+                          <div className="form-group mt-3">
                             <label for="pricing_label text-dark">
                               For how long?
                             </label>
@@ -164,16 +165,22 @@ const PricePlansOne = () => {
                               <option value="3">6-10 Months</option>
                               <option value="4">10+ Months</option>
                             </select>
-                          </div> */}
-
-                          <div className="plans-btn">
-                            <button className="default-btn">
-                              Get A Free Qoute
-                              <i className="ri-arrow-right-line"></i>
-                              <span></span>
-                            </button>
                           </div>
-                        </form>
+
+                          
+                        </form> 
+                      </div> */}
+
+                      <a>Strategic Planning</a>
+
+                      <div className="plans-btn">
+                        <Link href="/contact">
+                          <a className="default-btn">
+                            Get A Free Qoute
+                            <i className="ri-arrow-right-line"></i>
+                            <span></span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -224,7 +231,7 @@ const PricePlansOne = () => {
                         </li>
                       </ul>
 
-                      <div className="pricing_dropdown_wrapper">
+                      {/* <div className="pricing_dropdown_wrapper">
                         <div className="form-group">
                           <label for="pricing_label text-dark">
                             What are you looking to develop?
@@ -259,16 +266,16 @@ const PricePlansOne = () => {
                           </select>
                         </div>
 
-                        <div className="plans-btn">
-                          <a
-                            href="/profile-authenticatio"
-                            className="default-btn"
-                          >
+                        
+                      </div> */}
+                      <div className="plans-btn">
+                        <Link href="/contact">
+                          <a className="default-btn">
                             Get A Free Qoute
                             <i className="ri-arrow-right-line"></i>
                             <span></span>
                           </a>
-                        </div>
+                        </Link>
                       </div>
 
                       <div className="popular-tag">
@@ -316,7 +323,7 @@ const PricePlansOne = () => {
                         </li>
                       </ul>
 
-                      <div className="pricing_dropdown_wrapper">
+                      {/* <div className="pricing_dropdown_wrapper">
                         <div className="form-group">
                           <label for="pricing_label text-dark">
                             How many developers you need?
@@ -348,16 +355,16 @@ const PricePlansOne = () => {
                           </select>
                         </div>
 
-                        <div className="plans-btn">
-                          <a
-                            href="/profile-authenticatio"
-                            className="default-btn"
-                          >
+                        
+                      </div> */}
+                      <div className="plans-btn">
+                        <Link href="/contact">
+                          <a className="default-btn">
                             Get A Free Qoute
                             <i className="ri-arrow-right-line"></i>
                             <span></span>
                           </a>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -378,10 +385,7 @@ const PricePlansOne = () => {
                       </div>
 
                       <div className="plans-btn">
-                        <a
-                          href="/profile-authenticatio"
-                          className="default-btn"
-                        >
+                        <a href="/contact" className="default-btn">
                           Purchase Now
                           <i className="ri-arrow-right-line"></i>
                           <span></span>

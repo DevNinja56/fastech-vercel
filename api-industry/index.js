@@ -99,7 +99,7 @@ export const IndustryApi = [
       },
 
       {
-        about_text: "Individual approach to every client",
+        about_text: "Individual roach to every client",
         about_img: "far fa-check tick_icons",
       },
     ],
