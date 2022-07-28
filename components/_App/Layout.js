@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
           async=""
         ></script>
-        <script>
+        {/* <script>
           window.OneSignal = window.OneSignal || []; OneSignal.push(function(){" "}
           {OneSignal.init({
             appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
             },
           })}
           )
-        </script>
+        </script> */}
       </Head>
 
       {children}
