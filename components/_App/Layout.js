@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
     window.OneSignal = window.OneSignal || [];
     OneSignal.push(function () {
       OneSignal.init({
-        appId: "af3b21ac-8b6b-4a83-9e9b-ea1b348a089f",
+        appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
         notifyButton: {
           enable: true,
         },
@@ -43,13 +43,18 @@ const Layout = ({ children }) => {
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
           async=""
         ></script>
-        {/* <script>
+        <script>
           window.OneSignal = window.OneSignal || []; OneSignal.push(function(){" "}
           {OneSignal.init({
-            appId: "af3b21ac-8b6b-4a83-9e9b-ea1b348a089f",
+            appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
+            safari_web_id:
+              "web.onesignal.auto.24b53800-ef1e-45ab-8e2c-057ebbb06239",
+            notifyButton: {
+              enable: true,
+            },
           })}
           )
-        </script> */}
+        </script>
       </Head>
 
       {children}
