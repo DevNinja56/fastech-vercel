@@ -1,10 +1,30 @@
 import ConnectDB from "../../../config/db";
 import BlogsModel from "../../../models/blogs";
+import Cors from "cors";
 
 ConnectDB();
 
-export default async (req, res) => {
+const cors = Cors({
+  methods: ["GET", "POST"],
+});
+
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) {
+        return reject(result);
+      }
+      return resolve(result);
+    });
+  });
+}
+
+async function BlogsApi(req, res) {
+  await runMiddleware(req, res, cors);
+
+  //   res.json({ message: "hello" });
   const { method } = req;
+
   switch (method) {
     case "GET":
       try {
@@ -45,4 +65,6 @@ export default async (req, res) => {
       });
       break;
   }
-};
+}
+
+export default BlogsApi;
