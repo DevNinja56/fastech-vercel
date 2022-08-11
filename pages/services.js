@@ -20,21 +20,21 @@ const Services = () => {
 
       <div className="services-area pt-100 pb-70">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-start">
             <div className="col-lg-4 col-md-6">
               <div className="single-services-item">
                 <div className="icon">
-                  <i className="ri-quill-pen-line"></i>
+                  <i className="fal fa-laptop-code"></i>
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>Brand Identity Design</a>
+                    <a>Web Design & Development</a>
                   </Link>
                 </h3>
                 <p>
-                  Branding just like your personal identity makes you uniquely
-                  you your brand identity is the special sauce of your business
-                  that sets you apart from every other Tom Dick and Harry Inc.
+                  Our web development team creates intuitive user experiences
+                  wrapped up in beautiful designs. Everything we create is
+                  custom and precisely made to your specification.
                 </p>
 
                 <Link href="/services-details">
@@ -48,17 +48,18 @@ const Services = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-services-item">
                 <div className="icon bg-36CC72">
-                  <i className="ri-pie-chart-line"></i>
+                  <i className="fal fa-mobile-android"></i>
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>Digital Marketing</a>
+                    <a>Mobile App Development</a>
                   </Link>
                 </h3>
                 <p>
-                  Ozen offering you the best digital marketing services to just
-                  like your personal identity makes you uniquely you, your brand
-                  identity is the special sauce of your to our customer.
+                  Our team builds nimble and elegant apps for both iOS and
+                  Android platforms. Our engineers work closely with you to
+                  understand your specifications and develop apps that provide
+                  an intuitive end user experience.
                 </p>
 
                 <Link href="/services-details">
@@ -72,17 +73,18 @@ const Services = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-services-item">
                 <div className="icon bg-FF414B">
-                  <i className="ri-lightbulb-line"></i>
+                  <i className="fal fa-pencil-paintbrush"></i>
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>Design and Development</a>
+                    <a>UI/UX Design</a>
                   </Link>
                 </h3>
                 <p>
-                  Ozen offering you the best digital marketing services to just
-                  like your personal identity makes you uniquely you, your brand
-                  identity is the special sauce of your to our customer.
+                  Step in your targeted customer’s shoes to gauge what they
+                  think, feel and want by investing in professional UX design.
+                  It not only boosts ROI, search rankings, customer retention
+                  but is also your best bet to grow.
                 </p>
 
                 <Link href="/services-details">
@@ -96,17 +98,18 @@ const Services = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-services-item">
                 <div className="icon bg-FF6D3D">
-                  <i className="ri-customer-service-2-line"></i>
+                  <i className="fal fa-bags-shopping"></i>
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>IT Consulting Service</a>
+                    <a>Ecommerce Development</a>
                   </Link>
                 </h3>
                 <p>
-                  Ozen offering you the best digital marketing services to just
-                  like your personal identity makes you uniquely you, your brand
-                  identity is the special sauce of your to our customer.
+                  Our certified Shopify/Wordpress developers and web designers
+                  work exclusively on the Shopify/Woocommerce platform to build
+                  beautiful custom-tailored eCommerce storefront that boost your
+                  business.
                 </p>
 
                 <Link href="/services-details">
@@ -124,13 +127,15 @@ const Services = () => {
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>Cloud Computing</a>
+                    <a>DevOps</a>
                   </Link>
                 </h3>
                 <p>
-                  Ozen offering you the best digital marketing services to just
-                  like your personal identity makes you uniquely you, your brand
-                  identity is the special sauce of your to our customer.
+                  Improve interoperability among the teams through
+                  collaboration, speed and early defect detection to foster
+                  growth of quality digital application development that will
+                  not only balance the risk and reward but also fully meet your
+                  expectations.
                 </p>
 
                 <Link href="/services-details">
@@ -144,17 +149,17 @@ const Services = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-services-item">
                 <div className="icon bg-FFCA40">
-                  <i className="ri-layout-row-line"></i>
+                  <i className="fal fa-chart-line"></i>
                 </div>
                 <h3>
                   <Link href="/services-details">
-                    <a>Domain and Hosting</a>
+                    <a>Software Quality Assurance</a>
                   </Link>
                 </h3>
                 <p>
-                  Ozen offering you the best digital marketing services to just
-                  like your personal identity makes you uniquely you, your brand
-                  identity is the special sauce of your to our customer.
+                  With deep domain expertise, our engineer's design customized
+                  QA frameworks and implement strategies like security and
+                  performance testing to enhance usability and identify flaws.
                 </p>
 
                 <Link href="/services-details">
@@ -195,7 +200,7 @@ const Services = () => {
             -webkit-transition: var(--transition);
             transition: var(--transition);
             border: 1px solid #eeeeee;
-            text-align: center;
+            text-align: left;
           }
           .single-services-item .icon {
             margin-bottom: 30px;

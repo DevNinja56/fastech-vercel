@@ -6,7 +6,7 @@ import baseUrl from "../../utils/baseUrl";
 import PartnerStyleTwo from "../Common/PartnerStyleTwo";
 import CarouselOne from "../../components/Carousel/CarouselOne";
 import Swal from "sweetalert2";
-// import {  } from "react/cjs/react.production.min";
+import CustomMultiForm from "./CustomMultiForm";
 
 // const alertContent = () => {
 //   MySwal.fire({
@@ -29,13 +29,13 @@ import Swal from "sweetalert2";
 // };
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [number, setNumber] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-  const myRef = useRef(null);
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [number, setNumber] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [submitted, setSubmitted] = useState(false);
+  // const myRef = useRef(null);
 
   //   const [contact, setContact] = useState(INITIAL_STATE);
 
@@ -60,38 +60,38 @@ const ContactForm = () => {
   //     }
   //   };
 
-  const handleSubmit = (e) => {
-    Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
-    e.preventDefault();
-    console.log("Sending");
-    let data = {
-      name,
-      email,
-      number,
-      subject,
-      message,
-    };
-    fetch("/api/mail", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-        setSubmitted(true);
-        myRef.current.reset();
-        setName("");
-        setEmail("");
-        setNumber("");
-        setSubject("");
-        setMessage("");
-      }
-    });
-  };
+  // const handleSubmit = (e) => {
+  //   Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
+  //   e.preventDefault();
+  //   console.log("Sending");
+  //   let data = {
+  //     name,
+  //     email,
+  //     number,
+  //     subject,
+  //     message,
+  //   };
+  //   fetch("/api/mail", {
+  //     method: "POST",
+  //     headers: {
+  //       Accept: "application/json, text/plain, */*",
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   }).then((res) => {
+  //     console.log("Response received");
+  //     if (res.status === 200) {
+  //       console.log("Response succeeded!");
+  //       setSubmitted(true);
+  //       myRef.current.reset();
+  //       setName("");
+  //       setEmail("");
+  //       setNumber("");
+  //       setSubject("");
+  //       setMessage("");
+  //     }
+  //   });
+  // };
 
   return (
     <>
@@ -104,14 +104,14 @@ const ContactForm = () => {
                 <span className="Blue_tag"> Sales Team</span>
               </h2>
 
-              <div className="col-12 col-lg-8">
+              <div className="col-12 col-lg-6">
                 <div className="col-12 text-start profile_sub_heading">
                   <h2>
                     Get in touch today to discuss
                     <br /> about your project
                   </h2>
                 </div>
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-8">
                   <div className="sales_profile">
                     <div className="image_wrapper">
                       <img src="/images/daniyalpic1.png" alt="" />
@@ -120,8 +120,10 @@ const ContactForm = () => {
                       <p>
                         <h5 className="ceo_profile_name">Daniyal Samim</h5>
                       </p>
-                      <p className="sale_profile_status">example@gmail.com</p>
-                      <p className="sale_profile_number">+92000000000</p>
+                      <p className="sale_profile_status">
+                        daniyal@thefastech.com
+                      </p>
+                      <p className="sale_profile_number">+92-3334397893</p>
                     </div>
                   </div>
                   <div className="social_icons">
@@ -179,139 +181,12 @@ const ContactForm = () => {
                   </div>
                 </div>
 
-                <div className="col-12 col-lg-8 bg-light text-start mt-5">
+                <div className="col-12 col-lg-12 bg-light text-start mt-5">
                   <PartnerStyleTwo />
                 </div>
               </div>
-              <div className="col-12 col-lg-4 p-0">
-                <form onSubmit={handleSubmit} ref={myRef}>
-                  <div className="row form_wrapper">
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Name"
-                          className="form-control"
-                          value={name}
-                          onChange={(e) => {
-                            setName(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email"
-                          className="form-control"
-                          value={email}
-                          onChange={(e) => {
-                            setEmail(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="number"
-                          name="number"
-                          placeholder="Phone number"
-                          className="form-control"
-                          value={number}
-                          onChange={(e) => {
-                            setNumber(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="subject"
-                          placeholder="Subject"
-                          className="form-control"
-                          value={subject}
-                          onChange={(e) => {
-                            setSubject(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="Organization"
-                          placeholder="Organization"
-                          className="form-control"
-                          value={subject}
-                          onChange={(e) => {
-                            setSubject(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                      <div className="form-group">
-                        <select
-                          placeholder="Subject"
-                          className="form-select mt-2 select_field"
-                          aria-label="Default select example"
-                          onSelect={(e) => {
-                            setSelect1(e.target.value);
-                          }}
-                        >
-                          <option selected>Purpose</option>
-                          <option value="1">Web Development</option>
-                          <option value="2">UI/UX Design</option>
-                          <option value="3">Product Development</option>
-                          <option value="4">Dedicated Resource</option>
-                          <option value="5">Team Augmentation</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          cols="30"
-                          rows="6"
-                          name="message"
-                          placeholder="Write your message..."
-                          className="form-control"
-                          value={message}
-                          onChange={(e) => {
-                            setMessage(e.target.value);
-                          }}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <button type="submit" className="default-btn">
-                        Send Message
-                        <i className="ri-arrow-right-line"></i>
-                        <span></span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
+              <div className="col-12 col-lg-6 p-0">
+                <CustomMultiForm />
               </div>
             </div>
           </div>
@@ -368,7 +243,8 @@ const ContactForm = () => {
           width: 36px !important;
         }
         .Sale_profile_icons {
-          margin-top: 20px !important;
+          margin-top: 50px !important;
+          margin-bottom: -25px !important;
         }
         .profile_data {
           margin-left: 20px;
@@ -382,7 +258,7 @@ const ContactForm = () => {
           margin-top: -10px !important;
         }
         .profile_sub_heading {
-          margin-bottom: 15px;
+          margin-bottom: 25px;
         }
         .sales_profile {
           display: flex;

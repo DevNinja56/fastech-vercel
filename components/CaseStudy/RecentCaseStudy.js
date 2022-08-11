@@ -21,58 +21,193 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/cases-study/web2.jpg" alt="image" />
+                      <img src="/images/new-portfolio/web1.png" alt="image" />
                     </a>
                   </Link>
                 </div>
+              </div>
+            </div>
 
+            <div className="col-lg-6">
+              <div className="single-cases">
                 <div className="cases-content">
-                  <div className="tags">
+                  <h2>
                     <Link href="/portfolio">
-                      <a className="links_colors">App Development</a>
+                      <a className="links_colors">Magic Task</a>
                     </Link>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Web Development</a>
-                    </Link>
-                  </div>
-
-                  <h3>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Shopperhits</a>
-                    </Link>
-                  </h3>
+                  </h2>
                   <p>
-                    It is an eCommerce store where people can buy products on
-                    best-bargained prices.
+                    Advance and customized project management tool with
+                    different frontend themes.
                   </p>
+                  <a
+                    href="https://magictask.io"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://magictask.io/
+                  </a>
                 </div>
               </div>
+            </div>
 
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Job Genie</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    A project management tool where different tasks are listed
+                    and user pay subscription fees to get into the system. It is
+                    similar to topcoder.com
+                  </p>
+                  <a
+                    href="https://www.jobgeniedevs.com/"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://www.jobgeniedevs.com//
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/cases-study/mob1.jpg" alt="image" />
+                      <img src="/images/new-portfolio/web2.png" alt="image" />
                     </a>
                   </Link>
                 </div>
+              </div>
+            </div>
 
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web3.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
                 <div className="cases-content">
-                  <div className="tags">
+                  <h2>
                     <Link href="/portfolio">
-                      <a className="links_colors">App Development</a>
+                      <a className="links_colors">Bitnob</a>
                     </Link>
-                  </div>
-
-                  <h3>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Camlist</a>
-                    </Link>
-                  </h3>
+                  </h2>
                   <p>
-                    It gives you easy access to search thousands of dogs,
-                    puppies, cats, kittens, rabbits, horses and other pets for
-                    sale and adoption.
+                    Modern web interface of a safe, instant, cheap and modern
+                    way to pay and get paid globally.
+                  </p>
+                  <a
+                    href="https://bitnob.com/"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://bitnob.com//
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Imaginovation</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    An IT Company’s services-based website according to modern
+                    design standards.
+                  </p>
+                  <a
+                    href="https://imaginovation.net/"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://imaginovation.net/
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web4.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web5.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Ecommerece dashboard</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    Ecommerce Admin Dashboard with all the features like product
+                    management, category-subcategory management, attributes,
+                    colors, sizes management, abondoned cart management, custom
+                    email templates, push notifications etc. It is similar to
+                    shopify and woocommerce dashboard but with custom
+                    requirements.
+                  </p>
+                  <a
+                    href="https://modjen.com/password"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://modjen.com/password
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">LinkedinExtension</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    A project used to scrap leads from linkedin which are used
+                    to make pipelines for marketing. It includes chatting
+                    features, calendar views, dashboards, graphs and comments
                   </p>
                 </div>
               </div>
@@ -83,59 +218,355 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/cases-study/web1.jpg" alt="image" />
+                      <img src="/images/new-portfolio/web6.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-
-                <div className="cases-content">
-                  <div className="tags">
-                    <Link href="/portfolio">
-                      <a className="links_colors">App Development</a>
-                    </Link>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Web Development</a>
-                    </Link>
-                  </div>
-
-                  <h3>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Online Education Portal</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    An online education portal with study material, quizzes, and
-                    mock exams for students.
-                  </p>
-                </div>
               </div>
+            </div>
 
+            <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/cases-study/mob2.jpg" alt="image" />
+                      <img src="/images/new-portfolio/web7.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Multivendor Ecommerce</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    A multivendor ecommerce site like Myntra.com An IT Company’s
+                    services-based website.
+                  </p>
+                  <a
+                    href="https://modjen.com/"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://modjen.com/
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">ProperFans</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    A subscription based dedicated social media platform for
+                    premium content creators and fans.
+                  </p>
+                  <a
+                    href="https://staging.properfans.com"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://staging.properfans.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web8.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web9.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Medical Dashboard</a>
+                    </Link>
+                  </h2>
+                  <p>Sales management system for Medical representative.</p>
+                  <a
+                    href="https://wehelprx.com"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://wehelprx.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Shoperhits</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    Shopperhits is an eCommerce store where people can buy
+                    products on best-bargained prices.
+                  </p>
+                  <a
+                    href="https://shopperhits.com"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://shopperhits.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web10.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web11.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Beaut Flo</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    An makeup Ecommerce website that is an ultimate beauty
+                    destination including the 600+ premium skincare, haircare &
+                    makeup brands.
+                  </p>
+                  <a
+                    href="https://www.beautflo.com"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://www.beautflo.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Go Snabby</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    It simplifies special event food sales. Manage food
+                    transactions for concession stands, cafeterias, and special
+                    events in one place.
+                  </p>
+                  <a
+                    href="https://gosnabby.com"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://gosnabby.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web12.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* single apps  */}
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/mob1.png" alt="image" />
                     </a>
                   </Link>
                 </div>
 
                 <div className="cases-content">
-                  <div className="tags">
+                  <h2>
                     <Link href="/portfolio">
-                      <a className="links_colors">App Development</a>
+                      <a className="links_colors">Fivesec Health</a>
                     </Link>
-                  </div>
-
-                  <h3>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Postwork</a>
-                    </Link>
-                  </h3>
+                  </h2>
                   <p>
-                    On demand ride service app is an awesome cheap rideshare cab
-                    pp and service platform that connects you with dedicated and
-                    independent ocal taxi drivers, cab drivers.
+                    Make it easy to stay healthy with delicious and nourishing
+                    plant-based recipes in your pocket. Simple to use with
+                    guided meal plans and new recipes every week.
                   </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.fivesechealth"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://play.google.com/store/apps/details?id=com.fivesechealth
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/mob2.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Rentberry</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    Rentberry facilitates and speeds up the whole range of house
+                    hunting procedures: Search among thousands of apartment
+                    listings across the US and worldwide. Enjoy comprehensive
+                    descriptions and high-quality photos of each rental.
+                  </p>
+                  <a
+                    href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/mob4.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Potswork-Request Services</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    Postwork: Request a ride service app is an awesome cheap
+                    rideshare cab app and service platform that connects you
+                    with dedicated and independent local taxi drivers, cab
+                    drivers, and all the pros to get you to your place safely,
+                    and your local tasks are done.
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://play.google.com/store/apps/details?id=com.potsworkprovider
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/mob3.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="cases-content">
+                  <h2>
+                    <Link href="/portfolio">
+                      <a className="links_colors">Camlist- Just Prts</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    Camlist gives you easy access to search thousands of dogs,
+                    puppies, cats, kittens, rabbits, horses and other pets for
+                    sale and adoption, advertised by breeders, rescue centers
+                    and pet owners. Shoot a video of anything you want to sell
+                    in less than a few seconds. View videos of everything
+                    available for sale around you with ease, and chat with
+                    sellers using our private in-app chat with complete
+                    confidence and security.
+                  </p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.camelan"
+                    target="blank"
+                    className="links_portfolio"
+                  >
+                    https://play.google.com/store/apps/details?id=com.camelan
+                  </a>
                 </div>
               </div>
             </div>
@@ -178,6 +609,10 @@ const RecentCaseStudy = () => {
 
       {/* Recent Case Study Style */}
       <style jsx>{`
+        .links_portfolio {
+          color: #1f69f6;
+          cursor: pointer;
+        }
         .cases-area {
           position: relative;
           z-index: 1;
@@ -189,14 +624,14 @@ const RecentCaseStudy = () => {
         .single-cases .cases-image {
           overflow: hidden;
           border: 1px solid #ecf1f9;
+          max-height: 55vh;
+          width: 95%;
         }
         .single-cases .cases-image img {
           -webkit-transition: var(--transition);
           transition: var(--transition);
         }
-        .single-cases .cases-content {
-          margin-top: 30px;
-        }
+
         .single-cases .cases-content .tags a {
           color: var(--main-color);
           padding: 5px 15px;
@@ -216,15 +651,15 @@ const RecentCaseStudy = () => {
           background-color: var(--main-color);
           color: var(--white-color);
         }
-        .single-cases .cases-content h3 {
-          font-size: 25px;
+        .single-cases .cases-content h2 {
+          font-size: 30px;
           margin-top: 25px;
           margin-bottom: 15px;
         }
-        .single-cases .cases-content h3 a {
+        .single-cases .cases-content h2 a {
           position: relative;
         }
-        .single-cases .cases-content h3 a::before {
+        .single-cases .cases-content h2 a::before {
           content: "";
           position: absolute;
           width: 0%;
@@ -240,10 +675,10 @@ const RecentCaseStudy = () => {
           -webkit-transform: scale(1.1);
           transform: scale(1.1);
         }
-        .single-cases:hover .cases-content h3 a {
+        .single-cases:hover .cases-content h2 a {
           color: var(--main-color);
         }
-        .single-cases:hover .cases-content h3 a::before {
+        .single-cases:hover .cases-content h2 a::before {
           width: 100%;
         }
 
@@ -322,7 +757,7 @@ const RecentCaseStudy = () => {
 
         // Responsive Style
         @media only screen and (max-width: 767px) {
-          .single-cases .cases-content h3 {
+          .single-cases .cases-content h2 {
             font-size: 22px;
             margin-top: 20px;
             margin-bottom: 10px;
@@ -376,7 +811,7 @@ const RecentCaseStudy = () => {
         }
 
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .single-cases .cases-content h3 {
+          .single-cases .cases-content h2 {
             font-size: 23px;
             margin-bottom: 15px;
           }

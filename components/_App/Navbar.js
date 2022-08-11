@@ -386,7 +386,7 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="#">
                     <a onClick={(e) => e.preventDefault()} className="nav-link">
                       Content Hub <i className="ri-add-line"></i>
@@ -406,14 +406,14 @@ const Navbar = () => {
                       </Link>
                     </li>
 
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                                             <Link href="/pricing">
                                                 <a onClick={toggleNavbar} className="nav-link">
                                                     <img src="/images/icons.svg" className="icons_img_meg_menu" />Tech News</a>
                                             </Link>
-                                        </li> */}
+                                        </li>
 
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                                                 <Link href="/gallery">
                                                     <a onClick={toggleNavbar} className="nav-link">Gallery</a>
                                                 </Link>
@@ -481,9 +481,9 @@ const Navbar = () => {
                                                 <Link href="/terms-of-service">
                                                     <a onClick={toggleNavbar} className="nav-link">Terms of Service</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link href="#">
@@ -529,6 +529,21 @@ const Navbar = () => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+
+                <li className="nav-item">
+                  <Link href="/blog">
+                    <a
+                      onClick={(e) => {
+                        e.preventDefault();
+
+                        router.push("/blog");
+                      }}
+                      className="nav-link"
+                    >
+                      Blogs
+                    </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
