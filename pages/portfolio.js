@@ -2,10 +2,12 @@ import React from "react";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import CTA from "../components/Common/CTA";
+import SubscriptionModal from "../components/subscriptionModal/modal";
 
 const Portfolio = () => {
   return (
     <>
+      <SubscriptionModal />
       <PageBanner
         pageTitle="Our Portfolio"
         homePageUrl="/"
@@ -26,13 +28,14 @@ const Portfolio = () => {
             <div className="projects-area pt-100">
               <div className="container">
                 <div className="row">
+                  {/* web portfilio */}
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="https://magictask.io/">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio1.jpg"
+                              src="/images/new-portfolio/web1.png"
                               alt="image"
                             />
                           </a>
@@ -41,18 +44,19 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Online Education Portal</a>
+                          <Link href="https://magictask.io/">
+                            <a className="links_colors" target="blank">
+                              Magic Task
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          An online education portal with study material,
-                          quizzes, and mock exams for students preparing for CFA
-                          and FRM examinations.
+                          Advance and customized project management tool with
+                          different frontend themes.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://magictask.io/" target="blank">
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -63,10 +67,10 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="https://www.jobgeniedevs.com/">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio2.jpg"
+                              src="/images/new-portfolio/web2.png"
                               alt="image"
                             />
                           </a>
@@ -75,17 +79,23 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Shopperhits</a>
+                          <Link href="https://www.jobgeniedevs.com/">
+                            <a className="links_colors" target="blank">
+                              Job Genie
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It is an eCommerce store where people can buy products
-                          on best-bargained prices.
+                          A project management tool where different tasks are
+                          listed and user pay subscription fees to get into the
+                          system.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link
+                          href="https://www.jobgeniedevs.com/"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -96,10 +106,10 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="https://bitnob.com/">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio3.jpg"
+                              src="/images/new-portfolio/web3.png"
                               alt="image"
                             />
                           </a>
@@ -108,18 +118,19 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Sky Store</a>
+                          <Link href="https://bitnob.com/">
+                            <a className="links_colors" target="blank">
+                              Bitnob
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It is an easy way to buy or rent the biggest
-                          blockbusters or all-time classic movies whenever you
-                          want, any time, anywhere.
+                          Modern web interface of a safe, instant, cheap and
+                          modern way to pay and get paid globally.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://bitnob.com/" target="blank">
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -130,10 +141,10 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="https://imaginovation.net/">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio4.jpg"
+                              src="/images/new-portfolio/web4.png"
                               alt="image"
                             />
                           </a>
@@ -142,19 +153,19 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Upkeepr</a>
+                          <Link href="https://imaginovation.net/">
+                            <a className="links_colors" target="blank">
+                              Imaginovation
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It is a consumer-friendly, easy-to-use app to keep
-                          track of everything you need to do to keep your stuff
-                          well-maintained with quick access to all your online
-                          records
+                          An IT Company’s services-based website according to
+                          modern design standards.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://imaginovation.net/" target="blank">
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -165,10 +176,10 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="https://modjen.com/password">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio5.jpg"
+                              src="/images/new-portfolio/web5.png"
                               alt="image"
                             />
                           </a>
@@ -177,18 +188,19 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Go Snabby</a>
+                          <Link href="https://modjen.com/password">
+                            <a className="links_colors" target="blank">
+                              Ecommerece dashboard
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It simplifies special event food sales. Manage food
-                          transactions for concession stands, cafeterias, and
-                          special events in one place.
+                          Ecommerce Admin Dashboard with all the features like
+                          product management, category-subcategory management.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://modjen.com/password" target="blank">
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -199,10 +211,10 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
+                        <Link href="#">
+                          <a target="blank">
                             <img
-                              src="/images/projects/portfolio6 (2).jpg"
+                              src="/images/new-portfolio/web6.png"
                               alt="image"
                             />
                           </a>
@@ -211,18 +223,196 @@ const Portfolio = () => {
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Beautflo</a>
+                          <Link href="#">
+                            <a className="links_colors" target="blank">
+                              LinkedinExtension
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          A project used to scrap leads from linkedin which are
+                          used to make pipelines for marketing.
+                        </p>
+
+                        <Link href="#" target="blank">
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://modjen.com/">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web7.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://modjen.com/">
+                            <a className="links_colors" target="blank">
+                              Multivendor Ecommerce
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          A multivendor ecommerce site like Myntra.com An IT
+                          Company’s services-based website.
+                        </p>
+
+                        <Link href="https://modjen.com/" target="blank">
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://staging.properfans.com">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web8.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://staging.properfans.com">
+                            <a className="links_colors" target="blank">
+                              ProperFans
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          A subscription based dedicated social media platform
+                          for premium content creators and fans.
+                        </p>
+
+                        <Link
+                          href="https://staging.properfans.com"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://wehelprx.com">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web9.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://wehelprx.com">
+                            <a className="links_colors" target="blank">
+                              Medical Dashboard
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          Sales management system for Medical representative.
+                        </p>
+
+                        <Link href="https://wehelprx.com" target="blank">
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://shopperhits.com">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web10.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://shopperhits.com">
+                            <a className="links_colors" target="blank">
+                              Shoperhits
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          Shopperhits is an eCommerce store where people can buy
+                          products on best-bargained prices.
+                        </p>
+
+                        <Link href="https://shopperhits.com" target="blank">
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://www.beautflo.com">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web11.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://www.beautflo.com">
+                            <a className="links_colors" target="blank">
+                              Beaut Flo
+                            </a>
                           </Link>
                         </h3>
                         <p>
                           An makeup Ecommerce website that is an ultimate beauty
-                          destination including the 600+ premium skincare,
-                          haircare & makeup brands.
+                          destination including the 600+ premium skincare.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://www.beautflo.com" target="blank">
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -233,28 +423,71 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m1.jpg" alt="image" />
+                        <Link href="https://gosnabby.com">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/web12.png"
+                              alt="image"
+                            />
                           </a>
                         </Link>
                       </div>
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Fivesec Health</a>
+                          <Link href="https://gosnabby.com">
+                            <a className="links_colors" target="blank">
+                              Go Snabby
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          An fitness app which make it easy to stay healthy with
-                          delicious and nourishing plant-based recipes in your
-                          pocket. Simple to use with guided meal plans and new
-                          recipes every week.
+                          It simplifies special event food sales. Manage food
+                          transactions for concession stands, cafeterias.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link href="https://gosnabby.com" target="blank">
+                          <a className="projects-btn" target="blank">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* apps portfolio  */}
+
+                  <div className="col-lg-4 col-md-6">
+                    <div className="single-projects-box">
+                      <div className="projects-image">
+                        <Link href="https://play.google.com/store/apps/details?id=com.fivesechealth">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/mob1.png"
+                              alt="image"
+                            />
+                          </a>
+                        </Link>
+                      </div>
+
+                      <div className="projects-content">
+                        <h3>
+                          <Link href="https://play.google.com/store/apps/details?id=com.fivesechealth">
+                            <a className="links_colors" target="blank">
+                              Fivesec Health
+                            </a>
+                          </Link>
+                        </h3>
+                        <p>
+                          Make it easy to stay healthy with delicious and
+                          nourishing plant-based recipes in your pocket.
+                        </p>
+
+                        <Link
+                          href="https://play.google.com/store/apps/details?id=com.fivesechealth"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -265,26 +498,35 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m2.jpg" alt="image" />
+                        <Link href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/mob2.png"
+                              alt="image"
+                            />
                           </a>
                         </Link>
                       </div>
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Potswork - Request Services</a>
+                          <Link href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443">
+                            <a className="links_colors" target="blank">
+                              Rentberry
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It is an eCommerce store where people can buy products
-                          on best-bargained prices.
+                          Rentberry facilitates and speeds up the whole range of
+                          house hunting procedures: Search among thousands of
+                          apartment.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link
+                          href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -295,27 +537,34 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m3.jpg" alt="image" />
+                        <Link href="https://play.google.com/store/apps/details?id=com.potsworkprovider">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/mob4.png"
+                              alt="image"
+                            />
                           </a>
                         </Link>
                       </div>
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Rentberry Apartment Rentals</a>
+                          <Link href="https://play.google.com/store/apps/details?id=com.potsworkprovider">
+                            <a className="links_colors" target="blank">
+                              Potswork-Request Services
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It facilitates and speeds up the whole range of house
-                          hunting procedures. Search among thousands of
-                          apartment listings.
+                          Postwork: Request a ride service app is an awesome
+                          cheap rideshare cab app and service platform.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link
+                          href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -326,89 +575,35 @@ const Portfolio = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="single-projects-box">
                       <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m4.jpg" alt="image" />
+                        <Link href="https://play.google.com/store/apps/details?id=com.camelan">
+                          <a target="blank">
+                            <img
+                              src="/images/new-portfolio/mob3.png"
+                              alt="image"
+                            />
                           </a>
                         </Link>
                       </div>
 
                       <div className="projects-content">
                         <h3>
-                          <Link href="/case-study-details">
-                            <a>Camlist - Just Pets</a>
+                          <Link href="https://play.google.com/store/apps/details?id=com.camelan">
+                            <a className="links_colors" target="blank">
+                              Camlist- Just Prts
+                            </a>
                           </Link>
                         </h3>
                         <p>
-                          It gives you an easy access to search thousands of
+                          Camlist gives you easy access to search thousands of
                           dogs, puppies, cats, kittens, rabbits, horses and
-                          other pets for sale and adoption.
+                          other pets.
                         </p>
 
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
-                            Read More <i className="ri-arrow-right-line"></i>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-md-6">
-                    <div className="single-projects-box">
-                      <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m5.jpg" alt="image" />
-                          </a>
-                        </Link>
-                      </div>
-
-                      <div className="projects-content">
-                        <h3>
-                          <Link href="/case-study-details">
-                            <a>retailo</a>
-                          </Link>
-                        </h3>
-                        <p>
-                          It is a stock ordering wholesale app for retailers,
-                          where they can choose inventory from a variety of 400+
-                          brands.
-                        </p>
-
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
-                            Read More <i className="ri-arrow-right-line"></i>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-md-6">
-                    <div className="single-projects-box">
-                      <div className="projects-image">
-                        <Link href="/case-study-details">
-                          <a>
-                            <img src="/images/projects/m6.jpg" alt="image" />
-                          </a>
-                        </Link>
-                      </div>
-
-                      <div className="projects-content">
-                        <h3>
-                          <Link href="/case-study-details">
-                            <a>Oh Polly - Clothing & Fashion</a>
-                          </Link>
-                        </h3>
-                        <p>
-                          An ecommerce app with focus on female wears where you
-                          can shop full selection of swimwear, loungewear and
-                          partywear all here in one place.
-                        </p>
-
-                        <Link href="/case-study-details">
-                          <a className="projects-btn">
+                        <Link
+                          href="https://play.google.com/store/apps/details?id=com.camelan"
+                          target="blank"
+                        >
+                          <a className="projects-btn" target="blank">
                             Read More <i className="ri-arrow-right-line"></i>
                           </a>
                         </Link>
@@ -437,6 +632,10 @@ const Portfolio = () => {
             </div>
 
             <style jsx>{`
+              .links_portfolio {
+                color: #1f69f6;
+                cursor: pointer;
+              }
               .projects-area {
                 position: relative;
                 z-index: 1;

@@ -17,10 +17,75 @@ const optionList = [
 
 const CustomMultiForm = () => {
   const [selectedOptions, setSelectedOptions] = useState();
-
   function handleSelect(data) {
     setSelectedOptions(data);
   }
+  console.log("field =>", selectedOptions);
+
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [number, setNumber] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [submitted, setSubmitted] = useState(false);
+  // const myRef = useRef(null);
+
+  //   const [contact, setContact] = useState(INITIAL_STATE);
+
+  //   const handleChange = (e) => {
+  //     const { name, value } = e.target;
+  //     setContact((prevState) => ({ ...prevState, [name]: value }));
+  //     console.log("form data is => ", contact);
+  //   };
+
+  //   const handleSubmit = async (e) => {
+  //     e.preventDefault();
+  //     try {
+  //       const url = `${baseUrl}/api/contact`;
+  //       const { name, email, number, subject, text } = contact;
+  //       const payload = { name, email, number, subject, text };
+  //       const response = await axios.post(url, payload);
+  //       console.log("responce is => ", response);
+  //       setContact(INITIAL_STATE);
+  //       alertContent();
+  //     } catch (error) {
+  //       console.log("Error is => ", error);
+  //     }
+  //   };
+
+  // const handleSubmit = (e) => {
+  //   Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
+  //   e.preventDefault();
+  //   console.log("Sending");
+  //   let data = {
+  //     name,
+  //     email,
+  //     number,
+  //     subject,
+  //     message,
+  //   };
+  //   fetch("/api/mail", {
+  //     method: "POST",
+  //     headers: {
+  //       Accept: "application/json, text/plain, */*",
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   }).then((res) => {
+  //     console.log("Response received");
+  //     if (res.status === 200) {
+  //       console.log("Response succeeded!");
+  //       setSubmitted(true);
+  //       myRef.current.reset();
+  //       setName("");
+  //       setEmail("");
+  //       setNumber("");
+  //       setSubject("");
+  //       setMessage("");
+  //     }
+  //   });
+  // };
+
   return (
     <>
       <div className="App">
@@ -36,12 +101,12 @@ const CustomMultiForm = () => {
                   <h5>Explore and get your dream talent right now!</h5>
 
                   <div className="row">
-                    <div className="col-sm-12 col-md-6">
+                    <div className="col-12 ">
                       <div className="main_select">
                         <div className="">
                           <Select
                             options={optionList}
-                            placeholder="Select Desire area of expertise (eg., javascript etc ...)"
+                            placeholder="Select Desire area of expertise"
                             value={selectedOptions}
                             onChange={handleSelect}
                             isSearchable={true}
@@ -179,45 +244,12 @@ const CustomMultiForm = () => {
                     <div className="col-12">
                       <form>
                         <div className="row form_wrapper">
-                          <div className="col-lg-6 col-md-6">
+                          <div className="col-lg-12 col-md-12">
                             <div className="form-group">
                               <input
-                                type="text"
-                                name="name"
-                                placeholder="Name"
-                                className="form-control"
-                              />
-                            </div>
-                          </div>
-
-                          <div className="col-lg-6 col-md-6">
-                            <div className="form-group">
-                              <input
-                                type="text"
+                                type="email"
                                 name="email"
-                                placeholder="Email"
-                                className="form-control"
-                              />
-                            </div>
-                          </div>
-
-                          <div className="col-lg-6 col-md-6">
-                            <div className="form-group">
-                              <input
-                                type="text"
-                                name="number"
-                                placeholder="Phone number"
-                                className="form-control"
-                              />
-                            </div>
-                          </div>
-
-                          <div className="col-lg-6 col-md-6">
-                            <div className="form-group">
-                              <input
-                                type="text"
-                                name="subject"
-                                placeholder="Subject"
+                                placeholder="Email Address"
                                 className="form-control"
                               />
                             </div>
@@ -225,13 +257,38 @@ const CustomMultiForm = () => {
 
                           <div className="col-lg-12 col-md-12">
                             <div className="form-group">
-                              <textarea
-                                name="text"
-                                cols="30"
-                                rows="6"
-                                placeholder="Write your message..."
+                              <input
+                                type="text"
+                                name="name"
+                                placeholder="Company Name"
                                 className="form-control"
                               />
+                            </div>
+                          </div>
+
+                          <div className="col-lg-12 col-md-12">
+                            <div className="form-group">
+                              <input
+                                type="text"
+                                name="number"
+                                placeholder="Contact Name"
+                                className="form-control"
+                              />
+                            </div>
+                          </div>
+
+                          <div className="col-lg-12 col-md-12">
+                            <div className="form-group">
+                              <select
+                                className="form-control"
+                                aria-label="Default select example"
+                              >
+                                <option selected>Select Country</option>
+                                <option value="1">Pakistan</option>
+                                <option value="2">China</option>
+                                <option value="3">Saudia</option>
+                                <option value="4">Afghanistan</option>
+                              </select>
                             </div>
                           </div>
 
@@ -254,6 +311,9 @@ const CustomMultiForm = () => {
       </div>
 
       <style jsx>{`
+        ._2pGos._hsN1w {
+          background: red !important;
+        }
         .App {
           font-family: sans-serif;
           text-align: center;
@@ -303,7 +363,7 @@ const CustomMultiForm = () => {
           display: block;
           border: 1px solid #aaaaaa;
           width: 100%;
-          height: 45px;
+          height: 60px;
           outline: 0;
           border-radius: 5px;
           -webkit-box-shadow: none;
@@ -312,6 +372,7 @@ const CustomMultiForm = () => {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           font-size: 15px;
+          color: #494a60;
         }
 
         .form-group .form-control::-webkit-input-placeholder {
@@ -381,7 +442,7 @@ const CustomMultiForm = () => {
         }
         .main_select {
           margin-top: 30px;
-          min-width: 470px;
+          width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -391,8 +452,7 @@ const CustomMultiForm = () => {
           max-width: 1000px;
         }
         .main_select > div {
-          min-width: 400px;
-          width: 100%;
+          width: 90%;
         }
       `}</style>
     </>

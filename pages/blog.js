@@ -2,12 +2,12 @@ import React from "react";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import CTA from "../components/Common/CTA";
+import SubscriptionModal from "../components/subscriptionModal/modal";
 
 const BlogPost = () => {
   return (
     <>
-      {/* <NavbarFour /> */}
-
+      <SubscriptionModal />
       <PageBanner
         pageTitle="Blog Post"
         homePageUrl="/"

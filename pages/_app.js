@@ -7,13 +7,13 @@ import "react-image-lightbox/style.css";
 import "react-tabs/style/react-tabs.css";
 import "../public/css/style.css";
 import "../public/css/responsive.css";
+import "../public/css/style.css";
 
 import Head from "next/head";
 import Script from "next/script";
 import Navbar from "../components/_App/Navbar";
 import Footer from "../components/_App/Footer";
 import TopHeaderTwo from "../components/_App/TopHeaderTwo";
-
 import Layout from "../components/_App/Layout";
 
 const MyApp = ({ Component, pageProps }) => {

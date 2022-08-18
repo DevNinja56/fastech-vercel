@@ -24,7 +24,7 @@ const SubscriptionModal = () => {
             <div className="modal_body_wraper">
               <div className="modal_body">
                 <div className="modal_img_wraper">
-                  <img src="images/modal/mail.png" className="modal_img" />
+                  <img src="/images/modal/mail.png" className="modal_img" />
                 </div>
                 <h2 className="modal_first_heading">Not Just</h2>
                 <h2 className="modal_second_heading">

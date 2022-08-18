@@ -85,6 +85,14 @@ const CarouselOne = () => {
                       <div className="single-partner">
                         <img src={data.img_8} alt="image" />
                       </div>
+
+                      <div className="single-partner">
+                        <img src={data.img_9} alt="image" />
+                      </div>
+
+                      <div className="single-partner">
+                        <img src={data.img_10} alt="image" />
+                      </div>
                     </OwlCarousel>
                   ) : (
                     ""

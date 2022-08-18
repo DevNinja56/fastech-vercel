@@ -163,19 +163,19 @@ const ContactForm = () => {
                   </div>
                 </div>
                 <div className="row mt-5">
-                  <div className="col-6 col-sm-3 col-lg-2 text-start">
+                  <div className="col-6 col-sm-3 col-lg-3 text-start">
                     <h2>100+</h2>
                     <p>Successful projects</p>
                   </div>
-                  <div className="col-6 col-sm-3 col-lg-2 text-start">
-                    <h2>97%</h2>
+                  <div className="col-6 col-sm-3 col-lg-3 text-start">
+                    <h2>99%</h2>
                     <p>Customer satisfaction</p>
                   </div>
-                  <div className="col-6 col-sm-3 col-lg-2 text-start">
-                    <h2>20%</h2>
+                  <div className="col-6 col-sm-3 col-lg-3 text-start">
+                    <h2>25+</h2>
                     <p>Our Developers</p>
                   </div>
-                  <div className="col-6 col-sm-3 col-lg-2 text-start">
+                  <div className="col-6 col-sm-3 col-lg-3 text-start">
                     <h2>5+</h2>
                     <p>Years of experience</p>
                   </div>

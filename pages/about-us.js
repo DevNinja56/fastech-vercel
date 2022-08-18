@@ -4,6 +4,7 @@ import OurRespectiveClients from "../components/Common/OurRespectiveClients";
 import FunFacts from "../components/Common/FunFacts";
 import PageBanner from "../components/Common/PageBanner";
 import CTA from "../components/Common/CTA";
+import SubscriptionModal from "../components/subscriptionModal/modal";
 
 const AboutUs = () => {
   return (
@@ -510,6 +511,8 @@ const AboutUs = () => {
           }
         `}</style>
       </>
+
+      <SubscriptionModal />
 
       <Team />
 

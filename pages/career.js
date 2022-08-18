@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import BenifitTech from "../components/BenifitComponent/benifit";
+import SubscriptionModal from "../components/subscriptionModal/modal";
 
 const Career = () => {
   return (
     <>
       {/* <NavbarFour /> */}
+
+      <SubscriptionModal />
 
       <PageBanner
         pageTitle="Career's"

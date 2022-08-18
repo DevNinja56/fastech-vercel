@@ -17,9 +17,13 @@ const TechDevelop = () => {
       <div className="container">
         <div className="tech_dev_wrapper">
           <nav>
-            <div class="nav nav-tabs custom_tabs" id="nav-tab" role="tablist">
+            <div
+              className="nav nav-tabs custom_tabs"
+              id="nav-tab"
+              role="tablist"
+            >
               <button
-                class="nav-link custom_items active"
+                className="nav-link custom_items active"
                 id="nav-tab-1"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-1"
@@ -31,7 +35,7 @@ const TechDevelop = () => {
                 Frontend
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-2"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-2"
@@ -43,7 +47,7 @@ const TechDevelop = () => {
                 Backend
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-3"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-3"
@@ -55,7 +59,7 @@ const TechDevelop = () => {
                 Mobile
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-4"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-4"
@@ -67,7 +71,7 @@ const TechDevelop = () => {
                 Database
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-5"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-5"
@@ -79,7 +83,7 @@ const TechDevelop = () => {
                 CMS
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-6"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-6"
@@ -91,7 +95,7 @@ const TechDevelop = () => {
                 Cloud
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-7"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-7"
@@ -103,7 +107,7 @@ const TechDevelop = () => {
                 Testing Tools
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-8"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-8"
@@ -115,7 +119,7 @@ const TechDevelop = () => {
                 Full Stacks
               </button>
               <button
-                class="nav-link custom_items"
+                className="nav-link custom_items"
                 id="nav-tab-9"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-9"

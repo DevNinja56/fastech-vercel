@@ -16,6 +16,7 @@ const RecentCaseStudy = () => {
           </div>
 
           <div className="row">
+            {/* web portfolio  */}
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
@@ -25,11 +26,7 @@ const RecentCaseStudy = () => {
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -53,6 +50,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web2.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -80,27 +85,11 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/new-portfolio/web2.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
                       <img src="/images/new-portfolio/web3.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -124,6 +113,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web4.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -150,27 +147,11 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/new-portfolio/web4.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
                       <img src="/images/new-portfolio/web5.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -198,6 +179,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web6.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -218,27 +207,11 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/new-portfolio/web6.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
                       <img src="/images/new-portfolio/web7.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -262,6 +235,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web8.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -288,27 +269,11 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/new-portfolio/web8.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
                       <img src="/images/new-portfolio/web9.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -329,6 +294,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web10.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -355,27 +328,11 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="/portfolio">
                     <a>
-                      <img src="/images/new-portfolio/web10.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
                       <img src="/images/new-portfolio/web11.png" alt="image" />
                     </a>
                   </Link>
                 </div>
-              </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -400,6 +357,14 @@ const RecentCaseStudy = () => {
 
             <div className="col-lg-6">
               <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="/portfolio">
+                    <a>
+                      <img src="/images/new-portfolio/web12.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+
                 <div className="cases-content">
                   <h2>
                     <Link href="/portfolio">
@@ -422,19 +387,7 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
-                      <img src="/images/new-portfolio/web12.png" alt="image" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* single apps  */}
+            {/* apps portfolio  */}
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
@@ -486,8 +439,7 @@ const RecentCaseStudy = () => {
                   <p>
                     Rentberry facilitates and speeds up the whole range of house
                     hunting procedures: Search among thousands of apartment
-                    listings across the US and worldwide. Enjoy comprehensive
-                    descriptions and high-quality photos of each rental.
+                    listings across the US and worldwide.
                   </p>
                   <a
                     href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
@@ -555,10 +507,7 @@ const RecentCaseStudy = () => {
                     puppies, cats, kittens, rabbits, horses and other pets for
                     sale and adoption, advertised by breeders, rescue centers
                     and pet owners. Shoot a video of anything you want to sell
-                    in less than a few seconds. View videos of everything
-                    available for sale around you with ease, and chat with
-                    sellers using our private in-app chat with complete
-                    confidence and security.
+                    in less than a few seconds.
                   </p>
                   <a
                     href="https://play.google.com/store/apps/details?id=com.camelan"
