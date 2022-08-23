@@ -1,20 +1,22 @@
 export default async function (req, res) {
+  const formData = req.body;
+  console.log(("My form data is ", formData));
   let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
       user: "fastechoffice7@gmail.com",
-      pass: "fastech321",
+      pass: "fastechoffice321",
     },
     secure: true,
   });
   const mailData = {
     from: "fastechoffice7@gmail.com",
-    to: "info.thefastech@gmail.com",
+    to: "abdulengineer321@gmail.com",
     subject: `${req.body.subject}`,
     text: `this`,
-    html: `<div><p>Name: ${req.body.name}<p/> <p>Message: ${req.body.message}<p/> <p>Contact: ${req.body.number}<p/></div><p>Sent from:
+    html: `<div><p>Name: <p/> <p>Message: <p/></div><p>Sent from:
       ${req.body.email}</p>`,
   };
   const mail = await transporter.sendMail(mailData);

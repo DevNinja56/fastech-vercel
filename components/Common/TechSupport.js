@@ -1,4 +1,5 @@
 import React from "react";
+import ReviewCarousel from "../../components/ReviewsCarousel/ReviewCarousel";
 
 const TechSupport = () => {
   return (
@@ -6,36 +7,18 @@ const TechSupport = () => {
       <div className="support-area">
         <div className="container">
           <div className="support-content">
-            <div className="tag">
+            {/* <div className="tag">
               <img
                 src="/images/favicon.png"
                 alt="image"
                 className="tag_img_two"
               />
-            </div>
+            </div> */}
 
-            <h3>Our Reviewes</h3>
+            <h2 className="text-center mb-2">Our Reviewes</h2>
             <div className="row">
-              <div className="col-12 col-sm-4 mt-4 text-center">
-                <img
-                  className="review_images"
-                  src="/images/reviews/clutchreview.png"
-                  alt="img"
-                />
-              </div>
-              <div className="col-12 col-sm-4 mt-4 text-center">
-                <img
-                  className="review_images"
-                  src="/images/reviews/goodfirms.png"
-                  alt="img"
-                />
-              </div>
-              <div className="col-12 col-sm-4 mt-4 text-center">
-                <img
-                  className="review_images"
-                  src="/images/reviews/googlereviews.png"
-                  alt="img"
-                />
+              <div className="col-12">
+                <ReviewCarousel />
               </div>
             </div>
           </div>
@@ -86,7 +69,7 @@ const TechSupport = () => {
         .support-content {
           background-color: var(--white-color);
           padding: 50px;
-          max-width: 545px;
+          max-width: 100%;
           margin-left: auto;
           border-radius: 5px;
         }
