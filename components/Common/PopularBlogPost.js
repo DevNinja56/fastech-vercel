@@ -140,6 +140,7 @@ const PopularBlogPost = () => {
           position: relative;
           z-index: 1;
           overflow: hidden;
+          margin-top: 100px;
         }
         .single-blog {
           -webkit-transition: var(--transition);

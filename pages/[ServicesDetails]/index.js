@@ -1084,26 +1084,20 @@ const DetailServices = ({ servicesData, dataId }) => {
                     <div className="col-lg-4 col-md-6">
                       <div className="single-projects-box">
                         <div className="projects-image">
-                          <Link href="/case-study-details">
-                            <a>
-                              <img src={obj.portfolio_img} alt="image" />
-                            </a>
-                          </Link>
+                          <a href={obj.link}>
+                            <img src={obj.portfolio_img} alt="image" />
+                          </a>
                         </div>
 
                         <div className="projects-content">
                           <h3>
-                            <Link href="/case-study-details">
-                              <a>{obj.portfolio_heading}</a>
-                            </Link>
+                            <a href={obj.link}>{obj.portfolio_heading}</a>
                           </h3>
                           <p>{obj.portfolio_text}</p>
 
-                          <Link href="/case-study-details">
-                            <a className="projects-btn">
-                              Read More <i className="ri-arrow-right-line"></i>
-                            </a>
-                          </Link>
+                          <a href={obj.link} className="projects-btn">
+                            Read More <i className="ri-arrow-right-line"></i>
+                          </a>
                         </div>
                       </div>
                     </div>

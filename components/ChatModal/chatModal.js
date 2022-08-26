@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Link from "next/link";
 import AppChatbot from "../AppChatbot";
 
 const ChatBotModal = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+    setTimeout(() => setShow(true), 3000);
+  }, []);
 
   return (
     <>

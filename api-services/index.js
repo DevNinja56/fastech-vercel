@@ -64,45 +64,51 @@ export const ServicesApi = [
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/portfolio1.jpg",
-        portfolio_heading: "Online Education Portal",
+        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_heading: "Magic Task",
         portfolio_text:
-          "An online education portal with study material, quizzes, and mock exams for students preparing for CFA and FRM examinations.",
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio2.jpg",
-        portfolio_heading: "Shopperhits",
+        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_heading: "Job Genie",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio3.jpg",
-        portfolio_heading: "Sky Store",
+        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_heading: "Bitnob",
         portfolio_text:
-          "It is an easy way to buy or rent the biggest blockbusters or all-time classic movies whenever you want, any time, anywhere.",
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio4.jpg",
-        portfolio_heading: "Upkeepr",
+        portfolio_img: "/images/new-portfolio/web4.png",
+        portfolio_heading: "Imaginovation",
         portfolio_text:
-          "It is a consumer-friendly, easy-to-use app to keep track of everything you need to do to keep your stuff well-maintained with quick access to all your online records",
+          "An IT Company’s services-based website according to modern design standards.",
+        link: "https://imaginovation.net/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio5.jpg",
-        portfolio_heading: "Go Snabby",
+        portfolio_img: "/images/new-portfolio/web5.png",
+        portfolio_heading: "Ecommerece dashboard",
         portfolio_text:
-          "It simplifies special event food sales. Manage food transactions for concession stands, cafeterias, and special events in one place.",
+          "Ecommerce Admin Dashboard with all the features like product management, category-subcategory management.",
+        link: "https://modjen.com/password",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio6 (2).jpg",
-        portfolio_heading: "Beautflo",
+        portfolio_img: "/images/new-portfolio/web6.png",
+        portfolio_heading: "LinkedinExtension",
         portfolio_text:
-          "An makeup Ecommerce website that is an ultimate beauty destination including the 600+ premium skincare, haircare & makeup brands.",
+          "A project used to scrap leads from linkedin which are used to make pipelines for marketing.",
+        link: "#",
       },
     ],
 
@@ -232,31 +238,35 @@ export const ServicesApi = [
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/m1.jpg",
+        portfolio_img: "/images/new-portfolio/mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
-          "An fitness app which make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket. Simple to use with guided meal plans and new recipes every week.",
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
       },
 
       {
-        portfolio_img: "/images/projects/m2.jpg",
-        portfolio_heading: "Potswork - Request Services",
+        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_heading: "Rentberry",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
       },
 
       {
-        portfolio_img: "/images/projects/m3.jpg",
-        portfolio_heading: "Rentberry Apartment Rentals",
+        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_heading: "Potswork-Request Services",
         portfolio_text:
-          "It facilitates and speeds up the whole range of house hunting procedures. Search among thousands of apartment listings. ",
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
       },
 
       {
-        portfolio_img: "/images/projects/m4.jpg",
-        portfolio_heading: "Camlist - Just Pets",
+        portfolio_img: "/images/new-portfolio/mob3.png",
+        portfolio_heading: "Camlist- Just Prts",
         portfolio_text:
-          "It gives you an easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets for sale and adoption.",
+          "Camlist gives you easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets.",
+        link: "https://play.google.com/store/apps/details?id=com.camelan",
       },
 
       {
@@ -264,6 +274,7 @@ export const ServicesApi = [
         portfolio_heading: "retailo",
         portfolio_text:
           "It is a stock ordering wholesale app for retailers, where they can choose inventory from a variety of 400+ brands.",
+        link: "",
       },
 
       {
@@ -271,6 +282,7 @@ export const ServicesApi = [
         portfolio_heading: "Oh Polly - Clothing & Fashion",
         portfolio_text:
           "An ecommerce app with focus on female wears where you can shop full selection of swimwear, loungewear and partywear all here in one place.",
+        link: "",
       },
     ],
 
@@ -398,45 +410,51 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/portfolio1.jpg",
-        portfolio_heading: "Online Education Portal",
+        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_heading: "Magic Task",
         portfolio_text:
-          "An online education portal with study material, quizzes, and mock exams for students preparing for CFA and FRM examinations.",
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio2.jpg",
-        portfolio_heading: "Shopperhits",
+        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_heading: "Job Genie",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio3.jpg",
-        portfolio_heading: "Sky Store",
+        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_heading: "Bitnob",
         portfolio_text:
-          "It is an easy way to buy or rent the biggest blockbusters or all-time classic movies whenever you want, any time, anywhere.",
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
       },
 
       {
-        portfolio_img: "/images/projects/m4.jpg",
-        portfolio_heading: "Camlist - Just Pets",
+        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_heading: "Fivesec Health",
         portfolio_text:
-          "It gives you an easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets for sale and adoption.",
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
       },
 
       {
-        portfolio_img: "/images/projects/m5.jpg",
-        portfolio_heading: "retailo",
+        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_heading: "Rentberry",
         portfolio_text:
-          "It is a stock ordering wholesale app for retailers, where they can choose inventory from a variety of 400+ brands.",
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
       },
 
       {
-        portfolio_img: "/images/projects/m6.jpg",
-        portfolio_heading: "Oh Polly - Clothing & Fashion",
+        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_heading: "Potswork-Request Services",
         portfolio_text:
-          "An ecommerce app with focus on female wears where you can shop full selection of swimwear, loungewear and partywear all here in one place.",
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
       },
     ],
 
@@ -576,45 +594,51 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/portfolio1.jpg",
-        portfolio_heading: "Online Education Portal",
+        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_heading: "Magic Task",
         portfolio_text:
-          "An online education portal with study material, quizzes, and mock exams for students preparing for CFA and FRM examinations.",
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio2.jpg",
-        portfolio_heading: "Shopperhits",
+        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_heading: "Job Genie",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio3.jpg",
-        portfolio_heading: "Sky Store",
+        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_heading: "Bitnob",
         portfolio_text:
-          "It is an easy way to buy or rent the biggest blockbusters or all-time classic movies whenever you want, any time, anywhere.",
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
       },
 
       {
-        portfolio_img: "/images/projects/m4.jpg",
-        portfolio_heading: "Camlist - Just Pets",
+        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_heading: "Fivesec Health",
         portfolio_text:
-          "It gives you an easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets for sale and adoption.",
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
       },
 
       {
-        portfolio_img: "/images/projects/m5.jpg",
-        portfolio_heading: "retailo",
+        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_heading: "Rentberry",
         portfolio_text:
-          "It is a stock ordering wholesale app for retailers, where they can choose inventory from a variety of 400+ brands.",
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
       },
 
       {
-        portfolio_img: "/images/projects/m6.jpg",
-        portfolio_heading: "Oh Polly - Clothing & Fashion",
+        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_heading: "Potswork-Request Services",
         portfolio_text:
-          "An ecommerce app with focus on female wears where you can shop full selection of swimwear, loungewear and partywear all here in one place.",
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
       },
     ],
 
@@ -761,45 +785,51 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/portfolio1.jpg",
-        portfolio_heading: "Online Education Portal",
+        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_heading: "Magic Task",
         portfolio_text:
-          "An online education portal with study material, quizzes, and mock exams for students preparing for CFA and FRM examinations.",
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio2.jpg",
-        portfolio_heading: "Shopperhits",
+        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_heading: "Job Genie",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio3.jpg",
-        portfolio_heading: "Sky Store",
+        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_heading: "Bitnob",
         portfolio_text:
-          "It is an easy way to buy or rent the biggest blockbusters or all-time classic movies whenever you want, any time, anywhere.",
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
       },
 
       {
-        portfolio_img: "/images/projects/m4.jpg",
-        portfolio_heading: "Camlist - Just Pets",
+        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_heading: "Fivesec Health",
         portfolio_text:
-          "It gives you an easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets for sale and adoption.",
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
       },
 
       {
-        portfolio_img: "/images/projects/m5.jpg",
-        portfolio_heading: "retailo",
+        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_heading: "Rentberry",
         portfolio_text:
-          "It is a stock ordering wholesale app for retailers, where they can choose inventory from a variety of 400+ brands.",
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
       },
 
       {
-        portfolio_img: "/images/projects/m6.jpg",
-        portfolio_heading: "Oh Polly - Clothing & Fashion",
+        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_heading: "Potswork-Request Services",
         portfolio_text:
-          "An ecommerce app with focus on female wears where you can shop full selection of swimwear, loungewear and partywear all here in one place.",
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
       },
     ],
 
@@ -947,45 +977,51 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/projects/portfolio1.jpg",
-        portfolio_heading: "Online Education Portal",
+        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_heading: "Magic Task",
         portfolio_text:
-          "An online education portal with study material, quizzes, and mock exams for students preparing for CFA and FRM examinations.",
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio2.jpg",
-        portfolio_heading: "Shopperhits",
+        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_heading: "Job Genie",
         portfolio_text:
-          "It is an eCommerce store where people can buy products on best-bargained prices.",
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
       },
 
       {
-        portfolio_img: "/images/projects/portfolio3.jpg",
-        portfolio_heading: "Sky Store",
+        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_heading: "Bitnob",
         portfolio_text:
-          "It is an easy way to buy or rent the biggest blockbusters or all-time classic movies whenever you want, any time, anywhere.",
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
       },
 
       {
-        portfolio_img: "/images/projects/m4.jpg",
-        portfolio_heading: "Camlist - Just Pets",
+        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_heading: "Fivesec Health",
         portfolio_text:
-          "It gives you an easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets for sale and adoption.",
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
       },
 
       {
-        portfolio_img: "/images/projects/m5.jpg",
-        portfolio_heading: "retailo",
+        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_heading: "Rentberry",
         portfolio_text:
-          "It is a stock ordering wholesale app for retailers, where they can choose inventory from a variety of 400+ brands.",
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
       },
 
       {
-        portfolio_img: "/images/projects/m6.jpg",
-        portfolio_heading: "Oh Polly - Clothing & Fashion",
+        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_heading: "Potswork-Request Services",
         portfolio_text:
-          "An ecommerce app with focus on female wears where you can shop full selection of swimwear, loungewear and partywear all here in one place.",
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
       },
     ],
 

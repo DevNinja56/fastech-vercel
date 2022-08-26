@@ -7,12 +7,12 @@ import OurRespectiveClients from "../components/Common/OurRespectiveClients";
 const ContactPage = () => {
   return (
     <>
-      <PageBanner
+      {/* <PageBanner
         pageTitle="Contact Us"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact"
-      />
+      /> */}
 
       <ContactForm />
 

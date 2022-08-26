@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import StepProgressBar from "react-step-progress";
 import "react-step-progress/dist/index.css";
 import Select from "react-select";
 import Swal from "sweetalert2";
+import countryList from "react-select-country-list";
 
 const optionList = [
   { value: "1", label: "+ HTML" },
@@ -1453,6 +1454,22 @@ const Step8 = () => {
     </>
   );
 };
+const Step9 = () => {
+  const [value, setValue] = useState("");
+  const options = useMemo(() => countryList().getData(), []);
+  const changeHandler = (value) => {
+    setValue(value);
+
+    console.log(value);
+  };
+  return (
+    <>
+      <div className="form-group">
+        <Select options={options} value={value} onChange={changeHandler} />
+      </div>
+    </>
+  );
+};
 
 const CustomMultiForm = () => {
   const [selectedOptions, setSelectedOptions] = useState();
@@ -1476,9 +1493,9 @@ const CustomMultiForm = () => {
 
   const formData = { selectedOptions, firstStep, secondStep, thirdStep };
 
-  // console.log("form data ===>", formData);
-  // console.log("first ==>", firstStep);
-  // console.log("second ==>", secondStep);
+  console.log("form data ===>", formData);
+  console.log("first ==>", firstStep);
+  console.log("second ==>", secondStep);
 
   const handleSubmit = () => {
     Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
@@ -1641,10 +1658,7 @@ const CustomMultiForm = () => {
               name: "Finish",
               content: (
                 <>
-                  <h5>
-                    Please sign up so we can connect you with the right
-                    developer's
-                  </h5>
+                  <h5>Final step to get developers started on your project</h5>
 
                   <div className="row">
                     <div className="col-12">
@@ -1690,7 +1704,7 @@ const CustomMultiForm = () => {
 
                         <div className="col-lg-12 col-md-12">
                           <div className="form-group">
-                            <select
+                            {/* <select
                               className="form-control"
                               aria-label="Default select example"
                               id="country"
@@ -1702,7 +1716,11 @@ const CustomMultiForm = () => {
                               <option value="China">China</option>
                               <option value="Saudia">Saudia</option>
                               <option value="Afghanistan">Afghanistan</option>
-                            </select>
+                            </select> */}
+
+                            <div className="some">
+                              <Step9 />
+                            </div>
                           </div>
                         </div>
                       </div>

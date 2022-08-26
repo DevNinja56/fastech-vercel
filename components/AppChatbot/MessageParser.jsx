@@ -1,12 +1,18 @@
 import React from "react";
 
-const MessageParser = ({ children, actions }) => {
+const MessageParser = ({ children, actions, step, setStep }) => {
   const parse = (message) => {
-    if (message.includes("")) {
+    if (step === 1 && message.includes("")) {
       actions.handleHello();
+      setStep(2);
     }
-    if (message.includes("dog")) {
-      actions.handleDog();
+    if (step === 2 && message.includes("")) {
+      actions.getInfo();
+      setStep(3);
+    }
+    if (step === 3 && message.includes("")) {
+      actions.finalMsg();
+      setStep(4);
     }
   };
 

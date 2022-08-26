@@ -6,32 +6,20 @@ import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
 
 const AppChatbot = () => {
-  // const [isOpen, setIsOpen] = useState(true);
+  const [step, setStep] = useState(1);
+
+  const MessageParserWithState = (props) => {
+    return <MessageParser step={step} setStep={setStep} {...props} />;
+  };
 
   return (
     <>
       <div>
         <Chatbot
           config={config}
-          messageParser={MessageParser}
+          messageParser={MessageParserWithState}
           actionProvider={ActionProvider}
         />
-        {/* {isOpen && (
-          
-        )}
-
-        <button
-          className="chatbot_btn"
-          onClick={() => {
-            setIsOpen((prev) => !prev);
-          }}
-        >
-          <img
-            src="images/chatbot/chat.png"
-            className="chatbot_img"
-            alt="chatbot"
-          />
-        </button> */}
       </div>
 
       <style jsx>{`

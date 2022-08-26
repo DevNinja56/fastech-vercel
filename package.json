@@ -33,6 +33,7 @@
         "react-owl-carousel3": "^2.2.5",
         "react-scripts": "^5.0.1",
         "react-select": "^5.4.0",
+        "react-select-country-list": "^2.2.3",
         "react-step-progress": "^1.0.3",
         "react-step-progress-bar": "^1.0.3",
         "react-tabs": "^3.2.3",

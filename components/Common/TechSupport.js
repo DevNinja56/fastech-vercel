@@ -15,7 +15,7 @@ const TechSupport = () => {
               />
             </div> */}
 
-            <h2 className="text-center mb-2">Our Reviewes</h2>
+            <h2 className="text-center mb-2">Our Reviews</h2>
             <div className="row">
               <div className="col-12">
                 <ReviewCarousel />

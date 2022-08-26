@@ -1441,13 +1441,13 @@ h6:last-child {
   background-color: #f8f8f8 !important;
   padding: 10px;
   border-radius: 5px;
-  font-size: 0.9rem;
   color: #455a64 !important;
   font-weight: medium;
   position: relative;
   width: auto !important;
   margin-left: 0px !important;
   border-radius: 1.3em !important;
+  font-size: 15.5px !important;
 }
 .react-chatbot-kit-chat-container {
   position: relative;
@@ -1489,6 +1489,7 @@ h6:last-child {
   border-radius: 1.3em !important;
   background-color: #1f69f6 !important;
   color: #ffffff !important;
+  font-size: 15.5px !important;
 }
 
 .react-chatbot-kit-user-chat-message-arrow {
@@ -1510,8 +1511,23 @@ h6:last-child {
 .chat_bot_btn:focus {
   outline: none !important;
 }
-/* .react-chatbot-kit-chat-bot-avatar-container {
-  background-image: url("/images/chatbot/images.png") !important;
-  background-color: #1f69f6 !important;
-  color: white !important;
-} */
+.inital_msg {
+  color: #455a64;
+  font-size: 15.5px;
+  font-weight: 500;
+  margin-left: 4.5px;
+}
+.css-319lph-ValueContainer {
+  text-align: left !important;
+}
+.react-select-3-listbox {
+  text-align: left !important;
+  height: 100px !important;
+}
+.css-1s2u09g-control,
+.css-1s2u09g-control:active,
+.css-1s2u09g-control:focus {
+  height: 60px !important;
+  border: 1px solid #aaaaaa !important;
+  padding-left: 5px !important;
+}

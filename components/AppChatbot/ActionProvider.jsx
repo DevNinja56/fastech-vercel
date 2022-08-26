@@ -2,7 +2,9 @@ import React from "react";
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleHello = () => {
-    const botMessage = createChatBotMessage("Hello, How can i help you?");
+    const botMessage = createChatBotMessage(
+      "Please tell us about your business and how can we help you in it?"
+    );
 
     setState((prev) => ({
       ...prev,
@@ -10,12 +12,26 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
 
-  const handleDog = () => {
+  const finalMsg = () => {
     const botMessage = createChatBotMessage(
-      "Here's a nice dog picture for you!",
-      {
-        widget: "dogPicture",
-      }
+      "Thanks a lot! We will get back to you as soon as possible"
+      // {
+      //   widget: "dogPicture",
+      // }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const getInfo = () => {
+    const botMessage = createChatBotMessage(
+      "Please share you email address or phone number"
+      // {
+      //   widget: "dogPicture",
+      // }
     );
 
     setState((prev) => ({
@@ -28,7 +44,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     <div>
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
-          actions: { handleHello, handleDog },
+          actions: { handleHello, finalMsg, getInfo },
         });
       })}
     </div>

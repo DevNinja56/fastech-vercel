@@ -225,10 +225,7 @@ const OurRespectiveClients = () => {
         .clients-area {
           background-color: #f4f8fc;
           position: relative;
-          z-index: 1;
           overflow: hidden;
-          margin-top: 100px;
-          margin-bottom: 100px;
         }
         .clients-item {
           background-color: var(--white-color);

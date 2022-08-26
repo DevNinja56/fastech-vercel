@@ -9,12 +9,12 @@ const Pricing = () => {
     <>
       {/* <NavbarFour /> */}
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="Pricing Plans"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Pricing"
-      />
+      /> */}
 
       <PricePlansOne />
 

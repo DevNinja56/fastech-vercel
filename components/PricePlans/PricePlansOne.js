@@ -541,7 +541,6 @@ const PricePlansOne = () => {
           position: relative;
           z-index: 1;
           background-color: #f4f8fc;
-          margin-bottom: -105px !important;
         }
         .plans-area::before {
           position: absolute;

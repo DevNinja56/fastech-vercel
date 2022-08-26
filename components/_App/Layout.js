@@ -5,7 +5,6 @@ import Socialicons from "./Socialicons";
 import Skype from "./Skype";
 import ChatBotModal from "../../components/ChatModal/chatModal";
 // import ChatBot from "./ChatBot";
-
 // import Preloader from './Preloader'
 
 const notifyMe = () => {

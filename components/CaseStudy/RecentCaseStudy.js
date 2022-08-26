@@ -37,13 +37,12 @@ const RecentCaseStudy = () => {
                     Advance and customized project management tool with
                     different frontend themes.
                   </p>
-                  <a
-                    href="https://magictask.io"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://magictask.io/
-                  </a>
+                  <Link href="https://magictask.io/" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,13 +68,12 @@ const RecentCaseStudy = () => {
                     and user pay subscription fees to get into the system. It is
                     similar to topcoder.com
                   </p>
-                  <a
-                    href="https://www.jobgeniedevs.com/"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://www.jobgeniedevs.com//
-                  </a>
+                  <Link href="https://www.jobgeniedevs.com/" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -100,13 +98,12 @@ const RecentCaseStudy = () => {
                     Modern web interface of a safe, instant, cheap and modern
                     way to pay and get paid globally.
                   </p>
-                  <a
-                    href="https://bitnob.com/"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://bitnob.com//
-                  </a>
+                  <Link href="https://bitnob.com/" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,13 +128,12 @@ const RecentCaseStudy = () => {
                     An IT Company’s services-based website according to modern
                     design standards.
                   </p>
-                  <a
-                    href="https://imaginovation.net/"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://imaginovation.net/
-                  </a>
+                  <Link href="https://imaginovation.net/" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -160,19 +156,14 @@ const RecentCaseStudy = () => {
                   </h2>
                   <p>
                     Ecommerce Admin Dashboard with all the features like product
-                    management, category-subcategory management, attributes,
-                    colors, sizes management, abondoned cart management, custom
-                    email templates, push notifications etc. It is similar to
-                    shopify and woocommerce dashboard but with custom
-                    requirements.
+                    management, category-subcategory management and attributes.
                   </p>
-                  <a
-                    href="https://modjen.com/password"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://modjen.com/password
-                  </a>
+                  <Link href="https://modjen.com/password" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -196,8 +187,14 @@ const RecentCaseStudy = () => {
                   <p>
                     A project used to scrap leads from linkedin which are used
                     to make pipelines for marketing. It includes chatting
-                    features, calendar views, dashboards, graphs and comments
+                    features and calendar.
                   </p>
+                  <Link href="#" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -222,13 +219,12 @@ const RecentCaseStudy = () => {
                     A multivendor ecommerce site like Myntra.com An IT Company’s
                     services-based website.
                   </p>
-                  <a
-                    href="https://modjen.com/"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://modjen.com/
-                  </a>
+                  <Link href="https://modjen.com/" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -253,13 +249,12 @@ const RecentCaseStudy = () => {
                     A subscription based dedicated social media platform for
                     premium content creators and fans.
                   </p>
-                  <a
-                    href="https://staging.properfans.com"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://staging.properfans.com
-                  </a>
+                  <Link href="https://staging.properfans.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -281,13 +276,12 @@ const RecentCaseStudy = () => {
                     </Link>
                   </h2>
                   <p>Sales management system for Medical representative.</p>
-                  <a
-                    href="https://wehelprx.com"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://wehelprx.com
-                  </a>
+                  <Link href="https://wehelprx.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -312,13 +306,12 @@ const RecentCaseStudy = () => {
                     Shopperhits is an eCommerce store where people can buy
                     products on best-bargained prices.
                   </p>
-                  <a
-                    href="https://shopperhits.com"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://shopperhits.com
-                  </a>
+                  <Link href="https://shopperhits.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -344,13 +337,12 @@ const RecentCaseStudy = () => {
                     destination including the 600+ premium skincare, haircare &
                     makeup brands.
                   </p>
-                  <a
-                    href="https://www.beautflo.com"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://www.beautflo.com
-                  </a>
+                  <Link href="https://www.beautflo.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -376,13 +368,12 @@ const RecentCaseStudy = () => {
                     transactions for concession stands, cafeterias, and special
                     events in one place.
                   </p>
-                  <a
-                    href="https://gosnabby.com"
-                    target="blank"
-                    className="links_portfolio"
-                  >
-                    https://gosnabby.com
-                  </a>
+                  <Link href="https://gosnabby.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -407,15 +398,17 @@ const RecentCaseStudy = () => {
                   <p>
                     Make it easy to stay healthy with delicious and nourishing
                     plant-based recipes in your pocket. Simple to use with
-                    guided meal plans and new recipes every week.
+                    guided meal plans.
                   </p>
-                  <a
+                  <Link
                     href="https://play.google.com/store/apps/details?id=com.fivesechealth"
                     target="blank"
-                    className="links_portfolio"
                   >
-                    https://play.google.com/store/apps/details?id=com.fivesechealth
-                  </a>
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -439,15 +432,17 @@ const RecentCaseStudy = () => {
                   <p>
                     Rentberry facilitates and speeds up the whole range of house
                     hunting procedures: Search among thousands of apartment
-                    listings across the US and worldwide.
+                    listings.
                   </p>
-                  <a
+                  <Link
                     href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
                     target="blank"
-                    className="links_portfolio"
                   >
-                    https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443
-                  </a>
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -470,18 +465,18 @@ const RecentCaseStudy = () => {
                   </h2>
                   <p>
                     Postwork: Request a ride service app is an awesome cheap
-                    rideshare cab app and service platform that connects you
-                    with dedicated and independent local taxi drivers, cab
-                    drivers, and all the pros to get you to your place safely,
-                    and your local tasks are done.
+                    rideshare cab app that connects you with dedicated taxi
+                    drivers.
                   </p>
-                  <a
+                  <Link
                     href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
                     target="blank"
-                    className="links_portfolio"
                   >
-                    https://play.google.com/store/apps/details?id=com.potsworkprovider
-                  </a>
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -505,17 +500,17 @@ const RecentCaseStudy = () => {
                   <p>
                     Camlist gives you easy access to search thousands of dogs,
                     puppies, cats, kittens, rabbits, horses and other pets for
-                    sale and adoption, advertised by breeders, rescue centers
-                    and pet owners. Shoot a video of anything you want to sell
-                    in less than a few seconds.
+                    sale and adoption.
                   </p>
-                  <a
+                  <Link
                     href="https://play.google.com/store/apps/details?id=com.camelan"
                     target="blank"
-                    className="links_portfolio"
                   >
-                    https://play.google.com/store/apps/details?id=com.camelan
-                  </a>
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -558,6 +553,12 @@ const RecentCaseStudy = () => {
 
       {/* Recent Case Study Style */}
       <style jsx>{`
+        .projects-btn:hover {
+          letter-spacing: 1px;
+        }
+        .home_prtfolio_arrow {
+          vertical-align: middle;
+        }
         .links_portfolio {
           color: #1f69f6;
           cursor: pointer;
