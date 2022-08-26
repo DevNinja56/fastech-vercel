@@ -10,7 +10,7 @@ const ChatBotModal = () => {
   const handleShow = () => setShow(true);
 
   useEffect(() => {
-    setTimeout(() => setShow(true), 3000);
+    setTimeout(() => setShow(true), 6000);
   }, []);
 
   return (
@@ -132,6 +132,11 @@ const ChatBotModal = () => {
             .modal_paragraph{
               font-size: 15px;
               line-height: 25px;
+            }
+            .chat_img_btn{
+              height: 63px;
+              width: 63px;
+              border-radius: 100%;
             }
             .modal_bodys,
           h2 {

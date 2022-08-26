@@ -46,6 +46,9 @@ const CarouselOne = () => {
       <div className="partner-area">
         <div className="container">
           <div className="partner-box">
+            <div className="section-title">
+              <h2>Our Trusted Clients</h2>
+            </div>
             {CarouselOneData.map((data) => {
               return (
                 <>
@@ -114,6 +117,12 @@ const CarouselOne = () => {
 
       {/* Partner Style */}
       <style jsx>{`
+        .section-title {
+          margin-top: -30px;
+        }
+        .section-title h2 {
+          font-size: 35px;
+        }
         .partner-area {
           position: relative;
           z-index: 1;
@@ -180,7 +189,10 @@ const CarouselOne = () => {
           }
         }
 
-        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (max-width: 768px) {
+          .section-title h2 {
+            font-size: 25px;
+          }
         }
       `}</style>
     </>

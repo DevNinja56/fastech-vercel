@@ -12,12 +12,9 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
 
-  const finalMsg = () => {
+  const getInfo = () => {
     const botMessage = createChatBotMessage(
-      "Thanks a lot! We will get back to you as soon as possible"
-      // {
-      //   widget: "dogPicture",
-      // }
+      "Please share you email address or phone number."
     );
 
     setState((prev) => ({
@@ -26,12 +23,9 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
 
-  const getInfo = () => {
+  const finalMsg = () => {
     const botMessage = createChatBotMessage(
-      "Please share you email address or phone number"
-      // {
-      //   widget: "dogPicture",
-      // }
+      "Thanks a lot! We will get back to you as soon as possible."
     );
 
     setState((prev) => ({

@@ -27,7 +27,24 @@ const config = {
         <p className="inital_msg">Hi! Lets Chat 😀</p>
       </div>
     ),
+
+    createChatBotMessage(
+      <p className="inital_msg">
+        Please tell us about your business and how can we help you in it?
+      </p>
+    ),
   ],
+
+  // initialMessages: [
+  //   createChatBotMessage(
+  //     <div className="wavy_msg">
+  //       <p className="inital_msg">
+  //         Please tell us about your business and how can we help you in it?
+  //       </p>
+  //     </div>
+  //   ),
+  // ],
+
   widgets: [
     {
       widgetName: "dogPicture",

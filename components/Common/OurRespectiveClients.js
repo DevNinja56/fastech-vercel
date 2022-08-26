@@ -36,7 +36,7 @@ const OurRespectiveClients = () => {
 
   return (
     <>
-      <div className="clients-area ptb-100 ">
+      <div className="clients-area ">
         <div className="container">
           <div className="section-title">
             <h2>Our Respected Clients</h2>
@@ -226,6 +226,8 @@ const OurRespectiveClients = () => {
           background-color: #f4f8fc;
           position: relative;
           overflow: hidden;
+          padding-top: 50px;
+          padding-bottom: 50px;
         }
         .clients-item {
           background-color: var(--white-color);

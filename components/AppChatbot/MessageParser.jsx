@@ -3,17 +3,17 @@ import React from "react";
 const MessageParser = ({ children, actions, step, setStep }) => {
   const parse = (message) => {
     if (step === 1 && message.includes("")) {
-      actions.handleHello();
+      actions.getInfo();
       setStep(2);
     }
     if (step === 2 && message.includes("")) {
-      actions.getInfo();
+      actions.finalMsg();
       setStep(3);
     }
-    if (step === 3 && message.includes("")) {
-      actions.finalMsg();
-      setStep(4);
-    }
+    // if (step === 3 && message.includes("")) {
+    //   actions.finalMsg();
+    //   setStep(4);
+    // }
   };
 
   return (

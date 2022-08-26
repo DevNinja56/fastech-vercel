@@ -15,7 +15,7 @@ const TechSupport = () => {
               />
             </div> */}
 
-            <h2 className="text-center mb-2">Our Reviews</h2>
+            <h2 className="text-center mb-2 mt-4">Our Reviews</h2>
             <div className="row">
               <div className="col-12">
                 <ReviewCarousel />
@@ -68,7 +68,7 @@ const TechSupport = () => {
         }
         .support-content {
           background-color: var(--white-color);
-          padding: 50px;
+          padding: 10px;
           max-width: 100%;
           margin-left: auto;
           border-radius: 5px;

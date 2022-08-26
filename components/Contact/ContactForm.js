@@ -4,6 +4,7 @@ import withReactContent from "sweetalert2-react-content";
 // const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
 import PartnerStyleTwo from "../Common/PartnerStyleTwo";
+import FooterCarousel from "../Common/FooterCarousel";
 import CarouselOne from "../../components/Carousel/CarouselOne";
 import Swal from "sweetalert2";
 import CustomMultiForm from "./CustomMultiForm";
@@ -181,8 +182,8 @@ const ContactForm = () => {
                   </div>
                 </div>
 
-                <div className="col-12 col-lg-12 bg-light text-start mt-5">
-                  <PartnerStyleTwo />
+                <div className="col-12 col-lg-12 bg-light text-start mt-5 mb-4">
+                  <FooterCarousel />
                 </div>
               </div>
               <div className="col-12 col-lg-6 p-0">
@@ -231,8 +232,8 @@ const ContactForm = () => {
           background-size: 70% 100%;
           background-repeat: no-repeat;
           background-position: 160%;
-          padding-top: 100px;
-          padding-bottom: 100px;
+          padding-top: 70px;
+          padding-bottom: 70spx;
         }
         .profile_icons_images {
           width: 36px !important;
@@ -263,9 +264,6 @@ const ContactForm = () => {
         .sales_profile {
           display: flex;
         }
-        .contact_heading {
-          color: #1f69f6;
-        }
         .contact_sub_heading {
           color: #171e29;
         }
@@ -276,6 +274,7 @@ const ContactForm = () => {
         }
         .contact_heading {
           margin-bottom: 75px;
+          color: #1f69f6;
         }
 
         .contact-form h3 {

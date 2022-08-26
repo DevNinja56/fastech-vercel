@@ -148,8 +148,8 @@ const ReviewCarousel = () => {
         }
         .partner-box {
           background-color: #fff;
-          padding-top: 70px;
-          padding-bottom: 70px;
+          padding-top: 30px;
+          padding-bottom: 30px;
           padding-left: 50px;
           padding-right: 50px;
           border-radius: 5px;

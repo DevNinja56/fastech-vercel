@@ -1531,3 +1531,9 @@ h6:last-child {
   border: 1px solid #aaaaaa !important;
   padding-left: 5px !important;
 }
+@media screen and (max-width: 432px) {
+  .chat_bot_btn {
+    height: 65px;
+    width: 65px;
+  }
+}
