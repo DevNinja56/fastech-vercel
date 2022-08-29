@@ -344,7 +344,13 @@ const Navbar = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link href="/developers-detail">
-                        <a onClick={toggleNavbar} className="nav-link">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/DevelopersDetail/mern-stack");
+                          }}
+                          className="nav-link"
+                        >
                           <img
                             src="/images/nav-icons/Mernstack.svg"
                             className="icons_img_meg_menu"
@@ -356,7 +362,20 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link href="#">
-                        <a onClick={toggleNavbar} className="nav-link">
+                        {/* <a onClick={toggleNavbar} className="nav-link">
+                          <img
+                            src=""
+                            className="icons_img_meg_menu"
+                          />
+                          React js
+                        </a> */}
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/DevelopersDetail/react-js");
+                          }}
+                          className="nav-link"
+                        >
                           <img
                             src="/images/nav-icons/React.svg"
                             className="icons_img_meg_menu"
@@ -368,21 +387,21 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link href="#">
-                        <a onClick={toggleNavbar} className="nav-link">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/DevelopersDetail/react-native");
+                          }}
+                          className="nav-link"
+                        >
                           <img
                             src="/images/nav-icons/React.svg"
                             className="icons_img_meg_menu"
                           />
-                          Reactive Native
+                          React Native
                         </a>
                       </Link>
                     </li>
-
-                    {/* <li className="nav-item">
-                                                <Link href="/services-details">
-                                                    <a onClick={toggleNavbar} className="nav-link">Services Details</a>
-                                                </Link>
-                                            </li> */}
                   </ul>
                 </li>
 

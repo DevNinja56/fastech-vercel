@@ -9,9 +9,6 @@ export async function getStaticPaths() {
   const paths = IndustryApi?.map((obj) => ({
     params: { industries: obj.slug },
   }));
-
-  //   console.log("industry", IndustryApi);
-
   return {
     fallback: false,
     paths,
@@ -20,9 +17,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const dataId = context.params.industries;
-
   let industryData = IndustryApi;
-
   return {
     props: {
       industryData,
