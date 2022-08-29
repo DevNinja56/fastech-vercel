@@ -20,29 +20,33 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
-                      <img src="/images/new-portfolio/web1.png" alt="image" />
-                    </a>
-                  </Link>
+                  <a href="https://magictask.io/" target="_blank">
+                    <img src="/images/new-portfolio/web1.png" alt="image" />
+                  </a>
                 </div>
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Magic Task</a>
-                    </Link>
+                    <a
+                      className="links_colors"
+                      href="https://magictask.io/"
+                      target="_blank"
+                    >
+                      Magic Task
+                    </a>
                   </h2>
                   <p>
                     Advance and customized project management tool with
                     different frontend themes.
                   </p>
-                  <Link href="https://magictask.io/" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
+                  <a
+                    className="projects-btn"
+                    href="https://magictask.io/"
+                    target="blank"
+                  >
+                    Read More{" "}
+                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -50,30 +54,34 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
-                      <img src="/images/new-portfolio/web2.png" alt="image" />
-                    </a>
-                  </Link>
+                  <a href="https://www.jobgeniedevs.com/" target="_blank">
+                    <img src="/images/new-portfolio/web2.png" alt="image" />
+                  </a>
                 </div>
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Job Genie</a>
-                    </Link>
+                    <a
+                      className="links_colors"
+                      href="https://www.jobgeniedevs.com/"
+                      target="_blank"
+                    >
+                      Job Genie
+                    </a>
                   </h2>
                   <p>
                     A project management tool where different tasks are listed
                     and user pay subscription fees to get into the system. It is
                     similar to topcoder.com
                   </p>
-                  <Link href="https://www.jobgeniedevs.com/" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
+                  <a
+                    className="projects-btn"
+                    thref="https://www.jobgeniedevs.com/"
+                    target="blank"
+                  >
+                    Read More{" "}
+                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -81,29 +89,33 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
-                      <img src="/images/new-portfolio/web3.png" alt="image" />
-                    </a>
-                  </Link>
+                  <a href="https://bitnob.com/" target="_blank">
+                    <img src="/images/new-portfolio/web3.png" alt="image" />
+                  </a>
                 </div>
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Bitnob</a>
-                    </Link>
+                    <a
+                      className="links_colors"
+                      href="https://bitnob.com/"
+                      target="_blank"
+                    >
+                      Bitnob
+                    </a>
                   </h2>
                   <p>
                     Modern web interface of a safe, instant, cheap and modern
                     way to pay and get paid globally.
                   </p>
-                  <Link href="https://bitnob.com/" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
+                  <a
+                    className="projects-btn"
+                    href="https://bitnob.com/"
+                    target="blank"
+                  >
+                    Read More{" "}
+                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -111,18 +123,20 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
-                    <a>
-                      <img src="/images/new-portfolio/web4.png" alt="image" />
-                    </a>
-                  </Link>
+                  <a href="https://imaginovation.net/" target="_blank">
+                    <img src="/images/new-portfolio/web4.png" alt="image" />
+                  </a>
                 </div>
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
-                      <a className="links_colors">Imaginovation</a>
-                    </Link>
+                    <a
+                      className="links_colors"
+                      href="https://imaginovation.net/"
+                      target="_blank"
+                    >
+                      Imaginovation
+                    </a>
                   </h2>
                   <p>
                     An IT Company’s services-based website according to modern
@@ -141,7 +155,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://modjen.com/password" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web5.png" alt="image" />
                     </a>
@@ -150,7 +164,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://modjen.com/password" target="_blank">
                       <a className="links_colors">Ecommerece dashboard</a>
                     </Link>
                   </h2>
@@ -171,7 +185,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="#" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web6.png" alt="image" />
                     </a>
@@ -180,7 +194,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="#" target="_blank">
                       <a className="links_colors">LinkedinExtension</a>
                     </Link>
                   </h2>
@@ -202,7 +216,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://modjen.com/" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web7.png" alt="image" />
                     </a>
@@ -211,7 +225,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://modjen.com/" target="_blank">
                       <a className="links_colors">Multivendor Ecommerce</a>
                     </Link>
                   </h2>
@@ -232,7 +246,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://staging.properfans.com" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web8.png" alt="image" />
                     </a>
@@ -241,7 +255,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://staging.properfans.com" target="_blank">
                       <a className="links_colors">ProperFans</a>
                     </Link>
                   </h2>
@@ -262,7 +276,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://wehelprx.com" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web9.png" alt="image" />
                     </a>
@@ -271,7 +285,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://wehelprx.com" target="_blank">
                       <a className="links_colors">Medical Dashboard</a>
                     </Link>
                   </h2>
@@ -289,7 +303,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://shopperhits.com" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web10.png" alt="image" />
                     </a>
@@ -298,7 +312,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://shopperhits.com" target="_blank">
                       <a className="links_colors">Shoperhits</a>
                     </Link>
                   </h2>
@@ -319,7 +333,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://www.beautflo.com" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web11.png" alt="image" />
                     </a>
@@ -328,7 +342,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://www.beautflo.com" target="_blank">
                       <a className="links_colors">Beaut Flo</a>
                     </Link>
                   </h2>
@@ -350,7 +364,7 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link href="https://gosnabby.com" target="_blank">
                     <a>
                       <img src="/images/new-portfolio/web12.png" alt="image" />
                     </a>
@@ -359,7 +373,7 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link href="https://gosnabby.com" target="_blank">
                       <a className="links_colors">Go Snabby</a>
                     </Link>
                   </h2>
@@ -382,7 +396,10 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=com.fivesechealth"
+                    target="_blank"
+                  >
                     <a>
                       <img src="/images/new-portfolio/mob1.png" alt="image" />
                     </a>
@@ -391,7 +408,10 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link
+                      href="https://play.google.com/store/apps/details?id=com.fivesechealth"
+                      target="_blank"
+                    >
                       <a className="links_colors">Fivesec Health</a>
                     </Link>
                   </h2>
@@ -416,7 +436,10 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link
+                    href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
+                    target="_blank"
+                  >
                     <a>
                       <img src="/images/new-portfolio/mob2.png" alt="image" />
                     </a>
@@ -425,7 +448,10 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link
+                      href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
+                      target="_blank"
+                    >
                       <a className="links_colors">Rentberry</a>
                     </Link>
                   </h2>
@@ -450,7 +476,10 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
+                    target="_blank"
+                  >
                     <a>
                       <img src="/images/new-portfolio/mob4.png" alt="image" />
                     </a>
@@ -459,7 +488,10 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link
+                      href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
+                      target="_blank"
+                    >
                       <a className="links_colors">Potswork-Request Services</a>
                     </Link>
                   </h2>
@@ -484,7 +516,10 @@ const RecentCaseStudy = () => {
             <div className="col-lg-6">
               <div className="single-cases">
                 <div className="cases-image">
-                  <Link href="/portfolio">
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=com.camelan"
+                    target="_blank"
+                  >
                     <a>
                       <img src="/images/new-portfolio/mob3.png" alt="image" />
                     </a>
@@ -493,7 +528,10 @@ const RecentCaseStudy = () => {
 
                 <div className="cases-content">
                   <h2>
-                    <Link href="/portfolio">
+                    <Link
+                      href="https://play.google.com/store/apps/details?id=com.camelan"
+                      target="_blank"
+                    >
                       <a className="links_colors">Camlist- Just Prts</a>
                     </Link>
                   </h2>

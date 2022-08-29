@@ -93,7 +93,7 @@ const Footer = () => {
 
                 <ul className="footer-links-list">
                   <li>
-                    <Link href="/services">
+                    <Link href="#">
                       <a>Services</a>
                     </Link>
                   </li>
@@ -158,7 +158,15 @@ const Footer = () => {
                 <ul className="widget-social">
                   <li>
                     <a
-                      href="https://www.facebook.com/theafastech"
+                      href="https://www.linkedin.com/company/thefastech/"
+                      target="_blank"
+                    >
+                      <i className="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/theafastech/"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>
@@ -169,17 +177,13 @@ const Footer = () => {
                       <i className="ri-twitter-fill"></i>
                     </a>
                   </li>
+
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/thefastech"
+                      href="https://www.instagram.com/the_fastech/"
                       target="_blank"
                     >
-                      <i className="ri-linkedin-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank">
-                      <i className="fab fa-skype"></i>
+                      <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

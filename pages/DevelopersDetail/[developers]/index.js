@@ -1119,13 +1119,13 @@ const DevelopersDetail = ({ developersData, dataId }) => {
                         <i className={data.iconPath}></i>
                       </div>
                       <h3>
-                        <Link href="/services-details">
+                        <Link href="#">
                           <a>{data.heading}</a>
                         </Link>
                       </h3>
                       <p>{data.paragraph}</p>
 
-                      <Link href="/services-details">
+                      <Link href="#">
                         <a className="services-btn">
                           Read More <i className="ri-arrow-right-line"></i>
                         </a>

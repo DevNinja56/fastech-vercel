@@ -8,6 +8,7 @@ import FooterCarousel from "../Common/FooterCarousel";
 import CarouselOne from "../../components/Carousel/CarouselOne";
 import Swal from "sweetalert2";
 import CustomMultiForm from "./CustomMultiForm";
+import Link from "next/link";
 
 // const alertContent = () => {
 //   MySwal.fire({
@@ -130,35 +131,46 @@ const ContactForm = () => {
                   <div className="social_icons">
                     <div className="Sale_profile_icons text-start">
                       <span>
-                        <img
-                          src="/images/Icon material-email.svg"
-                          className="profile_icons_images"
-                          alt=""
-                        />
+                        <a href="mailto:daniyal@thefastech.com" target="_blank">
+                          <img
+                            src="/images/Icon material-email.svg"
+                            className="profile_icons_images"
+                            alt=""
+                          />
+                        </a>
                       </span>
                       <span>
-                        {" "}
-                        <img
-                          src="/images/icons8-linkedin.svg"
-                          className="profile_icons_images profile_img_left"
-                          alt=""
-                        />
+                        <a
+                          href="https://www.linkedin.com/company/thefastech/"
+                          target="_blank"
+                        >
+                          <img
+                            src="/images/icons8-linkedin.svg"
+                            className="profile_icons_images profile_img_left"
+                            alt=""
+                          />
+                        </a>
                       </span>
                       <span>
-                        {" "}
-                        <img
-                          src="/images/icons8-whatsapp.svg"
-                          className="profile_img_left"
-                          alt=""
-                        />
+                        <a href="https://wa.me/923334397893" target="_blank">
+                          <img
+                            src="/images/icons8-whatsapp.svg"
+                            className="profile_img_left"
+                            alt=""
+                          />
+                        </a>
                       </span>
                       <span>
-                        {" "}
-                        <img
-                          src="/images/icons8-skype.svg"
-                          className="profile_icons_images profile_img_left"
-                          alt=""
-                        />
+                        <a
+                          href="skype:live:.cid.da22d8437a6e35ca"
+                          target="_blank"
+                        >
+                          <img
+                            src="/images/icons8-skype.svg"
+                            className="profile_icons_images profile_img_left"
+                            alt=""
+                          />
+                        </a>
                       </span>
                     </div>
                   </div>

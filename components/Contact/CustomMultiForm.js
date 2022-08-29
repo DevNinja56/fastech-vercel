@@ -19,6 +19,10 @@ const optionList = [
 
 const Step1 = () => {
   const [colorClass, setColorClass] = useState("col_boxes");
+  // const [colorClass, setColorClass] = useState(
+  //   "col_boxes" == "col_boxes" ? "col_boxes2" : "col_boxes"
+  // );
+
   return (
     <>
       <div

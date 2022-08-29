@@ -1507,6 +1507,7 @@ h6:last-child {
   width: 82px;
   padding: 0px;
   border-radius: 100%;
+  z-index: 1111 !important;
 }
 .chat_bot_btn:focus {
   outline: none !important;

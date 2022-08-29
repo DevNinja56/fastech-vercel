@@ -24,7 +24,13 @@ const TopHeaderTwo = () => {
               <ul className="top-header-optional">
                 <li>
                   <a
-                    href="https://www.facebook.com/theafastech"
+                    href="https://www.linkedin.com/company/thefastech/"
+                    target="_blank"
+                  >
+                    <i className="ri-linkedin-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/theafastech/"
                     target="_blank"
                   >
                     <i className="ri-facebook-fill"></i>
@@ -32,14 +38,12 @@ const TopHeaderTwo = () => {
                   <a href="https://twitter.com/Fastech5" target="_blank">
                     <i className="ri-twitter-fill"></i>
                   </a>
+
                   <a
-                    href="https://www.linkedin.com/company/thefastech"
+                    href="https://www.instagram.com/the_fastech/"
                     target="_blank"
                   >
-                    <i className="ri-linkedin-fill"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i className="fab fa-skype"></i>
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
               </ul>
