@@ -1497,7 +1497,12 @@ const Step9 = () => {
   return (
     <>
       <div className="form-group">
-        <Select options={options} value={value} onChange={changeHandler} />
+        <Select
+          options={options}
+          value={value}
+          onChange={changeHandler}
+          placeholder="Select Country"
+        />
       </div>
     </>
   );

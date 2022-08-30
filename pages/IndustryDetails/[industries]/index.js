@@ -770,7 +770,7 @@ const IndustryDetail = ({ industryData, dataId }) => {
                         <i className={data.iconPath}></i>
                       </div>
                       <h3>
-                        <Link href="/services-details">
+                        <Link href="#">
                           <a>{data.heading}</a>
                         </Link>
                       </h3>

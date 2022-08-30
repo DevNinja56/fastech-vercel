@@ -29,7 +29,7 @@ const ChatBotModal = () => {
             <span className="modal_close" onClick={handleClose}>
               <i className="fal fa-times modal_cross"></i>
             </span>
-            <AppChatbot />
+            <AppChatbot setShow={setShow} />
           </Modal.Body>
         </Modal>
       </div>

@@ -1,8 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Swal from "sweetalert2";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const handleSubmit = () => {
+    Swal.fire("Congrats!", "Thank you for subscribing!", "success");
+  };
 
   return (
     <>
@@ -145,11 +149,15 @@ const Footer = () => {
                       type="email"
                       className="input-newsletter"
                       placeholder="Enter email"
-                      name="EMAIL"
+                      // name="EMAIL"
                       required
                     />
 
-                    <button type="submit" className="submit">
+                    <button
+                      type="submit"
+                      className="submit"
+                      onClick={handleSubmit}
+                    >
                       <i className="ri-send-plane-2-line"></i>
                     </button>
                   </form>
@@ -224,6 +232,9 @@ const Footer = () => {
       {/* Footer Style */}
       <style jsx>{`
         .submit:hover {
+          background-color: #171e29 !important;
+        }
+        .submit:focus {
           background-color: #171e29 !important;
         }
         .footer_name {

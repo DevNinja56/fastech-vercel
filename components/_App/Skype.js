@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Skype = ({ scrollStep, delayIntime }) => {
   const [thePosition, setThePosition] = React.useState(false);
@@ -32,7 +33,9 @@ const Skype = ({ scrollStep, delayIntime }) => {
         className={`skype_icon ${thePosition ? "active" : ""}`}
         // onClick={scrollToTop}
       >
-        <i className="fab fa-skype"></i>
+        <Link href="skype:live:.cid.da22d8437a6e35ca?chat" target="_blank">
+          <i className="fab fa-skype"></i>
+        </Link>
       </div>
 
       <style jsx>{`

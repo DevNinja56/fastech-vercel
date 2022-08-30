@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Link from "next/link";
+import Swal from "sweetalert2";
 
 const SubscriptionModal = () => {
   const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
   //   const handleShow = () => setShow(true);
+
+  const handleSubmit = () => {
+    Swal.fire("Congrats!", "Thank you for subscribing!", "success");
+    setTimeout(() => setShow(false), 3000);
+  };
 
   return (
     <>
@@ -41,9 +47,12 @@ const SubscriptionModal = () => {
                 />
                 <div className="banner-btn">
                   <Link href="">
-                    <a className="default-btn modal_btn">
+                    <button
+                      className="default-btn modal_btn"
+                      onClick={handleSubmit}
+                    >
                       Submit <span></span>
-                    </a>
+                    </button>
                   </Link>
                 </div>
               </div>

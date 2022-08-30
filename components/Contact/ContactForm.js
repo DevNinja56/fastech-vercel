@@ -162,7 +162,7 @@ const ContactForm = () => {
                       </span>
                       <span>
                         <a
-                          href="skype:live:.cid.da22d8437a6e35ca"
+                          href="skype:live:.cid.da22d8437a6e35ca?chat"
                           target="_blank"
                         >
                           <img

@@ -74,7 +74,7 @@ const Navbar = () => {
                     <a
                       onClick={(e) => {
                         e.preventDefault();
-                        router.push("/services");
+                        router.push("#");
                       }}
                       className="nav-link"
                     >

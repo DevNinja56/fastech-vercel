@@ -6,11 +6,18 @@ import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
 import { useEffect } from "react";
 
-const AppChatbot = () => {
+const AppChatbot = ({ setShow }) => {
   const [step, setStep] = useState(1);
 
   const MessageParserWithState = (props) => {
-    return <MessageParser step={step} setStep={setStep} {...props} />;
+    return (
+      <MessageParser
+        step={step}
+        setStep={setStep}
+        setShow={setShow}
+        {...props}
+      />
+    );
   };
 
   return (

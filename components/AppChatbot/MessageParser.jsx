@@ -1,6 +1,6 @@
 import React from "react";
 
-const MessageParser = ({ children, actions, step, setStep }) => {
+const MessageParser = ({ children, actions, step, setStep, setShow }) => {
   const parse = (message) => {
     if (step === 1 && message.includes("")) {
       actions.getInfo();
@@ -9,6 +9,7 @@ const MessageParser = ({ children, actions, step, setStep }) => {
     if (step === 2 && message.includes("")) {
       actions.finalMsg();
       setStep(3);
+      setTimeout(() => setShow(false), 3000);
     }
     // if (step === 3 && message.includes("")) {
     //   actions.finalMsg();
