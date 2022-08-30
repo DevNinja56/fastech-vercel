@@ -19,16 +19,14 @@ const optionList = [
 
 const Step1 = () => {
   const [colorClass, setColorClass] = useState("col_boxes");
-  // const [colorClass, setColorClass] = useState(
-  //   "col_boxes" == "col_boxes" ? "col_boxes2" : "col_boxes"
-  // );
-
   return (
     <>
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img
@@ -59,6 +57,7 @@ const Step1 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -67,6 +66,7 @@ const Step1 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -210,7 +210,9 @@ const Step2 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img src="/images/box-img/teamwork.png" alt="img" className="box_img" />
@@ -237,6 +239,7 @@ const Step2 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -245,6 +248,7 @@ const Step2 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -388,7 +392,9 @@ const Step3 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img src="/images/box-img/meeting.png" alt="img" className="box_img" />
@@ -415,6 +421,7 @@ const Step3 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -423,6 +430,7 @@ const Step3 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -566,7 +574,9 @@ const Step4 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img src="/images/box-img/doubtful.png" alt="img" className="box_img" />
@@ -593,6 +603,7 @@ const Step4 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -601,6 +612,7 @@ const Step4 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -744,7 +756,9 @@ const Step5 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img src="/images/box-img/calendar.png" alt="img" className="box_img" />
@@ -771,6 +785,7 @@ const Step5 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -779,6 +794,7 @@ const Step5 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -922,7 +938,9 @@ const Step6 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img
@@ -954,6 +972,7 @@ const Step6 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -962,6 +981,7 @@ const Step6 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -1105,7 +1125,9 @@ const Step7 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img
@@ -1136,6 +1158,7 @@ const Step7 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -1144,6 +1167,7 @@ const Step7 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -1287,7 +1311,9 @@ const Step8 = () => {
       <div
         className={colorClass}
         onClick={() => {
-          setColorClass("col_boxes2");
+          setColorClass((prev) =>
+            prev === "col_boxes" ? "col_boxes2" : "col_boxes"
+          );
         }}
       >
         <img src="/images/box-img/doubtful.png" alt="img" className="box_img" />
@@ -1314,6 +1340,7 @@ const Step8 = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
@@ -1322,6 +1349,7 @@ const Step8 = () => {
           cursor: pointer;
         }
         .col_boxes2 {
+          border: 1px solid #494a60;
           background-color: #dfeafb;
           border-radius: 5px;
           padding-top: 40px;
@@ -1757,6 +1785,7 @@ const CustomMultiForm = () => {
           border-radius: 10px;
         }
         .col_boxes {
+          border: 1px solid transparent;
           background-color: #efecec;
           border-radius: 5px;
           padding-top: 40px;
