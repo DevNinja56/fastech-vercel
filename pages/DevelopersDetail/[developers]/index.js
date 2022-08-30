@@ -44,7 +44,7 @@ const DevelopersDetail = ({ developersData, dataId }) => {
                         <p>{obj.paragraph}</p>
 
                         <div className="banner-btn">
-                          <Link href="/about-us">
+                          <Link href="/contact">
                             <a className="default-btn">
                               Schedule a Call{" "}
                               <i className="ri-arrow-right-line"></i>

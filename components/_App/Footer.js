@@ -101,11 +101,11 @@ const Footer = () => {
                 <h3>Quick Link</h3>
 
                 <ul className="footer-links-list">
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       <a>Services</a>
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                                         <Link href="/case-study">
                                             <a>Case Study</a>

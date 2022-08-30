@@ -9,17 +9,16 @@ const BlogPost = () => {
     <>
       <SubscriptionModal />
       <PageBanner
-        pageTitle="Blog Post"
+        pageTitle="Popular Blog Post"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Blog Post"
+        activePageText="Popular Blog Post"
       />
 
       <>
         <div className="blog-area pt-100 pb-100">
           <div className="container">
             <div className="section-title">
-              <h2>Popular Blog Post</h2>
               <p>
                 We are try to Update with Latest Article and Blog Post Best
                 Strategic Planning

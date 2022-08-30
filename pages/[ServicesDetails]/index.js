@@ -80,7 +80,7 @@ const DetailServices = ({ servicesData, dataId }) => {
                             delay={200}
                             animateOnce={false}
                           > */}
-                          <Link href="/about-us">
+                          <Link href="/contact">
                             <a className="default-btn">
                               Discuss Your Project{" "}
                               <i className="ri-arrow-right-line"></i>

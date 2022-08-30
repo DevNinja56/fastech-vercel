@@ -69,7 +69,7 @@ const IndustryDetail = ({ industryData, dataId }) => {
                             delay={200}
                             animateOnce={true}
                           > */}
-                          <Link href="/about-us">
+                          <Link href="/contact">
                             <a className="default-btn">
                               Schedule a Call{" "}
                               <i className="ri-arrow-right-line"></i>
