@@ -1,11 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import Swal from "sweetalert2";
+import { useState } from "react";
 
 const Footer = () => {
+  const [subscriptionValue, setSubscriptionValue] = useState();
+  console.log("subscription last ==> ", subscriptionValue);
   const currentYear = new Date().getFullYear();
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     Swal.fire("Congrats!", "Thank you for subscribing!", "success");
+    setSubscriptionValue("");
   };
 
   return (
@@ -150,6 +155,8 @@ const Footer = () => {
                       className="input-newsletter"
                       placeholder="Enter email"
                       // name="EMAIL"
+                      value={subscriptionValue}
+                      onChange={(e) => setSubscriptionValue(e.target.value)}
                       required
                     />
 
