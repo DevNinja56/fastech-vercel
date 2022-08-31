@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-// import { useEffect } from "react";
 
 class MyDocument extends Document {
   render() {
@@ -11,14 +10,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" type="image/png" href="/images/favicon.png"></link>
-
-          {/* <script>
-            window.OneSignal = window.OneSignal || []; OneSignal.push(function(){" "}
-            {OneSignal.init({
-              appId: "af3b21ac-8b6b-4a83-9e9b-ea1b348a089f",
-            })}
-            )
-          </script> */}
         </Head>
         <body>
           <Main />

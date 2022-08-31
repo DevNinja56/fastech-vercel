@@ -9,8 +9,6 @@ import SubscriptionModal from "../components/subscriptionModal/modal";
 const AboutUs = () => {
   return (
     <>
-      {/* <NavbarFour /> */}
-
       <PageBanner
         pageTitle="About Us"
         homePageUrl="/"
@@ -19,7 +17,6 @@ const AboutUs = () => {
       />
 
       <>
-        {/* About Us Style */}
         <style jsx>{`
           .services-area {
             position: relative;
