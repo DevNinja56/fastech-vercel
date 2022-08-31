@@ -18,10 +18,6 @@ const SubscriptionModal = () => {
   return (
     <>
       <div className="container">
-        {/* <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
-        </Button> */}
-
         <Modal show={show} onHide={handleClose}>
           <Modal.Body closeButton>
             <span className="modal_close" onClick={handleClose}>

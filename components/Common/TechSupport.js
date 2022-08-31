@@ -7,14 +7,6 @@ const TechSupport = () => {
       <div className="support-area">
         <div className="container">
           <div className="support-content">
-            {/* <div className="tag">
-              <img
-                src="/images/favicon.png"
-                alt="image"
-                className="tag_img_two"
-              />
-            </div> */}
-
             <h2 className="text-center mb-2 mt-4">Our Reviews</h2>
             <div className="row">
               <div className="col-12">

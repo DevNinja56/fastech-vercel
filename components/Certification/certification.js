@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import { CertiData } from "./certificationData";
 
 const Certification = () => {
   return (
@@ -17,65 +17,19 @@ const Certification = () => {
       <div className="certification_area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf1.jpg"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf2.jpg"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf3.png"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf4.png"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf5.png"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 mt-3">
-              <div className="certificate_box">
-                <img
-                  src="/images/certification/cf6.png"
-                  className="certificate_img"
-                  alt="img"
-                />
-              </div>
-            </div>
+            {CertiData?.map((item) => (
+              <>
+                <div className="col-lg-2 col-md-4 mt-3">
+                  <div className="certificate_box">
+                    <img
+                      src={item.CertificationImg}
+                      className="certificate_img"
+                      alt="img"
+                    />
+                  </div>
+                </div>
+              </>
+            ))}
           </div>
         </div>
       </div>

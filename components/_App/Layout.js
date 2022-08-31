@@ -4,8 +4,6 @@ import GoTop from "./GoTop";
 import Socialicons from "./Socialicons";
 import Skype from "./Skype";
 import ChatBotModal from "../../components/ChatModal/chatModal";
-// import ChatBot from "./ChatBot";
-// import Preloader from './Preloader'
 
 const notifyMe = () => {
   if (!("Notification" in window)) {
@@ -44,19 +42,9 @@ const notifyMe = () => {
       }
     });
   }
-
-  // At last, if the user has denied notifications, and you
-  // want to be respectful there is no need to bother them anymore.
 };
 
 const Layout = ({ children }) => {
-  // Preloader
-  // const [loader, setLoader] = React.useState(true);
-
-  // React.useEffect(() => {
-  //     setTimeout(() => setLoader(false), 1500);
-  // }, [])
-
   useEffect(() => {
     notifyMe();
     window.OneSignal = window.OneSignal || [];
@@ -91,18 +79,6 @@ const Layout = ({ children }) => {
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
           async=""
         ></script>
-        {/* <script>
-          window.OneSignal = window.OneSignal || []; OneSignal.push(function(){" "}
-          {OneSignal.init({
-            appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
-            safari_web_id:
-              "web.onesignal.auto.24b53800-ef1e-45ab-8e2c-057ebbb06239",
-            notifyButton: {
-              enable: true,
-            },
-          })}
-          )
-        </script> */}
       </Head>
 
       {children}
@@ -113,8 +89,6 @@ const Layout = ({ children }) => {
       <Socialicons />
       <Skype />
       <ChatBotModal />
-
-      {/* <ChatBot /> */}
     </>
   );
 };

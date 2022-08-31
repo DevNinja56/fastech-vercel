@@ -14,18 +14,6 @@ const Socialicons = ({ scrollStep, delayIntime }) => {
     });
   }, []);
 
-  //   const onScrollStep = () => {
-  //     if (window.pageYOffset === 0) {
-  //       clearInterval(timeoutRef.current);
-  //     }
-  //     window.scroll(0, window.pageYOffset - scrollStep);
-  //   };
-
-  //   const scrollToTop = () => {
-  //     timeoutRef.current = setInterval(onScrollStep, delayIntime);
-  //   };
-
-  //   const renderGoTopIcon = () => {
   return (
     <>
       <div
@@ -95,8 +83,4 @@ const Socialicons = ({ scrollStep, delayIntime }) => {
     </>
   );
 };
-
-//   return <>{renderGoTopIcon()}</>;
-// };
-
 export default Socialicons;

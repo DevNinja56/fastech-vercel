@@ -1741,20 +1741,6 @@ const CustomMultiForm = () => {
 
                         <div className="col-lg-12 col-md-12">
                           <div className="form-group">
-                            {/* <select
-                              className="form-control"
-                              aria-label="Default select example"
-                              id="country"
-                              name="country"
-                              onChange={inputsData}
-                            >
-                              <option selected>Select Country</option>
-                              <option value="Pakistan">Pakistan</option>
-                              <option value="China">China</option>
-                              <option value="Saudia">Saudia</option>
-                              <option value="Afghanistan">Afghanistan</option>
-                            </select> */}
-
                             <div className="some">
                               <Step9 />
                             </div>
