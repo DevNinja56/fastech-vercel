@@ -131,10 +131,6 @@ const ReviewCarousel = () => {
           </div>
         </div>
 
-        {/* Shape Images */}
-        {/* <div className="partner-shape-1">
-          <img src="/images/partner/shape-1.png" alt="image" />
-        </div> */}
         <div className="partner-shape-2">
           <img src="/images/partner/shape-2.png" alt="image" />
         </div>

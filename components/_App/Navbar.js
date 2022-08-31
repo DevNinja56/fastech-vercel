@@ -69,11 +69,10 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
-                  <Link href="">
-                    <a className="nav-link">
-                      Services <i className="ri-add-line"></i>
-                    </a>
-                  </Link>
+                  <a className="nav-link nav_cursor">
+                    Services <i className="ri-add-line"></i>
+                  </a>
+
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link href="#">
@@ -476,7 +475,9 @@ const Navbar = () => {
 
       {/* Navbar, Search Form & Sidebar Modal Style */}
       <style jsx>{`
-        // Navbar Area CSS
+        .nav_cursor {
+          cursor: pointer;
+        }
         .menu_small {
           display: grid !important;
           width: 15rem !important;

@@ -8,8 +8,6 @@ import ServicesDetailsContent from "../components/ServicesDetails/ServicesDetail
 const ServicesDetails = () => {
   return (
     <>
-      {/* <NavbarFour /> */}
-
       <PageBanner
         pageTitle="Services Details"
         homePageUrl="/"
@@ -26,8 +24,6 @@ const ServicesDetails = () => {
       <div className="ptb-100">
         <CTA />
       </div>
-
-      {/* <Footer /> */}
     </>
   );
 };
