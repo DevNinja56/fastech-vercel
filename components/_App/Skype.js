@@ -15,18 +15,6 @@ const Skype = ({ scrollStep, delayIntime }) => {
     });
   }, []);
 
-  //   const onScrollStep = () => {
-  //     if (window.pageYOffset === 0) {
-  //       clearInterval(timeoutRef.current);
-  //     }
-  //     window.scroll(0, window.pageYOffset - scrollStep);
-  //   };
-
-  //   const scrollToTop = () => {
-  //     timeoutRef.current = setInterval(onScrollStep, delayIntime);
-  //   };
-
-  //   const renderGoTopIcon = () => {
   return (
     <>
       <div
@@ -80,7 +68,6 @@ const Skype = ({ scrollStep, delayIntime }) => {
           transform: translateY(-5px);
         }
 
-        // Responsive Style
         @media only screen and (max-width: 767px) {
           .skype_icon {
             width: 40px;
@@ -94,8 +81,4 @@ const Skype = ({ scrollStep, delayIntime }) => {
     </>
   );
 };
-
-//   return <>{renderGoTopIcon()}</>;
-// };
-
 export default Skype;

@@ -101,21 +101,6 @@ const Footer = () => {
                 <h3>Quick Link</h3>
 
                 <ul className="footer-links-list">
-                  {/* <li>
-                    <Link href="#">
-                      <a>Services</a>
-                    </Link>
-                  </li> */}
-                  {/* <li>
-                                        <Link href="/case-study">
-                                            <a>Case Study</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/gallery">
-                                            <a>Gallery</a>
-                                        </Link>
-                                    </li> */}
                   <li>
                     <Link href="/contact">
                       <a>Contact</a>
@@ -145,10 +130,6 @@ const Footer = () => {
                 <h3>Newsletter</h3>
 
                 <div className="widget-newsletter">
-                  {/* <div className="newsletter-content">
-                                        <p>Best solution for your it startup business consectetur adipiscing elit.</p>
-                                    </div> */}
-
                   <form className="newsletter-form">
                     <input
                       type="email"

@@ -52,7 +52,6 @@ const TopHeaderTwo = () => {
         </div>
       </div>
 
-      {/* Top Header Style */}
       <style jsx>{`
         .top-header-area {
           background-color: #f4f8fc;
