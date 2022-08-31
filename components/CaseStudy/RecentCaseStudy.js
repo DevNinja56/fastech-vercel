@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Image from "next/image";
 
 const RecentCaseStudy = () => {
   return (
@@ -18,13 +18,16 @@ const RecentCaseStudy = () => {
 
           <div className="row">
             {/* web portfolio  */}
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://magictask.io/" target="_blank">
-                    <LazyLoadImage>
-                      <img src="/images/new-portfolio/web1.png" alt="image" />
-                    </LazyLoadImage>
+                    <Image
+                      height={360}
+                      width={550}
+                      src="/images/new-portfolio/web1.png"
+                      alt="image"
+                    />
                   </a>
                 </div>
 
@@ -54,13 +57,16 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://www.jobgeniedevs.com/" target="_blank">
-                    <LazyLoadImage>
-                      <img src="/images/new-portfolio/web2.png" alt="image" />
-                    </LazyLoadImage>
+                    <Image
+                      height={360}
+                      width={550}
+                      src="/images/new-portfolio/web2.png"
+                      alt="image"
+                    />
                   </a>
                 </div>
 
@@ -91,13 +97,16 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://bitnob.com/" target="_blank">
-                    <LazyLoadImage>
-                      <img src="/images/new-portfolio/web3.png" alt="image" />
-                    </LazyLoadImage>
+                    <Image
+                      height={360}
+                      width={550}
+                      src="/images/new-portfolio/web3.png"
+                      alt="image"
+                    />
                   </a>
                 </div>
 
@@ -127,13 +136,16 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://imaginovation.net/" target="_blank">
-                    <LazyLoadImage>
-                      <img src="/images/new-portfolio/web4.png" alt="image" />
-                    </LazyLoadImage>
+                    <Image
+                      height={360}
+                      width={550}
+                      src="/images/new-portfolio/web4.png"
+                      alt="image"
+                    />
                   </a>
                 </div>
 
@@ -161,15 +173,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://modjen.com/password" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/web5.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web5.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -193,15 +208,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="#" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/web6.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web6.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -226,15 +244,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://modjen.com/" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/web7.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web7.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -258,15 +279,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://staging.properfans.com" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/web8.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web8.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -290,15 +314,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://wehelprx.com" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/web9.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web9.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -319,18 +346,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://shopperhits.com" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img
-                          src="/images/new-portfolio/web10.png"
-                          alt="image"
-                        />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web10.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -354,18 +381,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://www.beautflo.com" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img
-                          src="/images/new-portfolio/web11.png"
-                          alt="image"
-                        />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web11.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -390,18 +417,18 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://gosnabby.com" target="_blank">
-                    <LazyLoadImage>
-                      <a>
-                        <img
-                          src="/images/new-portfolio/web12.png"
-                          alt="image"
-                        />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/web12.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -427,18 +454,21 @@ const RecentCaseStudy = () => {
             </div>
 
             {/* apps portfolio  */}
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link
                     href="https://play.google.com/store/apps/details?id=com.fivesechealth"
                     target="_blank"
                   >
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/mob1.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/mob1.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -469,18 +499,21 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link
                     href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
                     target="_blank"
                   >
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/mob2.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/mob2.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -511,18 +544,21 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link
                     href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
                     target="_blank"
                   >
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/mob4.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/mob4.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -553,18 +589,21 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link
                     href="https://play.google.com/store/apps/details?id=com.camelan"
                     target="_blank"
                   >
-                    <LazyLoadImage>
-                      <a>
-                        <img src="/images/new-portfolio/mob3.png" alt="image" />
-                      </a>
-                    </LazyLoadImage>
+                    <a>
+                      <Image
+                        height={360}
+                        width={550}
+                        src="/images/new-portfolio/mob3.png"
+                        alt="image"
+                      />
+                    </a>
                   </Link>
                 </div>
 
@@ -609,30 +648,34 @@ const RecentCaseStudy = () => {
 
         {/* Shape Images */}
         <div className="cases-shape-1">
-          <img src="/images/cases-study/shape-1.png" alt="image" />
+          <image src="/images/cases-study/shape-1.png" alt="image" />
         </div>
         <div className="cases-shape-2">
-          <img src="/images/cases-study/shape-2.png" alt="image" />
+          <image src="/images/cases-study/shape-2.png" alt="image" />
         </div>
         <div className="cases-shape-3">
-          <img src="/images/cases-study/shape-3.png" alt="image" />
+          <image src="/images/cases-study/shape-3.png" alt="image" />
         </div>
         <div className="cases-shape-4">
-          <img src="/images/cases-study/shape-4.png" alt="image" />
+          <image src="/images/cases-study/shape-4.png" alt="image" />
         </div>
         <div className="cases-shape-5">
-          <img src="/images/cases-study/shape-5.png" alt="image" />
+          <image src="/images/cases-study/shape-5.png" alt="image" />
         </div>
         <div className="cases-shape-6">
-          <img src="/images/cases-study/shape-4.png" alt="image" />
+          <image src="/images/cases-study/shape-4.png" alt="image" />
         </div>
         <div className="cases-shape-7">
-          <img src="/images/cases-study/shape-5.png" alt="image" />
+          <image src="/images/cases-study/shape-5.png" alt="image" />
         </div>
       </div>
 
       {/* Recent Case Study Style */}
       <style jsx>{`
+        Image {
+          height: 100%;
+          width: 100%;
+        }
         .projects-btn:hover {
           letter-spacing: 1px;
         }
@@ -654,10 +697,11 @@ const RecentCaseStudy = () => {
         .single-cases .cases-image {
           overflow: hidden;
           border: 1px solid #ecf1f9;
-          max-height: 55vh;
-          width: 95%;
+          height: 100%
+          width: 100%;
+          
         }
-        .single-cases .cases-image img {
+        .single-cases .cases-image image {
           -webkit-transition: var(--transition);
           transition: var(--transition);
         }
@@ -701,10 +745,11 @@ const RecentCaseStudy = () => {
           transition: var(--transition);
           z-index: -1;
         }
-        .single-cases:hover .cases-image img {
+        .single-cases:hover .cases-image a {
           -webkit-transform: scale(1.1);
           transform: scale(1.1);
         }
+
         .single-cases:hover .cases-content h2 a {
           color: var(--main-color);
         }
