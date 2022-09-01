@@ -3,7 +3,7 @@ import Head from "next/head";
 import GoTop from "./GoTop";
 import Socialicons from "./Socialicons";
 import Skype from "./Skype";
-import ChatBotModal from "../../components/ChatModal/chatModal";
+// import ChatBotModal from "../../components/ChatModal/chatModal";
 
 const notifyMe = () => {
   if (!("Notification" in window)) {
@@ -88,7 +88,7 @@ const Layout = ({ children }) => {
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
       <Socialicons />
       <Skype />
-      <ChatBotModal />
+      {/* <ChatBotModal /> */}
     </>
   );
 };

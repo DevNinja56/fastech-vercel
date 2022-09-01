@@ -1572,14 +1572,23 @@ h6:last-child {
   width: 25vh !important;
 } */
 
+.css-2613qy-menu {
+  z-index: 1111 !important;
+}
+
 @media screen and (max-width: 992px) {
   .cases-image {
-    height: 50vh;
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cases-image {
+    height: 55vh;
   }
 }
 @media screen and (max-width: 432px) {
   .cases-image {
-    height: 45vh;
+    height: 35vh;
   }
   .chat_bot_btn {
     height: 65px;
