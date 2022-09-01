@@ -1561,6 +1561,17 @@ h6:last-child {
   height: 100% !important;
 }
 
+/* .img_review {
+  height: 700% !important;
+  width: 700% !important;
+  display: inline-block !important;
+} */
+
+/* .single-partner > span {
+  height: 25vh !important;
+  width: 25vh !important;
+} */
+
 @media screen and (max-width: 992px) {
   .cases-image {
     height: 50vh;
