@@ -1530,16 +1530,16 @@ const CustomMultiForm = () => {
 
   const formData = { selectedOptions, firstStep, secondStep, thirdStep };
 
-  console.log("form data ===>", formData);
-  console.log("first ==>", firstStep);
-  console.log("second ==>", secondStep);
+  // console.log("form data ===>", formData);
+  // console.log("first ==>", firstStep);
+  // console.log("second ==>", secondStep);
 
   const handleSubmit = () => {
     Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
 
     console.log("Sending");
     var apiData = formData;
-    console.log("Api Data ==>", apiData);
+    // console.log("Api Data ==>", apiData);
     fetch("/api/mail", {
       method: "POST",
       headers: {

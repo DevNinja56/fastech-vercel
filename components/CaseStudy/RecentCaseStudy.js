@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -22,12 +22,14 @@ const RecentCaseStudy = () => {
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://magictask.io/" target="_blank">
-                    <Image
-                      height={360}
-                      width={550}
-                      src="/images/new-portfolio/web1.png"
-                      alt="image"
-                    />
+                    <div className="Image_parent">
+                      <Image
+                        height={500}
+                        width={500}
+                        src="/images/new-portfolio/web1.png"
+                        alt="image"
+                      />
+                    </div>
                   </a>
                 </div>
 
@@ -61,12 +63,16 @@ const RecentCaseStudy = () => {
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://www.jobgeniedevs.com/" target="_blank">
-                    <Image
-                      height={360}
-                      width={550}
-                      src="/images/new-portfolio/web2.png"
-                      alt="image"
-                    />
+                    <div className="Image_parent">
+                      <Image
+                        // layout="fill"
+                        height={500}
+                        width={500}
+                        src="/images/new-portfolio/web2.png"
+                        alt="image"
+                        className="Box_images"
+                      />
+                    </div>
                   </a>
                 </div>
 
@@ -101,12 +107,14 @@ const RecentCaseStudy = () => {
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://bitnob.com/" target="_blank">
-                    <Image
-                      height={360}
-                      width={550}
-                      src="/images/new-portfolio/web3.png"
-                      alt="image"
-                    />
+                    <div className="Image_parent">
+                      <Image
+                        height={500}
+                        width={500}
+                        src="/images/new-portfolio/web3.png"
+                        alt="image"
+                      />
+                    </div>
                   </a>
                 </div>
 
@@ -140,12 +148,14 @@ const RecentCaseStudy = () => {
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://imaginovation.net/" target="_blank">
-                    <Image
-                      height={360}
-                      width={550}
-                      src="/images/new-portfolio/web4.png"
-                      alt="image"
-                    />
+                    <div className="Image_parent">
+                      <Image
+                        height={500}
+                        width={500}
+                        src="/images/new-portfolio/web4.png"
+                        alt="image"
+                      />
+                    </div>
                   </a>
                 </div>
 
@@ -178,12 +188,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://modjen.com/password" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web5.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web5.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -213,12 +225,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="#" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web6.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web6.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -249,12 +263,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://modjen.com/" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web7.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web7.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -284,12 +300,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://staging.properfans.com" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web8.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web8.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -319,12 +337,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://wehelprx.com" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web9.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web9.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -351,12 +371,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://shopperhits.com" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web10.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web10.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -386,12 +408,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://www.beautflo.com" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web11.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web11.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -422,12 +446,14 @@ const RecentCaseStudy = () => {
                 <div className="cases-image">
                   <Link href="https://gosnabby.com" target="_blank">
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/web12.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/web12.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -462,12 +488,14 @@ const RecentCaseStudy = () => {
                     target="_blank"
                   >
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/mob1.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/mob1.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -507,12 +535,14 @@ const RecentCaseStudy = () => {
                     target="_blank"
                   >
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/mob2.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/mob2.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -552,12 +582,14 @@ const RecentCaseStudy = () => {
                     target="_blank"
                   >
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/mob4.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/mob4.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -597,12 +629,14 @@ const RecentCaseStudy = () => {
                     target="_blank"
                   >
                     <a>
-                      <Image
-                        height={360}
-                        width={550}
-                        src="/images/new-portfolio/mob3.png"
-                        alt="image"
-                      />
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/mob3.png"
+                          alt="image"
+                        />
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -672,10 +706,7 @@ const RecentCaseStudy = () => {
 
       {/* Recent Case Study Style */}
       <style jsx>{`
-        Image {
-          height: 100%;
-          width: 100%;
-        }
+        
         .projects-btn:hover {
           letter-spacing: 1px;
         }

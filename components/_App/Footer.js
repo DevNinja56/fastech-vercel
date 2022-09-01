@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Footer = () => {
   const [subscriptionValue, setSubscriptionValue] = useState();
-  console.log("subscription last ==> ", subscriptionValue);
+  // console.log("subscription last ==> ", subscriptionValue);
   const currentYear = new Date().getFullYear();
   const handleSubmit = (e) => {
     e.preventDefault();

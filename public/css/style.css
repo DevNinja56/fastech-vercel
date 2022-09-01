@@ -1540,8 +1540,36 @@ h6:last-child {
 .react-chatbot-kit-chat-bot-avatar-container > p {
   display: none !important;
 }
+.cases-image {
+  height: 60vh;
+}
+.cases-image > * {
+  height: 100%;
+  width: 100%;
+}
+.cases-image .Image_parent {
+  width: 100%;
+  height: 100%;
+}
+.Box_images {
+  height: 100%;
+  width: 100%;
+}
 
+.Image_parent > span {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 992px) {
+  .cases-image {
+    height: 50vh;
+  }
+}
 @media screen and (max-width: 432px) {
+  .cases-image {
+    height: 45vh;
+  }
   .chat_bot_btn {
     height: 65px;
     width: 65px;
