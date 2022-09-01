@@ -134,16 +134,16 @@ const Career = () => {
 
         {/* Shape Images */}
         <div className="services-shape-1">
-          <img src="/images/services/shape-1.png" alt="image" />
+          <img src="/images/services/fastech-shape-1.png" alt="image" />
         </div>
         <div className="services-shape-2">
-          <img src="/images/services/shape-2.png" alt="image" />
+          <img src="/images/services/fastech-shape-2.png" alt="image" />
         </div>
         <div className="services-shape-3">
-          <img src="/images/services/shape-3.png" alt="image" />
+          <img src="/images/services/fastech-shape-3.png" alt="image" />
         </div>
         <div className="services-shape-4">
-          <img src="/images/services/shape-4.png" alt="image" />
+          <img src="/images/services/fastech-shape-4.png" alt="image" />
         </div>
 
         {/* Services Card Style */}

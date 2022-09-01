@@ -65,15 +65,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
 
@@ -91,15 +100,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
 
@@ -116,15 +134,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
 
@@ -141,15 +168,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
 
@@ -166,15 +202,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
 
@@ -191,15 +236,24 @@ const OurRespectiveClients = () => {
                 </div>
 
                 <div className="shape-1">
-                  <img src="/images/clients/shape-4.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-4.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-2">
-                  <img src="/images/clients/shape-5.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-5.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
 
                 <div className="shape-3">
-                  <img src="/images/clients/shape-6.png" alt="image" />
+                  <img
+                    src="/images/clients/fastech-shape-6.png"
+                    alt="fastech-clients-image"
+                  />
                 </div>
               </div>
             </OwlCarousel>
@@ -210,13 +264,22 @@ const OurRespectiveClients = () => {
 
         {/* Shape Images */}
         <div className="clients-shape-1">
-          <img src="/images/clients/shape-1.png" alt="image" />
+          <img
+            src="/images/clients/fastech-shape-1.png"
+            alt="fastech-clients-image"
+          />
         </div>
         <div className="clients-shape-2">
-          <img src="/images/clients/shape-2.png" alt="image" />
+          <img
+            src="/images/clients/fastech-shape-2.png"
+            alt="fastech-clients-image"
+          />
         </div>
         <div className="clients-shape-3">
-          <img src="/images/clients/shape-3.png" alt="image" />
+          <img
+            src="/images/clients/fastech-shape-3.png"
+            alt="fastech-clients-image"
+          />
         </div>
       </div>
 

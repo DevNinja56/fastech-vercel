@@ -21,7 +21,7 @@ const PopularBlogPost = () => {
                   <Link href="/blog">
                     <a>
                       <img
-                        src="/images/blog/ecommercewebsitetrend (1).jpg"
+                        src="/images/blog/fastech-ecommercewebsitetrend (1).jpg"
                         alt="image"
                       />
                     </a>
@@ -56,7 +56,10 @@ const PopularBlogPost = () => {
                 <div className="blog-image">
                   <Link href="/blog">
                     <a>
-                      <img src="/images/blog/Metaverse (1).jpg" alt="image" />
+                      <img
+                        src="/images/blog/fastech-Metaverse (1).jpg"
+                        alt="image"
+                      />
                     </a>
                   </Link>
                 </div>
@@ -89,7 +92,7 @@ const PopularBlogPost = () => {
                 <div className="blog-image">
                   <Link href="/blog">
                     <a>
-                      <img src="/images/blog/blog-3.jpg" alt="image" />
+                      <img src="/images/blog/fastech-blog-3.jpg" alt="image" />
                     </a>
                   </Link>
                 </div>
@@ -124,10 +127,10 @@ const PopularBlogPost = () => {
 
         {/* Shape Images */}
         <div className="blog-shape-1">
-          <img src="/images/blog/shape-1.png" alt="image" />
+          <img src="/images/blog/fastech-shape-1.png" alt="image" />
         </div>
         <div className="blog-shape-2">
-          <img src="/images/blog/shape-2.png" alt="image" />
+          <img src="/images/blog/fastech-shape-2.png" alt="image" />
         </div>
       </div>
 

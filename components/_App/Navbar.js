@@ -47,7 +47,11 @@ const Navbar = () => {
           <nav className="navbar navbar-expand-lg navbar-light">
             <Link href="/">
               <a className="navbar-brand">
-                <img className="logo_main" src="/images/logo.png" alt="logo" />
+                <img
+                  className="logo_main"
+                  src="/images/fastech-logo.png"
+                  alt="fastech-logo"
+                />
               </a>
             </Link>
 
@@ -84,8 +88,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/web-design_development.svg"
+                            src="/images/fastech-web-design_development.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-web-design"
                           />
                           Web Design & Development
                         </a>
@@ -102,8 +107,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/app-development.svg"
+                            src="/images/nav-icons/fastech-app-development.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-app-development"
                           />
                           Mobile App Development
                         </a>
@@ -120,8 +126,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/software_project_management.svg"
+                            src="/images/nav-icons/fastech-software_project_management.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-software_project"
                           />
                           Software Project Management
                         </a>
@@ -138,8 +145,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/Devops.svg"
+                            src="/images/nav-icons/fastech-Devops.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-devops"
                           />
                           Dev Ops
                         </a>
@@ -156,8 +164,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/uiux.svg"
+                            src="/images/nav-icons/fastech-uiux.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-uiux"
                           />
                           UI/UX Design
                         </a>
@@ -173,8 +182,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav/SQA.svg"
+                            src="/images/nav-icons/fastech-SQA.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-sqa"
                           />
                           Software Quality Assurance
                         </a>
@@ -201,8 +211,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/ecommerce.svg"
+                            src="/images/nav-icons/fastech-ecommerce.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-ecommerce"
                           />
                           E-Commerce
                         </a>
@@ -219,8 +230,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/food&grocery.svg"
+                            src="/images/nav-icons/fastech-food&grocery.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-food-grocery"
                           />
                           Food & Grocery
                         </a>
@@ -237,8 +249,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/ondemandservice.svg"
+                            src="/images/nav-icons/fastech-ondemandservice.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-ondemand-service"
                           />
                           On Demand Services
                         </a>
@@ -255,8 +268,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/healthcare.svg"
+                            src="/images/nav-icons/fastech-healthcare.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-health-care"
                           />
                           Healthcare
                         </a>
@@ -272,8 +286,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fintech.svg"
+                            src="/images/nav-icons/fastech-fintech.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-fintech"
                           />
                           Fintech
                         </a>
@@ -289,8 +304,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/Travel&tourism.svg"
+                            src="/images/nav-icons/fastech-Travel&tourism.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-travel-tourism"
                           />
                           Travel & Tourism
                         </a>
@@ -306,8 +322,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/education.svg"
+                            src="/images/nav-icons/fastech-education.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-education"
                           />
                           Education
                         </a>
@@ -334,8 +351,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/Mernstack.svg"
+                            src="/images/nav-icons/fastech-Mernstack.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-mern-stack"
                           />
                           Mern Stack
                         </a>
@@ -352,8 +370,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/React.svg"
+                            src="/images/nav-icons/fastech-React.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-react"
                           />
                           React js
                         </a>
@@ -370,8 +389,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/React.svg"
+                            src="/images/nav-icons/fastech-React.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-react-native"
                           />
                           React Native
                         </a>
@@ -392,8 +412,9 @@ const Navbar = () => {
                       <Link href="/about-us">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/aboutus.svg"
+                            src="/images/nav-icons/fastech-aboutus.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-about-us"
                           />
                           About Us
                         </a>
@@ -404,8 +425,9 @@ const Navbar = () => {
                       <Link href="/career">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/career.svg"
+                            src="/images/nav-icons/fastech-career.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-career"
                           />
                           Careers
                         </a>
@@ -416,8 +438,9 @@ const Navbar = () => {
                       <Link href="/portfolio">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/Portfolio.svg"
+                            src="/images/nav-icons/fastech-Portfolio.svg"
                             className="icons_img_meg_menu"
+                            alt="fastech-portfolio"
                           />
                           Portfolio
                         </a>

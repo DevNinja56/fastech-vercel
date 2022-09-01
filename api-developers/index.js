@@ -40,17 +40,17 @@ export const DevelopersApi = [
       "We solve your biggest business pains and help you succeed with our tested solutions",
     AboutItems: [
       {
-        about_img: "/images/experiences/Wide Range of Experts.svg",
+        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
         about_text:
           " Wide Range of Experts - Our tech talent network consists of hundred plus on-site experts. We have MERN superstars perfectly fitted to your product, industry, and company culture.",
       },
       {
-        about_img: "/images/experiences/Dedicated Team.svg",
+        about_img: "/images/experiences/fastech-Dedicated Team.svg",
         about_text:
           "Dedicated Team - The dedicated development team that works for you full-time as if they are part of your in-house team. We believe in forming personal connections with strong working relationships to build mutual trust.",
       },
       {
-        about_img: "/images/experiences/Truly Agile Process.svg",
+        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
         about_text:
           "Truly Agile Process - We follow agile best practices for software development and expand it to other project areas. This approach is super helpful in ensuring the highest efficiency and transparency.",
       },
@@ -140,17 +140,17 @@ export const DevelopersApi = [
       "We solve your biggest business pains and help you succeed with our tested solutions",
     AboutItems: [
       {
-        about_img: "/images/experiences/Wide Range of Experts.svg",
+        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
         about_text:
           " Wide Range of Experts - Our tech talent network consists of hundred plus on-site experts. We have REACT native superstars perfectly fitted to your product, industry, and company culture.",
       },
       {
-        about_img: "/images/experiences/Dedicated Team.svg",
+        about_img: "/images/experiences/fastech-Dedicated Team.svg",
         about_text:
           "Dedicated Team - The dedicated development team that works for you full-time as if they are part of your in-house team. We believe in forming personal connections with strong working relationships to build mutual trust.",
       },
       {
-        about_img: "/images/experiences/Truly Agile Process.svg",
+        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
         about_text:
           "Truly Agile Process - We follow agile best practices for software development and expand it to other project areas. This approach is super helpful in ensuring the highest efficiency and transparency.",
       },
@@ -264,17 +264,17 @@ export const DevelopersApi = [
       "We solve your biggest business pains and help you succeed with our tested solutions",
     AboutItems: [
       {
-        about_img: "/images/experiences/Wide Range of Experts.svg",
+        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
         about_text:
           " Wide Range of Experts - Our tech talent network consists of hundred plus on-site experts. We have REACT js superstars perfectly fitted to your product, industry, and company culture.",
       },
       {
-        about_img: "/images/experiences/Dedicated Team.svg",
+        about_img: "/images/experiences/fastech-Dedicated Team.svg",
         about_text:
           "Dedicated Team - The dedicated development team that works for you full-time as if they are part of your in-house team. We believe in forming personal connections with strong working relationships to build mutual trust.",
       },
       {
-        about_img: "/images/experiences/Truly Agile Process.svg",
+        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
         about_text:
           "Truly Agile Process - We follow agile best practices for software development and expand it to other project areas. This approach is super helpful in ensuring the highest efficiency and transparency.",
       },

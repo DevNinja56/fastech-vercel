@@ -1076,7 +1076,7 @@ export default PreviousIndustryDetail;
 //                                 <div className="experiences-item">
 //                                     <div className="experiences-content">
 //                                         <div className="tag">
-//                                             <img src="/images/favicon.png" alt="image" className='tag_img' />
+//                                             <img src="/images/fastech-favicon.png" alt="fastech-image" className='tag_img' />
 //                                         </div>
 //                                         <h3>Why Hire eCommerce WebsiteDevelopers from Fastech?</h3>
 

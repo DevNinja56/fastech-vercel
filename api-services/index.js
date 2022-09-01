@@ -64,7 +64,7 @@ export const ServicesApi = [
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_img: "/images/new-portfolio/fastech-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -72,7 +72,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_img: "/images/new-portfolio/fastech-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -80,7 +80,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_img: "/images/new-portfolio/fastech-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -88,7 +88,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web4.png",
+        portfolio_img: "/images/new-portfolio/fastech-web4.png",
         portfolio_heading: "Imaginovation",
         portfolio_text:
           "An IT Company’s services-based website according to modern design standards.",
@@ -96,7 +96,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web5.png",
+        portfolio_img: "/images/new-portfolio/fastech-web5.png",
         portfolio_heading: "Ecommerece dashboard",
         portfolio_text:
           "Ecommerce Admin Dashboard with all the features like product management, category-subcategory management.",
@@ -104,7 +104,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web6.png",
+        portfolio_img: "/images/new-portfolio/fastech-web6.png",
         portfolio_heading: "LinkedinExtension",
         portfolio_text:
           "A project used to scrap leads from linkedin which are used to make pipelines for marketing.",
@@ -142,31 +142,31 @@ export const ServicesApi = [
       {
         about_text:
           "Schedule a meeting to discuss your project ideas and requirements with one of our team members.",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "We review your requirements and identify web solutions that are effective and feasible as per your needs.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "Once the requirements are identified, the team starts developing the solution.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
 
       {
         about_text:
           "After development and final review from the client, the quality assurance team ensures that everything is on track.",
-        about_img: "/images/experiences/purplecircle.svg",
+        about_img: "/images/experiences/fastech-purplecircle.svg",
       },
 
       {
         about_text:
           "Our team launches your brand-new site after all checks and revisions have been cleared to ensure the highest standard.",
-        about_img: "/images/experiences/yellowcircle.svg",
+        about_img: "/images/experiences/fastech-yellowcircle.svg",
       },
     ],
 
@@ -238,7 +238,7 @@ export const ServicesApi = [
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -246,7 +246,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -254,7 +254,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -262,7 +262,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob3.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob3.png",
         portfolio_heading: "Camlist- Just Prts",
         portfolio_text:
           "Camlist gives you easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets.",
@@ -316,31 +316,31 @@ export const ServicesApi = [
       {
         about_text:
           "Discuss Your Requirements - Schedule a meeting to discuss your project ideas and requirements with one of our team members.",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "Get a Proposal - We review your requirements and identify App development that are effective and feasible as per your needs.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "App Development - Once the requirements are identified, the team starts developing the solution.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
 
       {
         about_text:
           "Quality Assurance - After development and final review from the client, the quality assurance team ensures that everything is on track.",
-        about_img: "/images/experiences/purplecircle.svg",
+        about_img: "/images/experiences/fastech-purplecircle.svg",
       },
 
       {
         about_text:
           "Project Launch - Our team launches your brand-new site after all checks and revisions have been cleared to ensure the highest standard.",
-        about_img: "/images/experiences/yellowcircle.svg",
+        about_img: "/images/experiences/fastech-yellowcircle.svg",
       },
     ],
 
@@ -410,7 +410,7 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_img: "/images/new-portfolio/fastech-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -418,7 +418,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_img: "/images/new-portfolio/fastech-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -426,7 +426,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_img: "/images/new-portfolio/fastech-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -434,7 +434,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -442,7 +442,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -450,7 +450,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -488,19 +488,19 @@ export const ServicesApi = [
       {
         about_text:
           "Working with Fastech, you ensure predictably successful results each time. Our streamlined and thorough processes keep us competitive.",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "Fastech strives to optimize the UI/UX analyzing process to make sure your time and investment are utilized most efficiently.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "By simplifying our strategies, we make outsourcing UI/UX designing projects the best experience for you and your customers.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
     ],
 
@@ -594,7 +594,7 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_img: "/images/new-portfolio/fastech-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -602,7 +602,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_img: "/images/new-portfolio/fastech-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -610,7 +610,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_img: "/images/new-portfolio/fastech-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -618,7 +618,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -626,7 +626,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -634,7 +634,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -672,25 +672,25 @@ export const ServicesApi = [
       {
         about_text:
           "Working with Fastech, you ensure predictably successful results each time. ",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "Our streamlined and thorough processes keep us competitive.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "Fastech strives to optimize the software quality assurance process to make sure your time and investment are utilized most efficiently.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
 
       {
         about_text:
           " By simplifying our strategies, we make outsourcing software quality assurance the best experience for you and your customers.",
-        about_img: "/images/experiences/yellowcircle.svg",
+        about_img: "/images/experiences/fastech-yellowcircle.svg",
       },
     ],
 
@@ -785,7 +785,7 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_img: "/images/new-portfolio/fastech-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -793,7 +793,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_img: "/images/new-portfolio/fastech-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -801,7 +801,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_img: "/images/new-portfolio/fastech-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -809,7 +809,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -817,7 +817,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -825,7 +825,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -863,25 +863,25 @@ export const ServicesApi = [
       {
         about_text:
           "Working with Fastech, you ensure predictably successful results each time.",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "Our streamlined and thorough processes keep us competitive.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "We strives to optimize the big data consulting and analyzing process to make sure your time and investment are utilized most efficiently.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
 
       {
         about_text:
           "By simplifying our strategies, we make outsourcing big data consulting the best experience for you and your customers.",
-        about_img: "/images/experiences/yellowcircle.svg",
+        about_img: "/images/experiences/fastech-yellowcircle.svg",
       },
     ],
 
@@ -977,7 +977,7 @@ export const ServicesApi = [
       "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/web1.png",
+        portfolio_img: "/images/new-portfolio/fastech-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -985,7 +985,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web2.png",
+        portfolio_img: "/images/new-portfolio/fastech-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -993,7 +993,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/web3.png",
+        portfolio_img: "/images/new-portfolio/fastech-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -1001,7 +1001,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob1.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -1009,7 +1009,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob2.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -1017,7 +1017,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/mob4.png",
+        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -1055,25 +1055,25 @@ export const ServicesApi = [
       {
         about_text:
           "Product Owners - Digital product managers and scrum product owners with expertise in numerous industries like banking, healthcare, ecommerce, and more.",
-        about_img: "/images/experiences/Bluecircle.svg",
+        about_img: "/images/experiences/fastech-Bluecircle.svg",
       },
 
       {
         about_text:
           "Developers - Senior software engineers, coders, and architects with expertise across hundreds of technologies.",
-        about_img: "/images/experiences/greencircle.svg",
+        about_img: "/images/experiences/fastech-greencircle.svg",
       },
 
       {
         about_text:
           "Business Consultants - Top-tier business consultants, strategy, and operations specialists with expertise across all business types and sizes.",
-        about_img: "/images/experiences/orangecircle.svg",
+        about_img: "/images/experiences/fastech-orangecircle.svg",
       },
 
       {
         about_text:
           "Quality Assurance Experts - Seasoned QA engineers skilled in manual, automated testing, and other quality assurance techniques.",
-        about_img: "/images/experiences/yellowcircle.svg",
+        about_img: "/images/experiences/fastech-yellowcircle.svg",
       },
     ],
 

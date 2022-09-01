@@ -14,7 +14,10 @@ const CTA = () => {
                 <Link href="/contact">
                   <a className="overview-btn-one">Get Started</a>
                 </Link>
-                <img src="/images/overview/bar.png" alt="image" />
+                <img
+                  src="/images/overview/fastech-bar.png"
+                  alt="fastech-cta-img"
+                />
               </div>
             </div>
           </div>
@@ -22,19 +25,34 @@ const CTA = () => {
 
         {/* Shape Images */}
         <div className="overview-shape-1">
-          <img src="/images/overview/shape-1.png" alt="image" />
+          <img
+            src="/images/overview/fastech-shape-1.png"
+            alt="fastech-cta-img"
+          />
         </div>
         <div className="overview-shape-2">
-          <img src="/images/overview/shape-2.png" alt="image" />
+          <img
+            src="/images/overview/fastech-shape-2.png"
+            alt="fastech-cta-img"
+          />
         </div>
         <div className="overview-shape-3">
-          <img src="/images/overview/shape-3.png" alt="image" />
+          <img
+            src="/images/overview/fastech-shape-3.png"
+            alt="fastech-cta-img"
+          />
         </div>
         <div className="overview-shape-4">
-          <img src="/images/overview/shape-4.png" alt="image" />
+          <img
+            src="/images/overview/fastech-shape-4.png"
+            alt="fastech-cta-img"
+          />
         </div>
         <div className="overview-shape-5">
-          <img src="/images/overview/shape-5.png" alt="image" />
+          <img
+            src="/images/overview/fastech-shape-5.png"
+            alt="fastech-cta-img"
+          />
         </div>
       </div>
 

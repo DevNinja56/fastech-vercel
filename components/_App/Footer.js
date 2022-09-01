@@ -25,8 +25,8 @@ const Footer = () => {
                     <a>
                       <img
                         className="logo_main"
-                        src="/images/logo.png"
-                        alt="image"
+                        src="/images/fastech-logo.png"
+                        alt="fastech-image"
                       />
                     </a>
                   </Link>

@@ -24,7 +24,10 @@ const ContactForm = () => {
                 <div className="col-12 col-lg-8">
                   <div className="sales_profile">
                     <div className="image_wrapper">
-                      <img src="/images/daniyalpic1.png" alt="" />
+                      <img
+                        src="/images/fastech-daniyalpic1.png"
+                        alt="fastech-ceo-img"
+                      />
                     </div>
                     <div className="profile_data text-start">
                       <p>
@@ -41,9 +44,9 @@ const ContactForm = () => {
                       <span>
                         <a href="mailto:daniyal@thefastech.com" target="_blank">
                           <img
-                            src="/images/Icon material-email.svg"
+                            src="/images/fastech-Icon material-email.svg"
                             className="profile_icons_images"
-                            alt=""
+                            alt="fastech-social-icons"
                           />
                         </a>
                       </span>
@@ -53,18 +56,18 @@ const ContactForm = () => {
                           target="_blank"
                         >
                           <img
-                            src="/images/icons8-linkedin.svg"
+                            src="/images/fastech-icons8-linkedin.svg"
                             className="profile_icons_images profile_img_left"
-                            alt=""
+                            alt="fastech-social-icons"
                           />
                         </a>
                       </span>
                       <span>
                         <a href="https://wa.me/923334397893" target="_blank">
                           <img
-                            src="/images/icons8-whatsapp.svg"
+                            src="/images/fastech-icons8-whatsapp.svg"
                             className="profile_img_left"
-                            alt=""
+                            alt="fastech-social-icons"
                           />
                         </a>
                       </span>
@@ -74,9 +77,9 @@ const ContactForm = () => {
                           target="_blank"
                         >
                           <img
-                            src="/images/icons8-skype.svg"
+                            src="/images/fastech-icons8-skype.svg"
                             className="profile_icons_images profile_img_left"
-                            alt=""
+                            alt="fastech-social-icons"
                           />
                         </a>
                       </span>

@@ -1,7 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import ReviewCarouselData from "./ReviewCarouselData";
-import Image from "next/image";
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
 
 const options = {
@@ -18,7 +17,7 @@ const options = {
   ],
   responsive: {
     0: {
-      items: 1,
+      items: 2,
     },
     576: {
       items: 2,
@@ -56,157 +55,71 @@ const ReviewCarousel = () => {
                       {...options}
                     >
                       <div className="single-partner">
-                        <Image
-                          src={data.img_1}
-                          width={500}
-                          height={500}
-                          alt="image"
-                          className="img_review"
-                        />
+                        <img src={data.img_1} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_2}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_2} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_3}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_3} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_4}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_4} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_5}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_5} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_6}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_6} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_7}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_7} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_8}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_8} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_9}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_9} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_10}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_10} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_11}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_11} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_12}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_12} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_13}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_13} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_4}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_14} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_15}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_15} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_16}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_16} alt="image" />
                       </div>
 
                       <div className="single-partner">
-                        <Image
-                          src={data.img_17}
-                          width={500}
-                          height={500}
-                          alt="image"
-                        />
+                        <img src={data.img_17} alt="image" />
                       </div>
                     </OwlCarousel>
                   ) : (
@@ -240,7 +153,10 @@ const ReviewCarousel = () => {
         .single-partner {
           text-align: center;
         }
-
+        .single-partner img {
+          width: auto !important;
+          display: inline-block !important;
+        }
         .partner-shape-1 {
           position: absolute;
           top: -20%;

@@ -104,16 +104,28 @@ const DevelopersDetail = ({ developersData, dataId }) => {
 
         {/* Shape Images */}
         <div className="main-banner-shape-1">
-          <img src="/images/main-banner/banner-one/shape-1.png" alt="image" />
+          <img
+            src="/images/main-banner/banner-one/fastech-shape-1.png"
+            alt="image"
+          />
         </div>
         <div className="main-banner-shape-2">
-          <img src="/images/main-banner/banner-one/shape-2.png" alt="image" />
+          <img
+            src="/images/main-banner/banner-one/fastech-shape-2.png"
+            alt="image"
+          />
         </div>
         <div className="main-banner-shape-3">
-          <img src="/images/main-banner/banner-one/shape-3.png" alt="image" />
+          <img
+            src="/images/main-banner/banner-one/fastech-shape-3.png"
+            alt="image"
+          />
         </div>
         <div className="main-banner-shape-4">
-          <img src="/images/main-banner/banner-one/shape-4.png" alt="image" />
+          <img
+            src="/images/main-banner/banner-one/fastech-shape-4.png"
+            alt="image"
+          />
         </div>
 
         {/* Main Banner Style */}
@@ -1139,16 +1151,16 @@ const DevelopersDetail = ({ developersData, dataId }) => {
 
         {/* Shape Images */}
         <div className="services-shape-1">
-          <img src="/images/services/shape-1.png" alt="image" />
+          <img src="/images/services/fastech-shape-1.png" alt="image" />
         </div>
         <div className="services-shape-2">
-          <img src="/images/services/shape-2.png" alt="image" />
+          <img src="/images/services/fastech-shape-2.png" alt="image" />
         </div>
         <div className="services-shape-3">
-          <img src="/images/services/shape-3.png" alt="image" />
+          <img src="/images/services/fastech-shape-3.png" alt="image" />
         </div>
         <div className="services-shape-4">
-          <img src="/images/services/shape-4.png" alt="image" />
+          <img src="/images/services/fastech-shape-4.png" alt="image" />
         </div>
 
         <style jsx>{`
@@ -2140,8 +2152,8 @@ const DevelopersDetail = ({ developersData, dataId }) => {
                           <div className="experiences-content">
                             <div className="tag">
                               <img
-                                src="/images/favicon.png"
-                                alt="image"
+                                src="/images/fastech-favicon.png"
+                                alt="fastech-image"
                                 className="tag_img"
                               />
                             </div>
@@ -2207,49 +2219,49 @@ const DevelopersDetail = ({ developersData, dataId }) => {
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-1.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-1.png" alt="image" />
           </div>
           <div
             className="experiences-shape-2"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-2.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-2.png" alt="image" />
           </div>
           <div
             className="experiences-shape-3"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-3.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-3.png" alt="image" />
           </div>
           <div
             className="experiences-shape-4"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-2.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-2.png" alt="image" />
           </div>
           <div
             className="experiences-shape-5"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-3.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-3.png" alt="image" />
           </div>
           <div
             className="experiences-shape-6"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-4.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-4.png" alt="image" />
           </div>
           <div
             className="experiences-shape-7"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/shape-5.png" alt="image" />
+            <img src="/images/experiences/fastech-shape-5.png" alt="image" />
           </div>
         </div>
 

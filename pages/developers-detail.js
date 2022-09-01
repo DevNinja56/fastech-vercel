@@ -2161,8 +2161,8 @@ const DevDetail = () => {
                   <div className="experiences-content">
                     <div className="tag">
                       <img
-                        src="/images/favicon.png"
-                        alt="image"
+                        src="/images/fastech-favicon.png"
+                        alt="fastech-image"
                         className="tag_img"
                       />
                     </div>

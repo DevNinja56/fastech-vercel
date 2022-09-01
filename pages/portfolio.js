@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <Link href="https://magictask.io/">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web1.png"
+                              src="/images/new-portfolio/fastech-web1.png"
                               alt="image"
                             />
                           </a>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         <Link href="https://www.jobgeniedevs.com/">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web2.png"
+                              src="/images/new-portfolio/fastech-web2.png"
                               alt="image"
                             />
                           </a>
@@ -107,7 +107,7 @@ const Portfolio = () => {
                         <Link href="https://bitnob.com/">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web3.png"
+                              src="/images/new-portfolio/fastech-web3.png"
                               alt="image"
                             />
                           </a>
@@ -142,7 +142,7 @@ const Portfolio = () => {
                         <Link href="https://imaginovation.net/">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web4.png"
+                              src="/images/new-portfolio/fastech-web4.png"
                               alt="image"
                             />
                           </a>
@@ -177,7 +177,7 @@ const Portfolio = () => {
                         <Link href="https://modjen.com/password">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web5.png"
+                              src="/images/new-portfolio/fastech-web5.png"
                               alt="image"
                             />
                           </a>
@@ -212,7 +212,7 @@ const Portfolio = () => {
                         <Link href="#">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web6.png"
+                              src="/images/new-portfolio/fastech-web6.png"
                               alt="image"
                             />
                           </a>
@@ -247,7 +247,7 @@ const Portfolio = () => {
                         <Link href="https://modjen.com/">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web7.png"
+                              src="/images/new-portfolio/fastech-web7.png"
                               alt="image"
                             />
                           </a>
@@ -282,7 +282,7 @@ const Portfolio = () => {
                         <Link href="https://staging.properfans.com">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web8.png"
+                              src="/images/new-portfolio/fastech-web8.png"
                               alt="image"
                             />
                           </a>
@@ -320,7 +320,7 @@ const Portfolio = () => {
                         <Link href="https://wehelprx.com">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web9.png"
+                              src="/images/new-portfolio/fastech-web9.png"
                               alt="image"
                             />
                           </a>
@@ -354,7 +354,7 @@ const Portfolio = () => {
                         <Link href="https://shopperhits.com">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web10.png"
+                              src="/images/new-portfolio/fastech-web10.png"
                               alt="image"
                             />
                           </a>
@@ -389,7 +389,7 @@ const Portfolio = () => {
                         <Link href="https://www.beautflo.com">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web11.png"
+                              src="/images/new-portfolio/fastech-web11.png"
                               alt="image"
                             />
                           </a>
@@ -424,7 +424,7 @@ const Portfolio = () => {
                         <Link href="https://gosnabby.com">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/web12.png"
+                              src="/images/new-portfolio/fastech-web12.png"
                               alt="image"
                             />
                           </a>
@@ -461,7 +461,7 @@ const Portfolio = () => {
                         <Link href="https://play.google.com/store/apps/details?id=com.fivesechealth">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/mob1.png"
+                              src="/images/new-portfolio/fastech-mob1.png"
                               alt="image"
                             />
                           </a>
@@ -499,7 +499,7 @@ const Portfolio = () => {
                         <Link href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/mob2.png"
+                              src="/images/new-portfolio/fastech-mob2.png"
                               alt="image"
                             />
                           </a>
@@ -538,7 +538,7 @@ const Portfolio = () => {
                         <Link href="https://play.google.com/store/apps/details?id=com.potsworkprovider">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/mob4.png"
+                              src="/images/new-portfolio/fastech-mob4.png"
                               alt="image"
                             />
                           </a>
@@ -576,7 +576,7 @@ const Portfolio = () => {
                         <Link href="https://play.google.com/store/apps/details?id=com.camelan">
                           <a target="blank">
                             <img
-                              src="/images/new-portfolio/mob3.png"
+                              src="/images/new-portfolio/fastech-mob3.png"
                               alt="image"
                             />
                           </a>

@@ -17,7 +17,7 @@ const options = {
   ],
   responsive: {
     0: {
-      items: 1,
+      items: 2,
     },
     576: {
       items: 2,
@@ -58,43 +58,43 @@ const CarouselOne = () => {
                       {...options}
                     >
                       <div className="single-partner">
-                        <img src={data.img_1} alt="image" />
+                        <img src={data.img_1} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_2} alt="image" />
+                        <img src={data.img_2} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_3} alt="image" />
+                        <img src={data.img_3} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_4} alt="image" />
+                        <img src={data.img_4} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_5} alt="image" />
+                        <img src={data.img_5} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_6} alt="image" />
+                        <img src={data.img_6} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_7} alt="image" />
+                        <img src={data.img_7} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_8} alt="image" />
+                        <img src={data.img_8} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_9} alt="image" />
+                        <img src={data.img_9} alt="fastech-review-image" />
                       </div>
 
                       <div className="single-partner">
-                        <img src={data.img_10} alt="image" />
+                        <img src={data.img_10} alt="fastech-review-image" />
                       </div>
                     </OwlCarousel>
                   ) : (

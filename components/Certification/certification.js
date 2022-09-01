@@ -19,12 +19,12 @@ const Certification = () => {
           <div className="row">
             {CertiData?.map((item) => (
               <>
-                <div className="col-lg-2 col-md-4 mt-3">
+                <div className="col-lg-2 col-md-4 col-6  mt-3">
                   <div className="certificate_box">
                     <img
                       src={item.CertificationImg}
                       className="certificate_img"
-                      alt="img"
+                      alt="fastech-certification-img"
                     />
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Certification = () => {
         .certification_area {
           position: relative;
           overflow: hidden;
-          background-image: url(/images/certification/cfbg.png);
+          background-image: url(/images/certification/fastech-cfbg.png);
           background-position: 0px;
           background-size: cover;
           padding-bottom: 170px;
