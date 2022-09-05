@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import BenifitTech from "../components/BenifitComponent/benifit";
 import SubscriptionModal from "../components/subscriptionModal/modal";
 
 const Career = () => {
+  const [apiData, setApiData] = useState("");
+
+  useEffect(() => {
+    fetch("http://localhost:3000/api/dashboard/").then((result) => {
+      result.json().then((response) => setApiData(response.data));
+    });
+  }, []);
+
+  // console.log("api data ==>", apiData);
+
   return (
     <>
       {/* <NavbarFour /> */}
@@ -23,112 +33,29 @@ const Career = () => {
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon">
-                    <i className="ri-quill-pen-line"></i>
-                  </div>
-                  <h3>
-                    <a>Digital Marketing</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">Marketing</p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon bg-36CC72">
-                    <i className="ri-pie-chart-line"></i>
-                  </div>
-                  <h3>
-                    <a>Project Manager</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">IT</p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon bg-FF414B">
-                    <i className="ri-lightbulb-line"></i>
-                  </div>
-                  <h3>
-                    <a>Data Entry</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">Software Quality Assurance</p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon bg-FF6D3D">
-                    <i className="ri-customer-service-2-line"></i>
-                  </div>
-                  <h3>
-                    <a>Automation Engineer</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">Software Engineering </p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon bg-8932F8">
-                    <i className="ri-cloud-line"></i>
-                  </div>
-                  <h3>
-                    <a>Talent Management</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">People Operations & Development</p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-md-6 cards_area">
-              <Link href="/career-detail-page">
-                <div className="single-services-item">
-                  <div className="icon bg-FFCA40">
-                    <i className="ri-layout-row-line"></i>
-                  </div>
-                  <h3>
-                    <a>NodeJS Engineer</a>
-                  </h3>
-                  <p>1 Position (s)</p>
-
-                  <div className="career_card_line"></div>
-                  <p className="mt-2">Software Engineering</p>
-                  <h6>Fastech Office</h6>
-                </div>
-              </Link>
-            </div>
+            {apiData &&
+              apiData?.map((item) => {
+                return (
+                  <>
+                    <div className="col-lg-4 col-md-6 cards_area">
+                      <Link href="/career-detail-page">
+                        <div className="single-services-item">
+                          <div className="icon bg-36CC72">
+                            <i className="ri-pie-chart-line"></i>
+                          </div>
+                          <h3>
+                            <a>{item.Department}</a>
+                          </h3>
+                          <p>{item.Positions}</p>
+                          <div className="career_card_line"></div>
+                          <p className="mt-2">{item.Job_title}</p>
+                          <h6>{item.Location}</h6>
+                        </div>
+                      </Link>
+                    </div>
+                  </>
+                );
+              })}
           </div>
         </div>
 
