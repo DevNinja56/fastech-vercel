@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import MainBanner from "../components/HomeDemoOne/MainBanner";
 import CarouselOne from "../components/Carousel/CarouselOne";
 import AboutUsContent from "../components/HomeDemoOne/AboutUsContent";

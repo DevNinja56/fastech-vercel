@@ -13,12 +13,8 @@ const Career = () => {
     });
   }, []);
 
-  // console.log("api data ==>", apiData);
-
   return (
     <>
-      {/* <NavbarFour /> */}
-
       <SubscriptionModal />
 
       <PageBanner
@@ -29,7 +25,6 @@ const Career = () => {
       />
 
       {/* main cards  */}
-
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
@@ -305,8 +300,6 @@ const Career = () => {
       </div>
 
       <BenifitTech />
-
-      {/* <Footer /> */}
     </>
   );
 };
