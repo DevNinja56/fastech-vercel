@@ -1,11 +1,10 @@
 import React from "react";
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
-  const handleHello = () => {
+  const btnMessage = () => {
     const botMessage = createChatBotMessage(
-      "Please tell us about your business and how can we help you in it?"
+      "Awesome! Let's get the basics out of the way quick!"
     );
-
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
@@ -16,7 +15,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     const botMessage = createChatBotMessage(
       "Please share you email address or phone number."
     );
-
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
@@ -27,7 +25,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     const botMessage = createChatBotMessage(
       "Thanks a lot! We will get back to you as soon as possible."
     );
-
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
@@ -38,7 +35,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     <div>
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
-          actions: { handleHello, finalMsg, getInfo },
+          actions: { btnMessage, finalMsg, getInfo },
         });
       })}
     </div>

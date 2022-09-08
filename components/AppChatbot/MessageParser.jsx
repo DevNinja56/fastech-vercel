@@ -4,6 +4,7 @@ const MessageParser = ({ children, actions, step, setStep, setShow }) => {
   const parse = (message) => {
     if (step === 1 && message.includes("")) {
       actions.getInfo();
+      // actions.btnMessage();
       setStep(2);
     }
     if (step === 2 && message.includes("")) {

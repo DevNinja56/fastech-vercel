@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
+// const MainFunction = () => {
+// const [firstBtn, setFirstBtn] = useState("");
+// console.log("btn message ==> ", firstBtn);
+// };
+
 const config = {
   initialMessages: [
     createChatBotMessage(
@@ -11,9 +16,17 @@ const config = {
     ),
 
     createChatBotMessage(
-      <p className="inital_msg">
-        Please tell us about your business and how can we help you in it?
-      </p>
+      <>
+        <p className="inital_msg">How can we help you today?</p>
+        <button
+          className="btn_1"
+          // onClick={setFirstBtn("How can we help you today?")}
+        >
+          have a project or idea 🚀
+        </button>
+        <br />
+        <button className="btn_2">want to hire a developer 💼</button>
+      </>
     ),
   ],
 
