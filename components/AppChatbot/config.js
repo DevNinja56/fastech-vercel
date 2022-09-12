@@ -1,31 +1,52 @@
-import { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-// const MainFunction = () => {
-// const [firstBtn, setFirstBtn] = useState("");
-// console.log("btn message ==> ", firstBtn);
+// const click = () => {
+//   console.log("click is ==>", click);
 // };
+
+// useEffect(() => {
+// const allWithClass = document.getElementsByClassName("btn_1").click();
+// console.log(allWithClass);
+// }, []);
+
+// document.getElementsByClassName("btn_1").click();
 
 const config = {
   initialMessages: [
     createChatBotMessage(
       <div className="wavy_msg">
         <img src="/images/gif-images/waving_hand.gif" />
-        <p className="inital_msg">Hi! Lets Chat 😀</p>
+        <p className="initial_msg">Hi! Lets Chat 😀</p>
       </div>
     ),
 
     createChatBotMessage(
       <>
-        <p className="inital_msg">How can we help you today?</p>
+        <p className="initial_msg">How can we help you today?</p>
         <button
           className="btn_1"
-          // onClick={setFirstBtn("How can we help you today?")}
+          onClick={() => {
+            const btnClick = document
+              .getElementsByClassName("react-chatbot-kit-chat-btn-send")[0]
+              ?.click();
+            console.log(btnClick);
+          }}
         >
           have a project or idea 🚀
         </button>
         <br />
-        <button className="btn_2">want to hire a developer 💼</button>
+        <button
+          className="btn_2"
+          onClick={() => {
+            const btnClick = document
+              .getElementsByClassName("react-chatbot-kit-chat-btn-send")[0]
+              ?.click();
+            console.log(btnClick);
+          }}
+        >
+          want to hire a developer 💼
+        </button>
       </>
     ),
   ],
@@ -46,4 +67,4 @@ const config = {
   },
 };
 
-export default config;
+export { config as default };

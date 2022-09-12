@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
+// import { GlobalInfo } from "./index";
 
 const MessageParser = ({ children, actions, step, setStep, setShow }) => {
+  // const { getName } = useContext(GlobalInfo);
+
   const parse = (message) => {
     if (step === 1 && message.includes("")) {
-      actions.getInfo();
-      // actions.btnMessage();
+      actions.getInfo_1();
       setStep(2);
     }
     if (step === 2 && message.includes("")) {
-      actions.finalMsg();
+      actions.getInfo_2();
       setStep(3);
-      setTimeout(() => setShow(false), 3000);
+    }
+    if (step === 3 && message.includes("")) {
+      actions.getInfo_3();
+      setStep(4);
+    }
+    if (step === 4 && message.includes("")) {
+      actions.finalMsg();
+      setStep(5);
+      setTimeout(() => setShow(false), 8000);
     }
   };
 

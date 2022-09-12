@@ -1,22 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 import config from "./config";
 import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
-import { useEffect } from "react";
+
+// export const GlobalInfo = createContext();
 
 const AppChatbot = ({ setShow }) => {
   const [step, setStep] = useState(1);
+  // const [name, setName] = useState("");
+
+  // const hndleClick = () => {
+  //   setName("Abdul");
+  // };
 
   const MessageParserWithState = (props) => {
     return (
-      <MessageParser
-        step={step}
-        setStep={setStep}
-        setShow={setShow}
-        {...props}
-      />
+      <>
+        {/* <button onClick={hndleClick()}>Button</button> */}
+
+        {/* <GlobalInfo.Provider> */}
+        <MessageParser
+          step={step}
+          setStep={setStep}
+          setShow={setShow}
+          {...props}
+        />
+        {/* </GlobalInfo.Provider> */}
+      </>
     );
   };
 

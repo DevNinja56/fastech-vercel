@@ -1512,7 +1512,7 @@ h6:last-child {
 .chat_bot_btn:focus {
   outline: none !important;
 }
-.inital_msg {
+.initial_msg {
   color: #455a64;
   font-size: 15.5px;
   font-weight: 500;
@@ -1576,9 +1576,9 @@ h6:last-child {
   padding: 9px 14px 9px 32px;
   margin: 0px 0px 5px 5px;
   border-radius: 25px;
-  border: 2px solid #1f69f6;
+  border: 1px solid #1f69f6;
   color: #1f69f6;
-  font-weight: 500;
+  font-weight: 400;
   background-color: white;
 }
 .btn_1::before {
@@ -1588,7 +1588,7 @@ h6:last-child {
   height: 12px;
   position: absolute;
   left: 29px;
-  top: 70px;
+  top: 69px;
   border-radius: 50%;
 }
 .btn_1:hover::before {
@@ -1598,10 +1598,10 @@ h6:last-child {
   padding: 9px 14px 9px 32px;
   margin: 0px 6px 7px 5px;
   border-radius: 25px;
-  border: 2px solid #1f69f6;
+  border: 1px solid #1f69f6;
   margin-top: 5px;
   color: #1f69f6;
-  font-weight: 500;
+  font-weight: 400;
   background-color: white;
 }
 .btn_2::after {
@@ -1611,7 +1611,7 @@ h6:last-child {
   height: 12px;
   position: absolute;
   left: 29px;
-  top: 125px;
+  top: 122px;
   border-radius: 50%;
 }
 .btn_2:hover::after {
@@ -1620,6 +1620,25 @@ h6:last-child {
 
 .css-2613qy-menu {
   z-index: 1111 !important;
+}
+.bold_words {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -14px;
+  /* color: #171e29; */
+}
+.bold_words_2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.unbold_worlds {
+  font-weight: 400;
+  font-size: 16px;
+}
+.unbold_worlds_2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: -18px;
 }
 
 @media screen and (max-width: 992px) {
