@@ -20,7 +20,7 @@ const MessageParser = ({ children, actions, step, setStep, setShow }) => {
     if (step === 4 && message.includes("")) {
       actions.finalMsg();
       setStep(5);
-      setTimeout(() => setShow(false), 8000);
+      setTimeout(() => setShow(false), 10000);
     }
   };
 

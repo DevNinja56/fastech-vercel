@@ -1641,6 +1641,10 @@ h6:last-child {
   margin-top: -18px;
 }
 
+/* div.react-chatbot-kit-user-chat-message-container > div:first-child {
+  display: none !important;
+} */
+
 @media screen and (max-width: 992px) {
   .cases-image {
     height: 45vh;

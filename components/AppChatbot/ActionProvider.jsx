@@ -1,7 +1,7 @@
 import React from "react";
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
-  const btnMessage = () => {
+  const initialMsg = () => {
     const botMessage = createChatBotMessage(
       "Awesome! Let's get the basics out of the way quick!"
     );
@@ -20,10 +20,14 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         <p className="bold_words">What's your Name?</p>
       </>
     );
-    setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, botMessage],
-    }));
+
+    if (botMessage !== null) {
+      setState(() => ({
+        messages: [botMessage],
+      }));
+      // console.log("this is bot message", botMessage, "<------------>");
+    } else {
+    }
   };
 
   const getInfo_2 = () => {
@@ -74,7 +78,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     <div>
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
-          actions: { btnMessage, finalMsg, getInfo_1, getInfo_2, getInfo_3 },
+          actions: { initialMsg, finalMsg, getInfo_1, getInfo_2, getInfo_3 },
         });
       })}
     </div>

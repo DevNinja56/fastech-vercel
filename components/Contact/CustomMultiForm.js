@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import StepProgressBar from "react-step-progress";
 import "react-step-progress/dist/index.css";
 import Select from "react-select";
+
 import Swal from "sweetalert2";
 import countryList from "react-select-country-list";
 
@@ -41,11 +42,9 @@ const Step1 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -103,7 +102,6 @@ const Step1 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -119,66 +117,54 @@ const Step1 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -223,11 +209,9 @@ const Step2 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -285,7 +269,6 @@ const Step2 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -301,66 +284,54 @@ const Step2 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -405,11 +376,9 @@ const Step3 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -467,7 +436,6 @@ const Step3 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -483,66 +451,54 @@ const Step3 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -587,11 +543,9 @@ const Step4 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -649,7 +603,6 @@ const Step4 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -665,66 +618,54 @@ const Step4 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -769,11 +710,9 @@ const Step5 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -831,7 +770,6 @@ const Step5 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -847,66 +785,54 @@ const Step5 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -956,11 +882,9 @@ const Step6 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -1018,7 +942,6 @@ const Step6 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -1034,66 +957,54 @@ const Step6 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -1142,11 +1053,9 @@ const Step7 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -1204,7 +1113,6 @@ const Step7 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -1220,66 +1128,54 @@ const Step7 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -1324,11 +1220,9 @@ const Step8 = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -1386,7 +1280,6 @@ const Step8 = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -1402,66 +1295,54 @@ const Step8 = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
@@ -1509,6 +1390,9 @@ const Step9 = () => {
 };
 
 const CustomMultiForm = () => {
+  const [btnOne, setBtnOne] = useState("");
+  const [btnTwo, setBtnTwo] = useState("");
+
   const [selectedOptions, setSelectedOptions] = useState();
   const [firstStep, setFirstStep] = useState();
   const [secondStep, setSecondStep] = useState();
@@ -1518,6 +1402,15 @@ const CustomMultiForm = () => {
     contactName: "",
     country: "",
   });
+
+  // const handleGet = () => {
+  //   setBtnOne()
+  // }
+
+  // console.log("first button =>", btnOne);
+  // console.log("second button =>", btnTwo);
+
+  // other functions
   function handleSelect(data) {
     setSelectedOptions(data);
   }
@@ -1562,6 +1455,15 @@ const CustomMultiForm = () => {
   return (
     <>
       <div className="App">
+        {/* <>
+          <p>what is that</p>
+          <button className="btn" onClick={handleGet()} value={btnOne}>
+            first
+          </button>
+          <button className="btn" onClick={} value={btnTwo}>
+            second
+          </button>
+        </> */}
         <StepProgressBar
           startingStep={0}
           previousBtnName="previous"
@@ -1760,11 +1662,9 @@ const CustomMultiForm = () => {
         .bg1 {
           background-color: yellow;
         }
-
         .bg2 {
           background-color: green;
         }
-
         ._2pGos._hsN1w {
           background: red !important;
         }
@@ -1813,7 +1713,6 @@ const CustomMultiForm = () => {
         .form-group {
           margin-bottom: 20px;
         }
-
         .form-group .form-control {
           display: block;
           border: 1px solid #aaaaaa;
@@ -1829,66 +1728,54 @@ const CustomMultiForm = () => {
           font-size: 15px;
           color: #494a60;
         }
-
         .form-group .form-control::-webkit-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::-ms-input-placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control::placeholder {
           -webkit-transition: var(--transition);
           transition: var(--transition);
           color: var(--paragraph-color);
         }
-
         .form-group .form-control:focus {
           outline: 0;
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
         .form-group .form-control:focus::-webkit-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus:-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::-ms-input-placeholder {
           color: transparent;
         }
-
         .form-group .form-control:focus::placeholder {
           color: transparent;
         }
-
         .form-group textarea.form-control {
           height: auto;
           padding: 15px;
           line-height: 1.5rem;
         }
-
         .form-group .help-block.with-errors ul {
           color: red;
           margin-bottom: 0;
           margin-top: 10px;
           text-align: left;
         }
-
         .form-group .help-block.with-errors ul li {
           font-size: 14px;
         }
