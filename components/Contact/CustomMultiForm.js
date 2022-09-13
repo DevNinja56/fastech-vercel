@@ -1390,9 +1390,8 @@ const Step9 = () => {
 };
 
 const CustomMultiForm = () => {
-  const [btnOne, setBtnOne] = useState("");
-  const [btnTwo, setBtnTwo] = useState("");
-
+  const [showUi, setShowUi] = useState(false);
+  const [shown, setShown] = useState(true);
   const [selectedOptions, setSelectedOptions] = useState();
   const [firstStep, setFirstStep] = useState();
   const [secondStep, setSecondStep] = useState();
@@ -1403,67 +1402,10 @@ const CustomMultiForm = () => {
     country: "",
   });
 
-  // const handleGet = () => {
-  //   setBtnOne()
-  // }
-
-  // console.log("first button =>", btnOne);
-  // console.log("second button =>", btnTwo);
-
-  // other functions
-  function handleSelect(data) {
-    setSelectedOptions(data);
-  }
-
-  const inputsData = (e) => {
-    setThirdStep((prevState) => {
-      return { ...prevState, [e.target.name]: e.target.value };
-    });
-  };
-
-  const formData = { selectedOptions, firstStep, secondStep, thirdStep };
-
-  // console.log("form data ===>", formData);
-  // console.log("first ==>", firstStep);
-  // console.log("second ==>", secondStep);
-
-  const handleSubmit = () => {
-    Swal.fire("Congrats!", "Your records submitted successfuly!", "success");
-
-    console.log("Sending");
-    var apiData = formData;
-    // console.log("Api Data ==>", apiData);
-    fetch("/api/mail", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-
-        // myRef.current.reset();
-      } else {
-        console.log("succeeded failed");
-      }
-    });
-  };
-
-  return (
-    <>
-      <div className="App">
-        {/* <>
-          <p>what is that</p>
-          <button className="btn" onClick={handleGet()} value={btnOne}>
-            first
-          </button>
-          <button className="btn" onClick={} value={btnTwo}>
-            second
-          </button>
-        </> */}
+  // selection buttons
+  const firstHandleGet = () => {
+    setShowUi(
+      <>
         <StepProgressBar
           startingStep={0}
           previousBtnName="previous"
@@ -1473,23 +1415,81 @@ const CustomMultiForm = () => {
           steps={[
             {
               label: "",
-              name: "Start",
+              name: "Completed",
               content: (
                 <>
-                  <h5>Explore and get your dream talent right now!</h5>
+                  <h5>Awesome! Let's get the basics out of the way quick!</h5>
 
                   <div className="row">
-                    <div className="col-12 ">
-                      <div className="main_select">
-                        <div className="">
-                          <Select
-                            options={optionList}
-                            placeholder="Select Desire area of expertise"
-                            value={selectedOptions}
-                            onChange={handleSelect}
-                            isSearchable={true}
-                            isMulti
-                          />
+                    <div className="col-12">
+                      <div className="mt-3">
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                          placeholder="Enter Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              ),
+            },
+            {
+              label: "",
+              name: "Finish",
+              content: (
+                <>
+                  <h5>Final step to get developers started on your project</h5>
+
+                  <div className="row">
+                    <div className="col-12 mt-3">
+                      <div className="row form_wrapper">
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              onChange={inputsData}
+                              placeholder="Email Address"
+                              className="form-control form_field"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              onChange={inputsData}
+                              placeholder="Company Name"
+                              className="form-control form_field"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
+                            <input
+                              type="text"
+                              id="contactName"
+                              name="contactName"
+                              onChange={inputsData}
+                              placeholder="Contact Name"
+                              className="form-control form_field"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-12 col-md-12">
+                          <div className="form-group">
+                            <div className="some">
+                              <Step9 />
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1497,6 +1497,22 @@ const CustomMultiForm = () => {
                 </>
               ),
             },
+          ]}
+        />
+      </>
+    );
+    setShown();
+  };
+  const secondHandleGet = () => {
+    setShowUi(
+      <>
+        <StepProgressBar
+          startingStep={0}
+          previousBtnName="previous"
+          onSubmit={(e) => {
+            handleSubmit();
+          }}
+          steps={[
             {
               label: "",
               name: "Intermediate",
@@ -1600,43 +1616,43 @@ const CustomMultiForm = () => {
                   <h5>Final step to get developers started on your project</h5>
 
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 mt-3">
                       <div className="row form_wrapper">
-                        <div className="col-lg-12 col-md-12">
-                          <div className="form-group">
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
                             <input
                               type="email"
                               name="email"
                               id="email"
                               onChange={inputsData}
                               placeholder="Email Address"
-                              className="form-control"
+                              className="form-control form_field"
                             />
                           </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12">
-                          <div className="form-group">
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
                             <input
                               type="text"
                               name="name"
                               id="name"
                               onChange={inputsData}
                               placeholder="Company Name"
-                              className="form-control"
+                              className="form-control form_field"
                             />
                           </div>
                         </div>
 
-                        <div className="col-lg-12 col-md-12">
-                          <div className="form-group">
+                        <div className="col-lg-12 col-md-12 mb-1">
+                          <div className="form-group mb-3">
                             <input
                               type="text"
                               id="contactName"
                               name="contactName"
                               onChange={inputsData}
                               placeholder="Contact Name"
-                              className="form-control"
+                              className="form-control form_field"
                             />
                           </div>
                         </div>
@@ -1656,6 +1672,68 @@ const CustomMultiForm = () => {
             },
           ]}
         />
+      </>
+    );
+    setShown();
+  };
+
+  // other functions
+  function handleSelect(data) {
+    setSelectedOptions(data);
+  }
+
+  const inputsData = (e) => {
+    setThirdStep((prevState) => {
+      return { ...prevState, [e.target.name]: e.target.value };
+    });
+  };
+
+  const formData = { selectedOptions, firstStep, secondStep, thirdStep };
+
+  // console.log("form data ===>", formData);
+
+  const handleSubmit = () => {
+    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+
+    console.log("Sending");
+    var apiData = formData;
+    // console.log("Api Data ==>", apiData);
+    fetch("/api/mail", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    }).then((res) => {
+      // console.log("Response received");
+      if (res.status === 200) {
+        // console.log("Response succeeded!");
+        // myRef.current.reset();
+      } else {
+        // console.log("succeeded failed");
+      }
+    });
+  };
+
+  return (
+    <>
+      <div className="App">
+        <div
+          className="Buttons_menu"
+          style={{ display: shown ? "block" : "none" }}
+        >
+          <h3 className="pt-5">How can we help you today ?</h3>
+          <button className="form_btn_1" onClick={firstHandleGet}>
+            have a project or idea 🚀
+          </button>
+
+          <button className="form_btn_2" onClick={secondHandleGet}>
+            want to hire a developer 💼
+          </button>
+        </div>
+
+        <div>{showUi}</div>
       </div>
 
       <style jsx>{`

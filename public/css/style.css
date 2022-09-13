@@ -1571,6 +1571,37 @@ h6:last-child {
   height: 25vh !important;
   width: 25vh !important;
 } */
+.form_btn_1 {
+  padding: 9px 14px 9px 32px;
+  margin: 30px 5px 30px 5px;
+  border-radius: 25px;
+  border: 1px solid #1f69f6;
+  color: #1f69f6;
+  font-weight: 400;
+  background-color: white;
+  /* margin-bottom: 50px; */
+}
+.form_btn_2 {
+  padding: 9px 14px 9px 32px;
+  margin: 30px 5px 30px 5px;
+  border-radius: 25px;
+  border: 1px solid #1f69f6;
+  /* margin-top: 5px; */
+  color: #1f69f6;
+  font-weight: 400;
+  background-color: white;
+  /* margin-bottom: 50px; */
+}
+/* .form_btn_1::before {
+  content: "";
+  background-color: #d61212;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 29px;
+  top: 69px;
+  border-radius: 50%;
+} */
 
 .btn_1 {
   padding: 9px 14px 9px 32px;
@@ -1641,9 +1672,22 @@ h6:last-child {
   margin-top: -18px;
 }
 
-/* div.react-chatbot-kit-user-chat-message-container > div:first-child {
+.swal2-styled {
   display: none !important;
+}
+/* .swal2-show::after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 } */
+
+.form_field {
+  padding: 15px !important;
+}
 
 @media screen and (max-width: 992px) {
   .cases-image {
@@ -1653,6 +1697,14 @@ h6:last-child {
 @media screen and (max-width: 767px) {
   .cases-image {
     height: 55vh;
+  }
+}
+@media screen and (max-width: 492px) {
+  .form_btn_1 {
+    margin: 30px 5px 0px 5px;
+  }
+  .form_btn_2 {
+    margin: 20px 5px 30px 5px;
   }
 }
 @media screen and (max-width: 432px) {

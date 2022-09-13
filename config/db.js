@@ -7,7 +7,7 @@ const ConnectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log(`Mongoo is connected: ${conn.connection.host}`);
+    console.log(`Mongoo is connected with: ${conn.connection.host}`);
   } catch (err) {
     console.log(err);
     process.exit(1);
