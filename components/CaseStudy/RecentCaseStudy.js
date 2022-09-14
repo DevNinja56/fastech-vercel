@@ -647,7 +647,7 @@ const RecentCaseStudy = () => {
                       href="https://play.google.com/store/apps/details?id=com.camelan"
                       target="_blank"
                     >
-                      <a className="links_colors">Camlist- Just Prts</a>
+                      <a className="links_colors">Camlist- Just Pets</a>
                     </Link>
                   </h2>
                   <p>

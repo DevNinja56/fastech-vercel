@@ -2,7 +2,6 @@ import React, { useState, useEffect, useMemo } from "react";
 import StepProgressBar from "react-step-progress";
 import "react-step-progress/dist/index.css";
 import Select from "react-select";
-
 import Swal from "sweetalert2";
 import countryList from "react-select-country-list";
 
@@ -1368,19 +1367,18 @@ const Step8 = () => {
   );
 };
 const Step9 = () => {
-  const [value, setValue] = useState("");
+  const [countryName, setCountryName] = useState("");
   const options = useMemo(() => countryList().getData(), []);
-  const changeHandler = (value) => {
-    setValue(value);
-
-    console.log(value);
+  const changeHandler = (countryName) => {
+    setCountryName(countryName);
+    console.log(countryName);
   };
   return (
     <>
       <div className="form-group">
         <Select
           options={options}
-          value={value}
+          countryName={countryName}
           onChange={changeHandler}
           placeholder="Select Country"
         />
@@ -1390,331 +1388,107 @@ const Step9 = () => {
 };
 
 const CustomMultiForm = () => {
+  // const [apiData, setApiData] = useState("");
   const [showUi, setShowUi] = useState(false);
   const [shown, setShown] = useState(true);
-  const [selectedOptions, setSelectedOptions] = useState();
+  // const [selectedOptions, setSelectedOptions] = useState();
   const [firstStep, setFirstStep] = useState();
   const [secondStep, setSecondStep] = useState();
-  const [thirdStep, setThirdStep] = useState({
-    email: "",
-    name: "",
-    contactName: "",
-    country: "",
-  });
+  const [formEmail, setFormEmail] = useState();
+  const [companyName, setCompanyName] = useState();
+  const [contactName, setContactName] = useState();
+  // const [thirdStep, setThirdStep] = useState({
+  //   email: "",
+  //   name: "",
+  //   contactName: "",
+  //   country: "",
+  // });
+
+  console.log(formEmail);
+  console.log(companyName);
+  console.log(contactName);
+
+  const handleFormData = () => {
+    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+    let apiPostData = {
+      Name: companyName,
+      Email: formEmail,
+      Number: contactName,
+    };
+
+    console.log("api data is ==>", apiPostData);
+
+    fetch("http://localhost:3000/api/formdata/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(apiPostData),
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("api post success");
+      } else {
+        console.log("api post failed");
+      }
+    });
+  };
 
   // selection buttons
   const firstHandleGet = () => {
-    setShowUi(
-      <>
-        <StepProgressBar
-          startingStep={0}
-          previousBtnName="previous"
-          onSubmit={(e) => {
-            handleSubmit();
-          }}
-          steps={[
-            {
-              label: "",
-              name: "Completed",
-              content: (
-                <>
-                  <h5>Awesome! Let's get the basics out of the way quick!</h5>
-
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="mt-3">
-                        <textarea
-                          class="form-control"
-                          id="exampleFormControlTextarea1"
-                          rows="3"
-                          placeholder="Enter Message"
-                        ></textarea>
-                      </div>
-                    </div>
-                  </div>
-                </>
-              ),
-            },
-            {
-              label: "",
-              name: "Finish",
-              content: (
-                <>
-                  <h5>Final step to get developers started on your project</h5>
-
-                  <div className="row">
-                    <div className="col-12 mt-3">
-                      <div className="row form_wrapper">
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="email"
-                              name="email"
-                              id="email"
-                              onChange={inputsData}
-                              placeholder="Email Address"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="text"
-                              name="name"
-                              id="name"
-                              onChange={inputsData}
-                              placeholder="Company Name"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="text"
-                              id="contactName"
-                              name="contactName"
-                              onChange={inputsData}
-                              placeholder="Contact Name"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12">
-                          <div className="form-group">
-                            <div className="some">
-                              <Step9 />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </>
-              ),
-            },
-          ]}
-        />
-      </>
-    );
+    setShowUi(1);
     setShown();
   };
   const secondHandleGet = () => {
-    setShowUi(
-      <>
-        <StepProgressBar
-          startingStep={0}
-          previousBtnName="previous"
-          onSubmit={(e) => {
-            handleSubmit();
-          }}
-          steps={[
-            {
-              label: "",
-              name: "Intermediate",
-              content: (
-                <>
-                  <h5>How many team members do you require?</h5>
-
-                  <div className="row">
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setFirstStep("One Engineer");
-                      }}
-                    >
-                      <Step1 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setFirstStep("Small Team");
-                      }}
-                    >
-                      <Step2 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setFirstStep("Large Team");
-                      }}
-                    >
-                      <Step3 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setFirstStep("Not Sure");
-                      }}
-                    >
-                      <Step4 />
-                    </div>
-                  </div>
-                </>
-              ),
-            },
-            {
-              label: "",
-              name: "Completed",
-              content: (
-                <>
-                  <h5>When do you need the developer to start?</h5>
-
-                  <div className="row">
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setSecondStep("Immediately");
-                      }}
-                    >
-                      <Step5 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setSecondStep("In 1 to 2 weeks");
-                      }}
-                    >
-                      <Step6 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setSecondStep("2 weeks from now");
-                      }}
-                    >
-                      <Step7 />
-                    </div>
-
-                    <div
-                      className="col-sm-12 col-md-6"
-                      onClick={() => {
-                        setSecondStep("Not Sure");
-                      }}
-                    >
-                      <Step8 />
-                    </div>
-                  </div>
-                </>
-              ),
-              // validator: step2Validator
-            },
-            {
-              label: "",
-              name: "Finish",
-              content: (
-                <>
-                  <h5>Final step to get developers started on your project</h5>
-
-                  <div className="row">
-                    <div className="col-12 mt-3">
-                      <div className="row form_wrapper">
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="email"
-                              name="email"
-                              id="email"
-                              onChange={inputsData}
-                              placeholder="Email Address"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="text"
-                              name="name"
-                              id="name"
-                              onChange={inputsData}
-                              placeholder="Company Name"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12 mb-1">
-                          <div className="form-group mb-3">
-                            <input
-                              type="text"
-                              id="contactName"
-                              name="contactName"
-                              onChange={inputsData}
-                              placeholder="Contact Name"
-                              className="form-control form_field"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12">
-                          <div className="form-group">
-                            <div className="some">
-                              <Step9 />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </>
-              ),
-            },
-          ]}
-        />
-      </>
-    );
+    setShowUi(2);
     setShown();
   };
 
   // other functions
-  function handleSelect(data) {
-    setSelectedOptions(data);
-  }
+  // function handleSelect(data) {
+  //   setSelectedOptions(data);
+  // }
+  // const inputsData = (e) => {
+  //   setThirdStep((prevState) => {
+  //     return { ...prevState, [e.target.name]: e.target.value };
+  //   });
+  // };
 
-  const inputsData = (e) => {
-    setThirdStep((prevState) => {
-      return { ...prevState, [e.target.name]: e.target.value };
-    });
-  };
-
-  const formData = { selectedOptions, firstStep, secondStep, thirdStep };
+  // const formData = {
+  //   selectedOptions,
+  //   firstStep,
+  //   secondStep,
+  //   thirdStep,
+  //   countryName,
+  // };
 
   // console.log("form data ===>", formData);
 
-  const handleSubmit = () => {
-    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+  // const handleSubmit = () => {
+  //   Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
 
-    console.log("Sending");
-    var apiData = formData;
-    // console.log("Api Data ==>", apiData);
-    fetch("/api/mail", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    }).then((res) => {
-      // console.log("Response received");
-      if (res.status === 200) {
-        // console.log("Response succeeded!");
-        // myRef.current.reset();
-      } else {
-        // console.log("succeeded failed");
-      }
-    });
-  };
+  //   console.log("Sending");
+  //   var apiData = formData;
+  //   console.log("Api Data ==>", apiData);
+  //   fetch("/api/mail", {
+  //     method: "POST",
+  //     headers: {
+  //       Accept: "application/json, text/plain, */*",
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(formData),
+  //   }).then((res) => {
+  //     console.log("Response received");
+  //     if (res.status === 200) {
+  //       console.log("Response succeeded!");
+  //     } else {
+  //       console.log("succeeded failed");
+  //     }
+  //   });
+  // };
+
+  // useEffect(() => {
+  //   handleSubmit();
+  // }, []);
 
   return (
     <>
@@ -1733,7 +1507,299 @@ const CustomMultiForm = () => {
           </button>
         </div>
 
-        <div>{showUi}</div>
+        {/* <div>{showUi}</div> */}
+
+        <div>
+          {showUi == 1 ? (
+            <>
+              <StepProgressBar
+                startingStep={0}
+                previousBtnName="previous"
+                onSubmit={(e) => {
+                  handleSubmit();
+                }}
+                steps={[
+                  {
+                    label: "",
+                    name: "Completed",
+                    content: (
+                      <>
+                        <h5>
+                          Awesome! Please tell us a little about your Company /
+                          Project.
+                        </h5>
+
+                        <div className="row">
+                          <div className="col-12">
+                            <div className="mt-3">
+                              <textarea
+                                className="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="3"
+                                placeholder="Enter Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    ),
+                  },
+                  {
+                    label: "",
+                    name: "Finish",
+                    content: (
+                      <>
+                        <h5>
+                          Final step to get developers started on your project
+                        </h5>
+
+                        <div className="row">
+                          <div className="col-12 mt-3">
+                            <div className="row form_wrapper">
+                              <div className="col-lg-12 col-md-12 mb-1">
+                                <div className="form-group mb-3">
+                                  <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    // onChange={inputsData}
+                                    placeholder="Email Address"
+                                    className="form-control form_field"
+                                  />
+                                </div>
+                              </div>
+
+                              <div className="col-lg-12 col-md-12 mb-1">
+                                <div className="form-group mb-3">
+                                  <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    // onChange={inputsData}
+                                    placeholder="Company Name"
+                                    className="form-control form_field"
+                                  />
+                                </div>
+                              </div>
+
+                              <div className="col-lg-12 col-md-12 mb-1">
+                                <div className="form-group mb-3">
+                                  <input
+                                    type="text"
+                                    id="contactName"
+                                    name="contactName"
+                                    // onChange={inputsData}
+                                    placeholder="Contact Name"
+                                    className="form-control form_field"
+                                  />
+                                </div>
+                              </div>
+
+                              <div className="col-lg-12 col-md-12">
+                                <div className="form-group">
+                                  <div className="some">
+                                    <Step9 />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    ),
+                  },
+                ]}
+              />
+            </>
+          ) : showUi == 2 ? (
+            <>
+              {" "}
+              <>
+                <StepProgressBar
+                  startingStep={0}
+                  previousBtnName="previous"
+                  onSubmit={() => {
+                    handleFormData();
+                  }}
+                  steps={[
+                    {
+                      label: "",
+                      name: "Intermediate",
+                      content: (
+                        <>
+                          <h5>How many team members do you require?</h5>
+
+                          <div className="row">
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setFirstStep("One Engineer");
+                              }}
+                            >
+                              <Step1 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setFirstStep("Small Team");
+                              }}
+                            >
+                              <Step2 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setFirstStep("Large Team");
+                              }}
+                            >
+                              <Step3 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setFirstStep("Not Sure");
+                              }}
+                            >
+                              <Step4 />
+                            </div>
+                          </div>
+                        </>
+                      ),
+                    },
+                    {
+                      label: "",
+                      name: "Completed",
+                      content: (
+                        <>
+                          <h5>When do you need the developer to start?</h5>
+
+                          <div className="row">
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setSecondStep("Immediately");
+                              }}
+                            >
+                              <Step5 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setSecondStep("In 1 to 2 weeks");
+                              }}
+                            >
+                              <Step6 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setSecondStep("2 weeks from now");
+                              }}
+                            >
+                              <Step7 />
+                            </div>
+
+                            <div
+                              className="col-sm-12 col-md-6"
+                              onClick={() => {
+                                setSecondStep("Not Sure");
+                              }}
+                            >
+                              <Step8 />
+                            </div>
+                          </div>
+                        </>
+                      ),
+                      // validator: step2Validator
+                    },
+                    {
+                      label: "",
+                      name: "Finish",
+                      content: (
+                        <>
+                          <h5>
+                            Final step to get developers started on your project
+                          </h5>
+                          <form
+                            onSubmit={() => {
+                              handleFormData();
+                            }}
+                          >
+                            <div className="row">
+                              <div className="col-12 mt-3">
+                                <div className="row form_wrapper">
+                                  <div className="col-lg-12 col-md-12 mb-1">
+                                    <div className="form-group mb-3">
+                                      <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        onChange={(e) => {
+                                          setCompanyName(e.target.value);
+                                        }}
+                                        placeholder="Name"
+                                        className="form-control form_field"
+                                      />
+                                    </div>
+                                  </div>
+
+                                  <div className="col-lg-12 col-md-12 mb-1">
+                                    <div className="form-group mb-3">
+                                      <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        onChange={(e) => {
+                                          setFormEmail(e.target.value);
+                                        }}
+                                        placeholder="Email"
+                                        className="form-control form_field"
+                                      />
+                                    </div>
+                                  </div>
+
+                                  <div className="col-lg-12 col-md-12 mb-1">
+                                    <div className="form-group mb-3">
+                                      <input
+                                        type="number"
+                                        id="contactName"
+                                        name="contactName"
+                                        onChange={(e) => {
+                                          setContactName(e.target.value);
+                                        }}
+                                        placeholder="Number"
+                                        className="form-control form_field"
+                                      />
+                                    </div>
+                                  </div>
+
+                                  <div className="col-lg-12 col-md-12">
+                                    <div className="form-group">
+                                      <div className="some">
+                                        <Step9 />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </>
+                      ),
+                    },
+                  ]}
+                />
+              </>
+            </>
+          ) : (
+            <p></p>
+          )}
+        </div>
       </div>
 
       <style jsx>{`

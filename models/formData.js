@@ -4,21 +4,25 @@ const { Schema } = mongoose;
 mongoose.Promise = global.Promise;
 
 const formDataSchema = new Schema({
-  Title: {
+  Name: {
     type: String,
     required: "Please fill this field",
     trim: true,
   },
-  Positions: {
+  Email: {
     type: String,
     required: "Please fill this field",
     trim: true,
   },
-  Department: {
-    type: String,
+  Number: {
+    type: Number,
     required: "Please fill this field",
     trim: true,
   },
+  // Country: {
+  //   type: String,
+  //   trim: true,
+  // },
 });
 
 module.exports =

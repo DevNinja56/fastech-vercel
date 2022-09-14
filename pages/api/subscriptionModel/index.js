@@ -1,5 +1,5 @@
 import ConnectDB from "../../../config/db";
-import FormDataModel from "../../../models/formData";
+import SubscriptionModel from "../../../models/subscriptionModel";
 import Cors from "cors";
 
 ConnectDB();
@@ -18,14 +18,14 @@ function runMiddleware(req, res, fn) {
   });
 }
 
-async function FormDataApi(req, res) {
+async function SubscriptionModelPage(req, res) {
   await runMiddleware(req, res, cors);
   const { method } = req;
 
   switch (method) {
     case "GET":
       try {
-        const getData = await FormDataModel.find({});
+        const getData = await SubscriptionModel.find({});
         res.status(200).json({
           success: true,
           messsage: "Get Data Succcessfully",
@@ -42,7 +42,7 @@ async function FormDataApi(req, res) {
     case "POST":
       try {
         console.log(req.body);
-        const postData = await FormDataModel.create(req.body);
+        const postData = await SubscriptionModel.create(req.body);
         res.status(200).json({
           success: true,
           messsage: "Post Data Successfully",
@@ -65,4 +65,4 @@ async function FormDataApi(req, res) {
   }
 }
 
-export default FormDataApi;
+export default SubscriptionModelPage;

@@ -263,7 +263,7 @@ export const ServicesApi = [
 
       {
         portfolio_img: "/images/new-portfolio/fastech-mob3.png",
-        portfolio_heading: "Camlist- Just Prts",
+        portfolio_heading: "Camlist- Just Pets",
         portfolio_text:
           "Camlist gives you easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets.",
         link: "https://play.google.com/store/apps/details?id=com.camelan",

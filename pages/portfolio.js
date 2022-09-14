@@ -587,7 +587,7 @@ const Portfolio = () => {
                         <h3>
                           <Link href="https://play.google.com/store/apps/details?id=com.camelan">
                             <a className="links_colors" target="blank">
-                              Camlist- Just Prts
+                              Camlist- Just Pets
                             </a>
                           </Link>
                         </h3>
