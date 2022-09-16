@@ -5,12 +5,30 @@ import { useState } from "react";
 
 const Footer = () => {
   const [subscriptionValue, setSubscriptionValue] = useState();
-  // console.log("subscription last ==> ", subscriptionValue);
+
   const currentYear = new Date().getFullYear();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    Swal.fire("Congrats!", "Thank you for subscribing!", "success");
-    setSubscriptionValue("");
+    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+    let mailData = {
+      Email: subscriptionValue,
+    };
+    console.log("api data ==>", mailData);
+
+    fetch("http://localhost:3000/api/subscriptionModel/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(mailData),
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("api post success");
+      } else {
+        console.log("api post failed");
+      }
+    });
   };
 
   return (
@@ -130,22 +148,17 @@ const Footer = () => {
                 <h3>Newsletter</h3>
 
                 <div className="widget-newsletter">
-                  <form className="newsletter-form">
+                  <form className="newsletter-form" onSubmit={handleSubmit}>
                     <input
                       type="email"
                       className="input-newsletter"
                       placeholder="Enter email"
-                      // name="EMAIL"
                       value={subscriptionValue}
                       onChange={(e) => setSubscriptionValue(e.target.value)}
                       required
                     />
 
-                    <button
-                      type="submit"
-                      className="submit"
-                      onClick={handleSubmit}
-                    >
+                    <button type="submit" className="submit">
                       <i className="ri-send-plane-2-line"></i>
                     </button>
                   </form>

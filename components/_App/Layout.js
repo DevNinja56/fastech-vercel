@@ -74,7 +74,11 @@ const Layout = ({ children }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>The Fastech</title>
+        <title>Fastech | Software Development and Consulting Company</title>
+        <meta
+          name="description"
+          content="Fastech provides software development and consultation services to startups and SMEs. We help tech companies scale their engineering capacity. Get in touch today!"
+        />
         <script
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
           async=""

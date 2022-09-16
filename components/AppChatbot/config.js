@@ -1,16 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
-
-// const click = () => {
-//   console.log("click is ==>", click);
-// };
-
-// useEffect(() => {
-// const allWithClass = document.getElementsByClassName("btn_1").click();
-// console.log(allWithClass);
-// }, []);
-
-// document.getElementsByClassName("btn_1").click();
 
 const config = {
   initialMessages: [

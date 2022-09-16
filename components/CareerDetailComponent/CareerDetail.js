@@ -1,38 +1,75 @@
-import React from "react";
+import React, { useState } from "react";
 import { CareerData, ListOne, ListTwo } from "./CareerDetailData";
-import { useState } from "react";
+import Swal from "sweetalert2";
 
-// Form initial state
-const INITIAL_STATE = {
-  name: "",
-  email: "",
-  number: "",
-  subject: "",
-  text: "",
-};
+// existing api integration
+// const INITIAL_STATE = {
+//   name: "",
+//   email: "",
+//   number: "",
+//   subject: "",
+//   text: "",
+// };
 
 const CareerDetail = () => {
-  const [contact, setContact] = useState(INITIAL_STATE);
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [number, setNumber] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact((prevState) => ({ ...prevState, [name]: value }));
-  };
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-      const response = await axios.post(url, payload);
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
-    } catch (error) {
-      console.log(error);
-    }
+    let jobsData = {
+      Name: name,
+      Email: email,
+      Phone_number: number,
+      Subject: subject,
+      Message: message,
+    };
+    console.log("api data ==>", jobsData);
+
+    fetch("http://localhost:3000/api/jobsdata/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(jobsData),
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("api post success");
+      } else {
+        console.log("api post failed");
+      }
+    });
+    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+    setName("");
+    setEmail("");
+    setNumber("");
+    setSubject("");
+    setMessage("");
   };
+
+  // existing api integration
+  // const [contact, setContact] = useState(INITIAL_STATE);
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setContact((prevState) => ({ ...prevState, [name]: value }));
+  // };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const url = `${baseUrl}/api/contact`;
+  //     const { name, email, number, subject, text } = contact;
+  //     const payload = { name, email, number, subject, text };
+  //     const response = await axios.post(url, payload);
+  //     console.log(response);
+  //     setContact(INITIAL_STATE);
+  //     alertContent();
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
   return (
     <>
@@ -94,8 +131,10 @@ const CareerDetail = () => {
                       name="name"
                       placeholder="Name"
                       className="form-control"
-                      value={contact.name}
-                      onChange={handleChange}
+                      value={name}
+                      onChange={(e) => {
+                        setName(e.target.value);
+                      }}
                       required
                     />
                   </div>
@@ -104,12 +143,14 @@ const CareerDetail = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <input
-                      type="text"
+                      type="email"
                       name="email"
                       placeholder="Email"
                       className="form-control"
-                      value={contact.email}
-                      onChange={handleChange}
+                      value={email}
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                      }}
                       required
                     />
                   </div>
@@ -118,12 +159,14 @@ const CareerDetail = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <input
-                      type="text"
+                      type="number"
                       name="number"
                       placeholder="Phone number"
                       className="form-control"
-                      value={contact.number}
-                      onChange={handleChange}
+                      value={number}
+                      onChange={(e) => {
+                        setNumber(e.target.value);
+                      }}
                       required
                     />
                   </div>
@@ -136,8 +179,10 @@ const CareerDetail = () => {
                       name="subject"
                       placeholder="Subject"
                       className="form-control"
-                      value={contact.subject}
-                      onChange={handleChange}
+                      value={subject}
+                      onChange={(e) => {
+                        setSubject(e.target.value);
+                      }}
                       required
                     />
                   </div>
@@ -149,10 +194,12 @@ const CareerDetail = () => {
                       name="text"
                       cols="30"
                       rows="6"
-                      placeholder="Write your message..."
+                      placeholder="Write your message"
                       className="form-control"
-                      value={contact.text}
-                      onChange={handleChange}
+                      value={message}
+                      onChange={(e) => {
+                        setMessage(e.target.value);
+                      }}
                       required
                     />
                   </div>

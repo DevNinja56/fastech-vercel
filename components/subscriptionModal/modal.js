@@ -5,14 +5,33 @@ import Link from "next/link";
 import Swal from "sweetalert2";
 
 const SubscriptionModal = () => {
+  const [mail, setMail] = useState();
   const [show, setShow] = useState(true);
-
   const handleClose = () => setShow(false);
   //   const handleShow = () => setShow(true);
 
-  const handleSubmit = () => {
-    Swal.fire("Congrats!", "Thank you for subscribing!", "success");
-    setTimeout(() => setShow(false), 3000);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let mailData = {
+      Email: mail,
+    };
+    console.log("api data ==>", mailData);
+
+    fetch("http://localhost:3000/api/subscriptionModel/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(mailData),
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("api post success");
+      } else {
+        console.log("api post failed");
+      }
+    });
+    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+    setMail("");
   };
 
   return (
@@ -23,36 +42,42 @@ const SubscriptionModal = () => {
             <span className="modal_close" onClick={handleClose}>
               <i className="fal fa-times modal_cross"></i>
             </span>
-            <div className="modal_body_wraper">
-              <div className="modal_body">
-                <div className="modal_img_wraper">
-                  <img src="/images/modal/mail.png" className="modal_img" />
-                </div>
-                <h2 className="modal_first_heading">Not Just</h2>
-                <h2 className="modal_second_heading">
-                  another <sapan className="modal_span">Subscription</sapan>
-                </h2>
-                <p className="modal_paragraph">
-                  Sign up for our weekly newsletter and learn how we solve web
-                  development problems for businesses
-                </p>
-                <input
-                  type="email"
-                  className="modal_input"
-                  placeholder="Your email"
-                />
-                <div className="banner-btn">
-                  <Link href="">
-                    <button
-                      className="default-btn modal_btn"
-                      onClick={handleSubmit}
-                    >
+            <form onSubmit={handleSubmit}>
+              <div className="modal_body_wraper">
+                <div className="modal_body">
+                  <div className="modal_img_wraper">
+                    <img src="/images/modal/mail.png" className="modal_img" />
+                  </div>
+                  <h2 className="modal_first_heading">Not Just</h2>
+                  <h2 className="modal_second_heading">
+                    another <sapan className="modal_span">Subscription</sapan>
+                  </h2>
+                  <p className="modal_paragraph">
+                    Sign up for our weekly newsletter and learn how we solve web
+                    development problems for businesses
+                  </p>
+
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      value={mail}
+                      onChange={(e) => {
+                        setMail(e.target.value);
+                      }}
+                      placeholder="Your email"
+                      className="modal_input"
+                      required
+                    />
+                  </div>
+
+                  <div className="banner-btn">
+                    <button className="default-btn modal_btn" type="submit">
                       Submit <span></span>
                     </button>
-                  </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </form>
           </Modal.Body>
         </Modal>
       </div>

@@ -1516,7 +1516,7 @@ const CustomMultiForm = () => {
                 startingStep={0}
                 previousBtnName="previous"
                 onSubmit={(e) => {
-                  handleSubmit();
+                  handleFormData();
                 }}
                 steps={[
                   {
@@ -1537,6 +1537,7 @@ const CustomMultiForm = () => {
                                 id="exampleFormControlTextarea1"
                                 rows="3"
                                 placeholder="Enter Message"
+                                required
                               ></textarea>
                             </div>
                           </div>
@@ -1552,59 +1553,73 @@ const CustomMultiForm = () => {
                         <h5>
                           Final step to get developers started on your project
                         </h5>
-
-                        <div className="row">
-                          <div className="col-12 mt-3">
-                            <div className="row form_wrapper">
-                              <div className="col-lg-12 col-md-12 mb-1">
-                                <div className="form-group mb-3">
-                                  <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    // onChange={inputsData}
-                                    placeholder="Email Address"
-                                    className="form-control form_field"
-                                  />
+                        <form
+                          onSubmit={() => {
+                            handleFormData();
+                          }}
+                        >
+                          <div className="row">
+                            <div className="col-12 mt-3">
+                              <div className="row form_wrapper">
+                                <div className="col-lg-12 col-md-12 mb-1">
+                                  <div className="form-group mb-3">
+                                    <input
+                                      type="text"
+                                      name="name"
+                                      id="name"
+                                      onChange={(e) => {
+                                        setCompanyName(e.target.value);
+                                      }}
+                                      placeholder="Name"
+                                      className="form-control form_field"
+                                      required
+                                    />
+                                  </div>
                                 </div>
-                              </div>
 
-                              <div className="col-lg-12 col-md-12 mb-1">
-                                <div className="form-group mb-3">
-                                  <input
-                                    type="text"
-                                    name="name"
-                                    id="name"
-                                    // onChange={inputsData}
-                                    placeholder="Company Name"
-                                    className="form-control form_field"
-                                  />
+                                <div className="col-lg-12 col-md-12 mb-1">
+                                  <div className="form-group mb-3">
+                                    <input
+                                      type="email"
+                                      name="email"
+                                      id="email"
+                                      onChange={(e) => {
+                                        setFormEmail(e.target.value);
+                                      }}
+                                      placeholder="Email"
+                                      className="form-control form_field"
+                                      required
+                                    />
+                                  </div>
                                 </div>
-                              </div>
 
-                              <div className="col-lg-12 col-md-12 mb-1">
-                                <div className="form-group mb-3">
-                                  <input
-                                    type="text"
-                                    id="contactName"
-                                    name="contactName"
-                                    // onChange={inputsData}
-                                    placeholder="Contact Name"
-                                    className="form-control form_field"
-                                  />
+                                <div className="col-lg-12 col-md-12 mb-1">
+                                  <div className="form-group mb-3">
+                                    <input
+                                      type="number"
+                                      id="contactName"
+                                      name="contactName"
+                                      onChange={(e) => {
+                                        setContactName(e.target.value);
+                                      }}
+                                      placeholder="Number"
+                                      className="form-control form_field"
+                                      required
+                                    />
+                                  </div>
                                 </div>
-                              </div>
 
-                              <div className="col-lg-12 col-md-12">
-                                <div className="form-group">
-                                  <div className="some">
-                                    <Step9 />
+                                <div className="col-lg-12 col-md-12">
+                                  <div className="form-group">
+                                    <div className="some">
+                                      <Step9 />
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </form>
                       </>
                     ),
                   },
@@ -1744,6 +1759,7 @@ const CustomMultiForm = () => {
                                         }}
                                         placeholder="Name"
                                         className="form-control form_field"
+                                        required
                                       />
                                     </div>
                                   </div>
@@ -1759,6 +1775,7 @@ const CustomMultiForm = () => {
                                         }}
                                         placeholder="Email"
                                         className="form-control form_field"
+                                        required
                                       />
                                     </div>
                                   </div>
@@ -1774,6 +1791,7 @@ const CustomMultiForm = () => {
                                         }}
                                         placeholder="Number"
                                         className="form-control form_field"
+                                        required
                                       />
                                     </div>
                                   </div>
