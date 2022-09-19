@@ -4,11 +4,6 @@ const { Schema } = mongoose;
 mongoose.Promise = global.Promise;
 
 const chatBotSchema = new Schema({
-  Message: {
-    type: String,
-    required: "Please fill this field",
-    trim: true,
-  },
   Name: {
     type: String,
     required: "Please fill this field",

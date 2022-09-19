@@ -1499,11 +1499,11 @@ const CustomMultiForm = () => {
         >
           <h3 className="pt-5">How can we help you today ?</h3>
           <button className="form_btn_1" onClick={firstHandleGet}>
-            have a project or idea 🚀
+            Have a project or idea 🚀
           </button>
 
           <button className="form_btn_2" onClick={secondHandleGet}>
-            want to hire a developer 💼
+            Want to hire a developer 💼
           </button>
         </div>
 

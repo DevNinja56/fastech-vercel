@@ -4,30 +4,52 @@ import MessageParser from "./MessageParser";
 import ActionProvider from "./ActionProvider";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
-
-// export const GlobalInfo = createContext();
+import { useEffect } from "react";
 
 const AppChatbot = ({ setShow }) => {
   const [step, setStep] = useState(1);
-  // const [name, setName] = useState("");
+  const [name, setName] = useState();
+  const [phone, setPhone] = useState();
+  const [email, setEmail] = useState();
 
-  // const hndleClick = () => {
-  //   setName("Abdul");
-  // };
+  console.log("state value is ===>", name, phone, email);
+
+  useEffect(() => {
+    let chatBotData = {
+      Name: name,
+      Phone_number: phone,
+      Email: email,
+    };
+    console.log("api data ==>", chatBotData);
+
+    fetch("http://localhost:3000/api/chatBot/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(chatBotData),
+    }).then((res) => {
+      if (res.status === 200) {
+        console.log("api post success");
+      } else {
+        console.log("api post failed");
+      }
+    });
+  });
 
   const MessageParserWithState = (props) => {
     return (
       <>
-        {/* <button onClick={hndleClick()}>Button</button> */}
-
-        {/* <GlobalInfo.Provider> */}
         <MessageParser
           step={step}
           setStep={setStep}
           setShow={setShow}
+          setName={setName}
+          setPhone={setPhone}
+          setEmail={setEmail}
+          // btnProp={handleSubmit()}
           {...props}
         />
-        {/* </GlobalInfo.Provider> */}
       </>
     );
   };
