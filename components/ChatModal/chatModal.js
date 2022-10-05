@@ -10,8 +10,9 @@ const ChatBotModal = () => {
   const handleShow = () => setShow(true);
 
   useEffect(() => {
-    setTimeout(() => setShow(true), 6000);
+    setTimeout(() => setShow(true), 15000);
   }, []);
+
 
   return (
     <>

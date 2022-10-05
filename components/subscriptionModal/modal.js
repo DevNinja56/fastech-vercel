@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 
 const SubscriptionModal = () => {
   const [mail, setMail] = useState();
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   //   const handleShow = () => setShow(true);
 
@@ -15,7 +15,7 @@ const SubscriptionModal = () => {
     let mailData = {
       Email: mail,
     };
-    console.log("api data ==>", mailData);
+    // console.log("api data ==>", mailData);
 
     fetch("http://localhost:3000/api/subscriptionModel/", {
       method: "POST",
@@ -25,9 +25,9 @@ const SubscriptionModal = () => {
       body: JSON.stringify(mailData),
     }).then((res) => {
       if (res.status === 200) {
-        console.log("api post success");
+        // console.log("api post success");
       } else {
-        console.log("api post failed");
+        // console.log("api post failed");
       }
     });
     Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
