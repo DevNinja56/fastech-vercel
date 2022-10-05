@@ -1781,17 +1781,21 @@ const IndustryDetail = ({ industryData, dataId }) => {
 
                 <h6>
                   So feel free to{" "}
-                  <a className="custom_description_contact" href="/contact">
-                    Contact Us
-                  </a>{" "}
+                  <Link href="/contact">
+                    <a className="custom_description_contact">Contact Us</a>
+                  </Link>{" "}
                   with your website development needs, today.
                 </h6>
               </div>
             </div>
             <style jsx>{`
               .custom_description_contact {
-                color: #0064fb;
+                color: #1f69f6;
                 font-size: 17px;
+                font-weight: bold;
+              }
+              .custom_description_contact:hover {
+                text-decoration: underline;
               }
               .sub_description_wrapper {
                 height: 500px;

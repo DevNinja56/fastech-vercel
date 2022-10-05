@@ -82,7 +82,7 @@ const MainBanner = () => {
             <div className="col-lg-5 col-md-12">
               <div className="main-banner-content">
                 <h1 className="main_heading_step_animation">
-                  We Build Powerful Digital Solutions for
+                  Fastech offers the Ultimate Digital Transformation for
                   <p />
                   <span
                     className="txt-rotate"
@@ -92,10 +92,9 @@ const MainBanner = () => {
                 </h1>
 
                 <p>
-                  Fastech offers software development consulting services for
-                  businesses, startups, and enterprises. Partner with a reliable
-                  software development company to scale up your engineering
-                  capacity.
+                  Join a steadfast software development company to take your
+                  business to the next level. We create powerful digital
+                  solutions for businesses, startups, and entrepreneurs.
                 </p>
 
                 <div className="banner-btn">

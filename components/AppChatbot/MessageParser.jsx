@@ -11,8 +11,13 @@ const MessageParser = ({
   setEmail,
   // btnProp,
 }) => {
+  // const DisableHandle = () => {
+  //   document.getElementsByName("react-chatbot-kit-chat-btn-send")[0]?.click().event.currentTarget.disabled = true;
+  // };
+
   const parse = (message) => {
     // if (message === "") {
+    //   DisableHandle();
     // }
 
     if (step === 1 && message.includes("")) {

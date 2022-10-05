@@ -82,7 +82,7 @@ const DetailServices = ({ servicesData, dataId }) => {
                           > */}
                           <Link href="/contact">
                             <a className="default-btn">
-                              Discuss Your Project{" "}
+                              Let’s Start{" "}
                               <i className="ri-arrow-right-line"></i>
                               <span></span>
                             </a>

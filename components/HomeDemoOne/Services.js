@@ -7,12 +7,14 @@ const Services = () => {
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Services We Offer</h2>
+            <h2>Our Services</h2>
             <p>
-              With immense experience, Fastech is the leading provider of
-              software, app and web development projects. Fastech can help you
-              achieve hard to reach goals with the perfect blend of technology,
-              expertise and innovation.
+              With the blend of technology, innovation, and expertise, Fastech
+              is the leading provider of software, web, and app development
+              projects. Through great experience and innovation, we will help
+              your business reach its ultimate goals and potential. At Fastech,
+              our goal is to make sure the end-user of your product gets the
+              best experience
             </p>
           </div>
 
@@ -28,9 +30,9 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our web development team creates intuitive user experiences
-                  wrapped up in beautiful designs. Everything we create is
-                  custom and precisely made to your specification.
+                  Our seasoned web developers create relatable user experiences
+                  integrated with aesthetic designs. All of our projects are
+                  custom-made and according to your requirement on the dot.
                 </p>
 
                 <Link href="/web-design-development">
@@ -52,10 +54,11 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our team builds nimble and elegant apps for both iOS and
-                  Android platforms. Our engineers work closely with you to
-                  understand your specifications and develop apps that provide
-                  an intuitive end user experience.
+                  Our team creates smooth and well-designed apps for Android and
+                  iOS platforms both. We work closely with you to understand
+                  your needs better and develop apps that are not only
+                  custom-made but also provide users with an intuitive and
+                  hassle free experience.
                 </p>
 
                 <Link href="/mobile-app-development">
@@ -77,10 +80,10 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Step in your targeted customer’s shoes to gauge what they
-                  think, feel and want by investing in professional UX design.
-                  It not only boosts ROI, search rankings, customer retention
-                  but is also your best bet to grow.
+                  Be more aware of what your customers’ wants and needs by
+                  investing in professional UI/UX design. Boost your ROI, search
+                  rankings, and customer retention with Fastech as your best bet
+                  to expand your business.
                 </p>
 
                 <Link href="/ui-ux-design">
@@ -102,10 +105,10 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our certified Shopify/Wordpress developers and web designers
-                  work exclusively on the Shopify/Woocommerce platform to build
-                  beautiful custom-tailored eCommerce storefront that boost your
-                  business.
+                  Our certified Shopify/Wordpress developers design appealing
+                  custom-tailored eCommerce stores on the Shopify/Woocommerce
+                  platform to not only boost your business but also attract a
+                  larger target audience
                 </p>
 
                 <Link href="IndustryDetails/e-commerce">
@@ -127,11 +130,11 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Improve interoperability among the teams through
-                  collaboration, speed and early defect detection to foster
-                  growth of quality digital application development that will
-                  not only balance the risk and reward but also fully meet your
-                  expectations.
+                  We aim to shorten the systems development life cycle and
+                  provide continuous delivery with high software quality.
+                  Improve efficiency between the teams through collaboration,
+                  swiftness, and rapid defect detection to enhance growth of
+                  quality digital application development.
                 </p>
 
                 <Link href="/Dev-Ops">
@@ -153,9 +156,10 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  With deep domain expertise, our engineer's design customized
-                  QA frameworks and implement strategies like security and
-                  performance testing to enhance usability and identify flaws.
+                  With extensive domain expertise, our customized QA frameworks
+                  allows implementing strategies such as performance and
+                  security testing that increases usability and helps you
+                  identify any defects.
                 </p>
 
                 <Link href="/software-quality-assurance">

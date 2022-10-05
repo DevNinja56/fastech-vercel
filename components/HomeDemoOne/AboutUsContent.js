@@ -19,8 +19,8 @@ const AboutUsContent = () => {
                   </div>
                   <h3>Engagement Models</h3>
                   <p>
-                    We solve your biggest business pains and help you succeed.
-                    Here is how we can work together
+                    We help you overcome your business’s greatest challenges.
+                    Here is how we can help you
                   </p>
                 </div>
 
@@ -31,8 +31,8 @@ const AboutUsContent = () => {
                     alt="image"
                   />
                   <p>
-                    Our staff augmentation model is intended to help companies
-                    find the right skills for their project.
+                    Our staff augmentation model will help you locate the
+                    required skills and services for your specific project.
                   </p>
                 </div>
 
@@ -43,9 +43,9 @@ const AboutUsContent = () => {
                     alt="image"
                   />
                   <p>
-                    The project-based model is designed to help you get your
-                    product built from ideation to deployment by a team of
-                    expert software engineering consultants.
+                    In the project-based model, our team of professional
+                    software engineering consultants will give your ideas a
+                    hands-on deployment.
                   </p>
                 </div>
 
@@ -56,8 +56,9 @@ const AboutUsContent = () => {
                     alt="image"
                   />
                   <p>
-                    Our team of developers is highly qualified and dedicated to
-                    delivering quality development services to clients.
+                    Our highly experienced team of developers is dedicated to
+                    providing quality software development services to our
+                    clients.
                   </p>
                 </div>
 
