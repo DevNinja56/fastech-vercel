@@ -113,112 +113,112 @@ const MainBanner = () => {
                 {/* Do not remove the div, is required! */}
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img1.png"
+                    src="/images/main-banner/banner-one/fastech-img1.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img2.png"
+                    src="/images/main-banner/banner-one/fastech-img2.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img3.png"
+                    src="/images/main-banner/banner-one/fastech-img3.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img4.png"
+                    src="/images/main-banner/banner-one/fastech-img4.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img5.png"
+                    src="/images/main-banner/banner-one/fastech-img5.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img6.png"
+                    src="/images/main-banner/banner-one/fastech-img6.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img7.png"
+                    src="/images/main-banner/banner-one/fastech-img7.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img8.png"
+                    src="/images/main-banner/banner-one/fastech-img8.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img9.png"
+                    src="/images/main-banner/banner-one/fastech-img9.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img10.png"
+                    src="/images/main-banner/banner-one/fastech-img10.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img11.png"
+                    src="/images/main-banner/banner-one/fastech-img11.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img12.png"
+                    src="/images/main-banner/banner-one/fastech-img12.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img13.png"
+                    src="/images/main-banner/banner-one/fastech-img13.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img14.png"
+                    src="/images/main-banner/banner-one/fastech-img14.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img15.png"
+                    src="/images/main-banner/banner-one/fastech-img15.webp"
                     alt="fastech-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-main-pic.png"
+                    src="/images/main-banner/banner-one/fastech-main-pic.webp"
                     alt="fastech-image"
                   />
                 </div>

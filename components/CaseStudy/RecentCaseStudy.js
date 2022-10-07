@@ -26,7 +26,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web1.png"
+                        src="/images/new-portfolio/fastech-web1.webp"
                         alt="image"
                       />
                     </div>
@@ -68,7 +68,7 @@ const RecentCaseStudy = () => {
                         // layout="fill"
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web2.png"
+                        src="/images/new-portfolio/fastech-web2.webp"
                         alt="image"
                         className="Box_images"
                       />
@@ -111,7 +111,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web3.png"
+                        src="/images/new-portfolio/fastech-web3.webp"
                         alt="image"
                       />
                     </div>
@@ -152,7 +152,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web4.png"
+                        src="/images/new-portfolio/fastech-web4.webp"
                         alt="image"
                       />
                     </div>
@@ -192,7 +192,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web5.png"
+                          src="/images/new-portfolio/fastech-web5.webp"
                           alt="image"
                         />
                       </div>
@@ -229,7 +229,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web6.png"
+                          src="/images/new-portfolio/fastech-web6.webp"
                           alt="image"
                         />
                       </div>
@@ -267,7 +267,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web7.png"
+                          src="/images/new-portfolio/fastech-web7.webp"
                           alt="image"
                         />
                       </div>
@@ -304,7 +304,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web8.png"
+                          src="/images/new-portfolio/fastech-web8.webp"
                           alt="image"
                         />
                       </div>
@@ -341,7 +341,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web9.png"
+                          src="/images/new-portfolio/fastech-web9.webp"
                           alt="image"
                         />
                       </div>
@@ -375,7 +375,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web10.png"
+                          src="/images/new-portfolio/fastech-web10.webp"
                           alt="image"
                         />
                       </div>
@@ -412,7 +412,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web11.png"
+                          src="/images/new-portfolio/fastech-web11.webp"
                           alt="image"
                         />
                       </div>
@@ -450,7 +450,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web12.png"
+                          src="/images/new-portfolio/fastech-web12.webp"
                           alt="image"
                         />
                       </div>
@@ -492,7 +492,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-mob1.png"
+                          src="/images/new-portfolio/fastech-mob1.webp"
                           alt="image"
                         />
                       </div>
@@ -539,7 +539,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-mob2.png"
+                          src="/images/new-portfolio/fastech-mob2.webp"
                           alt="image"
                         />
                       </div>
@@ -586,7 +586,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-mob4.png"
+                          src="/images/new-portfolio/fastech-mob4.webp"
                           alt="image"
                         />
                       </div>
@@ -633,7 +633,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-mob3.png"
+                          src="/images/new-portfolio/fastech-mob3.webp"
                           alt="image"
                         />
                       </div>
