@@ -39,7 +39,7 @@ const Certification = () => {
         .certification_area {
           position: relative;
           overflow: hidden;
-          background-image: url(/images/certification/fastech-cfbg.png);
+          background-image: url(/images/certification/fastech-cfbg.webp);
           background-position: 0px;
           background-size: cover;
           padding-bottom: 170px;

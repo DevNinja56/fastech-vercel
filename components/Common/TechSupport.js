@@ -65,7 +65,7 @@ const TechSupport = () => {
           width: 33px;
         }
         .support-area {
-          background-image: url(/images/support/fastech-support-bg-1.jpg);
+          background-image: url(/images/support/fastech-support-bg-1.webp);
           background-position: top center;
           background-size: cover;
           background-repeat: no-repeat;

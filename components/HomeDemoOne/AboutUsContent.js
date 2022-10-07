@@ -12,7 +12,7 @@ const AboutUsContent = () => {
                 <div className="experiences-content">
                   <div className="tag">
                     <img
-                      src="/images/fastech-favicon.png"
+                      src="/images/fastech-favicon.webp"
                       alt="fastech-image"
                       className="tag_img"
                     />
@@ -78,7 +78,7 @@ const AboutUsContent = () => {
               <div className="experiences-image">
                 <img
                   className="pl-5"
-                  src="/images/fastech-Engagement-Models (1).png"
+                  src="/images/fastech-Engagement-Models (1).webp"
                   alt="image"
                 />
               </div>
@@ -127,14 +127,14 @@ const AboutUsContent = () => {
           data-speed="0.06"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-4.png" alt="image" />
+          <img src="/images/experiences/fastech-shape-4.webp" alt="image" />
         </div>
         <div
           className="experiences-shape-7"
           data-speed="0.08"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-5.png" alt="image" />
+          <img src="/images/experiences/fastech-shape-5.webp" alt="image" />
         </div>
       </div>
 

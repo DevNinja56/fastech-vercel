@@ -25,7 +25,7 @@ const ContactForm = () => {
                   <div className="sales_profile">
                     <div className="image_wrapper">
                       <img
-                        src="/images/fastech-daniyalpic1.png"
+                        src="/images/fastech-daniyalpic1.webp"
                         alt="fastech-ceo-img"
                       />
                     </div>
