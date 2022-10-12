@@ -41,8 +41,7 @@ const OurRespectiveClients = () => {
           <div className="section-title">
             <h2>Our Respected Clients</h2>
             <p>
-              Which peoples loves us a lot, please check out what about says
-              about us
+            Find out what our clients have to say about us
             </p>
           </div>
 
