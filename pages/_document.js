@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <link
             rel="icon"
             type="image/png"
-            href="/images/fastech-favicon.png"
+            href="/images/ragzon-favicon.png"
           ></link>
         </Head>
         <body>

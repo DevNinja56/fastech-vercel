@@ -24,7 +24,7 @@ const Certification = () => {
                     <img
                       src={item.CertificationImg}
                       className="certificate_img"
-                      alt="fastech-certification-img"
+                      alt="ragzon-certification-img"
                     />
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Certification = () => {
         .certification_area {
           position: relative;
           overflow: hidden;
-          background-image: url(/images/certification/fastech-cfbg.webp);
+          background-image: url(/images/certification/ragzon-cfbg.webp);
           background-position: 0px;
           background-size: cover;
           padding-bottom: 170px;

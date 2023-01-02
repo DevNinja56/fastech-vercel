@@ -80,7 +80,7 @@ const OurRespectiveClientsTwo = () => {
 
                         <div className="clients-item">
                             <img src="/images/clients/clients-2.png" alt="image" />
-                            <p>Fastech is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
+                            <p>ragzon is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
 
                             <div className="title-name">
                                 <h3>Londynn Vargas</h3>
@@ -170,7 +170,7 @@ const OurRespectiveClientsTwo = () => {
 
                         <div className="clients-item">
                             <img src="/images/clients/clients-2.png" alt="image" />
-                            <p>‘’Fastech is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
+                            <p>‘’ragzon is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
 
                             <div className="title-name">
                                 <h3>Londynn Vargas</h3>
@@ -260,7 +260,7 @@ const OurRespectiveClientsTwo = () => {
 
                         <div className="clients-item">
                             <img src="/images/clients/clients-2.png" alt="image" />
-                            <p>‘’Fastech is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
+                            <p>‘’ragzon is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.</p>
 
                             <div className="title-name">
                                 <h3>Londynn Vargas</h3>

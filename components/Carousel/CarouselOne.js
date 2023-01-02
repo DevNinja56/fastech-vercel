@@ -57,45 +57,11 @@ const CarouselOne = () => {
                       className="partner-slides owl-carousel owl-theme"
                       {...options}
                     >
-                      <div className="single-partner">
-                        <img src={data.img_1} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_2} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_3} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_4} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_5} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_6} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_7} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_8} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_9} alt="fastech-review-image" />
-                      </div>
-
-                      <div className="single-partner">
-                        <img src={data.img_10} alt="fastech-review-image" />
-                      </div>
+                      {Object.keys(data).map((key) => (
+                        <div className="single-partner" key={key}>
+                          <img src={data[key]} alt={data[key]} />
+                        </div>
+                      ))}
                     </OwlCarousel>
                   ) : (
                     ""

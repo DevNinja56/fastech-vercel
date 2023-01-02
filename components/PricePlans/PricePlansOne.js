@@ -307,7 +307,7 @@ const PricePlansOne = () => {
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i> Project
-                          manager allocated by Fastech
+                          manager allocated by ragzon
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i> Team

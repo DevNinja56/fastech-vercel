@@ -74,10 +74,10 @@ const Layout = ({ children }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Fastech | Software Development and Consulting Company</title>
+        <title>Ragzon | Software Development and Consulting Company</title>
         <meta
           name="description"
-          content="Fastech provides software development and consultation services to startups and SMEs. We help tech companies scale their engineering capacity. Get in touch today!"
+          content="ragzon provides software development and consultation services to startups and SMEs. We help tech companies scale their engineering capacity. Get in touch today!"
         />
         <script
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
       <Socialicons />
       <Skype />
-      <ChatBotModal />
+      {/* <ChatBotModal /> */}
     </>
   );
 };

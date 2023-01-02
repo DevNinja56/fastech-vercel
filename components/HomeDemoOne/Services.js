@@ -9,10 +9,10 @@ const Services = () => {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              With the blend of technology, innovation, and expertise, Fastech
-              is the leading provider of software, web, and app development
+              With the blend of technology, innovation, and expertise, ragzon is
+              the leading provider of software, web, and app development
               projects. Through great experience and innovation, we will help
-              your business reach its ultimate goals and potential. At Fastech,
+              your business reach its ultimate goals and potential. At ragzon,
               our goal is to make sure the end-user of your product gets the
               best experience
             </p>
@@ -30,16 +30,15 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our seasoned web developers create relatable user experiences
-                  integrated with aesthetic designs. All of our projects are
-                  custom-made and according to your requirement on the dot.
+                  We create power and scalable web solutions with user
+                  experiences integrated with aesthetic designs.
                 </p>
 
-                <Link href="/web-design-development">
+                {/* <Link href="/web-design-development">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -54,18 +53,15 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our team creates smooth and well-designed apps for Android and
-                  iOS platforms both. We work closely with you to understand
-                  your needs better and develop apps that are not only
-                  custom-made but also provide users with an intuitive and
-                  hassle free experience.
+                  Our engineers strive to create the best business solution by
+                  leveraging the perfect SDLC tools and techniques.
                 </p>
 
-                <Link href="/mobile-app-development">
+                {/* <Link href="/mobile-app-development">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -80,17 +76,15 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Be more aware of what your customers’ wants and needs by
-                  investing in professional UI/UX design. Boost your ROI, search
-                  rankings, and customer retention with Fastech as your best bet
-                  to expand your business.
+                  Our team of experienced product designers & developers help
+                  you build successful digital products.
                 </p>
 
-                <Link href="/ui-ux-design">
+                {/* <Link href="/ui-ux-design">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -100,22 +94,20 @@ const Services = () => {
                   <i className="fal fa-bags-shopping"></i>
                 </div>
                 <h3>
-                  <Link href="IndustryDetails/e-commerce">
-                    <a>Ecommerce Development</a>
+                  <Link href="industry/e-commerce">
+                    <a>Dedicated Teams</a>
                   </Link>
                 </h3>
                 <p>
-                  Our certified Shopify/Wordpress developers design appealing
-                  custom-tailored eCommerce stores on the Shopify/Woocommerce
-                  platform to not only boost your business but also attract a
-                  larger target audience
+                  We grow your team using our development resources and
+                  recruitment capabilities.
                 </p>
 
-                <Link href="IndustryDetails/e-commerce">
+                {/* <Link href="industry/e-commerce">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -125,23 +117,20 @@ const Services = () => {
                   <i className="ri-cloud-line"></i>
                 </div>
                 <h3>
-                  <Link href="/Dev-Ops">
-                    <a>DevOps</a>
+                  <Link href="/dev-ops">
+                    <a>Blockchain</a>
                   </Link>
                 </h3>
                 <p>
-                  We aim to shorten the systems development life cycle and
-                  provide continuous delivery with high software quality.
-                  Improve efficiency between the teams through collaboration,
-                  swiftness, and rapid defect detection to enhance growth of
-                  quality digital application development.
+                  We offer customized Blockchain solutions and ICO services for
+                  your business security.
                 </p>
 
-                <Link href="/Dev-Ops">
+                {/* <Link href="/dev-ops">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
-                  </a>
-                </Link>
+                  </a> 
+                </Link> */}
               </div>
             </div>
 
@@ -152,21 +141,19 @@ const Services = () => {
                 </div>
                 <h3>
                   <Link href="/software-quality-assurance">
-                    <a>Software Quality Assurance</a>
+                    <a>DevOps</a>
                   </Link>
                 </h3>
                 <p>
-                  With extensive domain expertise, our customized QA frameworks
-                  allows implementing strategies such as performance and
-                  security testing that increases usability and helps you
-                  identify any defects.
+                  We automates the workflow and deliver more value with DevOps
+                  services and solutions
                 </p>
 
-                <Link href="/software-quality-assurance">
+                {/* <Link href="/software-quality-assurance">
                   <a className="services-btn">
                     Read More <i className="ri-arrow-right-line"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -175,26 +162,26 @@ const Services = () => {
         {/* Shape Images */}
         <div className="services-shape-1">
           <img
-            src="/images/services/fastech-shape-1.png"
-            alt="fastech-services-image"
+            src="/images/services/ragzon-shape-1.png"
+            alt="ragzon-services-image"
           />
         </div>
         <div className="services-shape-2">
           <img
-            src="/images/services/fastech-shape-2.png"
-            alt="fastech-services-image"
+            src="/images/services/ragzon-shape-2.png"
+            alt="ragzon-services-image"
           />
         </div>
         <div className="services-shape-3">
           <img
-            src="/images/services/fastech-shape-3.png"
-            alt="fastech-services-image"
+            src="/images/services/ragzon-shape-3.png"
+            alt="ragzon-services-image"
           />
         </div>
         <div className="services-shape-4">
           <img
-            src="/images/services/fastech-shape-4.png"
-            alt="fastech-services-image"
+            src="/images/services/ragzon-shape-4.png"
+            alt="ragzon-services-image"
           />
         </div>
       </div>

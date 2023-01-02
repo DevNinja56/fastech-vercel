@@ -28,13 +28,13 @@ const FAQs = () => {
               <AccordionItem uuid="a">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    What is Fastech all about?
+                    What is ragzon all about?
                   </AccordionItemButton>
                 </AccordionItemHeading>
 
                 <AccordionItemPanel>
                   <p>
-                    Fastech (Pvt) Ltd has focused on developing and maintaining
+                    ragzon (Pvt) Ltd has focused on developing and maintaining
                     custom software solutions for small enterprises to big
                     conglomerates. With increased efficiency, we established a
                     diversified client base across the globe – we worked with
@@ -151,7 +151,7 @@ const FAQs = () => {
 
             <div className="box-two">
               <i className="ri-earth-line"></i>
-              <a href="mailto:info@thefastech.com">info@thefastech.com</a>
+              <a href="mailto:info@theragzon.com">info@theragzon.com</a>
             </div>
           </div>
         </div>

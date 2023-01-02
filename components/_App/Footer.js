@@ -43,14 +43,14 @@ const Footer = () => {
                     <a>
                       <img
                         className="logo_main"
-                        src="/images/fastech-logo.png"
-                        alt="fastech-image"
+                        src="/images/ragzon-logo.png"
+                        alt="ragzon-image"
                       />
                     </a>
                   </Link>
                 </div>
                 <p>
-                  Fastech offers software development consulting services for
+                  ragzon offers software development consulting services for
                   businesses, startups, and enterprises. Partner with a reliable
                   software development company to scale up your engineering
                   capacity.
@@ -64,7 +64,7 @@ const Footer = () => {
 
                   <li>
                     <i className="ri-global-line"></i>
-                    <a href="mailto:info@thefastech.com">info@thefastech.com</a>
+                    <a href="mailto:info@theragzon.com">info@theragzon.com</a>
                   </li>
 
                   <li>
@@ -91,7 +91,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/Software-Project-Management">
+                    <Link href="/software-project-management">
                       <a>Software Project Management</a>
                     </Link>
                   </li>
@@ -106,7 +106,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/Dev-Ops">
+                    <Link href="/dev-ops">
                       <a>Dev Ops</a>
                     </Link>
                   </li>
@@ -167,7 +167,7 @@ const Footer = () => {
                 <ul className="widget-social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/thefastech/"
+                      href="https://www.linkedin.com/company/ragzon/"
                       target="_blank"
                     >
                       <i className="ri-linkedin-fill"></i>
@@ -175,21 +175,21 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.facebook.com/theafastech/"
+                      href="https://www.facebook.com/RagzonSolutions"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/Fastech5" target="_blank">
+                    <a href="https://twitter.com/RagzonSolutions" target="_blank">
                       <i className="ri-twitter-fill"></i>
                     </a>
                   </li>
 
                   <li>
                     <a
-                      href="https://www.instagram.com/the_fastech/"
+                      href="https://www.instagram.com/ragzon_/"
                       target="_blank"
                     >
                       <i className="fab fa-instagram"></i>
@@ -206,7 +206,7 @@ const Footer = () => {
             <div className="copyright-area-content">
               <p>
                 Copyright © {currentYear} All Rights Reserved | Developed by{" "}
-                <span className="footer_name">Fastech</span>
+                <span className="footer_name">ragzon</span>
               </p>
             </div>
           </div>

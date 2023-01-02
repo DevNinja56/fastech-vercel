@@ -6,13 +6,13 @@ export default async function (req, res) {
   //   port: 465,
   //   host: "smtp.gmail.com",
   //   auth: {
-  //     user: "fastechoffice7@gmail.com",
-  //     pass: "fastechoffice321",
+  //     user: "ragzonoffice7@gmail.com",
+  //     pass: "ragzonoffice321",
   //   },
   //   secure: true,
   // });
   // const mailData = {
-  //   from: "fastechoffice7@gmail.com",
+  //   from: "ragzonoffice7@gmail.com",
   //   to: "abdulengineer321@gmail.com",
   //   subject: `${req.body.subject}`,
   //   text: `this`,

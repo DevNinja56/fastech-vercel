@@ -52,8 +52,8 @@ const Navbar = () => {
               <a className="navbar-brand">
                 <img
                   className="logo_main"
-                  src="/images/fastech-logo.png"
-                  alt="fastech-logo"
+                  src="/images/ragzon-logo.png"
+                  alt="ragzon-logo"
                 />
               </a>
             </Link>
@@ -98,9 +98,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/fastech-web-design_development.svg"
+                            src="/images/ragzon-web-design_development.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-web-design"
+                            alt="ragzon-web-design"
                           />
                           Web Design & Development
                         </a>

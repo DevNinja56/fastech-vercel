@@ -1,33 +1,33 @@
 export const IndustryApi = [
   {
     slug: "e-commerce",
-    heading: "Ecommerce Website Development Services",
+    heading: "Ecommerce Development",
     paragraph:
-      "Increase scalability of your online store and save development costs by partnering with Fastech ",
+      "Increase scalability of your online store and save development costs",
     banner_img: "/images/ecommerce.png",
 
-    service_Heading: "Our eCommerce Website Development and Design Services",
+    service_Heading: "Our eCommerce Development Services",
     service_Text: "",
     ServicesTypes: [
       {
         heading: "Custom eCommerce Platforms",
         paragraph:
-          "With integrated capabilities, we create eCommerce platforms that are income-generating and leading-edge. From frontend, backend, code, tests, launch to support - we tackle everything with finesse so that you bring in revenue like clockwork.",
+          "With integrated capabilities, we create eCommerce platforms that are income-generating and leading-edge.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
-        heading: "Ecommerce Website Solutions",
+        heading: "Shopify Development",
         paragraph:
-          "Fastech is a highly experienced and trusted provider of high performance ecommerce software solutions. We create error-free ecommerce websites which result in better search engine ranking, greater visibility, and more sales-producing traffic",
+          "We ensure rapid scalability and stable growth for your business by revenue-oriented Shopify website development services.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "Custom eCommerce Design",
+        heading: "Magento Development",
         paragraph:
-          "Our eCommerce website design services have grown online businesses on various platforms like Shopify, WooCommerce, BigCommerce, Magento & more. The combination of our eCommerce website design services, along with years of eCommerce experience, makes us the go-to choice for your project.",
+          "Providing your ecommerce site a superior branded and customer-centric experience that engages and delivers financial results.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-FF414B",
       },
@@ -43,7 +43,7 @@ export const IndustryApi = [
       {
         heading: "Shopify Development",
         paragraph:
-          "Fastech helps you convert a basic Shopify store into a powerful selling tool. Help ensure rapid scalability and stable growth for your business by choosing our revenue-oriented Shopify website development services.",
+          "ragzon helps you convert a basic Shopify store into a powerful selling tool. Help ensure rapid scalability and stable growth for your business by choosing our revenue-oriented Shopify website development services.",
         iconPath: "fal fa-link",
         colorClases: "icon bg-FFCA40",
       },
@@ -58,36 +58,15 @@ export const IndustryApi = [
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
-    about_heading:
-      "Why choose Fastech for your eCommerce website requirements?",
+    about_heading: "Why choose Ragzon?",
     aboutItems: [
-      {
-        about_text: "Custom website design capabilities",
-        about_img: "far fa-check tick_icons",
-      },
-
       {
         about_text: "Flexible engagement models",
         about_img: "far fa-check tick_icons",
       },
 
       {
-        about_text: "Unique eCommerce functionality from the ground up",
-        about_img: "far fa-check tick_icons",
-      },
-
-      {
-        about_text: "Hands-on experience in eCommerce software development",
-        about_img: "far fa-check tick_icons",
-      },
-
-      {
-        about_text: "Individual attention to every client",
-        about_img: "far fa-check tick_icons",
-      },
-
-      {
-        about_text: "Data privacy protection",
+        about_text: "Instant chat support",
         about_img: "far fa-check tick_icons",
       },
 
@@ -97,19 +76,28 @@ export const IndustryApi = [
       },
 
       {
-        about_text: "Personalized eCommerce solutions",
+        about_text: "Data privacy protection",
+        about_img: "far fa-check tick_icons",
+      },
+
+      {
+        about_text: "Individual approach to every client",
+        about_img: "far fa-check tick_icons",
+      },
+
+      {
+        about_text: "UI/UX optimized development",
         about_img: "far fa-check tick_icons",
       },
     ],
 
-    tech_heading_1:
-      "Fastech offers eCommerce website development services built for online success",
-    tech_heading_2: "Needs to Fastech",
+    tech_heading_1: "Our Customer-Centric Engagement Models",
+    tech_heading_2: "",
     tech_items: [
       {
         heading: "Dedicated Remote Team",
         paragraph:
-          "If you are in search of a remote team, this model will suit you best. Fastech creates engaging eCommerce websites from scratch with the right mix of talent and tech. We offer personalized solutions to help our clients stay ahead of their competitors.",
+          "If you are in search of a remote team, this model will suit you best. Ragzon creates engaging eCommerce websites from scratch with the right mix of talent and tech. We offer personalized solutions to help our clients stay ahead of their competitors.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
@@ -149,34 +137,33 @@ export const IndustryApi = [
 
   {
     slug: "food-and-grocery",
-    heading: "Food delivery and Grocery App Development",
+    heading: "Grocery & Food Delivery App Development Services",
     paragraph:
-      "Reach new customers with our custom branded food delivery and grocery app development services.",
+      "Ragzon helps delivery companies to transform their services with emerging technology.",
     banner_img: "/images/ecommerce.png",
 
-    service_Heading:
-      "On-demand Food Delivery and Grocery App Development Services",
+    service_Heading: "Our Delivery App Development Services",
     service_Text: "",
     ServicesTypes: [
       {
-        heading: "Grocery App Development",
+        heading: "Restaurant Delivery App",
         paragraph:
-          "Fastech’s Grocery app development services help you expand your grocery delivery business. We offer grocery app development solutions that help automate inventory management, tracking delivery in real time, delivery dispatch time, and numerous other features. Begin now to enhance the flexibility and scalability of your online grocery business",
+          "Sell more products and easily scale your business with an online restaurant delivery app solution.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
-        heading: "Food Delivery App Development",
+        heading: "Online Food Ordering App",
         paragraph:
-          "Our food delivery app development team can help you get your first taste of the on-demand food delivery business by providing custom food delivery apps. Fastech delivers user-friendly food delivery app development solutions that offer increased functionality to businesses and startups.",
+          "Get restaurant-consumer delivery, platform-consumer delivery, and many more apps and grow your business.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "Online Food Ordering App",
+        heading: "Grocery Store Software",
         paragraph:
-          "From startups and tech giants to almost every industry, the need for on-demand food delivery app development has massively increased. Fastech offers the expertise and experience to help your business reach new customers with our custom online food ordering apps.",
+          "Manage your sales and invoice your inventory with highly customize grocery store management and sales solutions.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-FF414B",
       },
@@ -184,7 +171,7 @@ export const IndustryApi = [
       {
         heading: "Restaurant Delivery App",
         paragraph:
-          "Fastech develops restaurant delivery apps that enhance your company’s scalability and reach to more customers. We offer online restaurant delivery app solutions with advanced features, giving you an edge over your competitors.",
+          "ragzon develops restaurant delivery apps that enhance your company’s scalability and reach to more customers. We offer online restaurant delivery app solutions with advanced features, giving you an edge over your competitors.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-8932F8",
       },
@@ -192,7 +179,7 @@ export const IndustryApi = [
       {
         heading: "Grocery Store Software",
         paragraph:
-          "Increase your sales and manage your inventory more efficiently with our customized grocery store management and software development solutions. Fastech helps automate your daily operations by creating robust and innovative grocery store software development services.",
+          "Increase your sales and manage your inventory more efficiently with our customized grocery store management and software development solutions. ragzon helps automate your daily operations by creating robust and innovative grocery store software development services.",
         iconPath: "fal fa-link",
         colorClases: "icon bg-FFCA40",
       },
@@ -200,14 +187,14 @@ export const IndustryApi = [
       {
         heading: "Restaurant Management Software",
         paragraph:
-          "Manage your restaurants and food chains without any delays with our restaurant management solutions. Fastech increases your ROI by automating the workflow, business operations, and allows you to receive major reports and invoices with just a click.",
+          "Manage your restaurants and food chains without any delays with our restaurant management solutions. ragzon increases your ROI by automating the workflow, business operations, and allows you to receive major reports and invoices with just a click.",
         iconPath: "fal fa-chart-line",
         colorClases: "icon bg-FF6D3D",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
-    about_heading: "Why Choose Fastech for Food and Grocery App Development?",
+    about_heading: "Why Choose ragzon for Food and Grocery App Development?",
     aboutItems: [
       {
         about_text: "On demand expert developers",
@@ -300,82 +287,57 @@ export const IndustryApi = [
 
       {
         paragraph_1:
-          "To select the right partner for your app development outsourcing needs, it is important you view their previous work and make sure they are up to standard and meet your project requirements. Choose the business model that works best for you. At Fastech, we offer the following service models:",
+          "To select the right partner for your app development outsourcing needs, it is important you view their previous work and make sure they are up to standard and meet your project requirements. Choose the business model that works best for you. At ragzon, we offer the following service models:",
         paragraph_2:
-          "In the fix gigs model, you discuss the cost estimates of the grocery app development, the time it will take to get the job done, and other requirements of the project. The rest is our job and you don’t have to worry about anything. At Fastech, we ensure top-quality applications that are within your budget and delivered on time. Moreover, project updates and your feedback is communicated seamlessly",
+          "In the fix gigs model, you discuss the cost estimates of the grocery app development, the time it will take to get the job done, and other requirements of the project. The rest is our job and you don’t have to worry about anything. At ragzon, we ensure top-quality applications that are within your budget and delivered on time. Moreover, project updates and your feedback is communicated seamlessly",
         paragraph_3:
-          "If you require help with an on-going project then you can augment resources from our company. Fastech has a team of 200+ seasoned developers with 250k+ clocked project hours that are available to solve your app development problems. Our augmentation services are based on expertise, communication skills, and dedication. Rather than acquiring and managing freelancers you can outsource your project directly to us as we take care of the whole development process and ensure a top-quality software product.",
+          "If you require help with an on-going project then you can augment resources from our company. ragzon has a team of 200+ seasoned developers with 250k+ clocked project hours that are available to solve your app development problems. Our augmentation services are based on expertise, communication skills, and dedication. Rather than acquiring and managing freelancers you can outsource your project directly to us as we take care of the whole development process and ensure a top-quality software product.",
         heading: "Choose a payment model that suits you best",
       },
 
       {
         paragraph_1:
-          "The first question that comes to your mind when concerned with on-demand food and grocery app development services is how much it will cost. It is important to choose the right payment model that suits your requirements and budget. At Fastech, we offer payment models that can be customized according to your needs and requirements of the project. Whether you want resources on an hourly basis or looking to outsource the complete project under a certain budget, we have it all solved for you. Feel free to contact us for further details.",
+          "The first question that comes to your mind when concerned with on-demand food and grocery app development services is how much it will cost. It is important to choose the right payment model that suits your requirements and budget. At ragzon, we offer payment models that can be customized according to your needs and requirements of the project. Whether you want resources on an hourly basis or looking to outsource the complete project under a certain budget, we have it all solved for you. Feel free to contact us for further details.",
       },
     ],
   },
 
   {
     slug: "on-demand-services",
-    heading: "We offer On Demand App Development Services",
+    heading: "On Demand Services App Development",
     paragraph:
-      "Our seasoned team of app developers is here to cater your add development needs.",
+      "Providing dedicated app developers for on demand app development.",
     banner_img: "/images/ecommerce.png",
 
-    service_Heading:
-      "Full Spectrum on Demand Website Design and Development Services",
+    service_Heading: "Our On Demand App Development Services",
     service_Text: "",
     ServicesTypes: [
       {
         heading: "Custom On Demand App Development Solutions",
         paragraph:
-          "Fastech offers industry-leading app-based solutions that are integrated with futuristic features, secured with modern encryption techniques and in-app payment methods to provide unmatched user experience.",
+          "Fully customized on demand app to disrupt the multi million mobile app industry.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
-        heading: "On Demand Payment Solutions",
+        heading: "On Demand Delivery App Development",
         paragraph:
-          "Our dedicated team of on-demand app developers understand the importance of time and specialize in developing on-demand apps that provide value and convenience for you and your customers.",
+          "Get your own Uber Eats like delivery app packed with all on demand services features.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "On Demand Delivery App Development",
-        paragraph:
-          "Integrated with real-time order tracking facility for consumers, our on-demand delivery app development ensures services like rapid order fulfillment, monitors status updates, and allows customers to rate and review the service.",
-        iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-FF414B",
-      },
-
-      {
         heading: "On Demand Appointment App",
         paragraph:
-          "Hire our seasoned team of developers to streamline appointments, enabling other clinical operations to become far easier and hassle-free with a top-notch on-demand scheduling app. Schedule your appointments efficiently and never miss an appointment again.",
+          "Provide services to your patients by allowing appointment scheduling through apps.",
         iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-8932F8",
-      },
-
-      {
-        heading: "On demand Services Web App Development",
-        paragraph:
-          "Fastech helps you innovate your business by launching your very own on demand services web application. We create flexible and scalable on demand app with futuristic features, ensuring the best user experience for your customers.",
-        iconPath: "fal fa-link",
-        colorClases: "icon bg-FFCA40",
-      },
-
-      {
-        heading: "On Demand Services Solutions",
-        paragraph:
-          "With integrated capabilities, we provide on demand services that are income-generating and leading-edge. We leverage top engineering skills to create powerful B2B, B2C, and P2P on demand ecommerce solutions with integrated APIs for bulk orders, multiple payment gateways, multi-address deliveries, etc.",
-        iconPath: "fal fa-chart-line",
-        colorClases: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF414B",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
-    about_heading: "Why choose Fastech for your On Demand Development Needs?",
+    about_heading: "Why choose ragzon for your On Demand Development Needs?",
     aboutItems: [
       {
         about_text: "Optimized UI/UX development",
@@ -443,7 +405,7 @@ export const IndustryApi = [
     description_data: [
       {
         paragraph_1:
-          "Our on-demand app development services are focused on providing quality through a seamless process to our clients. Fastech has developed a number of app-based custom on-demand solutions for some of the leading startups, renowned enterprises, and thriving businesses.",
+          "Our on-demand app development services are focused on providing quality through a seamless process to our clients. ragzon has developed a number of app-based custom on-demand solutions for some of the leading startups, renowned enterprises, and thriving businesses.",
         paragraph_2:
           "Once you have done your market research and defined your target audience, you look into on-demand app development services.  We create customer journey maps to help plan out how the user experience can be improved continuously and identify errors or delays.",
         heading: "Be aware of your requirements and budget",
@@ -461,7 +423,7 @@ export const IndustryApi = [
         paragraph_2:
           "To become a market leader in the web development industry, it is vital to make sure you are the go to option for your clients whenever they need a web development solution or service. This can be done by not just by delivery top-notch quality software product but also adding overall value to your customer’s user experience by fulfilling their on-demand application service needs.",
         paragraph_3:
-          "Fastech is among Pakistan’s top web and app development software companies that will go above and beyond to meet their customer’s needs. We offer personalized solutions to help our clients stay ahead. No matter at which development stage our clients seek our support, we can jump right in to cater to their needs.",
+          "ragzon is among Pakistan’s top web and app development software companies that will go above and beyond to meet their customer’s needs. We offer personalized solutions to help our clients stay ahead. No matter at which development stage our clients seek our support, we can jump right in to cater to their needs.",
       },
     ],
     sub_paragraph:
@@ -470,9 +432,9 @@ export const IndustryApi = [
 
   {
     slug: "health-care",
-    heading: "Custom Healthcare Software Development",
+    heading: "Healthcare Software Development Services",
     paragraph:
-      "Fastech provides custom software development services to healthcare companies for improving healthcare services.",
+      "Providing custom software development services to healthcare companies for improving healthcare services.",
     banner_img: "/images/ecommerce.png",
 
     service_Heading: "Our Healthcare Software Development Services",
@@ -481,54 +443,30 @@ export const IndustryApi = [
       {
         heading: "Telehealth Software",
         paragraph:
-          "Telehealthcare software development includes a wide-range of healthcare software services such as remote patient monitoring, mobile health solutions, real-time healthcare, Telemedicine software and apps.",
+          "It covers a broad range from remote patient monitoring to mobile health solutions, real-time healthcare, mHealth apps, and telemedicine software.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
-        heading: "Patient Engagement Solution",
+        heading: "Health Tracking Apps",
         paragraph:
-          "We enable healthcare professionals to engage with patients online through our Patient engagement solutions. An ideal patient engagement software enables patients to pay bills online, access medical records, and book appointments with ease.",
+          "Let your patients keep track of their health including heart rate and blood pressure measurement, adjust nutrition, and more.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "Electronic Health Record Software (EHR)",
-        paragraph:
-          "Maximize clinical productivity through our EMR/HER software development which helps healthcare providers interact with patients via patient portals and enables patients to access their medical records online.",
-        iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-FF414B",
-      },
-
-      {
-        heading: "Health Insurance Software",
-        paragraph:
-          "Health insurance software development enables health insurance companies to increase flexibility in their daily operations such as processing claims, administration, book keeping, and other major insurance processes.",
-        iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-8932F8",
-      },
-
-      {
         heading: "Medical Software Solutions",
         paragraph:
-          "We offer custom medical software development services to help healthcare providers track equipment, manage healthcare supply chain, medical billing, and managing assets.",
-        iconPath: "fal fa-link",
-        colorClases: "icon bg-FFCA40",
-      },
-
-      {
-        heading: "Health Tracking Apps",
-        paragraph:
-          "Our Health Tracking Applications development enables patients to track their health – measuring heart rate and blood pressure, adjust medication, and access their medical records.",
-        iconPath: "fal fa-chart-line",
-        colorClases: "icon bg-FF6D3D",
+          "It assist healthcare providers in tracking equipment, healthcare supply chain management, asset management, and medical billing.",
+        iconPath: "fal fa-laptop-code",
+        colorClases: "icon bg-FF414B",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
     about_heading:
-      "Why choose Fastech for Outsourcing Healthcare Software Development?",
+      "Why choose ragzon for Outsourcing Healthcare Software Development?",
     aboutItems: [
       {
         about_text: "Data privacy and protection",
@@ -630,71 +568,47 @@ export const IndustryApi = [
 
       {
         paragraph_1:
-          "To conclude this, we would like to say that in order to successfully hire remote developers you will need to be sure of your own project goals and job requirements. Once you choose the best board/medium to post your job at there is nothing that could stop you from having the best dedicated developments team either if it’s a remote software development, team remote marketing team or remote software development team. At Fastech, we are here to help you find the best remote software development team. Contact us for more information",
+          "To conclude this, we would like to say that in order to successfully hire remote developers you will need to be sure of your own project goals and job requirements. Once you choose the best board/medium to post your job at there is nothing that could stop you from having the best dedicated developments team either if it’s a remote software development, team remote marketing team or remote software development team. At ragzon, we are here to help you find the best remote software development team. Contact us for more information",
       },
     ],
   },
 
   {
     slug: "fintech",
-    heading: "Financial Software Development Services",
+    heading: "Fintech Services",
     paragraph:
-      "Fastech transforms financial services with modern technology and tools to make your organization more efficient.",
+      "Ragzon helps global fintech companies to transform their financial services with emerging technology.",
     banner_img: "/images/ecommerce.png",
 
     service_Heading: "Our Fintech Software Development Services",
     service_Text: "",
     ServicesTypes: [
       {
-        heading: "Custom Fintech Software",
+        heading: "Digital Payment Solutions",
         paragraph:
-          "Enhance your user experience and have an edge over your competitors as our seasoned fintech software developers build custom fintech solutions for both mobile and web platforms. ",
+          "Delivering Exceptional Technology Solutions payment gateway development to digital mobile wallet apps and online banking applications.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
-        heading: "Digital Payment Solutions",
+        heading: "AI-enabled Fintech Apps",
         paragraph:
-          "Digitalize payment solutions as we take financial services into the digital world. Fastech provides you with seasoned software developers comfortable with various coding languages to enable digital mobile wallets and online banking applications for your business.",
+          "Our AI and Big Data engineers can help you in smart decision making to improve customer engagement.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "AI-enabled Fintech Apps",
-        paragraph:
-          "AI enables fintech companies to identify threats, prevent fraud, automate everyday tasks and enhance the quality of service. Hire Fintech software development experts to improve customer engagement and scalability. ",
-        iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-FF414B",
-      },
-
-      {
         heading: "Regtech Solutions",
         paragraph:
-          "Fastech helps you build a software solution that meets compliance and regulatory requirements. We offer Regtech solutions ranging from fraud detection and prevention to risk management, online identity management, regulatory reporting, and testing.",
+          "Automated solutions that helps in ranging from fraud detection and prevention to online identity management, regulatory reporting, and risk management.",
         iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-8932F8",
-      },
-
-      {
-        heading: "Intelligent CRM Solution",
-        paragraph:
-          "Our Fintech software developers develop customer relationship management (CRM) solutions that help in adding intelligence and context to customer service through advanced machine learning capabilities. In addition to creating happy customers, we build intelligent CRM platforms that save significant time and costs for organizations.",
-        iconPath: "fal fa-link",
-        colorClases: "icon bg-FFCA40",
-      },
-
-      {
-        heading: "Accounting Information Systems",
-        paragraph:
-          "Our seasoned team with expertise in accounting software helps integrate AIS software with smart business intelligence applications. Hire a dedicated team for builing accounting fintech app solutions.",
-        iconPath: "fal fa-chart-line",
-        colorClases: "icon bg-FF6D3D",
+        colorClases: "icon bg-FF414B",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
-    about_heading: "Why choose Fastech Fintech Application Developers?",
+    about_heading: "Why choose ragzon Fintech Application Developers?",
     aboutItems: [
       {
         about_text: "Transparent pricing",
@@ -739,7 +653,7 @@ export const IndustryApi = [
 
     tech_heading_1:
       "How to Choose Your Fintech Software Development Outsourcing Partner?",
-    tech_heading_2: "Needs to Fastech",
+    tech_heading_2: "Needs to ragzon",
     tech_items: [
       {
         heading: "Rapid Growth of Fintech Industry",
@@ -752,7 +666,7 @@ export const IndustryApi = [
       {
         heading: "Choosing the right Fintech company",
         paragraph:
-          "By outsourcing Fintech software development to Fastech you are in safe hands as we build custom Fintech Software digital solutions. Developing Fintech software is a complex process requiring years of expertise and skill. Unlike other forms of web and software development, you need experts with industry-specific knowledge for your fintech software development. Lucky for you, we have assembled a team of expert Fintech software developers and industry consultants that ensure top-notch fintech software development solutions for you.",
+          "By outsourcing Fintech software development to ragzon you are in safe hands as we build custom Fintech Software digital solutions. Developing Fintech software is a complex process requiring years of expertise and skill. Unlike other forms of web and software development, you need experts with industry-specific knowledge for your fintech software development. Lucky for you, we have assembled a team of expert Fintech software developers and industry consultants that ensure top-notch fintech software development solutions for you.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
@@ -773,7 +687,7 @@ export const IndustryApi = [
       {
         paragraph_1:
           "The cost for developing your Fintech software can vary on several factors. These include whether you require extra features in your application, tools and technologies needed for the development region, the region where the software development team is located. In normal circumstances, it can cost from $20,000 to $2,000,00+. To get a further realistic estimate, contact our team.",
-        heading: "Why choose Fastech to outsource Fintech software development",
+        heading: "Why choose ragzon to outsource Fintech software development",
       },
 
       {
@@ -793,9 +707,9 @@ export const IndustryApi = [
 
   {
     slug: "travel-and-tourism",
-    heading: "Travel and Tourism Custom Software Development",
+    heading: "Travel and Tourism Development",
     paragraph:
-      "We offer custom travel and tourism software development services to help digitize your business. ",
+      "Ragzon offers custom travel and tourism software development services to help digitize your business.",
     banner_img: "/images/ecommerce.png",
 
     service_Heading: "Our Travel and Tourism App Development Services",
@@ -804,14 +718,14 @@ export const IndustryApi = [
       {
         heading: "On-Demand Travel Application",
         paragraph:
-          "Outsource on-demand travel apps development services to build scalable and robust custom travel apps. Our seasoned developers have expertise in creating taxi booking apps, travel information exchange systems, rental booking, virtual tourism, and ride-sharing apps.",
+          "Leverage on-demand travel apps development services to build custom and advanced travel apps that are robust and scalable.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
         heading: "E-booking and Ticketing Systems",
         paragraph:
-          "We work with latest technologies, AI, and cloud computing to build all types of e-booking and ticketing systems. Fastech helps you provide interactive booking and user friendly ticketing experience for your customers.",
+          "Provide interactive booking and ticketing experience by building apps with the latest technologies i.e. AI and cloud computing.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
@@ -819,39 +733,15 @@ export const IndustryApi = [
       {
         heading: "AR and VR based Travel Apps",
         paragraph:
-          "Augmented Reality Travel Apps have a proven ability to enhance the travel and tourism services as it helps users to define their travel destinations. We build AR/VR apps such as travel managements solutions, virtual tour apps, GPS apps, and more to enhance your travel experience.",
+          "Assist users in defining their travel destinations by unlocking the power of augmented and virtual reality-based apps.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-FF414B",
-      },
-
-      {
-        heading: "Travel Mobility Solutions",
-        paragraph:
-          "Our seasoned team of developers help build travel apps that include payment gateways, seat booking, food ordering, and customer service. Improve your customer experience by investing in next-generation tourism and travel apps.",
-        iconPath: "fal fa-laptop-code",
-        colorClases: "icon bg-8932F8",
-      },
-
-      {
-        heading: "Custom Travel ERP Solutions",
-        paragraph:
-          "Fastech helps increase scalability of your business through our custom-built ERP solutions that makes processes like budgeting, inventory management, fleet management, and others more efficient.",
-        iconPath: "fal fa-link",
-        colorClases: "icon bg-FFCA40",
-      },
-
-      {
-        heading: "Transportation Information App",
-        paragraph:
-          "We develop user-friendly, custom-built and cross platform transportation information apps that empower users and increases productivity levels.",
-        iconPath: "fal fa-chart-line",
-        colorClases: "icon bg-FF6D3D",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
     about_heading:
-      "Why choose Fastech to Outsource Tourism and Travel App Development?",
+      "Why choose ragzon to Outsource Tourism and Travel App Development?",
     aboutItems: [
       {
         about_text: "Cost and Time Efficient",
@@ -941,32 +831,32 @@ export const IndustryApi = [
 
       {
         paragraph_1:
-          "Travel and tourism brands strive to create a “destination or trip” that is unforgettable. We help clients uncover possibilities by integrating digital with different facets and touchpoints of the experience to make their guests’ visit one that is more engaging, memorable and so exciting that they are compelled to share on their social channels. Investing in infrastructure is key to get an edge over your competitors. At Fastech we provide expert development services in addition to thorough market analysis which allows us to deliver a high quality travel software product. Contact us and let’s get started on your travel and tourism app development solutions.",
+          "Travel and tourism brands strive to create a “destination or trip” that is unforgettable. We help clients uncover possibilities by integrating digital with different facets and touchpoints of the experience to make their guests’ visit one that is more engaging, memorable and so exciting that they are compelled to share on their social channels. Investing in infrastructure is key to get an edge over your competitors. At ragzon we provide expert development services in addition to thorough market analysis which allows us to deliver a high quality travel software product. Contact us and let’s get started on your travel and tourism app development solutions.",
       },
     ],
   },
 
   {
     slug: "education",
-    heading: "Educational Software Solutions for Your Business",
+    heading: "Educational Software Development",
     paragraph:
-      "We create educational software solutions to inspire learning and higher quality education.",
+      "Educational software and eLearning application development services for high-quality education online.",
     banner_img: "/images/ecommerce.png",
 
-    service_Heading: "Our Educational Software Development Services",
+    service_Heading: "Our Educational Software Development",
     service_Text: "",
     ServicesTypes: [
       {
         heading: "Learning Management System",
         paragraph:
-          "Fastech’s educational software development creates an exclusive custom Learning Management System (LMS) built exceptionally for you with unique instructional design and the features that meet your industry-specific business goals.",
+          "Seamlessly integrate educational and training modules with custom LMS app development.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-1F69F6",
       },
       {
         heading: "eLearning Application Development",
         paragraph:
-          "Whether a single-page education website or a multi-tenant eLearning application, we build scalable eLearning platforms to achieve your goals. We devise unique eLearning strategies, identify possible needs, and come up with the best solutions for you.",
+          "We help you build scalable eLearning web and mobile platforms to customize the learning experience for students and employees.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
@@ -974,7 +864,7 @@ export const IndustryApi = [
       {
         heading: "School Management System",
         paragraph:
-          "Every educational institute has the need to digitalize the admission, registration process, attendance and other logistics which increases the institute’s efficiency. Fastech develops custom school management software solutions that uplifts your educational institute, helping it stand out from others.",
+          "Ease the administrative burden by digitalizing the admission process, enrollment and registration process, attendance, and other manual tasks.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-FF414B",
       },
@@ -982,30 +872,22 @@ export const IndustryApi = [
       {
         heading: "Educational Platform Development",
         paragraph:
-          "We empower and integrate your business with educational platforms like Udemy, Coursera, etc. Our seasoned team of software developers builds interactive educational platforms based on innovation and your custom needs.",
+          "we empower your business with educational platform & online courses like Coursera and Udemy.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-8932F8",
       },
 
       {
-        heading: "Software for Corporate Training",
-        paragraph:
-          "Our development team can fine-tune your eLearning software with custom integrations that ideally fit your learning needs. Enhance your employees’ skill level through our custom employee training software applications",
-        iconPath: "fal fa-link",
-        colorClases: "icon bg-FFCA40",
-      },
-
-      {
         heading: "Virtual Reality Educational Solution",
         paragraph:
-          "We create virtual reality educational solutions allowing students to have interactive and unique learning experiences. At Fastech, we develop custom eLearning app solutions that are built exclusively for you, keeping your business identity in mind",
+          "Provide interactive learning experience to the students with playful virtual reality solutions.",
         iconPath: "fal fa-chart-line",
         colorClases: "icon bg-FF6D3D",
       },
     ],
 
     about_main_img: "/images/Flexible-engagement-models (2).png",
-    about_heading: "Why choose Fastech for eLearning software development?",
+    about_heading: "Why choose ragzon for eLearning software development?",
     aboutItems: [
       {
         about_text: "Flexible engagement models",
@@ -1162,9 +1044,9 @@ export const IndustryApi = [
 
       {
         paragraph_1:
-          "We work with the top 1% of developers who can fit into your team to deliver frontline solutions at any stage while keeping costs much less than your local guys. You tell us your education software requirements, and we will provide you with dedicated developers who are equipped with the necessary software development skills. Fastech helps you build robust education software using top solutions and delivers future-focused eLearning solutions that cater to the needs of teachers and students",
+          "We work with the top 1% of developers who can fit into your team to deliver frontline solutions at any stage while keeping costs much less than your local guys. You tell us your education software requirements, and we will provide you with dedicated developers who are equipped with the necessary software development skills. ragzon helps you build robust education software using top solutions and delivers future-focused eLearning solutions that cater to the needs of teachers and students",
         paragraph_2:
-          "We work with the top 1% of developers who can fit into your team to deliver frontline solutions at any stage while keeping costs much less than your local guys. You tell us your education software requirements, and we will provide you with dedicated developers who are equipped with the necessary software development skills. Fastech helps you build robust education software using top solutions and delivers future-focused eLearning solutions that cater to the needs of teachers and students.",
+          "We work with the top 1% of developers who can fit into your team to deliver frontline solutions at any stage while keeping costs much less than your local guys. You tell us your education software requirements, and we will provide you with dedicated developers who are equipped with the necessary software development skills. ragzon helps you build robust education software using top solutions and delivers future-focused eLearning solutions that cater to the needs of teachers and students.",
         paragraph_3:
           "Invest in advanced eLearning software development to get an edge over your competitors. Feel free to Contact Us and let’s start building your custom education software solutions.",
         heading: "Conclusion",

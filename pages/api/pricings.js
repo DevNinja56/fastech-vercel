@@ -4,13 +4,13 @@
 //     port: 465,
 //     host: "smtp.gmail.com",
 //     auth: {
-//       user: "fastechoffice7@gmail.com",
-//       pass: "fastech321",
+//       user: "ragzonoffice7@gmail.com",
+//       pass: "ragzon321",
 //     },
 //     secure: true,
 //   });
 //   const mailData = {
-//     from: "fastechoffice7@gmail.com",
+//     from: "ragzonoffice7@gmail.com",
 //     to: "abdulengineer321@gmail.com",
 //     subject: `Pricing Plans`,
 //     text: `this`,

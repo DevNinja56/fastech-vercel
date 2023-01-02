@@ -2161,13 +2161,13 @@ const DevDetail = () => {
                   <div className="experiences-content">
                     <div className="tag">
                       <img
-                        src="/images/fastech-favicon.png"
-                        alt="fastech-image"
+                        src="/images/ragzon-favicon.png"
+                        alt="ragzon-image"
                         className="tag_img"
                       />
                     </div>
                     <h3>
-                      Partner With Fastech for Website Development Using MERN
+                      Partner With ragzon for Website Development Using MERN
                       STACK{" "}
                     </h3>
                     <p>

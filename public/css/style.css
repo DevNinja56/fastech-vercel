@@ -1533,7 +1533,7 @@ h6:last-child {
   padding-left: 5px !important;
 }
 .react-chatbot-kit-chat-bot-avatar-container {
-  background-image: url("../images/chatbot/fastech-images.png") !important;
+  background-image: url("../images/chatbot/ragzon-images.png") !important;
   background-color: transparent !important;
   background-size: contain;
 }
@@ -1541,7 +1541,10 @@ h6:last-child {
   display: none !important;
 }
 .cases-image {
-  height: 60vh;
+  max-height: 300px;
+}
+.cases-image img {
+  object-fit: cover;
 }
 .cases-image > * {
   height: 100%;

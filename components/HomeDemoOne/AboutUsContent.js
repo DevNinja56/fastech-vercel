@@ -12,8 +12,8 @@ const AboutUsContent = () => {
                 <div className="experiences-content">
                   <div className="tag">
                     <img
-                      src="/images/fastech-favicon.webp"
-                      alt="fastech-image"
+                      src="/images/ragzon-favicon.webp"
+                      alt="ragzon-image"
                       className="tag_img"
                     />
                   </div>
@@ -27,7 +27,7 @@ const AboutUsContent = () => {
                 <div className="experiences-inner-content">
                   <img
                     className="exp_img"
-                    src="/images/experiences/fastech-icon1.svg"
+                    src="/images/experiences/ragzon-icon1.svg"
                     alt="image"
                   />
                   <p>
@@ -39,7 +39,7 @@ const AboutUsContent = () => {
                 <div className="experiences-inner-content">
                   <img
                     className="exp_img"
-                    src="/images/experiences/fastech-icon2.svg"
+                    src="/images/experiences/ragzon-icon2.svg"
                     alt="image"
                   />
                   <p>
@@ -52,7 +52,7 @@ const AboutUsContent = () => {
                 <div className="experiences-inner-content">
                   <img
                     className="exp_img"
-                    src="/images/experiences/fastech-icon3.svg"
+                    src="/images/experiences/ragzon-icon3.svg"
                     alt="image"
                   />
                   <p>
@@ -78,7 +78,7 @@ const AboutUsContent = () => {
               <div className="experiences-image">
                 <img
                   className="pl-5"
-                  src="/images/fastech-Engagement-Models (1).webp"
+                  src="/images/ragzon-Engagement-Models (1).webp"
                   alt="image"
                 />
               </div>
@@ -92,49 +92,49 @@ const AboutUsContent = () => {
           data-speed="0.08"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-1.png" alt="image" />
+          <img src="/images/experiences/ragzon-shape-1.png" alt="image" />
         </div>
         <div
           className="experiences-shape-2"
           data-speed="0.06"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-2.png" alt="image" />
+          <img src="/images/experiences/ragzon-shape-2.png" alt="image" />
         </div>
         <div
           className="experiences-shape-3"
           data-speed="0.08"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-3.png" alt="image" />
+          <img src="/images/experiences/ragzon-shape-3.png" alt="image" />
         </div>
         <div
           className="experiences-shape-4"
           data-speed="0.06"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-2.png" alt="image" />
+          <img src="/images/experiences/ragzon-shape-2.png" alt="image" />
         </div>
         <div
           className="experiences-shape-5"
           data-speed="0.08"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-3.png" alt="image" />
+          <img src="/images/experiences/ragzon-shape-3.png" alt="image" />
         </div>
         <div
           className="experiences-shape-6"
           data-speed="0.06"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-4.webp" alt="image" />
+          <img src="/images/experiences/ragzon-shape-4.webp" alt="image" />
         </div>
         <div
           className="experiences-shape-7"
           data-speed="0.08"
           data-revert="true"
         >
-          <img src="/images/experiences/fastech-shape-5.webp" alt="image" />
+          <img src="/images/experiences/ragzon-shape-5.webp" alt="image" />
         </div>
       </div>
 

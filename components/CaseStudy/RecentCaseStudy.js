@@ -18,7 +18,9 @@ const RecentCaseStudy = () => {
 
           <div className="row">
             {/* web portfolio  */}
-            <div className="col-md-6 col-sm-12">
+
+            {/* Magic Task  */}
+            <div className="col-md-4 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://magictask.io/" target="_blank">
@@ -26,7 +28,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web1.webp"
+                        src="/images/new-portfolio/ragzon-web1.webp"
                         alt="image"
                       />
                     </div>
@@ -58,8 +60,45 @@ const RecentCaseStudy = () => {
                 </div>
               </div>
             </div>
+            {/* Proper Fans  */}
+            <div className="col-md-4 col-sm-12">
+              <div className="single-cases">
+                <div className="cases-image">
+                  <Link href="https://staging.properfans.com" target="_blank">
+                    <a>
+                      <div className="Image_parent">
+                        <Image
+                          height={500}
+                          width={500}
+                          src="/images/new-portfolio/ragzon-web8.webp"
+                          alt="image"
+                        />
+                      </div>
+                    </a>
+                  </Link>
+                </div>
 
-            <div className="col-md-6 col-sm-12">
+                <div className="cases-content">
+                  <h2>
+                    <Link href="https://staging.properfans.com" target="_blank">
+                      <a className="links_colors">ProperFans</a>
+                    </Link>
+                  </h2>
+                  <p>
+                    A subscription based dedicated social media platform for
+                    premium content creators and fans.
+                  </p>
+                  <Link href="https://staging.properfans.com" target="blank">
+                    <a className="projects-btn" target="blank">
+                      Read More{" "}
+                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://www.jobgeniedevs.com/" target="_blank">
@@ -68,7 +107,7 @@ const RecentCaseStudy = () => {
                         // layout="fill"
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web2.webp"
+                        src="/images/new-portfolio/ragzon-web2.webp"
                         alt="image"
                         className="Box_images"
                       />
@@ -103,7 +142,7 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-4 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://bitnob.com/" target="_blank">
@@ -111,7 +150,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web3.webp"
+                        src="/images/new-portfolio/ragzon-web3.webp"
                         alt="image"
                       />
                     </div>
@@ -144,7 +183,7 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-4 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <a href="https://imaginovation.net/" target="_blank">
@@ -152,7 +191,7 @@ const RecentCaseStudy = () => {
                       <Image
                         height={500}
                         width={500}
-                        src="/images/new-portfolio/fastech-web4.webp"
+                        src="/images/new-portfolio/ragzon-web4.webp"
                         alt="image"
                       />
                     </div>
@@ -183,7 +222,7 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-4 col-sm-12">
               <div className="single-cases">
                 <div className="cases-image">
                   <Link href="https://modjen.com/password" target="_blank">
@@ -192,7 +231,7 @@ const RecentCaseStudy = () => {
                         <Image
                           height={500}
                           width={500}
-                          src="/images/new-portfolio/fastech-web5.webp"
+                          src="/images/new-portfolio/ragzon-web5.webp"
                           alt="image"
                         />
                       </div>
@@ -220,454 +259,6 @@ const RecentCaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="#" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web6.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="#" target="_blank">
-                      <a className="links_colors">LinkedinExtension</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    A project used to scrap leads from linkedin which are used
-                    to make pipelines for marketing. It includes chatting
-                    features and calendar.
-                  </p>
-                  <Link href="#" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://modjen.com/" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web7.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://modjen.com/" target="_blank">
-                      <a className="links_colors">Multivendor Ecommerce</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    A multivendor ecommerce site like Myntra.com An IT Company’s
-                    services-based website.
-                  </p>
-                  <Link href="https://modjen.com/" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://staging.properfans.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web8.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://staging.properfans.com" target="_blank">
-                      <a className="links_colors">ProperFans</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    A subscription based dedicated social media platform for
-                    premium content creators and fans.
-                  </p>
-                  <Link href="https://staging.properfans.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://wehelprx.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web9.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://wehelprx.com" target="_blank">
-                      <a className="links_colors">Medical Dashboard</a>
-                    </Link>
-                  </h2>
-                  <p>Sales management system for Medical representative.</p>
-                  <Link href="https://wehelprx.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://shopperhits.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web10.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://shopperhits.com" target="_blank">
-                      <a className="links_colors">Shoperhits</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Shopperhits is an eCommerce store where people can buy
-                    products on best-bargained prices.
-                  </p>
-                  <Link href="https://shopperhits.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://www.beautflo.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web11.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://www.beautflo.com" target="_blank">
-                      <a className="links_colors">Beaut Flo</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    An makeup Ecommerce website that is an ultimate beauty
-                    destination including the 600+ premium skincare, haircare &
-                    makeup brands.
-                  </p>
-                  <Link href="https://www.beautflo.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://gosnabby.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-web12.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://gosnabby.com" target="_blank">
-                      <a className="links_colors">Go Snabby</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    It simplifies special event food sales. Manage food
-                    transactions for concession stands, cafeterias, and special
-                    events in one place.
-                  </p>
-                  <Link href="https://gosnabby.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* apps portfolio  */}
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.fivesechealth"
-                    target="_blank"
-                  >
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-mob1.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link
-                      href="https://play.google.com/store/apps/details?id=com.fivesechealth"
-                      target="_blank"
-                    >
-                      <a className="links_colors">Fivesec Health</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Make it easy to stay healthy with delicious and nourishing
-                    plant-based recipes in your pocket. Simple to use with
-                    guided meal plans.
-                  </p>
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.fivesechealth"
-                    target="blank"
-                  >
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link
-                    href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
-                    target="_blank"
-                  >
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-mob2.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link
-                      href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
-                      target="_blank"
-                    >
-                      <a className="links_colors">Rentberry</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Rentberry facilitates and speeds up the whole range of house
-                    hunting procedures: Search among thousands of apartment
-                    listings.
-                  </p>
-                  <Link
-                    href="https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443"
-                    target="blank"
-                  >
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
-                    target="_blank"
-                  >
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-mob4.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link
-                      href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
-                      target="_blank"
-                    >
-                      <a className="links_colors">Potswork-Request Services</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Postwork: Request a ride service app is an awesome cheap
-                    rideshare cab app that connects you with dedicated taxi
-                    drivers.
-                  </p>
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.potsworkprovider"
-                    target="blank"
-                  >
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.camelan"
-                    target="_blank"
-                  >
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/fastech-mob3.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link
-                      href="https://play.google.com/store/apps/details?id=com.camelan"
-                      target="_blank"
-                    >
-                      <a className="links_colors">Camlist- Just Pets</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Camlist gives you easy access to search thousands of dogs,
-                    puppies, cats, kittens, rabbits, horses and other pets for
-                    sale and adoption.
-                  </p>
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=com.camelan"
-                    target="blank"
-                  >
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             <div className="cases-view-all-btn">
               <Link href="/portfolio">
                 <a className="default-btn">
@@ -682,25 +273,25 @@ const RecentCaseStudy = () => {
 
         {/* Shape Images */}
         <div className="cases-shape-1">
-          <image src="/images/cases-study/fastech-shape-1.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-1.png" alt="image" />
         </div>
         <div className="cases-shape-2">
-          <image src="/images/cases-study/fastech-shape-2.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-2.png" alt="image" />
         </div>
         <div className="cases-shape-3">
-          <image src="/images/cases-study/fastech-shape-3.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-3.png" alt="image" />
         </div>
         <div className="cases-shape-4">
-          <image src="/images/cases-study/fastech-shape-4.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-4.png" alt="image" />
         </div>
         <div className="cases-shape-5">
-          <image src="/images/cases-study/fastech-shape-5.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-5.png" alt="image" />
         </div>
         <div className="cases-shape-6">
-          <image src="/images/cases-study/fastech-shape-4.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-4.png" alt="image" />
         </div>
         <div className="cases-shape-7">
-          <image src="/images/cases-study/fastech-shape-5.png" alt="image" />
+          <image src="/images/cases-study/ragzon-shape-5.png" alt="image" />
         </div>
       </div>
 

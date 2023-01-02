@@ -34,22 +34,22 @@ export const DevelopersApi = [
     ],
 
     about_main_img: "/images/model.png",
-    about_heading: "Choose Fastech for Website Development using MERN STACK",
+    about_heading: "Choose ragzon for Website Development using MERN STACK",
     about_paragraph:
       "We help you overcome your challenges and help you thrive with our verified solutions.",
     AboutItems: [
       {
-        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
+        about_img: "/images/experiences/ragzon-Wide Range of Experts.svg",
         about_text:
           "Extensive variety of experts – Our talented developers’ network consists of 100+ on-demand experts. We have seasoned MERN developers ready to work with your product, industry, and help you enhance your company culture.",
       },
       {
-        about_img: "/images/experiences/fastech-Dedicated Team.svg",
+        about_img: "/images/experiences/ragzon-Dedicated Team.svg",
         about_text:
           "Committed Team – Our dedicated team of developers works full-time to provide you top-tier software development services at all times. We aim to create personal connections with solid working relationships to build shared trust.",
       },
       {
-        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
+        about_img: "/images/experiences/ragzon-Truly Agile Process.svg",
         about_text:
           "Efficient Process – We follow well-organized approaches for software development and expand it to various departments of operations. This strategy helps ensure transparency and enhanced efficiency.",
       },
@@ -133,22 +133,22 @@ export const DevelopersApi = [
     ],
 
     about_main_img: "/images/model.png",
-    about_heading: "Choose Fastech for Website Development using React Native",
+    about_heading: "Choose ragzon for Website Development using React Native",
     about_paragraph:
       "We help you overcome your business challenges with our tested and robust development solutions",
     AboutItems: [
       {
-        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
+        about_img: "/images/experiences/ragzon-Wide Range of Experts.svg",
         about_text:
           "Huge Variety of Experts – Our React Native developers are well-equipped to handle all your development needs. We have a tech talent network with more than 100 on-demand developers ready to work on your project.",
       },
       {
-        about_img: "/images/experiences/fastech-Dedicated Team.svg",
+        about_img: "/images/experiences/ragzon-Dedicated Team.svg",
         about_text:
           "Committed Team – Our seasoned team of developers is committed to providing you with the best web development services. We aim to create strong work relationships, built on mutual trust and integrity",
       },
       {
-        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
+        about_img: "/images/experiences/ragzon-Truly Agile Process.svg",
         about_text:
           "Efficient Process – We ensure the highest efficiency and complete transparent in all our software development processes. This allows you to stay up to date with what is going on and eliminates the risk for miscommunications and errors.",
       },
@@ -156,7 +156,7 @@ export const DevelopersApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
 
     Portfolio_items: [
       {
@@ -256,22 +256,22 @@ export const DevelopersApi = [
     ],
 
     about_main_img: "/images/model.png",
-    about_heading: "Choose Fastech for Website Development with REACT js",
+    about_heading: "Choose ragzon for Website Development with REACT js",
     about_paragraph:
       "We offer web development solutions and help you overcome your business challenges",
     AboutItems: [
       {
-        about_img: "/images/experiences/fastech-Wide Range of Experts.svg",
+        about_img: "/images/experiences/ragzon-Wide Range of Experts.svg",
         about_text:
           "Huge Variety of Experts – Our React Native developers are well-equipped to handle all your development needs. We have a tech talent network with more than 100 on-demand developers ready to work on your project.",
       },
       {
-        about_img: "/images/experiences/fastech-Dedicated Team.svg",
+        about_img: "/images/experiences/ragzon-Dedicated Team.svg",
         about_text:
           "Committed Team – Our seasoned team of developers is committed to providing you with the best web development services. We aim to create strong work relationships, built on mutual trust and integrity.",
       },
       {
-        about_img: "/images/experiences/fastech-Truly Agile Process.svg",
+        about_img: "/images/experiences/ragzon-Truly Agile Process.svg",
         about_text:
           "Efficient Process – We ensure the highest efficiency and complete transparent in all our software development processes. This allows you to stay up to date with what is going on and eliminates the risk for miscommunications and errors.",
       },

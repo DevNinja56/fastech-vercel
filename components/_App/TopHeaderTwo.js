@@ -15,7 +15,7 @@ const TopHeaderTwo = () => {
 
                 <li>
                   <i className="ri-earth-line"></i>
-                  <a href="mailto:info@thefastech.com">info@thefastech.com</a>
+                  <a href="mailto:info@theragzon.com">info@theragzon.com</a>
                 </li>
               </ul>
             </div>
@@ -24,23 +24,23 @@ const TopHeaderTwo = () => {
               <ul className="top-header-optional">
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/thefastech/"
+                    href="https://www.linkedin.com/company/ragzon/"
                     target="_blank"
                   >
                     <i className="ri-linkedin-fill"></i>
                   </a>
                   <a
-                    href="https://www.facebook.com/theafastech/"
+                    href="https://www.facebook.com/RagzonSolutions"
                     target="_blank"
                   >
                     <i className="ri-facebook-fill"></i>
                   </a>
-                  <a href="https://twitter.com/Fastech5" target="_blank">
+                  <a href="https://twitter.com/RagzonSolutions" target="_blank">
                     <i className="ri-twitter-fill"></i>
                   </a>
 
                   <a
-                    href="https://www.instagram.com/the_fastech/"
+                    href="https://www.instagram.com/ragzon_/"
                     target="_blank"
                   >
                     <i className="fab fa-instagram"></i>

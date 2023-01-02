@@ -20,8 +20,8 @@ const ChatBotModal = () => {
         <Button className="chat_bot_btn" variant="primary" onClick={handleShow}>
           <img
             className="chat_img_btn"
-            src="/images/chatbot/fastech-images.webp"
-            alt="fastech-chatbot"
+            src="/images/chatbot/ragzon-images.webp"
+            alt="ragzon-chatbot"
           />
         </Button>
 

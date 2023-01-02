@@ -24,17 +24,14 @@ const ContactForm = () => {
                 <div className="col-12 col-lg-8">
                   <div className="sales_profile">
                     <div className="image_wrapper">
-                      <img
-                        src="/images/fastech-daniyalpic1.webp"
-                        alt="fastech-ceo-img"
-                      />
+                      <img src="/images/cathy.png" alt="ragzon-ceo-img" />
                     </div>
                     <div className="profile_data text-start">
                       <p>
-                        <h5 className="ceo_profile_name">Daniyal Samim</h5>
+                        <h5 className="ceo_profile_name">Cathy Warner</h5>
                       </p>
                       <p className="sale_profile_status">
-                        daniyal@thefastech.com
+                        cathywarner@theragzon.com
                       </p>
                       <p className="sale_profile_number">+92-3334397893</p>
                     </div>
@@ -42,32 +39,32 @@ const ContactForm = () => {
                   <div className="social_icons">
                     <div className="Sale_profile_icons text-start">
                       <span>
-                        <a href="mailto:daniyal@thefastech.com" target="_blank">
+                        <a href="mailto:daniyal@theragzon.com" target="_blank">
                           <img
-                            src="/images/fastech-Icon material-email.svg"
+                            src="/images/ragzon-Icon material-email.svg"
                             className="profile_icons_images"
-                            alt="fastech-social-icons"
+                            alt="ragzon-social-icons"
                           />
                         </a>
                       </span>
                       <span>
                         <a
-                          href="https://www.linkedin.com/company/thefastech/"
+                          href="https://www.linkedin.com/company/ragzon/"
                           target="_blank"
                         >
                           <img
-                            src="/images/fastech-icons8-linkedin.svg"
+                            src="/images/ragzon-icons8-linkedin.svg"
                             className="profile_icons_images profile_img_left"
-                            alt="fastech-social-icons"
+                            alt="ragzon-social-icons"
                           />
                         </a>
                       </span>
                       <span>
                         <a href="https://wa.me/923334397893" target="_blank">
                           <img
-                            src="/images/fastech-icons8-whatsapp.svg"
+                            src="/images/ragzon-icons8-whatsapp.svg"
                             className="profile_img_left"
-                            alt="fastech-social-icons"
+                            alt="ragzon-social-icons"
                           />
                         </a>
                       </span>
@@ -77,9 +74,9 @@ const ContactForm = () => {
                           target="_blank"
                         >
                           <img
-                            src="/images/fastech-icons8-skype.svg"
+                            src="/images/ragzon-icons8-skype.svg"
                             className="profile_icons_images profile_img_left"
-                            alt="fastech-social-icons"
+                            alt="ragzon-social-icons"
                           />
                         </a>
                       </span>
@@ -96,7 +93,7 @@ const ContactForm = () => {
                     <p>Customer satisfaction</p>
                   </div>
                   <div className="col-6 col-sm-3 col-lg-3 text-start">
-                    <h2>25+</h2>
+                    <h2>30+</h2>
                     <p>Our Developers</p>
                   </div>
                   <div className="col-6 col-sm-3 col-lg-3 text-start">
