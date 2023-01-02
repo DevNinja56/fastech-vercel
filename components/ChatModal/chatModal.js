@@ -1,18 +1,34 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Link from "next/link";
 import AppChatbot from "../AppChatbot";
 
-const ChatBotModal = () => {
+const ChatBotModal = ({ showAtPercentageHeight = 0.5 }) => {
   const [show, setShow] = useState(false);
+  const hasRendredOnceRef = useRef();
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
-    setTimeout(() => setShow(true), 15000);
-  }, []);
+  const handleOnScrollChange = () => {
+    if (
+      window.scrollY > document.body.scrollHeight * showAtPercentageHeight &&
+      !hasRendredOnceRef.current
+    ) {
+      setShow(true);
+      hasRendredOnceRef.current = true;
+    }
+  };
 
+  useEffect(() => {
+    if (typeof window !== "undefined" && typeof document !== "undefined") {
+      window.addEventListener("scroll", handleOnScrollChange);
+    }
+
+    return () => {
+      window.removeEventListener("scroll", handleOnScrollChange);
+    };
+  }, []);
 
   return (
     <>

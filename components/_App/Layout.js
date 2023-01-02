@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
       <Socialicons />
       <Skype />
-      {/* <ChatBotModal /> */}
+      <ChatBotModal />
     </>
   );
 };
