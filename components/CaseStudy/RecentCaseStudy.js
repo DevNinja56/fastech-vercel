@@ -1,6 +1,66 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import OwlCarousel from "react-owl-carousel3";
+
+const carouselItems = [
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/ragzon-web1.webp",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/ragzon-web1.webp",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/ragzon-web1.webp",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/ragzon-web1.webp",
+  },
+];
+
+const options = {
+  loop: true,
+  nav: false,
+  dots: true,
+  margin: 30,
+  autoplayHoverPause: true,
+  autoplay: true,
+  rewind: true,
+  slideBy: 1,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 1,
+    },
+    1200: {
+      items: 2,
+    },
+  },
+};
+
+const CaseStudyCarousal = ({ itemsToMap = carouselItems }) => {
+  return (
+    <>
+      <OwlCarousel {...options}>
+        {itemsToMap.map(({ img, link }, i) => (
+          <div key={i}>
+            <a style={{ width: "100%" }} href={link} target={"_blank"}>
+              <div className="Image_parent">
+                <Image height={500} width={500} src={img} alt="image" />
+              </div>
+            </a>
+          </div>
+        ))}
+      </OwlCarousel>
+    </>
+  );
+};
 
 const RecentCaseStudy = () => {
   return (
@@ -17,257 +77,7 @@ const RecentCaseStudy = () => {
           </div>
 
           <div className="row">
-            {/* web portfolio  */}
-
-            {/* Magic Task  */}
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <a href="https://magictask.io/" target="_blank">
-                    <div className="Image_parent">
-                      <Image
-                        height={500}
-                        width={500}
-                        src="/images/new-portfolio/ragzon-web1.webp"
-                        alt="image"
-                      />
-                    </div>
-                  </a>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <a
-                      className="links_colors"
-                      href="https://magictask.io/"
-                      target="_blank"
-                    >
-                      Magic Task
-                    </a>
-                  </h2>
-                  <p>
-                    Advance and customized project management tool with
-                    different frontend themes.
-                  </p>
-                  <a
-                    className="projects-btn"
-                    href="https://magictask.io/"
-                    target="blank"
-                  >
-                    Read More{" "}
-                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* Proper Fans  */}
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://staging.properfans.com" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/ragzon-web8.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://staging.properfans.com" target="_blank">
-                      <a className="links_colors">ProperFans</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    A subscription based dedicated social media platform for
-                    premium content creators and fans.
-                  </p>
-                  <Link href="https://staging.properfans.com" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <a href="https://www.jobgeniedevs.com/" target="_blank">
-                    <div className="Image_parent">
-                      <Image
-                        // layout="fill"
-                        height={500}
-                        width={500}
-                        src="/images/new-portfolio/ragzon-web2.webp"
-                        alt="image"
-                        className="Box_images"
-                      />
-                    </div>
-                  </a>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <a
-                      className="links_colors"
-                      href="https://www.jobgeniedevs.com/"
-                      target="_blank"
-                    >
-                      Job Genie
-                    </a>
-                  </h2>
-                  <p>
-                    A project management tool where different tasks are listed
-                    and user pay subscription fees to get into the system. It is
-                    similar to topcoder.com
-                  </p>
-                  <a
-                    className="projects-btn"
-                    thref="https://www.jobgeniedevs.com/"
-                    target="blank"
-                  >
-                    Read More{" "}
-                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <a href="https://bitnob.com/" target="_blank">
-                    <div className="Image_parent">
-                      <Image
-                        height={500}
-                        width={500}
-                        src="/images/new-portfolio/ragzon-web3.webp"
-                        alt="image"
-                      />
-                    </div>
-                  </a>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <a
-                      className="links_colors"
-                      href="https://bitnob.com/"
-                      target="_blank"
-                    >
-                      Bitnob
-                    </a>
-                  </h2>
-                  <p>
-                    Modern web interface of a safe, instant, cheap and modern
-                    way to pay and get paid globally.
-                  </p>
-                  <a
-                    className="projects-btn"
-                    href="https://bitnob.com/"
-                    target="blank"
-                  >
-                    Read More{" "}
-                    <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <a href="https://imaginovation.net/" target="_blank">
-                    <div className="Image_parent">
-                      <Image
-                        height={500}
-                        width={500}
-                        src="/images/new-portfolio/ragzon-web4.webp"
-                        alt="image"
-                      />
-                    </div>
-                  </a>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <a
-                      className="links_colors"
-                      href="https://imaginovation.net/"
-                      target="_blank"
-                    >
-                      Imaginovation
-                    </a>
-                  </h2>
-                  <p>
-                    An IT Company’s services-based website according to modern
-                    design standards.
-                  </p>
-                  <Link href="https://imaginovation.net/" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-12">
-              <div className="single-cases">
-                <div className="cases-image">
-                  <Link href="https://modjen.com/password" target="_blank">
-                    <a>
-                      <div className="Image_parent">
-                        <Image
-                          height={500}
-                          width={500}
-                          src="/images/new-portfolio/ragzon-web5.webp"
-                          alt="image"
-                        />
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-
-                <div className="cases-content">
-                  <h2>
-                    <Link href="https://modjen.com/password" target="_blank">
-                      <a className="links_colors">Ecommerece dashboard</a>
-                    </Link>
-                  </h2>
-                  <p>
-                    Ecommerce Admin Dashboard with all the features like product
-                    management, category-subcategory management and attributes.
-                  </p>
-                  <Link href="https://modjen.com/password" target="blank">
-                    <a className="projects-btn" target="blank">
-                      Read More{" "}
-                      <i className="ri-arrow-right-line home_prtfolio_arrow"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="cases-view-all-btn">
-              <Link href="/portfolio">
-                <a className="default-btn">
-                  View All Projects
-                  <i className="ri-briefcase-line"></i>
-                  <span></span>
-                </a>
-              </Link>
-            </div>
+            <CaseStudyCarousal />
           </div>
         </div>
 
