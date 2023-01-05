@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import ScrollAnimation from "react-animate-on-scroll";
-import AboutUsContent from "../components/HomeDemoOne/AboutUsContent";
 import CTA from "../components/Common/CTA";
 
 const DevDetail = () => {

@@ -6,7 +6,7 @@ const GoTop = ({ scrollStepInPx, delayInMs }) => {
 
   React.useEffect(() => {
     document.addEventListener("scroll", () => {
-      if (window.scrollY > 170) {
+      if (typeof window !== "undefined" && window.scrollY > 170) {
         setThePosition(true);
       } else {
         setThePosition(false);

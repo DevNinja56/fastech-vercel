@@ -7,7 +7,7 @@ const ChatBotScrolling = ({ scrollStep, delayIntime }) => {
 
   React.useEffect(() => {
     document.addEventListener("scroll", () => {
-      if (window.scrollY > 850) {
+      if (typeof window !== "undefined" && window.scrollY > 850) {
         setThePosition(true);
       } else {
         setThePosition(false);
@@ -15,18 +15,6 @@ const ChatBotScrolling = ({ scrollStep, delayIntime }) => {
     });
   }, []);
 
-  //   const onScrollStep = () => {
-  //     if (window.pageYOffset === 0) {
-  //       clearInterval(timeoutRef.current);
-  //     }
-  //     window.scroll(0, window.pageYOffset - scrollStep);
-  //   };
-
-  //   const scrollToTop = () => {
-  //     timeoutRef.current = setInterval(onScrollStep, delayIntime);
-  //   };
-
-  //   const renderGoTopIcon = () => {
   return (
     <>
       <div

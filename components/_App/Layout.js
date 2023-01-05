@@ -46,21 +46,23 @@ const notifyMe = () => {
 
 const Layout = ({ children }) => {
   useEffect(() => {
-    notifyMe();
-    window.OneSignal = window.OneSignal || [];
+    if (window.OneSignal && window.OneSignal.getNotificationPermission) {
+      notifyMe();
+      window.OneSignal = window.OneSignal || [];
 
-    OneSignal.push(function () {
-      OneSignal.init({
-        appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
-        notifyButton: {
-          enable: false,
-        },
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
+          notifyButton: {
+            enable: false,
+          },
 
-        allowLocalhostAsSecureOrigin: true,
+          allowLocalhostAsSecureOrigin: true,
+        });
       });
-    });
 
-    window.OneSignal.getNotificationPermission();
+      window.OneSignal.getNotificationPermission();
+    }
 
     return () => {
       window.OneSignal = undefined;

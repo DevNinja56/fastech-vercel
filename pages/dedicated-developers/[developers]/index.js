@@ -4,11 +4,11 @@ import CTA from "../../../components/Common/CTA";
 import { DevelopersApi } from "../../../api-developers/index";
 
 export async function getStaticPaths() {
-  const paths = DevelopersApi?.map((obj) => ({
-    params: { developers: obj.slug },
+  const paths = DevelopersApi?.map(({ slug }) => ({
+    params: { developers: slug },
   }));
   return {
-    fallback: false,
+    fallback: true,
     paths,
   };
 }
@@ -16,15 +16,17 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const dataId = context.params.developers;
   let developersData = DevelopersApi;
+  let devsData = DevelopersApi.find((item) => item.slug === dataId);
   return {
     props: {
       developersData,
       dataId,
+      devsData,
     },
   };
 }
 
-const DevelopersDetail = ({ developersData, dataId }) => {
+const DevelopersDetail = ({ developersData, dataId, devsData }) => {
   return (
     <>
       {/* banner  */}
@@ -1137,11 +1139,11 @@ const DevelopersDetail = ({ developersData, dataId }) => {
                       </h3>
                       <p>{data.paragraph}</p>
 
-                      <Link href="#">
+                      {/* <Link href="#">
                         <a className="services-btn">
                           Read More <i className="ri-arrow-right-line"></i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </>
@@ -2137,6 +2139,86 @@ const DevelopersDetail = ({ developersData, dataId }) => {
           }
         `}</style>
       </div>
+
+      {/* What to Expect Section */}
+      {devsData?.what_to_expect ? (
+        <section className="whatToExpect container">
+          <div className="row ">
+            <h2 className="whatToExpect__title">
+              {devsData.what_to_expect.title}{" "}
+            </h2>
+
+            {devsData.what_to_expect.items.map(({ title, desc }) => (
+              <div className="col-lg-6 col-sm-12" key={title}>
+                <div className="whatToExpect__item">
+                  <h3 className="whatToExpect__item__title">{title}</h3>
+                  <p className="whatToExpect__item__desc">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <style jsx>{`
+            // ############# What To Expect Start ###########
+            .whatToExpect {
+              margin: 0px auto;
+              padding: 10px;
+            }
+            .whatToExpect__title {
+              text-align: center;
+              font-size: 2.5rem;
+              margin-bottom: 2rem;
+            }
+            .whatToExpect__item {
+              padding: 25px 20px;
+              margin-bottom: 20px;
+              background-color: #f9f9f9;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: all 0.2s linear;
+            }
+            .whatToExpect__item:hover {
+              // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+              box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+              transform: translateY(-10px) scale(1.05);
+              background-color: #fff;
+            }
+            .whatToExpect__item:hover .whatToExpect__item__title {
+              color: #1f69f6;
+            }
+            .whatToExpect__item__desc {
+              line-height: 1.3em;
+              color: #595959;
+            }
+            .whatToExpect__item__title {
+              font-size: 1.6rem;
+            }
+
+            // Responsiveness
+            @media only screen and (max-width: 767px) {
+              .whatToExpect {
+                margin: 0px auto;
+              }
+              .whatToExpect__title {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+              }
+              .whatToExpect__item__title {
+                font-size: 1.3rem;
+              }
+              .whatToExpect__item__desc {
+                font-size: 0.9rem;
+              }
+              .whatToExpect__item {
+                padding: 15px;
+              }
+            }
+
+            // ############# What To Expect End ###########
+          `}</style>
+        </section>
+      ) : (
+        <></>
+      )}
 
       {/* About section */}
       <div className="About_us">

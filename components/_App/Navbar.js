@@ -403,6 +403,25 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
+                            router.push("/dedicated-developers/nodejs");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-Mernstack.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-mern-stack"
+                          />
+                          Node Js
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
                             router.push("/dedicated-developers/react-js");
                           }}
                           className="nav-link"
@@ -412,7 +431,7 @@ const Navbar = () => {
                             className="icons_img_meg_menu"
                             alt="ragzon-react"
                           />
-                          React js
+                          React Js
                         </a>
                       </Link>
                     </li>
@@ -432,6 +451,24 @@ const Navbar = () => {
                             alt="ragzon-react-native"
                           />
                           React Native
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/dedicated-developers/blockchain");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-React.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-react-native"
+                          />
+                          Blockchain
                         </a>
                       </Link>
                     </li>
