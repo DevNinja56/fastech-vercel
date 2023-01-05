@@ -47,17 +47,21 @@ const options = {
 const CaseStudyCarousal = ({ itemsToMap = carouselItems }) => {
   return (
     <>
-      <OwlCarousel {...options}>
-        {itemsToMap.map(({ img, link }, i) => (
-          <div key={i}>
-            <a style={{ width: "100%" }} href={link} target={"_blank"}>
-              <div className="Image_parent">
-                <Image height={500} width={500} src={img} alt="image" />
-              </div>
-            </a>
-          </div>
-        ))}
-      </OwlCarousel>
+      {typeof window !== "undefined" ? (
+        <OwlCarousel {...options}>
+          {itemsToMap.map(({ img, link }, i) => (
+            <div key={`${img}-${link}`}>
+              <a style={{ width: "100%" }} href={link} target={"_blank"}>
+                <div className="Image_parent">
+                  <Image height={500} width={500} src={img} alt="image" />
+                </div>
+              </a>
+            </div>
+          ))}
+        </OwlCarousel>
+      ) : (
+        <></>
+      )}
     </>
   );
 };

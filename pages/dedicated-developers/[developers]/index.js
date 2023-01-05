@@ -33,74 +33,75 @@ const DevelopersDetail = ({ developersData, dataId, devsData }) => {
       <div className="main-banner-area">
         <div className="container">
           <div className="row">
-            {developersData?.map((obj) => {
-              if (obj.slug === dataId) {
-                return (
-                  <>
-                    <div className="col-lg-5 col-md-12">
-                      <div className="main-banner-content">
-                        <h1 className="main_heading_step_animation">
-                          {obj.heading}
-                        </h1>
+            {developersData &&
+              developersData?.map((obj) => {
+                if (obj.slug === dataId) {
+                  return (
+                    <>
+                      <div className="col-lg-5 col-md-12">
+                        <div className="main-banner-content">
+                          <h1 className="main_heading_step_animation">
+                            {obj.heading}
+                          </h1>
 
-                        <p>{obj.paragraph}</p>
+                          <p>{obj.paragraph}</p>
 
-                        <div className="banner-btn">
-                          <Link href="/contact">
-                            <a className="default-btn">
-                              Schedule a Call{" "}
-                              <i className="ri-arrow-right-line"></i>
-                              <span></span>
-                            </a>
-                          </Link>
+                          <div className="banner-btn">
+                            <Link href="/contact">
+                              <a className="default-btn">
+                                Schedule a Call{" "}
+                                <i className="ri-arrow-right-line"></i>
+                                <span></span>
+                              </a>
+                            </Link>
+                          </div>
                         </div>
                       </div>
-                    </div>
 
-                    <div className="col-lg-7 col-md-12">
-                      <div className="main-banner-animation-image">
-                        {/* Do not remove the div, is required! */}
-                        <div></div>
+                      <div className="col-lg-7 col-md-12">
+                        <div className="main-banner-animation-image">
+                          {/* Do not remove the div, is required! */}
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div className="">
-                          <img src={obj.banner_img} alt="image" />
-                        </div>
+                          <div className="">
+                            <img src={obj.banner_img} alt="image" />
+                          </div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div></div>
+                          <div></div>
 
-                        <div>
-                          <img src={obj.banner_img} alt="image" />
+                          <div>
+                            <img src={obj.banner_img} alt="image" />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </>
-                );
-              }
-            })}
+                    </>
+                  );
+                }
+              })}
           </div>
         </div>
 
@@ -1110,44 +1111,46 @@ const DevelopersDetail = ({ developersData, dataId, devsData }) => {
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="row mt-5 mb-5">
-            {developersData?.map((obj) => {
-              if (obj.slug === dataId) {
-                return (
-                  <>
-                    <div className="col-12 text-center mb-5">
-                      <h1>{obj.service_Heading}</h1>
-                    </div>
-                  </>
-                );
-              }
-            })}
+            {developersData &&
+              developersData?.map((obj) => {
+                if (obj.slug === dataId) {
+                  return (
+                    <>
+                      <div className="col-12 text-center mb-5">
+                        <h1>{obj.service_Heading}</h1>
+                      </div>
+                    </>
+                  );
+                }
+              })}
           </div>
           <div className="row justify-content-center">
-            {developersData
-              .filter((item) => item.slug === dataId)[0]
-              .Services?.map((data) => (
-                <>
-                  <div className="col-lg-4 col-md-6">
-                    <div className="single-services">
-                      <div className={data.colorClases}>
-                        <i className={data.iconPath}></i>
-                      </div>
-                      <h3>
-                        <Link href="#">
-                          <a>{data.heading}</a>
-                        </Link>
-                      </h3>
-                      <p>{data.paragraph}</p>
+            {developersData &&
+              developersData
+                .filter((item) => item.slug === dataId)[0]
+                .Services?.map((data) => (
+                  <>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="single-services">
+                        <div className={data.colorClases}>
+                          <i className={data.iconPath}></i>
+                        </div>
+                        <h3>
+                          <Link href="#">
+                            <a>{data.heading}</a>
+                          </Link>
+                        </h3>
+                        <p>{data.paragraph}</p>
 
-                      {/* <Link href="#">
+                        {/* <Link href="#">
                         <a className="services-btn">
                           Read More <i className="ri-arrow-right-line"></i>
                         </a>
                       </Link> */}
+                      </div>
                     </div>
-                  </div>
-                </>
-              ))}
+                  </>
+                ))}
           </div>
         </div>
 
@@ -2227,41 +2230,43 @@ const DevelopersDetail = ({ developersData, dataId, devsData }) => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="experiences-item">
-                  {developersData?.map((obj) => {
-                    if (obj.slug === dataId) {
-                      return (
-                        <>
-                          <div className="experiences-content">
-                            <div className="tag">
-                              <img
-                                src="/images/ragzon-favicon.png"
-                                alt="ragzon-image"
-                                className="tag_img"
-                              />
+                  {developersData &&
+                    developersData?.map((obj) => {
+                      if (obj.slug === dataId) {
+                        return (
+                          <>
+                            <div className="experiences-content">
+                              <div className="tag">
+                                <img
+                                  src="/images/ragzon-favicon.png"
+                                  alt="ragzon-image"
+                                  className="tag_img"
+                                />
+                              </div>
+                              <h3>{obj.about_heading}</h3>
+                              <p>{obj.about_paragraph}</p>
                             </div>
-                            <h3>{obj.about_heading}</h3>
-                            <p>{obj.about_paragraph}</p>
-                          </div>
-                        </>
-                      );
-                    }
-                  })}
+                          </>
+                        );
+                      }
+                    })}
 
                   <div>
-                    {developersData
-                      .filter((item) => item.slug === dataId)[0]
-                      .AboutItems?.map((data) => (
-                        <>
-                          <div className="experiences-inner-content">
-                            <img
-                              className="exp_img"
-                              src={data.about_img}
-                              alt="image"
-                            />
-                            <p>{data.about_text}</p>
-                          </div>
-                        </>
-                      ))}
+                    {developersData &&
+                      developersData
+                        .filter((item) => item.slug === dataId)[0]
+                        .AboutItems?.map((data) => (
+                          <>
+                            <div className="experiences-inner-content">
+                              <img
+                                className="exp_img"
+                                src={data.about_img}
+                                alt="image"
+                              />
+                              <p>{data.about_text}</p>
+                            </div>
+                          </>
+                        ))}
                   </div>
 
                   <div className="experiences-btn">
@@ -2275,23 +2280,24 @@ const DevelopersDetail = ({ developersData, dataId, devsData }) => {
                   </div>
                 </div>
               </div>
-              {developersData?.map((obj) => {
-                if (obj.slug === dataId) {
-                  return (
-                    <>
-                      <div className="col-lg-6">
-                        <div className="experiences-image">
-                          <img
-                            className="pl-5"
-                            src={obj.about_main_img}
-                            alt="image"
-                          />
+              {developersData &&
+                developersData?.map((obj) => {
+                  if (obj.slug === dataId) {
+                    return (
+                      <>
+                        <div className="col-lg-6">
+                          <div className="experiences-image">
+                            <img
+                              className="pl-5"
+                              src={obj.about_main_img}
+                              alt="image"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </>
-                  );
-                }
-              })}
+                      </>
+                    );
+                  }
+                })}
             </div>
           </div>
 
@@ -2595,52 +2601,55 @@ const DevelopersDetail = ({ developersData, dataId, devsData }) => {
       <div className="portfolio">
         <div className="projects-area pt-100 pb-20">
           <div className="container">
-            {developersData?.map((obj) => {
-              if (obj.slug === dataId) {
-                return (
-                  <>
-                    <div className="section-title">
-                      <h2>{obj.portfolio_heading}</h2>
-                      <p>{obj.portfolio_text}</p>
-                    </div>
-                  </>
-                );
-              }
-            })}
+            {developersData &&
+              developersData?.map((obj) => {
+                if (obj.slug === dataId) {
+                  return (
+                    <>
+                      <div className="section-title">
+                        <h2>{obj.portfolio_heading}</h2>
+                        <p>{obj.portfolio_text}</p>
+                      </div>
+                    </>
+                  );
+                }
+              })}
 
             <div className="row">
-              {developersData
-                .filter((item) => item.slug === dataId)[0]
-                .Portfolio_items?.map((data) => (
-                  <>
-                    <div className="col-lg-4 col-md-6">
-                      <div className="single-projects-box">
-                        <div className="projects-image">
-                          <Link href="/case-study-details">
-                            <a>
-                              <img src={data.portfolio_img} alt="image" />
-                            </a>
-                          </Link>
-                        </div>
-
-                        <div className="projects-content">
-                          <h3>
+              {developersData &&
+                developersData
+                  .filter((item) => item.slug === dataId)[0]
+                  .Portfolio_items?.map((data) => (
+                    <>
+                      <div className="col-lg-4 col-md-6">
+                        <div className="single-projects-box">
+                          <div className="projects-image">
                             <Link href="/case-study-details">
-                              <a>{data.portfolio_heading}</a>
+                              <a>
+                                <img src={data.portfolio_img} alt="image" />
+                              </a>
                             </Link>
-                          </h3>
-                          <p>{data.portfolio_text}</p>
+                          </div>
 
-                          <Link href="/case-study-details">
-                            <a className="projects-btn">
-                              Read More <i className="ri-arrow-right-line"></i>
-                            </a>
-                          </Link>
+                          <div className="projects-content">
+                            <h3>
+                              <Link href="/case-study-details">
+                                <a>{data.portfolio_heading}</a>
+                              </Link>
+                            </h3>
+                            <p>{data.portfolio_text}</p>
+
+                            <Link href="/case-study-details">
+                              <a className="projects-btn">
+                                Read More{" "}
+                                <i className="ri-arrow-right-line"></i>
+                              </a>
+                            </Link>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </>
-                ))}
+                    </>
+                  ))}
             </div>
           </div>
 
