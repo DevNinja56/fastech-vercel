@@ -49,8 +49,8 @@ const Navbar = () => {
               <a className="navbar-brand">
                 <img
                   className="logo_main"
-                  src="/images/fastech-logo.png"
-                  alt="fastech-logo"
+                  src="/images/ragzon-logo.png"
+                  alt="ragzon-logo"
                 />
               </a>
             </Link>
@@ -88,9 +88,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/fastech-web-design_development.svg"
+                            src="/images/ragzon-web-design_development.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-web-design"
+                            alt="ragzon-web-design"
                           />
                           Web Design & Development
                         </a>
@@ -107,9 +107,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-app-development.svg"
+                            src="/images/nav-icons/ragzon-app-development.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-app-development"
+                            alt="ragzon-app-development"
                           />
                           Mobile App Development
                         </a>
@@ -121,14 +121,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/Software-Project-Management");
+                            router.push("/software-project-management");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-software_project_management.svg"
+                            src="/images/nav-icons/ragzon-software_project_management.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-software_project"
+                            alt="ragzon-software_project"
                           />
                           Software Project Management
                         </a>
@@ -140,16 +140,35 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/Dev-Ops");
+                            router.push("/dev-ops");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-Devops.svg"
+                            src="/images/nav-icons/ragzon-Devops.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-devops"
+                            alt="ragzon-devops"
                           />
                           Dev Ops
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/blockchain");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-Devops.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-devops"
+                          />
+                          Blockchain
                         </a>
                       </Link>
                     </li>
@@ -164,9 +183,9 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-uiux.svg"
+                            src="/images/nav-icons/ragzon-uiux.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-uiux"
+                            alt="ragzon-uiux"
                           />
                           UI/UX Design
                         </a>
@@ -182,11 +201,30 @@ const Navbar = () => {
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-SQA.svg"
+                            src="/images/nav-icons/ragzon-SQA.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-sqa"
+                            alt="ragzon-sqa"
                           />
                           Software Quality Assurance
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/dedicatedteams");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-app-development.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-app-development"
+                          />
+                          Dedicated Team
                         </a>
                       </Link>
                     </li>
@@ -206,14 +244,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/e-commerce");
+                            router.push("/industry/e-commerce");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-ecommerce.svg"
+                            src="/images/nav-icons/ragzon-ecommerce.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-ecommerce"
+                            alt="ragzon-ecommerce"
                           />
                           E-Commerce
                         </a>
@@ -225,14 +263,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/food-and-grocery");
+                            router.push("/industry/food-and-grocery");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-food&grocery.svg"
+                            src="/images/nav-icons/ragzon-food&grocery.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-food-grocery"
+                            alt="ragzon-food-grocery"
                           />
                           Food & Grocery
                         </a>
@@ -244,14 +282,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/on-demand-services");
+                            router.push("/industry/on-demand-services");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-ondemandservice.svg"
+                            src="/images/nav-icons/ragzon-ondemandservice.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-ondemand-service"
+                            alt="ragzon-ondemand-service"
                           />
                           On Demand Services
                         </a>
@@ -263,14 +301,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/health-care");
+                            router.push("/industry/health-care");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-healthcare.svg"
+                            src="/images/nav-icons/ragzon-healthcare.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-health-care"
+                            alt="ragzon-health-care"
                           />
                           Healthcare
                         </a>
@@ -281,14 +319,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/fintech");
+                            router.push("/industry/fintech");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-fintech.svg"
+                            src="/images/nav-icons/ragzon-fintech.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-fintech"
+                            alt="ragzon-fintech"
                           />
                           Fintech
                         </a>
@@ -299,14 +337,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/travel-and-tourism");
+                            router.push("/industry/travel-and-tourism");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-Travel&tourism.svg"
+                            src="/images/nav-icons/ragzon-Travel&tourism.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-travel-tourism"
+                            alt="ragzon-travel-tourism"
                           />
                           Travel & Tourism
                         </a>
@@ -317,14 +355,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/IndustryDetails/education");
+                            router.push("/industry/education");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-education.svg"
+                            src="/images/nav-icons/ragzon-education.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-education"
+                            alt="ragzon-education"
                           />
                           Education
                         </a>
@@ -346,14 +384,14 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/DevelopersDetail/mern-stack");
+                            router.push("/dedicated-developers/mern-stack");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-Mernstack.svg"
+                            src="/images/nav-icons/ragzon-Mernstack.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-mern-stack"
+                            alt="ragzon-mern-stack"
                           />
                           Mern Stack
                         </a>
@@ -365,16 +403,16 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/DevelopersDetail/react-js");
+                            router.push("/dedicated-developers/nodejs");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-React.svg"
+                            src="/images/nav-icons/ragzon-Mernstack.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-react"
+                            alt="ragzon-mern-stack"
                           />
-                          React js
+                          Node Js
                         </a>
                       </Link>
                     </li>
@@ -384,16 +422,53 @@ const Navbar = () => {
                         <a
                           onClick={() => {
                             toggleNavbar();
-                            router.push("/DevelopersDetail/react-native");
+                            router.push("/dedicated-developers/react-js");
                           }}
                           className="nav-link"
                         >
                           <img
-                            src="/images/nav-icons/fastech-React.svg"
+                            src="/images/nav-icons/ragzon-React.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-react-native"
+                            alt="ragzon-react"
+                          />
+                          React Js
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/dedicated-developers/react-native");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-React.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-react-native"
                           />
                           React Native
+                        </a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="#">
+                        <a
+                          onClick={() => {
+                            toggleNavbar();
+                            router.push("/dedicated-developers/blockchain");
+                          }}
+                          className="nav-link"
+                        >
+                          <img
+                            src="/images/nav-icons/ragzon-React.svg"
+                            className="icons_img_meg_menu"
+                            alt="ragzon-react-native"
+                          />
+                          Blockchain
                         </a>
                       </Link>
                     </li>
@@ -412,9 +487,9 @@ const Navbar = () => {
                       <Link href="/about-us">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/fastech-aboutus.svg"
+                            src="/images/nav-icons/ragzon-aboutus.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-about-us"
+                            alt="ragzon-about-us"
                           />
                           About Us
                         </a>
@@ -425,9 +500,9 @@ const Navbar = () => {
                       <Link href="/career">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/fastech-career.svg"
+                            src="/images/nav-icons/ragzon-career.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-career"
+                            alt="ragzon-career"
                           />
                           Careers
                         </a>
@@ -438,9 +513,9 @@ const Navbar = () => {
                       <Link href="/portfolio">
                         <a onClick={toggleNavbar} className="nav-link">
                           <img
-                            src="/images/nav-icons/fastech-Portfolio.svg"
+                            src="/images/nav-icons/ragzon-Portfolio.svg"
                             className="icons_img_meg_menu"
-                            alt="fastech-portfolio"
+                            alt="ragzon-portfolio"
                           />
                           Portfolio
                         </a>

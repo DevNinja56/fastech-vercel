@@ -82,7 +82,7 @@ const MainBanner = () => {
             <div className="col-lg-5 col-md-12">
               <div className="main-banner-content">
                 <h1 className="main_heading_step_animation">
-                  Fastech offers the Ultimate Digital Transformation for
+                  Ragzon offers the Ultimate Digital Transformation for
                   <p />
                   <span
                     className="txt-rotate"
@@ -92,9 +92,8 @@ const MainBanner = () => {
                 </h1>
 
                 <p>
-                  Join a steadfast software development company to take your
-                  business to the next level. We create powerful digital
-                  solutions for businesses, startups, and entrepreneurs.
+                  We provide you end to end software development and consultancy
+                  services resulting in extraordinary digital experiences.
                 </p>
 
                 <div className="banner-btn">
@@ -113,113 +112,113 @@ const MainBanner = () => {
                 {/* Do not remove the div, is required! */}
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img1.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img1.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img2.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img2.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img3.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img3.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img4.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img4.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img5.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img5.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img6.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img6.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img7.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img7.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img8.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img8.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img9.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img9.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img10.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img10.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img11.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img11.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img12.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img12.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img13.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img13.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img14.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img14.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-img15.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-img15.webp"
+                    alt="ragzon-image"
                   />
                 </div>
 
                 <div>
                   <img
-                    src="/images/main-banner/banner-one/fastech-main-pic.webp"
-                    alt="fastech-image"
+                    src="/images/main-banner/banner-one/ragzon-main-pic.webp"
+                    alt="ragzon-image"
                   />
                 </div>
               </div>
@@ -230,26 +229,26 @@ const MainBanner = () => {
         {/* Shape Images */}
         <div className="main-banner-shape-1">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-1.png"
-            alt="fastech-image"
+            src="/images/main-banner/banner-one/ragzon-shape-1.png"
+            alt="ragzon-image"
           />
         </div>
         <div className="main-banner-shape-2">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-2.png"
-            alt="fastech-image"
+            src="/images/main-banner/banner-one/ragzon-shape-2.png"
+            alt="ragzon-image"
           />
         </div>
         <div className="main-banner-shape-3">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-3.png"
-            alt="fastech-image"
+            src="/images/main-banner/banner-one/ragzon-shape-3.png"
+            alt="ragzon-image"
           />
         </div>
         <div className="main-banner-shape-4">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-4.png"
-            alt="fastech-image"
+            src="/images/main-banner/banner-one/ragzon-shape-4.png"
+            alt="ragzon-image"
           />
         </div>
       </div>

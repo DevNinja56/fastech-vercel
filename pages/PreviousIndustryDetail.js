@@ -1076,9 +1076,9 @@ export default PreviousIndustryDetail;
 //                                 <div className="experiences-item">
 //                                     <div className="experiences-content">
 //                                         <div className="tag">
-//                                             <img src="/images/fastech-favicon.png" alt="fastech-image" className='tag_img' />
+//                                             <img src="/images/ragzon-favicon.png" alt="ragzon-image" className='tag_img' />
 //                                         </div>
-//                                         <h3>Why Hire eCommerce WebsiteDevelopers from Fastech?</h3>
+//                                         <h3>Why Hire eCommerce WebsiteDevelopers from ragzon?</h3>
 
 //                                     </div>
 
@@ -1408,7 +1408,7 @@ export default PreviousIndustryDetail;
 //                 <div className="container">
 //                     <div className="row">
 //                         <div className="col-12 text-center mb-5 mt-3 pb-3">
-//                             <h1>Entrust Your Technology Development<br /> Needs to Fastech</h1>
+//                             <h1>Entrust Your Technology Development<br /> Needs to ragzon</h1>
 //                         </div>
 //                     </div>
 //                     <div className="row">

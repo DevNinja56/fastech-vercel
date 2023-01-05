@@ -11,9 +11,9 @@ const BenifitTech = () => {
               Perks and <span className="blue_title">Benefits</span>
             </h1>
             <p>
-              Fastech cares about the financial and emotional well-being of its
+              ragzon cares about the financial and emotional well-being of its
               employees. While working
-              <br /> with Fastech, you get the following perks and benefits:
+              <br /> with ragzon, you get the following perks and benefits:
             </p>
           </div>
         </div>

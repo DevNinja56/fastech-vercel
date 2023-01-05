@@ -3,33 +3,32 @@ export const ServicesApi = [
     slug: "web-design-development",
     heading: "Web Design and Development Services",
     paragraph:
-      "Outsource web design and development to a creative team of web developers",
+      "We create beautifully designed web apps precisely tailored to your situation.",
     banner_img: "/images/webservices.png",
 
-    service_Heading:
-      "Web Design and Development Services from Professionals you’ll enjoy working with",
+    service_Heading: "Web Development Services We Offer",
     service_Text:
-      "Fastech offers web design and development services for clients all over the world. Partner up with the dream team of web developers that are available for every stage of the development process.",
+      "We believe in building interactive web applications, To create experiences beyond our clients’ expectations.z",
     mobileAppServices: [
       {
-        heading: "Prototyping & UI/UX Designing",
+        heading: "Experience Design",
         paragraph:
-          "Are you looking to work with a team that puts forth a transparent design process and delivers spot-on results within budget? Turn to Fastech and hire professional UI/UX designers to create interactive prototyping and usability testing that ensures a pleasant user experience.",
+          "With our extensive expertise in UI/UX design and front-end development, we build web applications with delightful user experiences.",
         iconPath: "fal fa-pencil-paintbrush",
         colorClases: "icon bg-FF6D3D",
       },
       {
-        heading: "Progressive Web Development",
+        heading: "Frontend Development",
         paragraph:
-          "We use advanced development strategies to build cross-platform web applications. Our distinctive strength in blending the right strategy, technology, and design enables us to create responsive Progressive Web Applications (PWAs), ensuring smooth running of applications online and offline both.",
+          "Benefit from our full stack front-end expertise to create innovative, human-centric, and goal-oriented web & mobile solutions.",
         iconPath: "fal fa-code",
         colorClases: "icon bg-36CC72",
       },
 
       {
-        heading: "Custom Website Development",
+        heading: "Backend Development",
         paragraph:
-          "Revamp your business process management with our team of expert developers specialized in developing scalable and futuristic web and mobile applications. We help you develop cost-effective, secure, and high functional custom web applications for your business.",
+          "We build extensible on-premise and cloud-based back-end solutions for mobile, web, desktop systems that scale with your growing needs.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-FF414B",
       },
@@ -37,23 +36,23 @@ export const ServicesApi = [
       {
         heading: "Full Stack Development",
         paragraph:
-          "We offer you a seasoned team of full stack developers specializing in MEAN and MERN stack. Our team works with advanced frameworks like MEAN, MERN, PHP + Vue.js, allowing you to get full stack development and creating next-generation user experiences.",
+          "We provide skillful software engineering to the full spectrum of technologies from simple frontend prototyping to the high-performing backend.",
         iconPath: "fal fa-laptop-code",
         colorClases: "icon bg-8932F8",
       },
 
       {
-        heading: "API Development",
+        heading: "QA Testing",
         paragraph:
-          "We apply the best development tools and practices, along with a highly experienced team in APIs, to offer custom API development for desktop, mobile, apps, firmware/middleware, and operating systems. Develop fully functional APIs by outsourcing API development projects.",
+          "A wide range of independent software QA and testing services that adhere to the highest levels of security and industry standards.",
         iconPath: "fal fa-link",
         colorClases: "icon bg-FFCA40",
       },
 
       {
-        heading: "Upgradation & Migration",
+        heading: "Support",
         paragraph:
-          "Apart from building cost-effective and secure custom applications, we offer end-to-end custom app development, from consulting and development to migration to a new CMS",
+          "SLA based platform support with different maintenance plans to avoid any downtime, manage feature enhancements & maintenance of your app.",
         iconPath: "fal fa-chart-line",
         colorClases: "icon bg-FF6D3D",
       },
@@ -61,11 +60,11 @@ export const ServicesApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-web1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -73,7 +72,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -81,7 +80,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -89,7 +88,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web4.png",
         portfolio_heading: "Imaginovation",
         portfolio_text:
           "An IT Company’s services-based website according to modern design standards.",
@@ -97,7 +96,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web5.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web5.png",
         portfolio_heading: "Ecommerece dashboard",
         portfolio_text:
           "Ecommerce Admin Dashboard with all the features like product management, category-subcategory management.",
@@ -105,7 +104,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web6.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web6.png",
         portfolio_heading: "LinkedinExtension",
         portfolio_text:
           "A project used to scrap leads from linkedin which are used to make pipelines for marketing.",
@@ -138,36 +137,35 @@ export const ServicesApi = [
     ],
 
     about_main_img: "/images/web.png",
-    about_heading: "How Web Development Outsourcing With Fastech Works?",
+    about_heading: "A Snapshot Of Our Web App Development Process",
     about_items: [
       {
-        about_text:
-          "Schedule a meeting to discuss the details of the job with one of our team members. It’s quick and easy.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+        about_text: "Schedule a meeting.",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
-        about_text:
-          "Let us evaluate your requirements and identify effective web solutions suitable to your needs.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_text: "Receive a proposal.",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
-        about_text:
-          "Once we have evaluated the requirements, our seasoned team begins developing the solution.",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_text: "Prototyping & Development.",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
       },
 
       {
-        about_text:
-          "After the development and a final review from the client, our quality assurance team confirms that everything is running smoothly our high standard is being maintained",
-        about_img: "/images/experiences/fastech-purplecircle.svg",
+        about_text: "Software Quality Assurance.",
+        about_img: "/images/experiences/ragzon-purplecircle.svg",
       },
 
       {
-        about_text:
-          "Once all the checks and revisions have been cleared to ensure a top-quality product, your website will be launched!",
-        about_img: "/images/experiences/fastech-yellowcircle.svg",
+        about_text: "Deployment.",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
+      },
+      {
+        about_text: "Support Maintenance.",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
     ],
 
@@ -175,59 +173,53 @@ export const ServicesApi = [
     faq_items: [
       {
         faq_item_heading:
-          "What’s the difference between website design and development?",
+          "Why should you outsource web application development services From Ragzon?",
         faq_item_text:
-          "Both are related to each other however one could say that web developers use their coding expertise to breathe life into a web designer’s innovative vision. Website development involves creating a website’s core structure via programming languages. On the other hand, web designing relates to user experience and user interface.",
+          "Ragzon has innovative web app developers who have more than 8 years of experience. They can seamlessly build your web applications on advanced technologies such as artificial intelligence, machines, blockchain, AR/VR and more. In addition, Ragzon offers a package of exclusive services such as free consultation, a 7-day trial, full-cycle application testing and an experienced product manager.",
       },
 
       {
-        faq_item_heading: "What is included in website development?",
+        faq_item_heading: "How much does it cost to develop a web application?",
         faq_item_text:
-          "Website development involves various services such as web design, web engineering, client-side/server-side scripting, e-commerce platform development, web server, and network security configuration.",
+          "The cost of web app development depends on various factors such as objectives, number of developers, project scope, industry, budget, timeline, the complexity of the project, features & functionalities, and tech stake.",
       },
 
       {
-        faq_item_heading: "How much does building a website typically cost?",
+        faq_item_heading: "How long does it take to build a web app?",
         faq_item_text:
-          "The cost of website development varies for each project. In normal circumstances, a good website with both front-end development and server-side can cost you around $5000 to $15000 or more. Remember to discuss the details of your project with the development team to get an estimate of the actual cost.",
-      },
-
-      {
-        faq_item_heading: "What programming languages do web developers use?",
-        faq_item_text:
-          "Web developers can use multiple programming languages to develop a website. Some of the most well-known languages include Python, PHP, as well as JavaScript frameworks – Angular JS, React JS",
+          "On average, a web app’s front-end application and back-end infrastructure take around 3 to 4 months to develop. However, if the scope is rather large, it may take a few more months.",
       },
     ],
   },
 
   {
     slug: "mobile-app-development",
-    heading: "Trusted Mobile App Development Company",
+    heading: "We do not build apps We build experiences",
     paragraph:
       "Make your very own custom mobile app into a successful development project",
     banner_img: "/images/banner-2.png",
     service_Heading: "Mobile App Development Services We Offer",
     service_Text:
-      "Our experienced mobile app developers work closely with you to build well-designed iOS, Android, and hybrid mobile application solutions as per your needs.",
+      "Delivering convenience-focused mobile application development services in any form is what we’re inclined towards.",
     mobileAppServices: [
       {
-        heading: "iOS App Development",
+        heading: "Hybrid App Development",
         paragraph:
-          "Fastech’s seasoned team of iOS app developers is here to meet all your iOS app development needs and deliver secure apps that are compatible with all Apple products. We work with Objective-C and Swift programming languages to create mobile app frameworks on iOS platforms that provide you with the ultimate user experience.",
+          "rHire our remote team of android developers to create feature-rich mobile apps that complement your venture and generate revenue with each converted user.",
         iconPath: "fab fa-apple",
         colorClases: "icon bg-FF6D3D",
       },
       {
-        heading: "Android App Development",
+        heading: "iOS App Development",
         paragraph:
-          "Get your custom, feature-packed Android app put together with an exclusive blend of technologies. Work with our seasoned team of Android developers to build apps for Android smartphones, tablets, Android TV, and Android Wear OS. We offer assistance throughout the entire Android app development process and have developers with ample experience in JAVA and Kotlin.",
+          "Discover top iOS developers talent at Ragzon, a top-notch mobile application development company that creates user-friendly iPhone & iPad Apps.",
         iconPath: "fab fa-android",
         colorClases: "icon bg-36CC72",
       },
       {
-        heading: "Hybrid App Development",
+        heading: "Android App Development",
         paragraph:
-          "Empower your business with quality hybrid mobile apps and APIs that run smoothly with third party mobile applications. Our expert team of developers use React-Native, Xamarian, Ionic to develop immersive cross-platform mobile applications.",
+          "Hire our remote team of android developers to create feature-rich mobile apps that complement your venture and generate revenue with each converted user.",
         iconPath: "fab fa-android",
         colorClases: "icon bg-8932F8",
       },
@@ -235,11 +227,11 @@ export const ServicesApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
 
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -247,7 +239,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -255,7 +247,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -263,7 +255,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob3.png",
         portfolio_heading: "Camlist- Just Pets",
         portfolio_text:
           "Camlist gives you easy access to search thousands of dogs, puppies, cats, kittens, rabbits, horses and other pets.",
@@ -315,94 +307,98 @@ export const ServicesApi = [
     about_heading: "Our Mobile Application Development Process",
     about_items: [
       {
-        about_text:
-          "Schedule a meeting – Discuss your requirements regarding the project with one of our team members.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+        about_text: "Schedule a meeting",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
-        about_text:
-          "Receive a proposal – We evaluate your requirements and identify the mobile app solutions that are most effective and suitable for you.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_text: "Receive a proposal",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
-        about_text:
-          "App Development – The team will begin developing solutions for you once the requirements are identified.",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_text: "App Development",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
       },
 
       {
-        about_text:
-          "Quality Assurance – Once the development is complete and reviewed by the client, our quality assurance team ensure everything is running smoothly.",
-        about_img: "/images/experiences/fastech-purplecircle.svg",
+        about_text: "Quality Assurance",
+        about_img: "/images/experiences/ragzon-purplecircle.svg",
       },
 
       {
-        about_text:
-          "Project Launch – Once all quality checks have been cleared to ensure highest standard our team launches your very own custom mobile app.",
-        about_img: "/images/experiences/fastech-yellowcircle.svg",
+        about_text: "Project Launch",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
       },
     ],
 
     faq_heading: "Frequently Asked Questions?",
     faq_items: [
       {
-        faq_item_heading: "How much does it cost to develop a mobile app?",
-        faq_item_text:
-          "It depends on the complexity and type of application however, normally mobile apps development costs around $10,000 to $200,000. Remember to get the estimate cost before outsourcing as some apps can be launched without any costs (DIY) whereas other may cost over $40,000.",
+        faq_item_heading:
+          "What is the difference between a hybrid app and a native app?",
+        faq_item_text: `Hybrid apps are created for all platforms. They are a combination of web apps and native apps. You can access them via a web browser and download them from app stores. \n\n
+          Native apps are created for specific operating systems — iOS or Android. For instance, Android apps are written in Java, and iPhone apps are written in Objective-C or Swift.
+          `,
       },
 
       {
-        faq_item_heading: "What is a cross-platform mobile application?",
+        faq_item_heading: "How much does it cost to develop an app?",
         faq_item_text:
-          "Developers can create a single API on top native app SDKs and develop Android, iOS apps that share the same code base through cross-platform mobile development. Normally, developers use Xamarin, React Native and Kotlin for cross-platform mobile app development.",
+          "The cost of mobile app development depends on various factors such as objectives, number of developers, project scope, industry, budget, timeline, the complexity of the project, features & functionalities, and tech stake.",
       },
 
       {
-        faq_item_heading: "What is a Native mobile application?",
+        faq_item_heading: "How long does it take to build a mobile app?",
         faq_item_text:
-          "Native Mobile app allows developing OS versions of the same product but with varying codebases. Therefore, apps specifically developed for iOS will not work with Android and vice versa. Native mobile apps are specifically developed for certain mobile operating systems like Android, iOS, etc",
-      },
-
-      {
-        faq_item_heading: "Can I build my own mobile app?",
-        faq_item_text:
-          "You can use various DIY platforms to develop your very own mobile application. Keep in mind these apps will have only general features available. You need further coding skills or a professional mobile app developer to develop an app with extra features.",
+          "On average, a web app’s front-end application and back-end infrastructure take around 3 to 4 months to develop. However, if the scope is rather large, it may take a few more months.",
       },
     ],
   },
 
   {
     slug: "ui-ux-design",
-    heading: "UI/UX Design Services and Solutions",
+    heading: "Top UI/UX Design Services",
     paragraph:
-      "Hire expert UI/UX engineers to design elegant interfaces for your digital products.",
+      "We design and launch digital products that deliver great user experiences.",
     banner_img: "/images/UIUXmain.png",
     service_Heading: "UI/UX Design Service We Offer",
-    service_Text:
-      "We design apps and products that are easy to use, delightful to interact with and solve real problems.",
+    service_Text: "We build delightful experiences, understanding user needs",
     mobileAppServices: [
       {
-        heading: "Mobile App UI/UX Design",
+        heading: "User Research",
         paragraph:
-          "Enhance your customer experience and improve your mobile app user interface through effective, in-built UI/UX design services and solutions. Since iOS and Android users require specific UI for each platform, we create intuitive cross-platform compatible designs that ensure visual style unity across all the platforms.",
+          "Before getting our hands dirty, we do extensive research to build up your user personas, in order to map your product’s full customer journey.",
         iconPath: "far fa-mobile-android",
         colorClases: "icon bg-FF6D3D",
       },
       {
-        heading: "Web UI/UX Design",
+        heading: "Rapid Prototyping",
         paragraph:
-          "We build clutter-free, responsive web designs that reflect your brand identity and help you achieve your business goals. We specialize in crafting intuitive and responsive websites that drive qualified traffic and boost your conversion rate. Our UI/UX designers integrate modern UI/UX design principles to create user-friendly, flexible, and scalable apps regardless of their technical complications.",
+          "We create prototypes and test our ideas with real users. This way we can really get more feedback about your upcoming product’s usability.",
         iconPath: "far fa-laptop-code",
         colorClases: "icon bg-36CC72",
       },
       {
-        heading: "UI/UX Brand Identity",
+        heading: "UX Design",
         paragraph:
-          "Our dedicated creators build the best conceptual wireframes representing UI features to map out workflows, data stature, and navigation early. Fastech helps you increase growth for your business by creating a visual identity for your brand that attracts larger groups of target audience. We ensure each process is completed efficiently including - conducting user research, creating user personas, design flows, creating prototypes and finalizing with usability tests that incorporate your brand’s identity.",
+          "We bring together professional user experience design and top-notch technology to deliver compelling experiences that solve business challenges and make people happy.",
         iconPath: "far fa-pencil-paintbrush",
         colorClases: "icon bg-8932F8",
+      },
+      {
+        heading: "Development",
+        paragraph:
+          "Our software engineers collaborate with designers to ensure that products we deliver to our clients are perfect from experience, design and technology perspectives.",
+        iconPath: "far fa-mobile-android",
+        colorClases: "icon bg-FF6D3D",
+      },
+      {
+        heading: "Usability Testing",
+        paragraph:
+          "We partner with our clients to build products that address real user needs. This emphasis on human-centered design means that the products we build deliver compelling experiences.",
+        iconPath: "far fa-laptop-code",
+        colorClases: "icon bg-36CC72",
       },
     ],
 
@@ -411,7 +407,7 @@ export const ServicesApi = [
       "We offer top-tier UI/UX services and solutions to help you achieve your business goals. Have a look at some of our creative projects with eye-catching interface.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-web1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -419,7 +415,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -427,7 +423,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -435,7 +431,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -443,7 +439,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -451,7 +447,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -487,21 +483,27 @@ export const ServicesApi = [
     about_heading: "Our UI/UX Designing Process",
     about_items: [
       {
-        about_text:
-          "Choosing Fastech for UI/UX Design services allows successful digital products for your business. Our simplified and systematic processes gives us an edge over our competitors.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+        about_text: "Build a strategy & Research",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
-        about_text:
-          "At Fastech we ensure your time and money are utilized to maximum efficiency through our optimized UI/UX design methods.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_text: "Sketch, Analyze And Repeat",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
-        about_text:
-          "Our UI/UX designers focus on the user’s journey to give your customers the best user experience.",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_text: "Design and Test With Wireframes",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
+      },
+      {
+        about_text: "reate A Prototype",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
+      },
+
+      {
+        about_text: "Develop and Implement UI",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
     ],
 
@@ -510,7 +512,7 @@ export const ServicesApi = [
       {
         faq_item_heading: "What is UI/UX design service?",
         faq_item_text:
-          "UI/UX design services are aimed at creating brand strengthening, visually appealing digital interfaces that attract and retain users. Fastech delivers UI solutions that are tailored individually to your audience, reflect customer values, as well as effectively back up your business objectives.",
+          "UI/UX design services are aimed at creating brand strengthening, visually appealing digital interfaces that attract and retain users. ragzon delivers UI solutions that are tailored individually to your audience, reflect customer values, as well as effectively back up your business objectives.",
       },
 
       {
@@ -536,55 +538,52 @@ export const ServicesApi = [
 
   {
     slug: "software-quality-assurance",
-    heading: "Software Quality Assurance Services",
-    paragraph: "We provide quality assurance to improve customer experience.",
+    heading: "Lets Make Your Product Robust And Reliable.s",
+    paragraph:
+      "Improving quality of your software without affecting your delivery timeframe.",
     banner_img: "/images/SQAMAIN.png",
-    service_Heading: "We Offer Software QA and Testing Services",
-    service_Text:
-      "Our engineers are ISTQB-certified and domain-trained, providing quality services and helping you avoid errors.",
+    service_Heading: "Software Testing and QA Services We Offer",
+    service_Text: "Ensure quality assurance to enhance customer experience",
     mobileAppServices: [
       {
-        heading: "QA Automation",
+        heading: "Test Automation",
         paragraph:
-          "Our seasoned team will enable QA testing for your product and merge it in your software development life cycle. This will enable you to speed up your testing process through test automation, software maintenance, application of test scripts, and various tools analysis.",
+          "Smarter testing helps reduce time and improve productivity.",
         iconPath: "far fa-search",
         colorClases: "icon bg-FF6D3D",
       },
       {
         heading: "Performance Testing",
-        paragraph:
-          "Our seasoned engineers use tools like SOASTA, LoadRunner, and NewLoad to identify and fix errors in the software during performance testing. Performance Testing can help overcome challenges like certain functions being unresponsive, increasing loading time, and unstable servers.",
+        paragraph: "To guage how your software will perform under high loads.",
         iconPath: "fal fa-user-hard-hat",
         colorClases: "icon bg-36CC72",
       },
       {
-        heading: "Mobile Application Testing",
+        heading: "Security Testing",
         paragraph:
-          "Our seasoned team of mobile application QA testers carry out automated as well as manual tests to make sure the application runs smoothly without any bugs. We help you achieve advanced mobile app testing while saving your time. We aim to achieve security and scalability in all our testing operations for better user experience.",
+          "Ensuring security of your data through strict cybersecurity protocols.",
         iconPath: "far fa-mobile",
         colorClases: "icon bg-8932F8",
       },
 
       {
-        heading: "Security Testing",
-        paragraph:
-          "Our skilled team of QA engineers perform risk assessments and tests to prevent your application from malware, data leaks, client information leak, and unauthorized access. Security Testing enhances your application’s overall security and helps us remove any security threats.",
+        heading: "Mobile Testing",
+        paragraph: "Keeping responsiveness and speed at utmost priority.",
         iconPath: "far fa-lock-alt",
         colorClases: "icon bg-FF414B",
       },
 
       {
-        heading: "Usability Testing",
-        paragraph:
-          "Usability Testing ensures a great user experience for the customers using the application. Our seasoned team of QA engineers test consistency, features, and UI flows to bring the best version of the application directly to your customer. All potential bugs, confusing UI flows and performance errors are filtered out after thorough QA usability testing.",
+        heading: "Manual Testing",
+        paragraph: "Our testing process is incomplete without a human touch.",
         iconPath: "fal fa-user-cog",
         colorClases: "icon bg-FFCA40",
       },
 
       {
-        heading: "Compatibility Testing",
+        heading: "Usability Testing",
         paragraph:
-          "Compatibility Testing ensures that the application is compatible on various platforms and devices. Our seasoned team of QA engineers run compatibility tests using numerous browsers, databases, servers, devices, and infrastructures to confirm smooth running of the application on all platforms.",
+          "Usability Testing ensures that customers will love the application or not.",
         iconPath: "fal fa-cog",
         colorClases: "icon bg-FF6D3D",
       },
@@ -592,10 +591,10 @@ export const ServicesApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-web1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -603,7 +602,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -611,7 +610,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -619,7 +618,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -627,7 +626,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -635,7 +634,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -668,30 +667,26 @@ export const ServicesApi = [
     ],
 
     about_main_img: "/images/SQA-Process.png",
-    about_heading: "Our Software Quality Assurance Process",
+    about_heading: "Our Verification & Validation Process",
     about_items: [
       {
-        about_text:
-          "At Fastech, we guarantee a successful software product with zero flaws.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+        about_text: "Defining the scope and activities",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
-        about_text:
-          "Our efficient and detailed processes at key production stages gives us an edge over our competitors.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_text: "Identifying testing techniques and process",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
-        about_text:
-          "Fastech aims to optimize our software quality assurance processes so your resources are carefully allotted and efficiently utilized.",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_text: "Executing the final code",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
       },
 
       {
-        about_text:
-          "We make outsourcing software quality assurance an uncomplicated and simple process for you while delivering top-notch software product, helping you save money and time.",
-        about_img: "/images/experiences/fastech-yellowcircle.svg",
+        about_text: "Presenting a final test report",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
       },
     ],
 
@@ -726,7 +721,7 @@ export const ServicesApi = [
   },
 
   {
-    slug: "Software-Project-Management",
+    slug: "software-project-management",
     heading: "Your software development partner",
     paragraph: "Save your time with our software project management services.",
     banner_img: "/images/SQAMAIN.png",
@@ -737,14 +732,14 @@ export const ServicesApi = [
       {
         heading: "Realistic Estimation of Product Development",
         paragraph:
-          "Save costs while you build your software product with Fastech. According to an HBR study, the estimated costs for a project is 27% higher than the average budget. However, we help you minimize the chances of exceeding your average budget through effective software project management.",
+          "Save costs while you build your software product with ragzon. According to an HBR study, the estimated costs for a project is 27% higher than the average budget. However, we help you minimize the chances of exceeding your average budget through effective software project management.",
         iconPath: "fal fa-business-time",
         colorClases: "icon bg-FF6D3D",
       },
       {
         heading: "Software Development Life Cycle Planning",
         paragraph:
-          "Our custom software development solutions meet your specific needs and goals, giving you an edge over others. Another HBR study reveals that one out of six projects exceeds deadlines by 70%. Avoid extended deadlines now by working with Fastech’s experienced project managers.",
+          "Our custom software development solutions meet your specific needs and goals, giving you an edge over others. Another HBR study reveals that one out of six projects exceeds deadlines by 70%. Avoid extended deadlines now by working with ragzon’s experienced project managers.",
         iconPath: "far fa-layer-group",
         colorClases: "icon bg-36CC72",
       },
@@ -759,7 +754,7 @@ export const ServicesApi = [
       {
         heading: "Software Quality Assurance",
         paragraph:
-          "Fastech’s software project managers guarantee a top-tier quality product that meets the user’s expectations. We develop clear KPIs and ensure each stage of the project is completed efficiently and successfully.",
+          "ragzon’s software project managers guarantee a top-tier quality product that meets the user’s expectations. We develop clear KPIs and ensure each stage of the project is completed efficiently and successfully.",
         iconPath: "fal fa-users-cog",
         colorClases: "icon bg-FF414B",
       },
@@ -767,7 +762,7 @@ export const ServicesApi = [
       {
         heading: "Software Support Services",
         paragraph:
-          "Rely on our team of talented coders to ensure your software operates at highest levels as they prevent outages, offer remote software support services, and increase issue resolution. At Fastech, we dedicate our quality assurance department to ensure every crafted software operates smoothly.",
+          "Rely on our team of talented coders to ensure your software operates at highest levels as they prevent outages, offer remote software support services, and increase issue resolution. At ragzon, we dedicate our quality assurance department to ensure every crafted software operates smoothly.",
         iconPath: "fal fa-headset",
         colorClases: "icon bg-FFCA40",
       },
@@ -775,7 +770,7 @@ export const ServicesApi = [
       {
         heading: "Live Chat Support",
         paragraph:
-          "In the modern day, customers require live chat support to solve their problems instantly. Fastech’s technical support can build AI-based live chatbots for your business or get a 24/7 live chat support team. Outsource live chat support services and give your customers a reason to stay by improving your response time.",
+          "In the modern day, customers require live chat support to solve their problems instantly. ragzon’s technical support can build AI-based live chatbots for your business or get a 24/7 live chat support team. Outsource live chat support services and give your customers a reason to stay by improving your response time.",
         iconPath: "fal fa-comments-alt",
         colorClases: "icon bg-FF6D3D",
       },
@@ -783,10 +778,10 @@ export const ServicesApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-web1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -794,7 +789,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -802,7 +797,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -810,7 +805,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -818,7 +813,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -826,7 +821,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -863,26 +858,26 @@ export const ServicesApi = [
     about_items: [
       {
         about_text:
-          "Work with Fastech to ensure successful results and top-quality services.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+          "Work with ragzon to ensure successful results and top-quality services.",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
         about_text:
           "Our efficient and in-depth operations gives us an edge over competitors.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
         about_text:
           "Your time and investment are utilized most efficiently as we strive to optimize the big data consulting and analyzing process in all operations.",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
       },
 
       {
         about_text:
           "We make outsourcing big data consulting an amazing experience for you and your customers by streamlining our strategies and methods.",
-        about_img: "/images/experiences/fastech-yellowcircle.svg",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
       },
     ],
 
@@ -917,7 +912,362 @@ export const ServicesApi = [
   },
 
   {
-    slug: "Dev-Ops",
+    slug: "blockchain",
+    heading: "Delivering Robust Software Systems With Blockchain.",
+    paragraph: "Helping you boost performance, productivity, and security.",
+    banner_img: "/images/devops-main.png",
+    service_Heading: "Blockchain Development Services We Offer",
+    service_Text:
+      "We provide robust, secure, and highly efficient solutions with blockchain.",
+    mobileAppServices: [
+      {
+        heading: "Public and Private Blockchains",
+        paragraph:
+          "With Public and Private Blockchain options, you get to control who has access to specific information.",
+        iconPath: "far fa-briefcase",
+        colorClases: "icon bg-FF6D3D",
+      },
+      {
+        heading: "Wallets and Exchanges",
+        paragraph:
+          "We help you build safe Cryptocurrency wallets and exchanges to conduct trade seamlessly without hurdles.",
+        iconPath: "fal fa-tasks-alt",
+        colorClases: "icon bg-36CC72",
+      },
+      {
+        heading: "Distributed Applications",
+        paragraph:
+          "Our Decentralized Applications development service helps keep records tamper-proof and free of intrusions.",
+        iconPath: "far fa-sign-in",
+        colorClases: "icon bg-8932F8",
+      },
+
+      {
+        heading: "Testing & Migration",
+        paragraph:
+          "We help you migrate your existing business into Blockchain and define a testing and migration roadmap.",
+        iconPath: "far fa-cloud",
+        colorClases: "icon bg-FF414B",
+      },
+
+      {
+        heading: "Smart Contracts",
+        paragraph:
+          "We use Blockchain platforms like Etherium to deliver highly secure, and competitive Smart Contracts.",
+        iconPath: "far fa-users",
+        colorClases: "icon bg-FFCA40",
+      },
+
+      {
+        heading: "Blockchain Consultancy",
+        paragraph:
+          "By analyzing your business infrastructure, we identify threats Blockchain can counter and opportunities it can address.",
+        iconPath: "fal fa-head-vr",
+        colorClases: "icon bg-FF6D3D",
+      },
+    ],
+
+    portfolio_heading: "Our Work Portfolio",
+    portfolio_text:
+      "Check out some of our awesome projects with creative ideas and great design.",
+    main_poortfolio: [
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
+        portfolio_heading: "Magic Task",
+        portfolio_text:
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
+        portfolio_heading: "Job Genie",
+        portfolio_text:
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
+        portfolio_heading: "Bitnob",
+        portfolio_text:
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
+        portfolio_heading: "Fivesec Health",
+        portfolio_text:
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
+        portfolio_heading: "Rentberry",
+        portfolio_text:
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
+        portfolio_heading: "Potswork-Request Services",
+        portfolio_text:
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
+      },
+    ],
+
+    dedicated_dev_heading: "Hire Dedicated Web Developers",
+    dedicated_dev_text: "Choose How You Want to Collaborate",
+    dedicated_dev_items: [
+      {
+        dedicated_dev_img: "/images/dedicated-dev/Projectbased.svg",
+        dedicated_dev_text: "Project Based",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/hourlybased.svg",
+        dedicated_dev_text: "Hire Developers Hourly Basis",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/dedicatedteam.svg",
+        dedicated_dev_text: "Dedicated Team Developers",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/notsure.svg",
+        dedicated_dev_text: "I'm not sure",
+      },
+    ],
+
+    about_main_img: "/images/SQA-Process.png",
+    about_heading: "Why Blockchain?",
+    about_items: [
+      {
+        about_text: "No Central Control",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
+      },
+
+      {
+        about_text: "Secure Financial Transactions",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
+      },
+
+      {
+        about_text: "Transparency & accountability",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
+      },
+
+      {
+        about_text: "Cost-Effective",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
+      },
+      {
+        about_text: "Fraud Prevention",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
+      },
+
+      {
+        about_text: "Serverless architecture",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
+      },
+
+      {
+        about_text: "High traceability",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
+      },
+
+      {
+        about_text: "Immutable & encrypted",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
+      },
+    ],
+
+    faq_heading: "Frequently Asked Questions?",
+    faq_items: [
+      {
+        faq_item_heading: "How much does it cost to develop a blockchain app?",
+        faq_item_text:
+          "There are a handful of blockchain development companies in the market. Every blockchain-based application or software varies from company to company and thus the cost too. Factors such as the size of the app, complexity of the features, level of customization, and type of the app are some of the main factors that impact the overall costs of blockchain app development.",
+      },
+    ],
+  },
+  {
+    slug: "dedicatedteams",
+    heading: "Your Software Development Dream Team",
+    paragraph:
+      "Get your projects fast-tracked with Ragzon’s best technical and management talent along with collaborative engagement.",
+    banner_img: "/images/devops-main.png",
+    service_Heading: "Build Your Dedicated Teams",
+    service_Text: "How we can help you build your dedicated remote team",
+    mobileAppServices: [
+      {
+        heading: "Reduce your Time-to-Market",
+        paragraph:
+          "Our highly efficient resources help you fast-track your project development and get your product to the market faster.",
+        iconPath: "far fa-briefcase",
+        colorClases: "icon bg-FF6D3D",
+      },
+      {
+        heading: "Save up to 50% on Resources",
+        paragraph:
+          "Our scalable teams evolve with your evolving needs, ensuring that you only have the best available resources suited to your project needs.",
+        iconPath: "fal fa-tasks-alt",
+        colorClases: "icon bg-36CC72",
+      },
+      {
+        heading: "Fill Gaps in Your Skillset",
+        paragraph:
+          "With our hiring expertise, we hire top 2% of the available talent to provide you with best technically proficient and motivated team members.",
+        iconPath: "far fa-sign-in",
+        colorClases: "icon bg-8932F8",
+      },
+
+      {
+        heading: "Seamlessly Provide Feedback",
+        paragraph:
+          "Our client centric approach prioritizes your feedback for us. You will get regular updates on task levels through tools like Jira and Github.",
+        iconPath: "far fa-cloud",
+        colorClases: "icon bg-FF414B",
+      },
+
+      {
+        heading: "Get the best Out of Your Team",
+        paragraph:
+          "We help you boost your internal competence by preparing your internal teams for any incoming process or behavioral change.",
+        iconPath: "far fa-users",
+        colorClases: "icon bg-FFCA40",
+      },
+
+      {
+        heading: "Focus on your Core Business",
+        paragraph:
+          "Our teams are skilled at taking up your projects from design till maintenance along with ramping up the process to help you focus on your core business growth.",
+        iconPath: "fal fa-head-vr",
+        colorClases: "icon bg-FF6D3D",
+      },
+    ],
+
+    portfolio_heading: "Our Work Portfolio",
+    portfolio_text:
+      "Check out some of our awesome projects with creative ideas and great design.",
+    main_poortfolio: [
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
+        portfolio_heading: "Magic Task",
+        portfolio_text:
+          "Advance and customized project management tool with different frontend themes.",
+        link: "https://magictask.io/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
+        portfolio_heading: "Job Genie",
+        portfolio_text:
+          "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
+        link: "https://www.jobgeniedevs.com/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
+        portfolio_heading: "Bitnob",
+        portfolio_text:
+          "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
+        link: "https://bitnob.com/",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
+        portfolio_heading: "Fivesec Health",
+        portfolio_text:
+          "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
+        link: "https://play.google.com/store/apps/details?id=com.fivesechealth",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
+        portfolio_heading: "Rentberry",
+        portfolio_text:
+          " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
+        link: "https://apps.apple.com/us/app/rentberry-apartment-rentals/id1388237443",
+      },
+
+      {
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
+        portfolio_heading: "Potswork-Request Services",
+        portfolio_text:
+          "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
+        link: "https://play.google.com/store/apps/details?id=com.potsworkprovider",
+      },
+    ],
+
+    dedicated_dev_heading: "Hire Dedicated Web Developers",
+    dedicated_dev_text: "Choose How You Want to Collaborate",
+    dedicated_dev_items: [
+      {
+        dedicated_dev_img: "/images/dedicated-dev/Projectbased.svg",
+        dedicated_dev_text: "Project Based",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/hourlybased.svg",
+        dedicated_dev_text: "Hire Developers Hourly Basis",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/dedicatedteam.svg",
+        dedicated_dev_text: "Dedicated Team Developers",
+      },
+
+      {
+        dedicated_dev_img: "/images/dedicated-dev/notsure.svg",
+        dedicated_dev_text: "I'm not sure",
+      },
+    ],
+
+    about_main_img: "/images/SQA-Process.png",
+    about_heading: "Our On-Boarding Process",
+    about_items: [
+      {
+        about_text: "Schedule a meeting",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
+      },
+
+      {
+        about_text: "Share your requirements",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
+      },
+
+      {
+        about_text: "Select the Team",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
+      },
+
+      {
+        about_text: "Start a Free Trial",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
+      },
+      {
+        about_text: "Get Started",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
+      },
+    ],
+
+    // faq_heading: "Frequently Asked Questions?",
+    // faq_items: [
+    //   {
+    //     faq_item_heading: "How much does it cost to develop a blockchain app?",
+    //     faq_item_text:
+    //       "There are a handful of blockchain development companies in the market. Every blockchain-based application or software varies from company to company and thus the cost too. Factors such as the size of the app, complexity of the features, level of customization, and type of the app are some of the main factors that impact the overall costs of blockchain app development.",
+    //   },
+    // ],
+  },
+  {
+    slug: "dev-ops",
     heading: "Hire On-Demand Devops Services and Solutions",
     paragraph:
       "Our DevOps engineers create and organize software components for your business",
@@ -929,14 +1279,14 @@ export const ServicesApi = [
       {
         heading: "Infrastructure Management",
         paragraph:
-          "Any business or enterprise looking to achieve a DevOps methodology must rely on its infrastructure management. Fastech’s DevOps services help migrate your IT infrastructure to the cloud, increasing scalability and deploying new features with zero risk. ",
+          "Any business or enterprise looking to achieve a DevOps methodology must rely on its infrastructure management. ragzon’s DevOps services help migrate your IT infrastructure to the cloud, increasing scalability and deploying new features with zero risk. ",
         iconPath: "far fa-briefcase",
         colorClases: "icon bg-FF6D3D",
       },
       {
         heading: "Configuration Management",
         paragraph:
-          "Configuration Management helps you systematize resource configurations and allows you to implement their state across your IT infrastructure. Fastech’s seasoned team of DevOps engineers helps you do this effectively and automates your business operations as well.",
+          "Configuration Management helps you systematize resource configurations and allows you to implement their state across your IT infrastructure. ragzon’s seasoned team of DevOps engineers helps you do this effectively and automates your business operations as well.",
         iconPath: "fal fa-tasks-alt",
         colorClases: "icon bg-36CC72",
       },
@@ -959,7 +1309,7 @@ export const ServicesApi = [
       {
         heading: "Staff Augmentation",
         paragraph:
-          "Finding the right skill to complete a specific project is a difficult task. However, at Fastech we have a skilled DevOps team with experienced coders ready to be deployed on your project straightaway and helping you achieve stable, secure, and scalable IT infrastructures.",
+          "Finding the right skill to complete a specific project is a difficult task. However, at ragzon we have a skilled DevOps team with experienced coders ready to be deployed on your project straightaway and helping you achieve stable, secure, and scalable IT infrastructures.",
         iconPath: "far fa-users",
         colorClases: "icon bg-FFCA40",
       },
@@ -975,10 +1325,10 @@ export const ServicesApi = [
 
     portfolio_heading: "Our Work Portfolio",
     portfolio_text:
-      "We offer top of the line solutions to ensure a successful business for you. Check out some of our awesome projects with creative ideas and great design.",
+      "Check out some of our awesome projects with creative ideas and great design.",
     main_poortfolio: [
       {
-        portfolio_img: "/images/new-portfolio/fastech-web1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web1.png",
         portfolio_heading: "Magic Task",
         portfolio_text:
           "Advance and customized project management tool with different frontend themes.",
@@ -986,7 +1336,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web2.png",
         portfolio_heading: "Job Genie",
         portfolio_text:
           "A project management tool where different tasks are listed and user pay subscription fees to get into the system.",
@@ -994,7 +1344,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-web3.png",
+        portfolio_img: "/images/new-portfolio/ragzon-web3.png",
         portfolio_heading: "Bitnob",
         portfolio_text:
           "Modern web interface of a safe, instant, cheap and modern way to pay and get paid globally.",
@@ -1002,7 +1352,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob1.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob1.png",
         portfolio_heading: "Fivesec Health",
         portfolio_text:
           "Make it easy to stay healthy with delicious and nourishing plant-based recipes in your pocket.",
@@ -1010,7 +1360,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob2.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob2.png",
         portfolio_heading: "Rentberry",
         portfolio_text:
           " Rentberry facilitates and speeds up the whole range of house hunting procedures: Search among thousands of apartment.",
@@ -1018,7 +1368,7 @@ export const ServicesApi = [
       },
 
       {
-        portfolio_img: "/images/new-portfolio/fastech-mob4.png",
+        portfolio_img: "/images/new-portfolio/ragzon-mob4.png",
         portfolio_heading: "Potswork-Request Services",
         portfolio_text:
           "Postwork: Request a ride service app is an awesome cheap rideshare cab app and service platform.",
@@ -1056,25 +1406,25 @@ export const ServicesApi = [
       {
         about_text:
           "Product Owners – We have successful digital product managers and scrum product owners offering their expertise in various niches like e-commerce, human resource, and banking.",
-        about_img: "/images/experiences/fastech-Bluecircle.svg",
+        about_img: "/images/experiences/ragzon-Bluecircle.svg",
       },
 
       {
         about_text:
           "Developers – We have seasoned coders, software engineers, and developers that can work with numerous technologies.",
-        about_img: "/images/experiences/fastech-greencircle.svg",
+        about_img: "/images/experiences/ragzon-greencircle.svg",
       },
 
       {
         about_text:
           "Business Consultants/Advisors – Expert business consultants, strategy and operation managers with experience in various industries ",
-        about_img: "/images/experiences/fastech-orangecircle.svg",
+        about_img: "/images/experiences/ragzon-orangecircle.svg",
       },
 
       {
         about_text:
           "Quality Assurance Experts – Experienced Quality Asuurance consultants perform manual, automated, and other quality assurance tests to ensure high standard of products. ",
-        about_img: "/images/experiences/fastech-yellowcircle.svg",
+        about_img: "/images/experiences/ragzon-yellowcircle.svg",
       },
     ],
 

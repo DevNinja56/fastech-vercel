@@ -50,71 +50,71 @@ const FooterCarousel = () => {
                   {...options}
                 >
                   <div className="single-partner">
-                    <img src={data.img_1} alt="fastech-footer-review-img" />
+                    <img src={data.img_1} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_2} alt="fastech-footer-review-img" />
+                    <img src={data.img_2} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_3} alt="fastech-footer-review-img" />
+                    <img src={data.img_3} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_4} alt="fastech-footer-review-img" />
+                    <img src={data.img_4} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_5} alt="fastech-footer-review-img" />
+                    <img src={data.img_5} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_6} alt="fastech-footer-review-img" />
+                    <img src={data.img_6} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_7} alt="fastech-footer-review-img" />
+                    <img src={data.img_7} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_8} alt="fastech-footer-review-img" />
+                    <img src={data.img_8} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_9} alt="fastech-footer-review-img" />
+                    <img src={data.img_9} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_10} alt="fastech-footer-review-img" />
+                    <img src={data.img_10} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_11} alt="fastech-footer-review-img" />
+                    <img src={data.img_11} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_12} alt="fastech-footer-review-img" />
+                    <img src={data.img_12} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_13} alt="fastech-footer-review-img" />
+                    <img src={data.img_13} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_14} alt="fastech-footer-review-img" />
+                    <img src={data.img_14} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_15} alt="fastech-footer-review-img" />
+                    <img src={data.img_15} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_16} alt="fastech-footer-review-img" />
+                    <img src={data.img_16} alt="ragzon-footer-review-img" />
                   </div>
 
                   <div className="single-partner">
-                    <img src={data.img_17} alt="fastech-footer-review-img" />
+                    <img src={data.img_17} alt="ragzon-footer-review-img" />
                   </div>
                 </OwlCarousel>
               ) : (

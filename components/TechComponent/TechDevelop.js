@@ -16,6 +16,7 @@ const TechDevelop = () => {
     <>
       <div className="container">
         <div className="tech_dev_wrapper">
+          <h1 className="main_heading_step_animation">Our Technology Stacks</h1>
           <nav>
             <div
               className="nav nav-tabs custom_tabs"

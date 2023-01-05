@@ -7,7 +7,7 @@ const Team = () => {
       <div className="team-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <h2>Meet With Our Consultants</h2>
+            <h2>Meet Our Leaders</h2>
             <p>
               Which peoples loves us a lot, please check out what about says
               about us
@@ -15,7 +15,7 @@ const Team = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-team-box">
                 <div className="image">
                   <img
@@ -43,7 +43,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-team-box">
                 <div className="image">
                   <img
@@ -71,7 +71,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-team-box">
                 <div className="image">
                   <img
@@ -95,33 +95,6 @@ const Team = () => {
                 <div className="content">
                   <h3>Fakhar Jamil</h3>
                   <span>Co-Founder - COO</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-team-box">
-                <div className="image">
-                  <img
-                    src="/images/team/junaid.jpg"
-                    className="team_img"
-                    alt="image"
-                  />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/junaid-hamid/"
-                        target="_blank"
-                      >
-                        <i className="ri-linkedin-fill"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="content">
-                  <h3>Junaid Hamid</h3>
-                  <span>BD Manager</span>
                 </div>
               </div>
             </div>

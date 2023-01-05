@@ -1,15 +1,12 @@
+# ragzon - Next JS
 
-# Fastech - Next JS
-
-It is an advance custom build Frontend design in Next.js of a services based Website. More than 20 dynamic and responsive pages with modern design concepts.  
-
+It is an advance custom build Frontend design in Next.js of a services based Website. More than 20 dynamic and responsive pages with modern design concepts.
 
 ## Tech Stack
 
-**Client:** Next.js, HTML, CSS, SCSS, Aos animations 
+**Client:** Next.js, HTML, CSS, SCSS, Aos animations
 
-**Server:** Node, Node Mailer, Vercel, 
-
+**Server:** Node, Node Mailer, Vercel,
 
 ## Features
 
@@ -17,10 +14,8 @@ It is an advance custom build Frontend design in Next.js of a services based Web
 - Aos Animations
 - Node Mailer
 - Cross Browser compatible
-- Dynamic Routings Next.js 
-- Deployment On Vercel 
-
-
+- Dynamic Routings Next.js
+- Deployment On Vercel
 
 ## Screenshots
 
@@ -30,10 +25,7 @@ It is an advance custom build Frontend design in Next.js of a services based Web
 
 ![App Screenshot](https://user-images.githubusercontent.com/97098423/178748577-39c19742-2663-4008-b155-2d735f23dc3c.png)
 
-
-
 ## Authors
 
 - [@DevNinja56](https://github.com/DevNinja56)
 - Made with ❤️ and JavaScrip
-

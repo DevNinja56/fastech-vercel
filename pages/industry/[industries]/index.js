@@ -221,25 +221,25 @@ const IndustryDetail = ({ industryData, dataId }) => {
         {/* Shape Images */}
         <div className="main-banner-shape-1">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-1.png"
+            src="/images/main-banner/banner-one/ragzon-shape-1.png"
             alt="image"
           />
         </div>
         <div className="main-banner-shape-2">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-2.png"
+            src="/images/main-banner/banner-one/ragzon-shape-2.png"
             alt="image"
           />
         </div>
         <div className="main-banner-shape-3">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-3.png"
+            src="/images/main-banner/banner-one/ragzon-shape-3.png"
             alt="image"
           />
         </div>
         <div className="main-banner-shape-4">
           <img
-            src="/images/main-banner/banner-one/fastech-shape-4.png"
+            src="/images/main-banner/banner-one/ragzon-shape-4.png"
             alt="image"
           />
         </div>
@@ -802,16 +802,16 @@ const IndustryDetail = ({ industryData, dataId }) => {
 
         {/* Shape Images */}
         <div className="services-shape-1">
-          <img src="/images/services/fastech-shape-1.png" alt="image" />
+          <img src="/images/services/ragzon-shape-1.png" alt="image" />
         </div>
         <div className="services-shape-2">
-          <img src="/images/services/fastech-shape-2.png" alt="image" />
+          <img src="/images/services/ragzon-shape-2.png" alt="image" />
         </div>
         <div className="services-shape-3">
-          <img src="/images/services/fastech-shape-3.png" alt="image" />
+          <img src="/images/services/ragzon-shape-3.png" alt="image" />
         </div>
         <div className="services-shape-4">
-          <img src="/images/services/fastech-shape-4.png" alt="image" />
+          <img src="/images/services/ragzon-shape-4.png" alt="image" />
         </div>
 
         {/* Services Card Style */}
@@ -1067,9 +1067,9 @@ const IndustryDetail = ({ industryData, dataId }) => {
       </div>
 
       {/* development technologies */}
-      <div className="tech_dev pb-5">
+      {/* <div className="tech_dev pb-5">
         <TechDevelop />
-      </div>
+      </div> */}
 
       {/* About-section  */}
       <div className="about_section">
@@ -1085,8 +1085,8 @@ const IndustryDetail = ({ industryData, dataId }) => {
                           <div className="experiences-content">
                             <div className="tag">
                               <img
-                                src="/images/fastech-favicon.png"
-                                alt="fastech-image"
+                                src="/images/ragzon-favicon.png"
+                                alt="ragzon-image"
                                 className="tag_img"
                               />
                             </div>
@@ -1150,49 +1150,49 @@ const IndustryDetail = ({ industryData, dataId }) => {
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-1.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-1.png" alt="image" />
           </div>
           <div
             className="experiences-shape-2"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-2.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-2.png" alt="image" />
           </div>
           <div
             className="experiences-shape-3"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-3.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-3.png" alt="image" />
           </div>
           <div
             className="experiences-shape-4"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-2.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-2.png" alt="image" />
           </div>
           <div
             className="experiences-shape-5"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-3.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-3.png" alt="image" />
           </div>
           <div
             className="experiences-shape-6"
             data-speed="0.06"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-4.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-4.png" alt="image" />
           </div>
           <div
             className="experiences-shape-7"
             data-speed="0.08"
             data-revert="true"
           >
-            <img src="/images/experiences/fastech-shape-5.png" alt="image" />
+            <img src="/images/experiences/ragzon-shape-5.png" alt="image" />
           </div>
         </div>
 
@@ -1478,11 +1478,11 @@ const IndustryDetail = ({ industryData, dataId }) => {
                       </h3>
                       <p>{data.paragraph}</p>
 
-                      <Link href="/services-details">
+                      {/* <Link href="/services-details">
                         <a className="services-btn">
                           Read More <i className="ri-arrow-right-line"></i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </>

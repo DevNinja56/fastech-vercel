@@ -46,21 +46,23 @@ const notifyMe = () => {
 
 const Layout = ({ children }) => {
   useEffect(() => {
-    notifyMe();
-    window.OneSignal = window.OneSignal || [];
+    if (window.OneSignal && window.OneSignal.getNotificationPermission) {
+      notifyMe();
+      window.OneSignal = window.OneSignal || [];
 
-    OneSignal.push(function () {
-      OneSignal.init({
-        appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
-        notifyButton: {
-          enable: false,
-        },
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "f8f5cd63-f5bb-4ad2-b786-5c015d9a8df8",
+          notifyButton: {
+            enable: false,
+          },
 
-        allowLocalhostAsSecureOrigin: true,
+          allowLocalhostAsSecureOrigin: true,
+        });
       });
-    });
 
-    window.OneSignal.getNotificationPermission();
+      window.OneSignal.getNotificationPermission();
+    }
 
     return () => {
       window.OneSignal = undefined;
@@ -74,10 +76,10 @@ const Layout = ({ children }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Fastech | Software Development and Consulting Company</title>
+        <title>Ragzon | Software Development and Consulting Company</title>
         <meta
           name="description"
-          content="Fastech provides software development and consultation services to startups and SMEs. We help tech companies scale their engineering capacity. Get in touch today!"
+          content="ragzon provides software development and consultation services to startups and SMEs. We help tech companies scale their engineering capacity. Get in touch today!"
         />
         <script
           src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"

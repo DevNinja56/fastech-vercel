@@ -32,7 +32,7 @@ const BlogPost = () => {
                     <Link href="/blog-details">
                       <a>
                         <img
-                          src="/images/blog/fastech-ecommercewebsitetrend (1).jpg"
+                          src="/images/blog/ragzon-ecommercewebsitetrend (1).jpg"
                           alt="image"
                         />
                       </a>
@@ -68,7 +68,7 @@ const BlogPost = () => {
                     <Link href="/blog-details">
                       <a>
                         <img
-                          src="/images/blog/fastech-Metaverse (1).jpg"
+                          src="/images/blog/ragzon-Metaverse (1).jpg"
                           alt="image"
                         />
                       </a>
@@ -104,7 +104,7 @@ const BlogPost = () => {
                     <Link href="/blog-details">
                       <a>
                         <img
-                          src="/images/blog/fastech-blog-3.jpg"
+                          src="/images/blog/ragzon-blog-3.jpg"
                           alt="image"
                         />
                       </a>
@@ -141,10 +141,10 @@ const BlogPost = () => {
 
           {/* Shape Images */}
           <div className="blog-shape-1">
-            <img src="/images/blog/fastech-shape-1.png" alt="image" />
+            <img src="/images/blog/ragzon-shape-1.png" alt="image" />
           </div>
           <div className="blog-shape-2">
-            <img src="/images/blog/fastech-shape-2.png" alt="image" />
+            <img src="/images/blog/ragzon-shape-2.png" alt="image" />
           </div>
         </div>
 

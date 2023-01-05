@@ -19,38 +19,38 @@ const TechSupport = () => {
         {/* Shape Images */}
         <div className="support-shape-1">
           <img
-            src="/images/support/fastech-shape-1.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-1.png"
+            alt="ragzon-reviews-image"
           />
         </div>
         <div className="support-shape-2">
           <img
-            src="/images/support/fastech-shape-2.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-2.png"
+            alt="ragzon-reviews-image"
           />
         </div>
         <div className="support-shape-3">
           <img
-            src="/images/support/fastech-shape-3.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-3.png"
+            alt="ragzon-reviews-image"
           />
         </div>
         <div className="support-shape-4">
           <img
-            src="/images/support/fastech-shape-4.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-4.png"
+            alt="ragzon-reviews-image"
           />
         </div>
         <div className="support-shape-5">
           <img
-            src="/images/support/fastech-shape-5.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-5.png"
+            alt="ragzon-reviews-image"
           />
         </div>
         <div className="support-shape-6">
           <img
-            src="/images/support/fastech-shape-6.png"
-            alt="fastech-reviews-image"
+            src="/images/support/ragzon-shape-6.png"
+            alt="ragzon-reviews-image"
           />
         </div>
       </div>
@@ -65,7 +65,7 @@ const TechSupport = () => {
           width: 33px;
         }
         .support-area {
-          background-image: url(/images/support/fastech-support-bg-1.webp);
+          background-image: url(/images/support/ragzon-support-bg-1.webp);
           background-position: top center;
           background-size: cover;
           background-repeat: no-repeat;

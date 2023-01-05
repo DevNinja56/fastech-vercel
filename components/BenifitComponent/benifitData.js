@@ -10,7 +10,7 @@ const BenifitApi = [
   //   {
   //     title: "Child Education Support",
   //     image: "fal fa-city",
-  //     text: "Fastech plays its part in providing quality education to your children.",
+  //     text: "ragzon plays its part in providing quality education to your children.",
   //   },
 
   //   {
@@ -88,7 +88,7 @@ const BenifitApi = [
   //   {
   //     title: "Personal Loans",
   //     image: "fal fa-money-check-alt",
-  //     text: "Fastech puts forward solutions towards car and home financing.",
+  //     text: "ragzon puts forward solutions towards car and home financing.",
   //   },
 
   {
@@ -100,7 +100,7 @@ const BenifitApi = [
   {
     title: "Annual Recreational Trips",
     image: "fal fa-suitcase-rolling",
-    text: "Fastech arranges annual leisure and recreational trips for employees.",
+    text: "ragzon arranges annual leisure and recreational trips for employees.",
   },
 
   {
@@ -112,7 +112,7 @@ const BenifitApi = [
   {
     title: "Self-Service Pantry",
     image: "fal fa-mug-tea",
-    text: "Craving a cup of tea or coffee? Fastech provides a self-service pantry for everyone.",
+    text: "Craving a cup of tea or coffee? ragzon provides a self-service pantry for everyone.",
   },
 
   //   {
@@ -124,7 +124,7 @@ const BenifitApi = [
   //   {
   //     title: "Marriage Bonus",
   //     image: "fal fa-rings-wedding",
-  //     text: "Start your married life with a special allowance from Fastech.",
+  //     text: "Start your married life with a special allowance from ragzon.",
   //   },
 
   //   {

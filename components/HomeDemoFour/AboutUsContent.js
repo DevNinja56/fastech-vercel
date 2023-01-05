@@ -13,7 +13,7 @@ const AboutUsContent = () => {
                   <div className="experiences-content">
                     <div className="tag">
                       <img
-                        src="/images/fastech-favicon.png"
+                        src="/images/ragzon-favicon.png"
                         className="fav_img"
                         alt="image"
                       />

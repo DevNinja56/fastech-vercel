@@ -40,9 +40,7 @@ const OurRespectiveClients = () => {
         <div className="container">
           <div className="section-title">
             <h2>Our Respected Clients</h2>
-            <p>
-            Find out what our clients have to say about us
-            </p>
+            <p>Find out what our clients have to say about us</p>
           </div>
 
           {display ? (
@@ -52,10 +50,10 @@ const OurRespectiveClients = () => {
             >
               <div className="clients-item">
                 <p>
-                  “I was very pleasent to work, they done everything according
-                  right. About 95% accuracy of what we had in mind. Basically
-                  perfect. Im hiring again for our next projects. Great team,
-                  and great communication.”
+                  “We are pleasantly surprised by the process that Ragzon team
+                  adopted to handle this complex integration. Their engineers
+                  became core part of our team and took the ownership of the
+                  whole project in a very professional way.”
                 </p>
 
                 <div className="title-name">
@@ -65,32 +63,31 @@ const OurRespectiveClients = () => {
 
                 <div className="shape-1">
                   <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-2">
                   <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-3">
                   <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
               </div>
 
               <div className="clients-item">
                 <p>
-                  “Fastech are fantastic to work with, fair, negotiable,
-                  prepared, communicate well and are just all round fantastic to
-                  be involved with. I would strongly recommend Fastech to
-                  anyone”
+                  “It’s always a pleasure to work with the Ragzon team, each
+                  member’s knowledge is remarkable and they are always available
+                  to guide you when you need help.”
                 </p>
 
                 <div className="title-name">
@@ -100,22 +97,56 @@ const OurRespectiveClients = () => {
 
                 <div className="shape-1">
                   <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-2">
                   <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-3">
                   <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+              </div>
+
+              <div className="clients-item">
+                <p>
+                  “Ragzon is a great partner to work with. They took the time to
+                  understand the business and our priorities and came back with
+                  solid recommendations to create an great eCommerce website.”
+                </p>
+
+                <div className="title-name">
+                  <h3>Atif Zahoor</h3>
+                  <span>CEO Zara Construction Group USA</span>
+                </div>
+
+                <div className="shape-1">
+                  <img
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-2">
+                  <img
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-3">
+                  <img
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
               </div>
@@ -128,130 +159,28 @@ const OurRespectiveClients = () => {
                 </p>
 
                 <div className="title-name">
-                  <h3>Atif Zahoor</h3>
-                  <span>CEO Zara Construction Group USA</span>
-                </div>
-
-                <div className="shape-1">
-                  <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-2">
-                  <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-3">
-                  <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-              </div>
-
-              <div className="clients-item">
-                <p>
-                  “We are very happy with the work. We had very little
-                  experience with the backend of building a website either so in
-                  general this was a great collaboration.”
-                </p>
-
-                <div className="title-name">
                   <h3>Rabia Anam Akhtar</h3>
                   <span>Digital Marketing Specialist</span>
                 </div>
 
                 <div className="shape-1">
                   <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-2">
                   <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
 
                 <div className="shape-3">
                   <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-              </div>
-
-              <div className="clients-item">
-                <p>
-                  “Loved working with the Fastech team. They provide excellent
-                  eCommerce web design and development services. I highly
-                  recommend their services.”
-                </p>
-
-                <div className="title-name">
-                  <h3>Aron Tariq</h3>
-                  <span>CEO Beautflo.com</span>
-                </div>
-
-                <div className="shape-1">
-                  <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-2">
-                  <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-3">
-                  <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-              </div>
-
-              <div className="clients-item">
-                <p>
-                  “I have finally found my ‘FOREVER’ Web development outsourcing
-                  company! Everyone at Fastech have become an intricate part of
-                  our team and success.”
-                </p>
-
-                <div className="title-name">
-                  <h3>Syed Shahood</h3>
-                  <span>GM TotalSporttek.com</span>
-                </div>
-
-                <div className="shape-1">
-                  <img
-                    src="/images/clients/fastech-shape-4.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-2">
-                  <img
-                    src="/images/clients/fastech-shape-5.png"
-                    alt="fastech-clients-image"
-                  />
-                </div>
-
-                <div className="shape-3">
-                  <img
-                    src="/images/clients/fastech-shape-6.png"
-                    alt="fastech-clients-image"
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
                   />
                 </div>
               </div>
@@ -264,20 +193,20 @@ const OurRespectiveClients = () => {
         {/* Shape Images */}
         <div className="clients-shape-1">
           <img
-            src="/images/clients/fastech-shape-1.png"
-            alt="fastech-clients-image"
+            src="/images/clients/ragzon-shape-1.png"
+            alt="ragzon-clients-image"
           />
         </div>
         <div className="clients-shape-2">
           <img
-            src="/images/clients/fastech-shape-2.png"
-            alt="fastech-clients-image"
+            src="/images/clients/ragzon-shape-2.png"
+            alt="ragzon-clients-image"
           />
         </div>
         <div className="clients-shape-3">
           <img
-            src="/images/clients/fastech-shape-3.png"
-            alt="fastech-clients-image"
+            src="/images/clients/ragzon-shape-3.png"
+            alt="ragzon-clients-image"
           />
         </div>
       </div>

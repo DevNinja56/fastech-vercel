@@ -1,17 +1,19 @@
 import React from "react";
 
+// magictask, pursue networking, jobgenie, bitnob, zoom car, gosnappy
+
 const CarouselOneData = [
   {
-    img_1: "/images/clientlogo/fastech-beautflo.webp",
-    img_2: "/images/clientlogo/fastech-bitnob.webp",
-    img_3: "/images/clientlogo/fastech-gosnabby.webp",
-    img_4: "/images/clientlogo/fastech-imaginovation.webp",
-    img_5: "/images/clientlogo/fastech-jobgenie.webp",
-    img_6: "/images/clientlogo/fastech-modjen.webp",
-    img_7: "/images/clientlogo/fastech-properfans.webp",
-    img_8: "/images/clientlogo/fastech-pursuenetworking.webp",
-    img_9: "/images/clientlogo/fastech-shopperhits.webp",
-    img_10: "/images/clientlogo/fastech-wehelprx.webp",
+    img_8: "/images/clientlogo/ragzon-pursuenetworking.webp",
+    img_5: "/images/clientlogo/ragzon-jobgenie.webp",
+    img_2: "/images/clientlogo/ragzon-bitnob.webp",
+    img_3: "/images/clientlogo/ragzon-gosnabby.webp",
+    img_1: "/images/clientlogo/ragzon-beautflo.webp",
+    // img_4: "/images/clientlogo/ragzon-imaginovation.webp",
+    // img_6: "/images/clientlogo/ragzon-modjen.webp",
+    // img_7: "/images/clientlogo/ragzon-properfans.webp",
+    // img_9: "/images/clientlogo/ragzon-shopperhits.webp",
+    // img_10: "/images/clientlogo/ragzon-wehelprx.webp",
   },
 ];
 
