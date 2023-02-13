@@ -7,14 +7,9 @@ const Services = () => {
       <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Services We Offer</h2>
             <p>
-              With the blend of technology, innovation, and expertise, ragzon is
-              the leading provider of software, web, and app development
-              projects. Through great experience and innovation, we will help
-              your business reach its ultimate goals and potential. At ragzon,
-              our goal is to make sure the end-user of your product gets the
-              best experience
+              We will help your business reach its ultimate goals and potential.
             </p>
           </div>
 
@@ -26,7 +21,30 @@ const Services = () => {
                 </div>
                 <h3>
                   <Link href="/web-design-development">
-                    <a>Web Design & Development</a>
+                    <a>Custom Software Development</a>
+                  </Link>
+                </h3>
+                <p>
+                  We provide end-to-end design. development, deployment, and
+                  maintenance services according to your specific business
+                  needs. experiences integrated with aesthetic designs.
+                </p>
+
+                {/* <Link href="/web-design-development">
+                  <a className="services-btn">
+                    Read More <i className="ri-arrow-right-line"></i>
+                  </a>
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <div className="icon">
+                  <i className="fal fa-laptop-code"></i>
+                </div>
+                <h3>
+                  <Link href="/web-design-development">
+                    <a>Web App Development</a>
                   </Link>
                 </h3>
                 <p>
@@ -53,8 +71,9 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our engineers strive to create the best business solution by
-                  leveraging the perfect SDLC tools and techniques.
+                  We provide stellar mobile app development services and are top
+                  of the league when it comes to iOS, Android, and hybrid app
+                  development.
                 </p>
 
                 {/* <Link href="/mobile-app-development">
@@ -76,8 +95,9 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  Our team of experienced product designers & developers help
-                  you build successful digital products.
+                  Get high product adoption and conversion rates with our expert
+                  UI/UX design services along with an innovative look for your
+                  product.
                 </p>
 
                 {/* <Link href="/ui-ux-design">
@@ -122,8 +142,9 @@ const Services = () => {
                   </Link>
                 </h3>
                 <p>
-                  We offer customized Blockchain solutions and ICO services for
-                  your business security.
+                  Become a part of a trustless and borderless distributed
+                  network with InvoBlox’s real-world blockchain consultancy and
+                  development services.
                 </p>
 
                 {/* <Link href="/dev-ops">
@@ -141,12 +162,13 @@ const Services = () => {
                 </div>
                 <h3>
                   <Link href="/software-quality-assurance">
-                    <a>DevOps</a>
+                    <a>DevOps Automation Services</a>
                   </Link>
                 </h3>
                 <p>
-                  We automates the workflow and deliver more value with DevOps
-                  services and solutions
+                  Our professional team of DevOps ensures that operations and
+                  development are running smoothly during the software
+                  development lifecycle.
                 </p>
 
                 {/* <Link href="/software-quality-assurance">

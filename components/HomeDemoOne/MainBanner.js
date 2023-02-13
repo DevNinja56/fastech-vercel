@@ -82,7 +82,7 @@ const MainBanner = () => {
             <div className="col-lg-5 col-md-12">
               <div className="main-banner-content">
                 <h1 className="main_heading_step_animation">
-                  Ragzon offers the Ultimate Digital Transformation for
+                  We Engineer Powerful Digital Solutions For
                   <p />
                   <span
                     className="txt-rotate"
