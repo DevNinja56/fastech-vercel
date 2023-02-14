@@ -7,10 +7,13 @@ const options = {
   loop: true,
   nav: true,
   dots: false,
-  smartSpeed: 500,
+  slideSpeed: 300,
+  autoplayHoverPause: false,
   margin: 40,
-  autoplayHoverPause: true,
   autoplay: true,
+  samrtSpeed: 300,
+  paginationSpeed: 500,
+  autoplayTimeout: 2000,
   navText: [
     "<i class='ri-arrow-left-line'></i>",
     "<i class='ri-arrow-right-line'></i>",
@@ -106,6 +109,7 @@ const CarouselOne = () => {
         }
         .single-partner img {
           width: auto !important;
+          max-width: 180px;
           display: inline-block !important;
         }
         .partner-shape-1 {

@@ -6,19 +6,40 @@ import OwlCarousel from "react-owl-carousel3";
 const carouselItems = [
   {
     link: "https://magictask.io/",
-    img: "/images/new-portfolio/ragzon-web1.webp",
+    img: "/images/new-portfolio/portfoilio1.jpg",
   },
   {
     link: "https://magictask.io/",
-    img: "/images/new-portfolio/ragzon-web1.webp",
+    img: "/images/new-portfolio/portfoilio2.jpg",
   },
   {
     link: "https://magictask.io/",
-    img: "/images/new-portfolio/ragzon-web1.webp",
+    img: "/images/new-portfolio/portfoilio3.jpg",
   },
   {
     link: "https://magictask.io/",
-    img: "/images/new-portfolio/ragzon-web1.webp",
+    img: "/images/new-portfolio/portfoilio4.jpg",
+  },
+
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/portfoilio6.jpg",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/portfoilio7.jpg",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/portfoilio8.jpg",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/portfoilio9.jpg",
+  },
+  {
+    link: "https://magictask.io/",
+    img: "/images/new-portfolio/portfoilio10.jpg",
   },
 ];
 
@@ -72,11 +93,10 @@ const RecentCaseStudy = () => {
       <div className="cases-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <h2>Recent Work Portfolio</h2>
+            <h2>Featured Work</h2>
             <p>
               We offer top of the line solutions to ensure a successful business
-              for you. Check out some of our awesome projects with creative
-              ideas and great design.
+              for you.
             </p>
           </div>
 

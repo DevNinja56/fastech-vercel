@@ -12,7 +12,7 @@ const CTA = () => {
 
               <div className="overview-btn">
                 <Link href="/contact">
-                  <a className="overview-btn-one">Get Started</a>
+                  <a className="overview-btn-one">Let's Talk</a>
                 </Link>
                 <img
                   src="/images/overview/ragzon-bar.png"
@@ -25,34 +25,19 @@ const CTA = () => {
 
         {/* Shape Images */}
         <div className="overview-shape-1">
-          <img
-            src="/images/overview/ragzon-shape-1.png"
-            alt="ragzon-cta-img"
-          />
+          <img src="/images/overview/ragzon-shape-1.png" alt="ragzon-cta-img" />
         </div>
         <div className="overview-shape-2">
-          <img
-            src="/images/overview/ragzon-shape-2.png"
-            alt="ragzon-cta-img"
-          />
+          <img src="/images/overview/ragzon-shape-2.png" alt="ragzon-cta-img" />
         </div>
         <div className="overview-shape-3">
-          <img
-            src="/images/overview/ragzon-shape-3.png"
-            alt="ragzon-cta-img"
-          />
+          <img src="/images/overview/ragzon-shape-3.png" alt="ragzon-cta-img" />
         </div>
         <div className="overview-shape-4">
-          <img
-            src="/images/overview/ragzon-shape-4.png"
-            alt="ragzon-cta-img"
-          />
+          <img src="/images/overview/ragzon-shape-4.png" alt="ragzon-cta-img" />
         </div>
         <div className="overview-shape-5">
-          <img
-            src="/images/overview/ragzon-shape-5.png"
-            alt="ragzon-cta-img"
-          />
+          <img src="/images/overview/ragzon-shape-5.png" alt="ragzon-cta-img" />
         </div>
       </div>
 

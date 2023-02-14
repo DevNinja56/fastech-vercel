@@ -50,15 +50,13 @@ const OurRespectiveClients = () => {
             >
               <div className="clients-item">
                 <p>
-                  “We are pleasantly surprised by the process that Ragzon team
-                  adopted to handle this complex integration. Their engineers
-                  became core part of our team and took the ownership of the
-                  whole project in a very professional way.”
+                  “They are very well-put-together and have the resources to get
+                  stuff done no matter what the issue or topic is.”
                 </p>
 
                 <div className="title-name">
-                  <h3>Coin Cast</h3>
-                  <span>CEO</span>
+                  <h3>Anders</h3>
+                  <span>Internet Money</span>
                 </div>
 
                 <div className="shape-1">
@@ -85,9 +83,10 @@ const OurRespectiveClients = () => {
 
               <div className="clients-item">
                 <p>
-                  “It’s always a pleasure to work with the Ragzon team, each
-                  member’s knowledge is remarkable and they are always available
-                  to guide you when you need help.”
+                  “We are pleasantly surprised by the process that Ragzon team
+                  adopted to handle this complex integration. Their engineers
+                  became core part of our team and took the ownership of the
+                  whole project in a very professional way.”
                 </p>
 
                 <div className="title-name">
@@ -119,9 +118,9 @@ const OurRespectiveClients = () => {
 
               <div className="clients-item">
                 <p>
-                  “Ragzon is a great partner to work with. They took the time to
-                  understand the business and our priorities and came back with
-                  solid recommendations to create an great eCommerce website.”
+                  “Ragzon has helped us bring on more partners more quickly
+                  because we’re able to augment our internal team and get work
+                  done faster.”
                 </p>
 
                 <div className="title-name">
@@ -153,14 +152,84 @@ const OurRespectiveClients = () => {
 
               <div className="clients-item">
                 <p>
-                  “Put in a lot of effort and are technically very well
-                  positioned. I really appreciate the professionalism and
-                  expertise from the IT engineers.”
+                  "Ragzon developed the application on time and within the
+                  budget, meeting all of the project's milestones and pleasing
+                  the client. Their development skills and proactiveness
+                  accelerated the timeline and delivery of the proiect.""
                 </p>
 
                 <div className="title-name">
-                  <h3>Rabia Anam Akhtar</h3>
-                  <span>Digital Marketing Specialist</span>
+                  <h3>Jason Martin</h3>
+                  <span>ProperFans</span>
+                </div>
+
+                <div className="shape-1">
+                  <img
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-2">
+                  <img
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-3">
+                  <img
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+              </div>
+
+              <div className="clients-item">
+                <p>
+                  "Put in a lot of effort and are technically very well
+                  positioned. I really appreciate the professionalism and
+                  expertise from the IT engineers. Ragon is the best experinece
+                  I've had for remote developers"
+                </p>
+
+                <div className="title-name">
+                  <h3>PE</h3>
+                  <span>Gamified Task Management System</span>
+                </div>
+
+                <div className="shape-1">
+                  <img
+                    src="/images/clients/ragzon-shape-4.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-2">
+                  <img
+                    src="/images/clients/ragzon-shape-5.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+
+                <div className="shape-3">
+                  <img
+                    src="/images/clients/ragzon-shape-6.png"
+                    alt="ragzon-clients-image"
+                  />
+                </div>
+              </div>
+              <div className="clients-item">
+                <p>
+                  "I couldn't be more pleased with the Ragzon team. Their
+                  engineering product is top-notch. as is their client relations
+                  and account management. From the beginning, they felt like
+                  members of our own team-true partners rather than vendore"
+                </p>
+
+                <div className="title-name">
+                  <h3>Mark Sommers</h3>
+                  <span>My Therapy Assistant</span>
                 </div>
 
                 <div className="shape-1">

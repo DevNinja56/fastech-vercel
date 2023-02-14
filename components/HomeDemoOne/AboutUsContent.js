@@ -17,10 +17,10 @@ const AboutUsContent = () => {
                       className="tag_img"
                     />
                   </div>
-                  <h3>Engagement Models</h3>
+                  <h3>Our Engagement Models</h3>
                   <p>
-                    We help you overcome your business’s greatest challenges.
-                    Here is how we can help you
+                    Depending on your project specifics and needs, you can
+                    choose from these engagement methods
                   </p>
                 </div>
 
@@ -31,8 +31,10 @@ const AboutUsContent = () => {
                     alt="image"
                   />
                   <p>
-                    Our staff augmentation model will help you locate the
-                    required skills and services for your specific project.
+                    <span>Dedicated Teams</span>
+                    Get your projects fast-tracked with best technical and
+                    management talent. Increase quality and efficiency, and
+                    retain complete control of teams.
                   </p>
                 </div>
 
@@ -43,22 +45,10 @@ const AboutUsContent = () => {
                     alt="image"
                   />
                   <p>
-                    In the project-based model, our team of professional
-                    software engineering consultants will give your ideas a
-                    hands-on deployment.
-                  </p>
-                </div>
-
-                <div className="experiences-inner-content">
-                  <img
-                    className="exp_img"
-                    src="/images/experiences/ragzon-icon3.svg"
-                    alt="image"
-                  />
-                  <p>
-                    Our highly experienced team of developers is dedicated to
-                    providing quality software development services to our
-                    clients.
+                    <span>Fixed Price Project</span>
+                    Get a comprehensive product development experience from
+                    ideation to deployment by a team of experts with reduced
+                    development costs.
                   </p>
                 </div>
 
@@ -175,6 +165,12 @@ const AboutUsContent = () => {
           padding-top: 80px;
           padding-bottom: 80px;
           padding-right: 30px;
+        }
+        .experiences-item .experiences-inner-content p span {
+          font-size: 18px;
+          color: #000;
+          font-weight: 600;
+          margin-right: 5px;
         }
         .experiences-item .experiences-content .tag {
           display: inline-block;
@@ -336,6 +332,7 @@ const AboutUsContent = () => {
             padding-bottom: 50px;
             padding-right: 0;
           }
+
           .experiences-image {
             text-align: center;
           }
