@@ -10,7 +10,7 @@ const TopHeaderTwo = () => {
               <ul className="top-header-content">
                 <li>
                   <i className="ri-customer-service-line"></i>
-                  <a href="tel:3128959800">+92 (310) 458 2456</a>
+                  <a href="tel:3367663536">+92 (336) 766 3536</a>
                 </li>
 
                 <li>
