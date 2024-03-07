@@ -59,17 +59,17 @@ const Footer = () => {
                 <ul className="widget-info">
                   <li>
                     <i className="ri-customer-service-line"></i>
-                    <a href="tel:3128959800">+92 (310) 458 2456</a>
+                    <a href="tel:3367663536">+92 (336) 766 3536</a>
                   </li>
 
                   <li>
                     <i className="ri-global-line"></i>
-                    <a href="mailto:info@theragzon.com">info@theragzon.com</a>
+                    <a href="mailto:info@ragzon.com">info@ragzon.com</a>
                   </li>
 
                   <li>
                     <i className="ri-map-pin-line"></i>
-                    Office no. 526, 5th Floor Siddiq Trade Center, Lahore
+                    Plot 5 1st Ave, Block D Architects Engineers Housing Society, Lahore
                   </li>
                 </ul>
               </div>

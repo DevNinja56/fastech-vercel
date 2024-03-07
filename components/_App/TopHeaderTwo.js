@@ -15,7 +15,7 @@ const TopHeaderTwo = () => {
 
                 <li>
                   <i className="ri-earth-line"></i>
-                  <a href="mailto:info@theragzon.com">info@theragzon.com</a>
+                  <a href="mailto:info@ragzon.com">info@ragzon.com</a>
                 </li>
               </ul>
             </div>

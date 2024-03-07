@@ -1,5 +1,11 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from "react-tabs";
+import {
+  Tab,
+  Tabs,
+  TabList,
+  TabPanel,
+  resetIdCounter,
+} from "react-tabs";
 import { useEffect, useState, useRef } from "react";
 import Swal from "sweetalert2";
 import Link from "next/link";
@@ -18,7 +24,11 @@ const PricePlansOne = () => {
   const myRef = useRef(null);
 
   const handleSubmit = (e) => {
-    Swal.fire("Congrats!", "You responce submitted successfuly!", "success");
+    Swal.fire(
+      "Congrats!",
+      "You responce submitted successfuly!",
+      "success"
+    );
     e.preventDefault();
     console.log("Sending");
     let data = {
@@ -78,13 +88,15 @@ const PricePlansOne = () => {
                     <div className="single-plans-table">
                       <div className="plans-header">
                         <h3>Staff/Resource Augmentation</h3>
-                        <p>Hire top talent at a fraction of the cost</p>
+                        <p>
+                          Hire top talent at a fraction of the cost
+                        </p>
                       </div>
 
                       <ul className="plans-features-list">
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Vetted
-                          developer profiles in 50 hours
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Vetted developer profiles in 50 hours
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
@@ -92,15 +104,20 @@ const PricePlansOne = () => {
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
-                          Availability of developers in every tech stack
+                          Availability of developers in every tech
+                          stack
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> No
-                          hiring and retention stress
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          No hiring and retention stress
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
                           Management and payroll freedom
+                        </li>
+                        <li>
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Strategic Planning
                         </li>
                       </ul>
 
@@ -171,12 +188,10 @@ const PricePlansOne = () => {
                         </form> 
                       </div> */}
 
-                      <a>Strategic Planning</a>
-
                       <div className="plans-btn">
                         <Link href="/contact">
                           <a className="default-btn">
-                            Get A Free Qoute
+                            Get a free quote
                             <i className="ri-arrow-right-line"></i>
                             <span></span>
                           </a>
@@ -194,40 +209,40 @@ const PricePlansOne = () => {
 
                       <ul className="plans-features-list">
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Product
-                          Development
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Product Development
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Free
-                          Cost estimation
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Free Cost estimation
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Expert
-                          UI/UX design
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Expert UI/UX design
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
                           Prototype and wireframing
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Premium
-                          code quality
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Premium code quality
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Free
-                          dedicated project management
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Free dedicated project management
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Free
-                          dedicated quality assurance
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Free dedicated quality assurance
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Timely
-                          delivery
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Timely delivery
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Weekly
-                          sprints
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Weekly sprints
                         </li>
                       </ul>
 
@@ -271,7 +286,7 @@ const PricePlansOne = () => {
                       <div className="plans-btn">
                         <Link href="/contact">
                           <a className="default-btn">
-                            Get A Free Qoute
+                            Get a free quote
                             <i className="ri-arrow-right-line"></i>
                             <span></span>
                           </a>
@@ -288,7 +303,9 @@ const PricePlansOne = () => {
                     <div className="single-plans-table">
                       <div className="plans-header">
                         <h3>Dedicated Team</h3>
-                        <p>Hire expert development team for succeed</p>
+                        <p>
+                          Hire expert development team for succeed
+                        </p>
                       </div>
 
                       <ul className="plans-features-list">
@@ -298,28 +315,30 @@ const PricePlansOne = () => {
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
-                          Personal extended team exclusively working on your
-                          project
+                          Personal extended team exclusively working
+                          on your project
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Access
-                          to a wide range of IT experts from multiple domains
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Access to a wide range of IT experts from
+                          multiple domains
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Project
-                          manager allocated by ragzon
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Project manager allocated by ragzon
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Team
-                          flexibility and scalability
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Team flexibility and scalability
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Direct
-                          communication with developers
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Direct communication with developers
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Extend
-                          and reduce team according to your requirements
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Extend and reduce team according to your
+                          requirements
                         </li>
                       </ul>
 
@@ -360,7 +379,7 @@ const PricePlansOne = () => {
                       <div className="plans-btn">
                         <Link href="/contact">
                           <a className="default-btn">
-                            Get A Free Qoute
+                            Get a free quote
                             <i className="ri-arrow-right-line"></i>
                             <span></span>
                           </a>
@@ -394,24 +413,24 @@ const PricePlansOne = () => {
 
                       <ul className="plans-features-list">
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Up to
-                          10 Website
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Up to 10 Website
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
                           Lifetime Free Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 10 GB
-                          Dedicated Hosting Free
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          10 GB Dedicated Hosting Free
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 24/7
-                          Hours Support
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          24/7 Hours Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> SEO
-                          Optimized
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          SEO Optimized
                         </li>
                       </ul>
                     </div>
@@ -431,8 +450,7 @@ const PricePlansOne = () => {
                       <div className="plans-btn">
                         <a
                           href="/profile-authenticatio"
-                          className="default-btn"
-                        >
+                          className="default-btn">
                           Purchase Now
                           <i className="ri-arrow-right-line"></i>
                           <span></span>
@@ -441,24 +459,24 @@ const PricePlansOne = () => {
 
                       <ul className="plans-features-list">
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Up to
-                          15 Website
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Up to 15 Website
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
                           Lifetime Free Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 15 GB
-                          Dedicated Hosting Free
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          15 GB Dedicated Hosting Free
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 24/7
-                          Hours Support
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          24/7 Hours Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> SEO
-                          Optimized
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          SEO Optimized
                         </li>
                       </ul>
 
@@ -482,8 +500,7 @@ const PricePlansOne = () => {
                       <div className="plans-btn">
                         <a
                           href="/profile-authenticatio"
-                          className="default-btn"
-                        >
+                          className="default-btn">
                           Purchase Now
                           <i className="ri-arrow-right-line"></i>
                           <span></span>
@@ -492,24 +509,24 @@ const PricePlansOne = () => {
 
                       <ul className="plans-features-list">
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> Up to
-                          20 Website
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          Up to 20 Website
                         </li>
                         <li>
                           <i class="fas fa-check-square tick_icons"></i>{" "}
                           Lifetime Free Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 20 GB
-                          Dedicated Hosting Free
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          20 GB Dedicated Hosting Free
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> 24/7
-                          Hours Support
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          24/7 Hours Support
                         </li>
                         <li>
-                          <i class="fas fa-check-square tick_icons"></i> SEO
-                          Optimized
+                          <i class="fas fa-check-square tick_icons"></i>{" "}
+                          SEO Optimized
                         </li>
                       </ul>
                     </div>

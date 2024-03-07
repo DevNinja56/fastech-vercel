@@ -146,12 +146,12 @@ const FAQs = () => {
 
             <div className="box-one">
               <i className="ri-customer-service-line"></i>
-              <a href="tel:3128959800">+92 (310) 458 2456</a>
+              <a href="tel:3367663536">+92 (336) 766 3536</a>
             </div>
 
             <div className="box-two">
               <i className="ri-earth-line"></i>
-              <a href="mailto:info@theragzon.com">info@theragzon.com</a>
+              <a href="mailto:info@ragzon.com">info@ragzon.com</a>
             </div>
           </div>
         </div>

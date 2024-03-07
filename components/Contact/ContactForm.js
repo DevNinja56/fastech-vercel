@@ -31,7 +31,7 @@ const ContactForm = () => {
                         <h5 className="ceo_profile_name">Cathy Warner</h5>
                       </p>
                       <p className="sale_profile_status">
-                        cathywarner@theragzon.com
+                        cathywarner@ragzon.com
                       </p>
                       <p className="sale_profile_number">+92-3334397893</p>
                     </div>
