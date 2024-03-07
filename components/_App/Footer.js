@@ -10,7 +10,11 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Swal.fire("Congrats!", "Your records submitted successfuly  !", "success");
+    Swal.fire(
+      "Congrats!",
+      "Your records submitted successfuly  !",
+      "success"
+    );
     let mailData = {
       Email: subscriptionValue,
     };
@@ -50,10 +54,10 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  ragzon offers software development consulting services for
-                  businesses, startups, and enterprises. Partner with a reliable
-                  software development company to scale up your engineering
-                  capacity.
+                  ragzon offers software development consulting
+                  services for businesses, startups, and enterprises.
+                  Partner with a reliable software development company
+                  to scale up your engineering capacity.
                 </p>
 
                 <ul className="widget-info">
@@ -64,12 +68,15 @@ const Footer = () => {
 
                   <li>
                     <i className="ri-global-line"></i>
-                    <a href="mailto:info@ragzon.com">info@ragzon.com</a>
+                    <a href="mailto:info@ragzon.com">
+                      info@ragzon.com
+                    </a>
                   </li>
 
                   <li>
                     <i className="ri-map-pin-line"></i>
-                    Plot 5 1st Ave, Block D Architects Engineers Housing Society, Lahore
+                    Plot 5 1st Ave, Block D Architects Engineers
+                    Housing Society, Lahore
                   </li>
                 </ul>
               </div>
@@ -97,7 +104,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/software-quality-assurance">
-                      <a>Softeare Quality Assurance</a>
+                      <a>Software Quality Assurance</a>
                     </Link>
                   </li>
                   <li>
@@ -148,13 +155,17 @@ const Footer = () => {
                 <h3>Newsletter</h3>
 
                 <div className="widget-newsletter">
-                  <form className="newsletter-form" onSubmit={handleSubmit}>
+                  <form
+                    className="newsletter-form"
+                    onSubmit={handleSubmit}>
                     <input
                       type="email"
                       className="input-newsletter"
                       placeholder="Enter email"
                       value={subscriptionValue}
-                      onChange={(e) => setSubscriptionValue(e.target.value)}
+                      onChange={(e) =>
+                        setSubscriptionValue(e.target.value)
+                      }
                       required
                     />
 
@@ -168,21 +179,21 @@ const Footer = () => {
                   <li>
                     <a
                       href="https://www.linkedin.com/company/ragzon/"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="ri-linkedin-fill"></i>
                     </a>
                   </li>
                   <li>
                     <a
                       href="https://www.facebook.com/RagzonSolutions"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/RagzonSolutions" target="_blank">
+                    <a
+                      href="https://twitter.com/RagzonSolutions"
+                      target="_blank">
                       <i className="ri-twitter-fill"></i>
                     </a>
                   </li>
@@ -190,8 +201,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="https://www.instagram.com/ragzon_/"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
@@ -205,7 +215,8 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                Copyright © {currentYear} All Rights Reserved | Developed by{" "}
+                Copyright © {currentYear} All Rights Reserved |
+                Developed by{" "}
                 <span className="footer_name">ragzon</span>
               </p>
             </div>
@@ -318,7 +329,10 @@ const Footer = () => {
         .single-footer-widget .widget-newsletter .newsletter-content {
           margin-bottom: 20px;
         }
-        .single-footer-widget .widget-newsletter .newsletter-content p {
+        .single-footer-widget
+          .widget-newsletter
+          .newsletter-content
+          p {
           font-size: var(--font-size);
           margin-bottom: 0;
         }
@@ -373,7 +387,10 @@ const Footer = () => {
           -webkit-transition: var(--transition);
           transition: var(--transition);
         }
-        .single-footer-widget .widget-newsletter .newsletter-form button {
+        .single-footer-widget
+          .widget-newsletter
+          .newsletter-form
+          button {
           position: absolute;
           right: 0;
           top: 0;
@@ -388,8 +405,14 @@ const Footer = () => {
           border-radius: 0 5px 5px 0;
           font-size: 25px;
         }
-        .single-footer-widget .widget-newsletter .newsletter-form button:hover,
-        .single-footer-widget .widget-newsletter .newsletter-form button:focus {
+        .single-footer-widget
+          .widget-newsletter
+          .newsletter-form
+          button:hover,
+        .single-footer-widget
+          .widget-newsletter
+          .newsletter-form
+          button:focus {
           background-color: var(--optional-color);
           color: var(--white-color);
         }
@@ -557,7 +580,10 @@ const Footer = () => {
           .single-footer-widget .footer-links-list li {
             font-size: 15px;
           }
-          .single-footer-widget .widget-newsletter .newsletter-content p {
+          .single-footer-widget
+            .widget-newsletter
+            .newsletter-content
+            p {
             font-size: 15px;
           }
 
