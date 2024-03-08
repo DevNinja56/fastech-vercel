@@ -8,8 +8,8 @@ const Certification = () => {
         <div className="section-title mt-5">
           <h2 className="pt-5">CERTIFICATIONS</h2>
           <p>
-            Our certifications support our claim that we provide quality
-            business solutions.
+            Our certifications support our claim that we provide
+            quality business solutions.
           </p>
         </div>
       </div>
@@ -39,7 +39,6 @@ const Certification = () => {
         .certification_area {
           position: relative;
           overflow: hidden;
-          background-image: url(/images/certification/ragzon-cfbg.webp);
           background-position: 0px;
           background-size: cover;
           padding-bottom: 170px;
